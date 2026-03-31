@@ -2,6 +2,7 @@
   "name": "certuary",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "generate": "pnpm --filter @certuary/data generate",
     "dev": "pnpm generate && pnpm --filter @certuary/web dev",
