@@ -1,0 +1,34 @@
+name: Linux Foundation Certified System Administrator
+short_name: LFCS
+slug: lfcs
+status: active
+cost: "$445 USD"
+
+description: >-
+  Validates the ability to perform Linux system administration tasks
+  including essential commands, file management, user and group
+  management, networking, storage, and service configuration.
+  A performance-based exam using a live Linux environment.
+
+tags:
+  - linux
+  - sysadmin
+  - intermediate
+  - performance-based
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - cka
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/
+    type: official
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/
+last_verified: "2026-03-31"

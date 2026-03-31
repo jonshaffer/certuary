@@ -1,0 +1,38 @@
+name: Kyverno Certified Associate
+short_name: KCA
+slug: kca
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates knowledge of Kyverno for Kubernetes policy management
+  including policy authoring, validation, mutation, generation, and
+  image verification for cloud native security and compliance.
+
+tags:
+  - cloud-native
+  - policy
+  - security
+  - associate
+  - multiple-choice
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - cks
+  - kcsa
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/kyverno-certified-associate-kca/
+    type: official
+  - label: CNCF KCA Page
+    url: https://www.cncf.io/training/certification/kca/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/kyverno-certified-associate-kca/
+last_verified: "2026-03-31"

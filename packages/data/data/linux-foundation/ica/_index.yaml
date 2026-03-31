@@ -1,0 +1,38 @@
+name: Istio Certified Associate
+short_name: ICA
+slug: ica
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates knowledge of Istio service mesh concepts including traffic
+  management, security, observability, and installation in Kubernetes
+  environments. A performance-based exam.
+
+tags:
+  - cloud-native
+  - service-mesh
+  - networking
+  - associate
+  - performance-based
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - cca
+  - cka
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/istio-certified-associate-ica/
+    type: official
+  - label: CNCF ICA Page
+    url: https://www.cncf.io/training/certification/ica/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/istio-certified-associate-ica/
+last_verified: "2026-03-31"

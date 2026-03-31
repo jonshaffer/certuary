@@ -1,0 +1,40 @@
+name: Kubernetes and Cloud Native Associate
+short_name: KCNA
+slug: kcna
+status: active
+cost: "$250 USD"
+
+description: >-
+  Demonstrates foundational knowledge of Kubernetes and the broader cloud
+  native ecosystem including container orchestration, cloud native
+  architecture, and observability. Entry-level certification for the
+  Kubestronaut path.
+
+tags:
+  - kubernetes
+  - cloud-native
+  - associate
+  - multiple-choice
+  - kubestronaut
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - cka
+  - ckad
+  - kcsa
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/
+    type: official
+  - label: CNCF Kubernetes Training
+    url: https://www.cncf.io/training/certification/kcna/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/
+last_verified: "2026-03-31"

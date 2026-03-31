@@ -1,0 +1,39 @@
+name: OpenTelemetry Certified Associate
+short_name: OTCA
+slug: otca
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates knowledge of OpenTelemetry for distributed tracing, metrics,
+  and logging in cloud native applications. Covers the OpenTelemetry
+  Collector, SDKs, instrumentation, and integration with observability
+  backends.
+
+tags:
+  - cloud-native
+  - observability
+  - tracing
+  - associate
+  - multiple-choice
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - pca
+  - kcna
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/opentelemetry-certified-associate-otca/
+    type: official
+  - label: CNCF OTCA Page
+    url: https://www.cncf.io/training/certification/otca/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/opentelemetry-certified-associate-otca/
+last_verified: "2026-03-31"

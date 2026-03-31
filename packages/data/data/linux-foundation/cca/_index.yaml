@@ -1,0 +1,38 @@
+name: Cilium Certified Associate
+short_name: CCA
+slug: cca
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates knowledge of Cilium for Kubernetes networking, observability,
+  and security using eBPF technology. Covers network policies, service
+  mesh, cluster mesh, and Hubble observability.
+
+tags:
+  - cloud-native
+  - networking
+  - security
+  - associate
+  - multiple-choice
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - ica
+  - cka
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/cilium-certified-associate-cca/
+    type: official
+  - label: CNCF CCA Page
+    url: https://www.cncf.io/training/certification/cca/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/cilium-certified-associate-cca/
+last_verified: "2026-03-31"

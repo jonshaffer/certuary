@@ -1,0 +1,36 @@
+name: Certified Cloud Native Platform Engineering Associate
+short_name: CNPA
+slug: cnpa
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates foundational knowledge of platform engineering concepts
+  including internal developer platforms, golden paths, self-service
+  infrastructure, and cloud native tooling for improving developer
+  experience.
+
+tags:
+  - cloud-native
+  - platform-engineering
+  - associate
+  - multiple-choice
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - cnpe
+  - cba
+  - cgoa
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineering-associate-cnpa/
+    type: official
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineering-associate-cnpa/
+last_verified: "2026-03-31"

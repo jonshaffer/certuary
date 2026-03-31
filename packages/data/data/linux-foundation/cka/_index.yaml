@@ -1,0 +1,42 @@
+name: Certified Kubernetes Administrator
+short_name: CKA
+slug: cka
+status: active
+cost: "$445 USD"
+
+description: >-
+  Validates skills in Kubernetes cluster administration including
+  installation, configuration, networking, storage, security, and
+  troubleshooting. A performance-based exam requiring hands-on tasks
+  in a live Kubernetes environment.
+
+tags:
+  - kubernetes
+  - cloud-native
+  - administration
+  - intermediate
+  - performance-based
+  - kubestronaut
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - kcna
+  - ckad
+  - cks
+  - cnpe
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/
+    type: official
+  - label: CNCF CKA Page
+    url: https://www.cncf.io/training/certification/cka/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/
+last_verified: "2026-03-31"
