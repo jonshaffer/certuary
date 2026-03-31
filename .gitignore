@@ -6,6 +6,7 @@ dist
 *.log
 .DS_Store
 .vite
+*.tsbuildinfo
 
 # Generated from YAML data
 packages/data/src/generated.ts
