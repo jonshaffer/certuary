@@ -1,6 +1,5 @@
 import type { Certification, Provider } from "./types.js";
-import { certifications } from "./certifications/index.js";
-import { providers } from "./providers/index.js";
+import { certifications, providers } from "./generated.js";
 
 export function getAllCerts(): Certification[] {
   return certifications;
@@ -10,8 +9,8 @@ export function getCertBySlug(slug: string): Certification | undefined {
   return certifications.find((c) => c.slug === slug);
 }
 
-export function getCertsByProvider(providerId: string): Certification[] {
-  return certifications.filter((c) => c.providerId === providerId);
+export function getCertsByProvider(providerSlug: string): Certification[] {
+  return certifications.filter((c) => c.providerSlug === providerSlug);
 }
 
 export function getCertsByTag(tag: string): Certification[] {
@@ -24,8 +23,4 @@ export function getAllProviders(): Provider[] {
 
 export function getProviderBySlug(slug: string): Provider | undefined {
   return providers.find((p) => p.slug === slug);
-}
-
-export function getProviderById(id: string): Provider | undefined {
-  return providers.find((p) => p.id === id);
 }

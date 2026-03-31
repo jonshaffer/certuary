@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router";
-import { getCertBySlug, getProviderById } from "@certuary/data";
+import { getCertBySlug, getProviderBySlug } from "@certuary/data";
 import type { CertLink } from "@certuary/data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -35,7 +35,7 @@ export function CertDetailPage() {
     );
   }
 
-  const provider = getProviderById(cert.providerId);
+  const provider = getProviderBySlug(cert.providerSlug);
   const currentVersion = cert.versions[0];
 
   return (
@@ -50,7 +50,7 @@ export function CertDetailPage() {
       <div className="mb-6 flex items-start justify-between gap-4">
         <div>
           <p className="text-sm font-medium uppercase tracking-wide text-muted-foreground">
-            {provider?.name ?? cert.providerId}
+            {provider?.name ?? cert.providerSlug}
           </p>
           <h1 className="mt-1 text-3xl font-bold">{cert.name}</h1>
         </div>

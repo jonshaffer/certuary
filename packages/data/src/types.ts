@@ -1,9 +1,8 @@
 export type CertStatus = "active" | "retiring" | "retired";
 
 export interface Provider {
-  id: string;
-  name: string;
   slug: string;
+  name: string;
   website: string;
   description: string;
   logo?: string;
@@ -23,11 +22,10 @@ export interface CertVersion {
 }
 
 export interface Certification {
-  id: string;
   slug: string;
   name: string;
   shortName?: string;
-  providerId: string;
+  providerSlug: string;
   description: string;
   status: CertStatus;
   cost?: string;

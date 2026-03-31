@@ -1,0 +1,45 @@
+name: Cisco Certified Network Associate (CCNA)
+short_name: CCNA
+slug: ccna
+status: active
+cost: "$330 USD"
+
+description: >-
+  The CCNA validates foundational networking skills including IP
+  connectivity, network fundamentals, security fundamentals, automation,
+  and programmability. It is the primary entry point into the Cisco
+  certification track.
+
+tags:
+  - networking
+  - intermediate
+  - cisco
+  - routing
+  - switching
+
+prerequisites: []
+
+related_certs:
+  - comptia-a-plus
+  - comptia-security-plus
+
+versions:
+  - version: "200-301"
+    release_date: "2020-02-24"
+    notes: >-
+      Unified CCNA covering networking fundamentals, IP services, security,
+      and automation.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
+    type: official
+  - label: CCNA Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccna-exam-topics
+    type: source-of-truth
+  - label: r/ccna
+    url: https://www.reddit.com/r/ccna/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
+last_verified: "2026-03-01"

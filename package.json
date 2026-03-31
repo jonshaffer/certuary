@@ -3,9 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "pnpm --filter @certuary/web dev",
-    "build": "pnpm --filter @certuary/web build",
-    "typecheck": "pnpm -r typecheck",
+    "generate": "pnpm --filter @certuary/data generate",
+    "dev": "pnpm generate && pnpm --filter @certuary/web dev",
+    "build": "pnpm generate && pnpm --filter @certuary/web build",
+    "typecheck": "pnpm generate && pnpm -r typecheck",
     "preview": "pnpm --filter @certuary/web preview"
   }
 }

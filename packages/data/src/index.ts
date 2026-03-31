@@ -1,6 +1,5 @@
 export type { Certification, CertLink, CertVersion, CertStatus, Provider } from "./types.js";
-export { certifications } from "./certifications/index.js";
-export { providers } from "./providers/index.js";
+export { certifications, providers } from "./generated.js";
 export {
   getAllCerts,
   getCertBySlug,
@@ -8,5 +7,4 @@ export {
   getCertsByTag,
   getAllProviders,
   getProviderBySlug,
-  getProviderById,
 } from "./helpers.js";

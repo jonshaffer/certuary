@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { getAllCerts, getProviderById } from "@certuary/data";
+import { getAllCerts, getProviderBySlug } from "@certuary/data";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
@@ -16,14 +16,14 @@ export function HomePage() {
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {certs.map((cert) => {
-          const provider = getProviderById(cert.providerId);
+          const provider = getProviderBySlug(cert.providerSlug);
           return (
             <Link key={cert.slug} to={`/cert/${cert.slug}`} className="group">
               <Card className="h-full transition-shadow hover:shadow-md">
                 <CardHeader>
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      {provider?.name ?? cert.providerId}
+                      {provider?.name ?? cert.providerSlug}
                     </span>
                     <Badge
                       variant={cert.status === "active" ? "default" : cert.status === "retiring" ? "outline" : "destructive"}
