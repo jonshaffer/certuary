@@ -1,0 +1,10 @@
+{
+  "name": "certuary",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @certuary/web dev",
+    "build": "pnpm --filter @certuary/web build",
+    "preview": "pnpm --filter @certuary/web preview"
+  }
+}
