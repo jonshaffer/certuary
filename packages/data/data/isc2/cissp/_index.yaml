@@ -1,0 +1,46 @@
+name: Certified Information Systems Security Professional
+short_name: CISSP
+slug: cissp
+status: active
+cost: "$749 USD"
+
+description: >-
+  The CISSP is the gold standard in information security certifications,
+  covering eight domains including security and risk management, asset
+  security, security architecture, and software development security.
+  It is approved for DoD 8570 IAM Level III and IAT Level III.
+
+tags:
+  - cybersecurity
+  - advanced
+  - dod-8570
+  - isc2
+
+prerequisites:
+  - Five years of cumulative paid work experience in two or more of the eight CISSP domains
+
+related_certs:
+  - sscp
+  - ccsp
+  - cgrc
+  - cissp-issap
+  - cissp-issep
+  - cissp-issmp
+  - cc
+  - comptia-security-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/cissp
+    type: official
+  - label: CISSP Exam Outline
+    url: https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline
+    type: source-of-truth
+  - label: r/cissp
+    url: https://www.reddit.com/r/cissp/
+    type: community
+
+source_of_truth_url: https://www.isc2.org/certifications/cissp
+last_verified: "2026-04-01"

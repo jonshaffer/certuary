@@ -1,0 +1,36 @@
+name: Certified in Cybersecurity
+short_name: CC
+slug: cc
+status: active
+cost: "Free"
+
+description: >-
+  The CC is an entry-level cybersecurity certification designed for
+  individuals starting a career in cybersecurity. ISC2 offers a free
+  exam and free online self-paced training, making it accessible to
+  newcomers in the field.
+
+tags:
+  - cybersecurity
+  - entry-level
+  - isc2
+
+prerequisites: []
+
+related_certs:
+  - cissp
+  - sscp
+  - comptia-security-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/cc
+    type: official
+  - label: CC Exam Outline
+    url: https://www.isc2.org/certifications/cc/cc-certification-exam-outline
+    type: source-of-truth
+
+source_of_truth_url: https://www.isc2.org/certifications/cc
+last_verified: "2026-04-01"

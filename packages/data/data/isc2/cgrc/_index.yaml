@@ -1,0 +1,37 @@
+name: Certified in Governance, Risk and Compliance
+short_name: CGRC
+slug: cgrc
+status: active
+cost: "$599 USD"
+
+description: >-
+  The CGRC (formerly CAP) validates expertise in governance, risk
+  management, and compliance frameworks. It covers seven domains
+  including information security risk management, security assessment
+  and authorization, and continuous monitoring.
+
+tags:
+  - cybersecurity
+  - governance
+  - risk-management
+  - compliance
+  - isc2
+
+prerequisites:
+  - Two years of cumulative paid work experience in one or more of the seven CGRC domains
+
+related_certs:
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/cgrc
+    type: official
+  - label: CGRC Exam Outline
+    url: https://www.isc2.org/certifications/cgrc/cgrc-certification-exam-outline
+    type: source-of-truth
+
+source_of_truth_url: https://www.isc2.org/certifications/cgrc
+last_verified: "2026-04-01"

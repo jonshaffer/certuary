@@ -1,0 +1,38 @@
+name: "CISSP-ISSMP: Information Systems Security Management Professional"
+short_name: CISSP-ISSMP
+slug: cissp-issmp
+status: active
+cost: "$599 USD"
+
+description: >-
+  The ISSMP is a CISSP concentration demonstrating advanced knowledge in
+  security management, covering security leadership and business
+  management, security lifecycle management, security compliance
+  management, and contingency management.
+
+tags:
+  - cybersecurity
+  - management
+  - advanced
+  - isc2
+
+prerequisites:
+  - Must hold an active CISSP certification
+
+related_certs:
+  - cissp
+  - cissp-issap
+  - cissp-issep
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/issmp
+    type: official
+  - label: ISSMP Exam Outline
+    url: https://www.isc2.org/certifications/issmp/issmp-certification-exam-outline
+    type: source-of-truth
+
+source_of_truth_url: https://www.isc2.org/certifications/issmp
+last_verified: "2026-04-01"

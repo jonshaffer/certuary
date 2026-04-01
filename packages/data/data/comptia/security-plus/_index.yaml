@@ -22,6 +22,9 @@ prerequisites:
 related_certs:
   - comptia-a-plus
   - aws-solutions-architect-associate
+  - cissp
+  - sscp
+  - cc
 
 versions:
   - version: SY0-701
