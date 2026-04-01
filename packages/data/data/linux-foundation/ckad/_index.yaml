@@ -1,0 +1,42 @@
+name: Certified Kubernetes Application Developer
+short_name: CKAD
+slug: ckad
+status: active
+cost: "$445 USD"
+
+description: >-
+  Validates the ability to design, build, configure, and deploy cloud
+  native applications on Kubernetes. A performance-based exam covering
+  application lifecycle management, services, networking, and
+  observability.
+
+tags:
+  - kubernetes
+  - cloud-native
+  - development
+  - intermediate
+  - performance-based
+  - kubestronaut
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - kcna
+  - cka
+  - cks
+  - cnpe
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/
+    type: official
+  - label: CNCF CKAD Page
+    url: https://www.cncf.io/training/certification/ckad/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/
+last_verified: "2026-03-31"

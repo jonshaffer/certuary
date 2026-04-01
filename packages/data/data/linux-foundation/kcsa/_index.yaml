@@ -1,0 +1,40 @@
+name: Kubernetes and Cloud Native Security Associate
+short_name: KCSA
+slug: kcsa
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates knowledge of baseline security concepts and their application
+  to Kubernetes and cloud native environments, covering cluster security,
+  supply chain security, and runtime security.
+
+tags:
+  - kubernetes
+  - cloud-native
+  - security
+  - associate
+  - multiple-choice
+  - kubestronaut
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - kcna
+  - cks
+  - cka
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/
+    type: official
+  - label: CNCF KCSA Page
+    url: https://www.cncf.io/training/certification/kcsa/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/
+last_verified: "2026-03-31"

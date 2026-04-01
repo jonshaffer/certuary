@@ -1,0 +1,39 @@
+name: Certified Cloud Native Platform Engineer
+short_name: CNPE
+slug: cnpe
+status: active
+cost: "$445 USD"
+
+description: >-
+  Validates advanced platform engineering skills including designing and
+  operating internal developer platforms, CI/CD pipelines, GitOps
+  workflows, and Kubernetes-based infrastructure. A performance-based
+  exam.
+
+tags:
+  - cloud-native
+  - platform-engineering
+  - advanced
+  - performance-based
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites:
+  - CKA-level Kubernetes expertise recommended
+
+related_certs:
+  - cnpa
+  - cka
+  - ckad
+  - cgoa
+  - cba
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineer-cnpe/
+    type: official
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineer-cnpe/
+last_verified: "2026-03-31"

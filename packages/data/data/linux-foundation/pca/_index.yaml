@@ -1,0 +1,38 @@
+name: Prometheus Certified Associate
+short_name: PCA
+slug: pca
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates foundational knowledge of observability and monitoring using
+  Prometheus, including PromQL, instrumentation, dashboarding, and
+  alerting in cloud native environments.
+
+tags:
+  - cloud-native
+  - observability
+  - monitoring
+  - associate
+  - multiple-choice
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - otca
+  - kcna
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/prometheus-certified-associate/
+    type: official
+  - label: CNCF PCA Page
+    url: https://www.cncf.io/training/certification/pca/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/prometheus-certified-associate/
+last_verified: "2026-03-31"

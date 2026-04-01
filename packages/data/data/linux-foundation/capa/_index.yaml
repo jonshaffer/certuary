@@ -1,0 +1,39 @@
+name: Certified Argo Project Associate
+short_name: CAPA
+slug: capa
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates knowledge of the Argo project ecosystem including Argo CD,
+  Argo Workflows, Argo Rollouts, and Argo Events for GitOps-based
+  continuous delivery on Kubernetes.
+
+tags:
+  - cloud-native
+  - gitops
+  - continuous-delivery
+  - associate
+  - multiple-choice
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - cgoa
+  - ckad
+  - cnpe
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/certified-argo-project-associate-capa/
+    type: official
+  - label: CNCF CAPA Page
+    url: https://www.cncf.io/training/certification/capa/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/certified-argo-project-associate-capa/
+last_verified: "2026-03-31"

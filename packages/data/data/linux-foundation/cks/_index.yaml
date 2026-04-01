@@ -1,0 +1,41 @@
+name: Certified Kubernetes Security Specialist
+short_name: CKS
+slug: cks
+status: active
+cost: "$445 USD"
+
+description: >-
+  Validates advanced Kubernetes security skills including cluster hardening,
+  system hardening, supply chain security, monitoring, and runtime security.
+  A performance-based exam requiring hands-on tasks in a live environment.
+
+tags:
+  - kubernetes
+  - cloud-native
+  - security
+  - advanced
+  - performance-based
+  - kubestronaut
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites:
+  - Must hold an active CKA certification
+
+related_certs:
+  - cka
+  - kcsa
+  - kcna
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/
+    type: official
+  - label: CNCF CKS Page
+    url: https://www.cncf.io/training/certification/cks/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/
+last_verified: "2026-03-31"

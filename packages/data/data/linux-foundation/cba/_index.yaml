@@ -1,0 +1,38 @@
+name: Certified Backstage Associate
+short_name: CBA
+slug: cba
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates knowledge of Backstage, the open platform for building
+  developer portals. Covers software catalog, templates, TechDocs,
+  plugins, and platform engineering concepts.
+
+tags:
+  - cloud-native
+  - platform-engineering
+  - developer-portals
+  - associate
+  - multiple-choice
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - cnpe
+  - cnpa
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/certified-backstage-associate-cba/
+    type: official
+  - label: CNCF CBA Page
+    url: https://www.cncf.io/training/certification/cba/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/certified-backstage-associate-cba/
+last_verified: "2026-03-31"

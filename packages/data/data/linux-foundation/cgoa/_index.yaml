@@ -1,0 +1,39 @@
+name: Certified GitOps Associate
+short_name: CGOA
+slug: cgoa
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates understanding of GitOps principles, practices, and tooling
+  for managing cloud native infrastructure and application delivery
+  using Git as the single source of truth.
+
+tags:
+  - cloud-native
+  - gitops
+  - continuous-delivery
+  - associate
+  - multiple-choice
+  - golden-kubestronaut
+  - linux-foundation
+
+prerequisites: []
+
+related_certs:
+  - capa
+  - cnpe
+  - ckad
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://training.linuxfoundation.org/certification/certified-gitops-associate-cgoa/
+    type: official
+  - label: CNCF CGOA Page
+    url: https://www.cncf.io/training/certification/cgoa/
+    type: source-of-truth
+
+source_of_truth_url: https://training.linuxfoundation.org/certification/certified-gitops-associate-cgoa/
+last_verified: "2026-03-31"
