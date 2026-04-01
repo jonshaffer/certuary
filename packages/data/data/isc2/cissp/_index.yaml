@@ -23,6 +23,8 @@ related_certs:
   - sscp
   - ccsp
   - cgrc
+  - csslp
+  - hcispp
   - cissp-issap
   - cissp-issep
   - cissp-issmp
