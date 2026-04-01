@@ -25,6 +25,8 @@ related_certs:
   - cissp
   - sscp
   - cc
+  - cisa
+  - cism
 
 versions:
   - version: SY0-701

@@ -1,15 +1,15 @@
 name: Information Technology Certified Associate
 short_name: ITCA
 slug: itca
-status: active
-cost: "$150+ USD per module"
+status: retired
+cost: "N/A"
 
 description: >-
-  The ITCA is ISACA's entry-level, modular IT certification designed for
-  early-career professionals and career changers. It covers five key
+  The ITCA was ISACA's entry-level, modular IT certificate program designed
+  for early-career professionals and career changers. It covered five key
   domains through individual certificate exams: IT Fundamentals, Networking
   and Infrastructure, Cybersecurity, Data Science, and Software Development.
-  Completing all five earns the full ITCA credential.
+  The program was discontinued in January 2026.
 
 tags:
   - it-fundamentals
