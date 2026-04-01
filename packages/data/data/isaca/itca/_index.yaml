@@ -1,0 +1,38 @@
+name: Information Technology Certified Associate
+short_name: ITCA
+slug: itca
+status: active
+cost: "$150+ USD per module"
+
+description: >-
+  The ITCA is ISACA's entry-level, modular IT certification designed for
+  early-career professionals and career changers. It covers five key
+  domains through individual certificate exams: IT Fundamentals, Networking
+  and Infrastructure, Cybersecurity, Data Science, and Software Development.
+  Completing all five earns the full ITCA credential.
+
+tags:
+  - it-fundamentals
+  - entry-level
+  - isaca
+
+prerequisites: []
+
+related_certs:
+  - cisa
+  - cism
+  - comptia-a-plus
+  - cc
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isaca.org/credentialing/itca
+    type: official
+  - label: r/ISACA
+    url: https://www.reddit.com/r/ISACA/
+    type: community
+
+source_of_truth_url: https://www.isaca.org/credentialing/itca
+last_verified: "2026-04-01"

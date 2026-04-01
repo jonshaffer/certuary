@@ -1,0 +1,44 @@
+name: Certified Data Privacy Solutions Engineer
+short_name: CDPSE
+slug: cdpse
+status: active
+cost: "$575 USD (ISACA member) / $760 USD (non-member)"
+
+description: >-
+  The CDPSE certification validates the technical skills and knowledge
+  needed to assess, build, and implement comprehensive privacy solutions.
+  It bridges the gap between privacy regulations and technology
+  implementation, covering privacy governance, architecture, and
+  data lifecycle management.
+
+tags:
+  - privacy
+  - data-protection
+  - compliance
+  - intermediate
+  - isaca
+
+prerequisites:
+  - Three years of professional experience in privacy technology implementation
+
+related_certs:
+  - cisa
+  - cism
+  - hcispp
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isaca.org/credentialing/cdpse
+    type: official
+  - label: CDPSE Exam Content Outline
+    url: https://www.isaca.org/credentialing/cdpse/cdpse-exam-content-outline
+    type: source-of-truth
+  - label: r/ISACA
+    url: https://www.reddit.com/r/ISACA/
+    type: community
+
+source_of_truth_url: https://www.isaca.org/credentialing/cdpse
+last_verified: "2026-04-01"

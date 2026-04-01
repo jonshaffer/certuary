@@ -1,0 +1,46 @@
+name: Certified Information Security Manager
+short_name: CISM
+slug: cism
+status: active
+cost: "$575 USD (ISACA member) / $760 USD (non-member)"
+
+description: >-
+  The CISM certification is designed for information security managers and
+  validates expertise in information security governance, risk management,
+  program development and management, and incident management. It is
+  approved for DoD 8570 IAM Level II.
+
+tags:
+  - cybersecurity
+  - management
+  - governance
+  - advanced
+  - dod-8570
+  - isaca
+
+prerequisites:
+  - Five years of professional experience in information security management
+
+related_certs:
+  - cisa
+  - crisc
+  - cgeit
+  - cissp
+  - comptia-security-plus
+  - ccsp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isaca.org/credentialing/cism
+    type: official
+  - label: CISM Exam Content Outline
+    url: https://www.isaca.org/credentialing/cism/cism-exam-content-outline
+    type: source-of-truth
+  - label: r/ISACA
+    url: https://www.reddit.com/r/ISACA/
+    type: community
+
+source_of_truth_url: https://www.isaca.org/credentialing/cism
+last_verified: "2026-04-01"

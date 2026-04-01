@@ -1,0 +1,43 @@
+name: Certified in the Governance of Enterprise IT
+short_name: CGEIT
+slug: cgeit
+status: active
+cost: "$575 USD (ISACA member) / $760 USD (non-member)"
+
+description: >-
+  The CGEIT certification validates expertise in enterprise IT governance,
+  including strategic alignment, value delivery, risk management, resource
+  management, and performance measurement. It is designed for professionals
+  who manage, advise, or provide assurance around enterprise IT governance.
+
+tags:
+  - governance
+  - it-management
+  - advanced
+  - isaca
+
+prerequisites:
+  - Five years of professional experience in enterprise IT governance
+
+related_certs:
+  - cisa
+  - cism
+  - crisc
+  - cissp
+  - cgrc
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isaca.org/credentialing/cgeit
+    type: official
+  - label: CGEIT Exam Content Outline
+    url: https://www.isaca.org/credentialing/cgeit/cgeit-exam-content-outline
+    type: source-of-truth
+  - label: r/ISACA
+    url: https://www.reddit.com/r/ISACA/
+    type: community
+
+source_of_truth_url: https://www.isaca.org/credentialing/cgeit
+last_verified: "2026-04-01"

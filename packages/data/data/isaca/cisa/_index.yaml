@@ -1,0 +1,46 @@
+name: Certified Information Systems Auditor
+short_name: CISA
+slug: cisa
+status: active
+cost: "$575 USD (ISACA member) / $760 USD (non-member)"
+
+description: >-
+  The CISA certification validates expertise in auditing, controlling,
+  monitoring, and assessing information technology and business systems.
+  It is globally recognized as the standard of achievement for IT audit
+  professionals and is approved for DoD 8570 IAM Level II and IAT Level II.
+
+tags:
+  - cybersecurity
+  - audit
+  - governance
+  - advanced
+  - dod-8570
+  - isaca
+
+prerequisites:
+  - Five years of professional experience in information systems auditing, control, or security
+
+related_certs:
+  - cism
+  - crisc
+  - cgeit
+  - cissp
+  - cgrc
+  - comptia-security-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isaca.org/credentialing/cisa
+    type: official
+  - label: CISA Exam Content Outline
+    url: https://www.isaca.org/credentialing/cisa/cisa-exam-content-outline
+    type: source-of-truth
+  - label: r/ISACA
+    url: https://www.reddit.com/r/ISACA/
+    type: community
+
+source_of_truth_url: https://www.isaca.org/credentialing/cisa
+last_verified: "2026-04-01"
