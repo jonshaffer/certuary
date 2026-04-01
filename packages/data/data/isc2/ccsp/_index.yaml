@@ -1,0 +1,37 @@
+name: Certified Cloud Security Professional
+short_name: CCSP
+slug: ccsp
+status: active
+cost: "$599 USD"
+
+description: >-
+  The CCSP validates advanced knowledge and skills in cloud security
+  design, implementation, architecture, operations, and compliance.
+  It covers six domains including cloud data security, cloud platform
+  and infrastructure security, and cloud application security.
+
+tags:
+  - cybersecurity
+  - cloud-security
+  - advanced
+  - isc2
+
+prerequisites:
+  - Five years of cumulative paid work experience in IT, including three years in information security and one year in cloud security
+
+related_certs:
+  - cissp
+  - aws-solutions-architect-associate
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/ccsp
+    type: official
+  - label: CCSP Exam Outline
+    url: https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline
+    type: source-of-truth
+
+source_of_truth_url: https://www.isc2.org/certifications/ccsp
+last_verified: "2026-04-01"

@@ -21,6 +21,7 @@ prerequisites:
 
 related_certs:
   - comptia-security-plus
+  - ccsp
 
 versions:
   - version: SAA-C03

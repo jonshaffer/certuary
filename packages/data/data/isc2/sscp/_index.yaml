@@ -1,0 +1,41 @@
+name: Systems Security Certified Practitioner
+short_name: SSCP
+slug: sscp
+status: active
+cost: "$249 USD"
+
+description: >-
+  The SSCP validates hands-on technical skills in implementing, monitoring,
+  and administering IT infrastructure using security best practices. It
+  covers seven domains including access controls, security operations,
+  and incident response.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - dod-8570
+  - isc2
+
+prerequisites:
+  - One year of cumulative paid work experience in one or more of the seven SSCP domains
+
+related_certs:
+  - cissp
+  - cc
+  - comptia-security-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/sscp
+    type: official
+  - label: SSCP Exam Outline
+    url: https://www.isc2.org/certifications/sscp/sscp-certification-exam-outline
+    type: source-of-truth
+  - label: r/ISC2
+    url: https://www.reddit.com/r/ISC2/
+    type: community
+
+source_of_truth_url: https://www.isc2.org/certifications/sscp
+last_verified: "2026-04-01"

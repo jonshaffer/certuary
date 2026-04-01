@@ -1,0 +1,37 @@
+name: Certified Secure Software Lifecycle Professional
+short_name: CSSLP
+slug: csslp
+status: active
+cost: "$599 USD"
+
+description: >-
+  The CSSLP validates expertise in incorporating security practices
+  into each phase of the software development lifecycle. It covers
+  eight domains including secure software concepts, secure software
+  requirements, and secure software testing.
+
+tags:
+  - cybersecurity
+  - software-security
+  - advanced
+  - sdlc
+  - isc2
+
+prerequisites:
+  - Four years of cumulative paid work experience in one or more of the eight CSSLP domains
+
+related_certs:
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/csslp
+    type: official
+  - label: CSSLP Exam Outline
+    url: https://www.isc2.org/certifications/csslp/csslp-certification-exam-outline
+    type: source-of-truth
+
+source_of_truth_url: https://www.isc2.org/certifications/csslp
+last_verified: "2026-04-01"

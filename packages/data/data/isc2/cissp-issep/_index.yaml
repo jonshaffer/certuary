@@ -1,0 +1,38 @@
+name: Information Systems Security Engineering Professional
+short_name: CISSP-ISSEP
+slug: cissp-issep
+status: active
+cost: "$599 USD"
+
+description: >-
+  The ISSEP is a CISSP concentration demonstrating advanced knowledge in
+  security engineering, covering systems security engineering, risk
+  management, security planning and design, and systems implementation,
+  verification, and validation.
+
+tags:
+  - cybersecurity
+  - engineering
+  - advanced
+  - isc2
+
+prerequisites:
+  - Must hold an active CISSP certification
+
+related_certs:
+  - cissp
+  - cissp-issap
+  - cissp-issmp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/issep
+    type: official
+  - label: ISSEP Exam Outline
+    url: https://www.isc2.org/certifications/issep/issep-certification-exam-outline
+    type: source-of-truth
+
+source_of_truth_url: https://www.isc2.org/certifications/issep
+last_verified: "2026-04-01"

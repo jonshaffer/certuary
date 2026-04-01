@@ -1,0 +1,38 @@
+name: Information Systems Security Architecture Professional
+short_name: CISSP-ISSAP
+slug: cissp-issap
+status: active
+cost: "$599 USD"
+
+description: >-
+  The ISSAP is a CISSP concentration demonstrating advanced knowledge in
+  security architecture, covering architecture for governance, compliance,
+  and risk management, security architecture modeling, and infrastructure
+  security architecture.
+
+tags:
+  - cybersecurity
+  - architecture
+  - advanced
+  - isc2
+
+prerequisites:
+  - Must hold an active CISSP certification
+
+related_certs:
+  - cissp
+  - cissp-issep
+  - cissp-issmp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/issap
+    type: official
+  - label: ISSAP Exam Outline
+    url: https://www.isc2.org/certifications/issap/issap-certification-exam-outline
+    type: source-of-truth
+
+source_of_truth_url: https://www.isc2.org/certifications/issap
+last_verified: "2026-04-01"

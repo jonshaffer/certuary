@@ -1,0 +1,38 @@
+name: HealthCare Information Security and Privacy Practitioner
+short_name: HCISPP
+slug: hcispp
+status: retired
+cost: "N/A"
+
+description: >-
+  The HCISPP validates knowledge in implementing, managing, and assessing
+  security and privacy controls for healthcare information. It covers
+  seven domains including healthcare industry, regulatory and standards
+  environment, and privacy and security in healthcare.
+
+tags:
+  - cybersecurity
+  - healthcare
+  - privacy
+  - compliance
+  - isc2
+
+prerequisites:
+  - Two years of cumulative paid work experience in one or more of the seven HCISPP domains
+
+related_certs:
+  - cissp
+  - sscp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isc2.org/certifications/hcispp
+    type: official
+  - label: HCISPP Exam Outline
+    url: https://www.isc2.org/certifications/hcispp/hcispp-certification-exam-outline
+    type: source-of-truth
+
+source_of_truth_url: https://www.isc2.org/certifications/hcispp
+last_verified: "2026-04-01"
