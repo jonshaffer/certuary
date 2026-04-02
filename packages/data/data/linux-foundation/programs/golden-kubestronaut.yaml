@@ -1,0 +1,66 @@
+slug: golden-kubestronaut
+name: Golden Kubestronaut
+description: >-
+  The ultimate CNCF certification achievement. Earn all 16 Linux Foundation
+  certifications to demonstrate mastery across the entire cloud native landscape
+  including Kubernetes, networking, observability, AI, and platform engineering.
+website: https://www.cncf.io/training/kubestronaut/
+status: active
+required_certs:
+  - kcna
+  - cka
+  - ckad
+  - cks
+  - kcsa
+  - cnpa
+  - cnpe
+  - pca
+  - ica
+  - cba
+  - cca
+  - cgoa
+  - kca
+  - capa
+  - otca
+  - lfcs
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - kcna
+  - name: Administration
+    order: 2
+    certificate_slugs:
+      - cka
+      - lfcs
+  - name: Development
+    order: 3
+    certificate_slugs:
+      - ckad
+  - name: Security
+    order: 4
+    certificate_slugs:
+      - cks
+      - kcsa
+  - name: Networking
+    order: 5
+    certificate_slugs:
+      - cnpa
+      - cnpe
+  - name: Observability & AI
+    order: 6
+    certificate_slugs:
+      - pca
+      - ica
+      - cba
+  - name: Platform Engineering
+    order: 7
+    certificate_slugs:
+      - cca
+      - cgoa
+      - kca
+      - capa
+      - otca
+completion_criteria:
+  required: 16
+  notes: All 16 certifications must be active simultaneously.
