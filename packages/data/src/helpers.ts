@@ -1,5 +1,5 @@
-import type { Certification, Provider } from "./types.js";
-import { certifications, providers } from "./generated.js";
+import type { Certification, Program, Provider } from "./types.js";
+import { certifications, programs, providers } from "./generated.js";
 
 export function getAllCerts(): Certification[] {
   return certifications;
@@ -23,4 +23,26 @@ export function getAllProviders(): Provider[] {
 
 export function getProviderBySlug(slug: string): Provider | undefined {
   return providers.find((p) => p.slug === slug);
+}
+
+export function getAllPrograms(): Program[] {
+  return programs;
+}
+
+export function getProgramBySlug(slug: string): Program | undefined {
+  return programs.find((p) => p.slug === slug);
+}
+
+export function getProgramsByProvider(providerSlug: string): Program[] {
+  return programs.filter((p) => p.providerSlug === providerSlug);
+}
+
+export function getCertsByProgram(programSlug: string): Certification[] {
+  const program = getProgramBySlug(programSlug);
+  if (!program) return [];
+  return certifications.filter((c) => program.requiredCerts.includes(c.slug));
+}
+
+export function getCertsWithDomains(): Certification[] {
+  return certifications.filter((c) => c.domains.length > 0);
 }

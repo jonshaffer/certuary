@@ -13,6 +13,13 @@ interface RawProvider {
   logo?: string;
 }
 
+interface RawExamDomain {
+  name: string;
+  weight: number;
+  topic_categories?: string[];
+  topics?: string[];
+}
+
 interface RawCert {
   name: string;
   slug: string;
@@ -23,6 +30,8 @@ interface RawCert {
   tags?: string[];
   prerequisites?: string[];
   related_certs?: string[];
+  domains?: RawExamDomain[];
+  prerequisite_certs?: string[];
   versions?: {
     version: string;
     release_date?: string;
@@ -38,6 +47,24 @@ interface RawCert {
   last_verified?: string;
 }
 
+interface RawProgram {
+  slug: string;
+  name: string;
+  description: string;
+  website: string;
+  status: string;
+  required_certs?: string[];
+  phases?: {
+    name: string;
+    order: number;
+    certificate_slugs: string[];
+  }[];
+  completion_criteria?: {
+    required: number;
+    notes?: string;
+  };
+}
+
 function readYaml<T>(filePath: string): T {
   const content = fs.readFileSync(filePath, "utf-8");
   return parse(content) as T;
@@ -46,6 +73,7 @@ function readYaml<T>(filePath: string): T {
 function generate() {
   const providers: object[] = [];
   const certifications: object[] = [];
+  const programs: object[] = [];
 
   const entries = fs.readdirSync(DATA_DIR, { withFileTypes: true }).sort((a, b) =>
     a.name.localeCompare(b.name),
@@ -102,25 +130,62 @@ function generate() {
           ...(v.notes ? { notes: v.notes } : {}),
         })),
         relatedCertSlugs: raw.related_certs ?? [],
+        domains: (raw.domains ?? []).map((d) => ({
+          name: d.name,
+          weight: d.weight,
+          ...(d.topic_categories ? { topicCategories: d.topic_categories } : {}),
+          ...(d.topics ? { topics: d.topics } : {}),
+        })),
+        prerequisiteCerts: raw.prerequisite_certs ?? [],
         ...(raw.last_verified ? { lastVerified: raw.last_verified } : {}),
         ...(raw.source_of_truth_url ? { sourceOfTruthUrl: raw.source_of_truth_url } : {}),
       });
+    }
+
+    // Scan for program definitions
+    const programsDir = path.join(providerDir, "programs");
+    if (fs.existsSync(programsDir)) {
+      const programFiles = fs
+        .readdirSync(programsDir)
+        .filter((f) => f.endsWith(".yaml"))
+        .sort();
+
+      for (const programFile of programFiles) {
+        const raw = readYaml<RawProgram>(path.join(programsDir, programFile));
+        programs.push({
+          slug: raw.slug,
+          name: raw.name,
+          providerSlug: rawProvider.slug,
+          description: raw.description,
+          website: raw.website,
+          status: raw.status,
+          requiredCerts: raw.required_certs ?? [],
+          phases: (raw.phases ?? []).map((p) => ({
+            name: p.name,
+            order: p.order,
+            certificateSlugs: p.certificate_slugs,
+          })),
+          completionCriteria: raw.completion_criteria ?? { required: 0 },
+        });
+      }
     }
   }
 
   const output = `// Auto-generated from data/**/_index.yaml — do not edit manually.
 // Run "pnpm generate" to regenerate.
-import type { Provider, Certification } from "./types.js";
+import type { Provider, Certification, Program } from "./types.js";
 
 export const providers: Provider[] = ${JSON.stringify(providers, null, 2)};
 
 export const certifications: Certification[] = ${JSON.stringify(certifications, null, 2)};
+
+export const programs: Program[] = ${JSON.stringify(programs, null, 2)};
 `;
 
   fs.writeFileSync(OUT_FILE, output, "utf-8");
 
   console.log(
-    `Generated ${OUT_FILE} — ${providers.length} providers, ${certifications.length} certifications`,
+    `Generated ${OUT_FILE} — ${providers.length} providers, ${certifications.length} certifications, ${programs.length} programs`,
   );
 }
 
