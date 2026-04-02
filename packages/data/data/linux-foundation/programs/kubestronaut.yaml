@@ -3,8 +3,7 @@ name: Kubestronaut
 description: >-
   Earn all five core CNCF Kubernetes certifications to become a Kubestronaut and
   demonstrate comprehensive Kubernetes expertise across cloud native
-  fundamentals, administration, application development, security, and security
-  assessment.
+  fundamentals, administration, application development, and security.
 website: https://www.cncf.io/training/kubestronaut/
 status: active
 required_certs:
