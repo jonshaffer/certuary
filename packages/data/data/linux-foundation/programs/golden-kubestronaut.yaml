@@ -1,8 +1,8 @@
 slug: golden-kubestronaut
 name: Golden Kubestronaut
 description: >-
-  The ultimate CNCF certification achievement. Earn all 16 CNCF certifications
-  plus the LFCS to demonstrate mastery across the entire cloud native landscape
+  The ultimate CNCF certification achievement. Earn all 16 Linux Foundation
+  certifications to demonstrate mastery across the entire cloud native landscape
   including Kubernetes, networking, observability, AI, and platform engineering.
 website: https://www.cncf.io/training/kubestronaut/
 status: active
@@ -62,5 +62,5 @@ phases:
       - capa
       - otca
 completion_criteria:
-  required: 17
-  notes: All 16 CNCF certifications and LFCS must be active simultaneously.
+  required: 16
+  notes: All 16 certifications must be active simultaneously.
