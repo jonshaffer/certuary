@@ -171,7 +171,7 @@ function generate() {
     }
   }
 
-  const output = `// Auto-generated from data/**/_index.yaml — do not edit manually.
+  const output = `// Auto-generated from data/**/_index.yaml and data/**/programs/*.yaml — do not edit manually.
 // Run "pnpm generate" to regenerate.
 import type { Provider, Certification, Program } from "./types.js";
 

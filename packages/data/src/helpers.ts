@@ -40,7 +40,9 @@ export function getProgramsByProvider(providerSlug: string): Program[] {
 export function getCertsByProgram(programSlug: string): Certification[] {
   const program = getProgramBySlug(programSlug);
   if (!program) return [];
-  return certifications.filter((c) => program.requiredCerts.includes(c.slug));
+  const phaseSlugs = program.phases.flatMap((p) => p.certificateSlugs);
+  const allSlugs = new Set([...program.requiredCerts, ...phaseSlugs]);
+  return certifications.filter((c) => allSlugs.has(c.slug));
 }
 
 export function getCertsWithDomains(): Certification[] {
