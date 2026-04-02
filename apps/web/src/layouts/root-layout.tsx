@@ -12,6 +12,18 @@ export function RootLayout() {
             <Link to="/" className="hover:text-foreground transition-colors">
               Browse Certs
             </Link>
+            <Link to="/programs" className="hover:text-foreground transition-colors">
+              Programs
+            </Link>
+            <Link to="/path-builder" className="hover:text-foreground transition-colors">
+              Path Builder
+            </Link>
+            <Link to="/domains" className="hover:text-foreground transition-colors">
+              Domains
+            </Link>
+            <Link to="/graph" className="hover:text-foreground transition-colors">
+              Prereq Graph
+            </Link>
           </nav>
         </div>
       </header>

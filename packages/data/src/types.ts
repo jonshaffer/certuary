@@ -21,6 +21,13 @@ export interface CertVersion {
   notes?: string;
 }
 
+export interface ExamDomain {
+  name: string;
+  weight: number;
+  topicCategories?: string[];
+  topics?: string[];
+}
+
 export interface Certification {
   slug: string;
   name: string;
@@ -34,6 +41,33 @@ export interface Certification {
   links: CertLink[];
   versions: CertVersion[];
   relatedCertSlugs: string[];
+  domains: ExamDomain[];
+  prerequisiteCerts: string[];
   lastVerified?: string;
   sourceOfTruthUrl?: string;
+}
+
+export type ProgramStatus = "active" | "retired";
+
+export interface ProgramPhase {
+  name: string;
+  order: number;
+  certificateSlugs: string[];
+}
+
+export interface ProgramCompletionCriteria {
+  required: number;
+  notes?: string;
+}
+
+export interface Program {
+  slug: string;
+  name: string;
+  providerSlug: string;
+  description: string;
+  website: string;
+  status: ProgramStatus;
+  requiredCerts: string[];
+  phases: ProgramPhase[];
+  completionCriteria: ProgramCompletionCriteria;
 }
