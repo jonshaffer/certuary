@@ -1,0 +1,27 @@
+slug: kubestronaut
+name: Kubestronaut
+description: >-
+  Earn all five core CNCF Kubernetes certifications to become a Kubestronaut and
+  demonstrate comprehensive Kubernetes expertise across cloud native
+  fundamentals, administration, application development, security, and security
+  assessment.
+website: https://www.cncf.io/training/kubestronaut/
+status: active
+required_certs:
+  - kcna
+  - cka
+  - ckad
+  - cks
+  - kcsa
+phases:
+  - name: Core Certifications
+    order: 1
+    certificate_slugs:
+      - kcna
+      - cka
+      - ckad
+      - cks
+      - kcsa
+completion_criteria:
+  required: 5
+  notes: All five certifications must be active simultaneously.

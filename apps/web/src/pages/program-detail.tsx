@@ -1,5 +1,24 @@
 import { Link, useParams } from "react-router";
-import { getProgramBySlug, getCertsByProgram } from "@certuary/data";
+import {
+  getProgramBySlug,
+  getCertsByProgram,
+  getCertBySlug,
+  getProviderBySlug,
+} from "@certuary/data";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+
+function parseCost(cost: string | undefined): number {
+  if (!cost) return 0;
+  const match = cost.match(/\$(\d[\d,]*)/);
+  return match ? Number(match[1].replace(/,/g, "")) : 0;
+}
 
 export function ProgramDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -17,66 +36,137 @@ export function ProgramDetailPage() {
     );
   }
 
+  const provider = getProviderBySlug(program.providerSlug);
   const sortedPhases = [...program.phases].sort((a, b) => a.order - b.order);
+  const totalCost = certs.reduce((sum, c) => sum + parseCost(c.cost), 0);
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       <Link to="/programs" className="text-primary hover:underline text-sm">
         &larr; Back to Programs
       </Link>
-      <h1 className="text-3xl font-bold">{program.name}</h1>
-      <p className="text-muted-foreground">{program.description}</p>
+
+      <div>
+        <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          {provider?.name ?? program.providerSlug}
+        </span>
+        <div className="mt-1 flex items-center gap-3">
+          <h1 className="text-3xl font-bold">{program.name}</h1>
+          <Badge
+            variant={program.status === "active" ? "default" : "destructive"}
+          >
+            {program.status}
+          </Badge>
+        </div>
+        <p className="mt-2 text-muted-foreground">{program.description}</p>
+        <a
+          href={program.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 inline-block text-sm text-primary hover:underline"
+        >
+          Official program page &rarr;
+        </a>
+      </div>
+
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-lg">Completion Criteria</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <dl className="space-y-3 text-sm">
+            <div>
+              <dt className="font-medium text-muted-foreground">
+                Required Certifications
+              </dt>
+              <dd>
+                {program.completionCriteria.required} certification
+                {program.completionCriteria.required !== 1 && "s"}
+              </dd>
+            </div>
+            {program.completionCriteria.notes && (
+              <div>
+                <dt className="font-medium text-muted-foreground">Notes</dt>
+                <dd>{program.completionCriteria.notes}</dd>
+              </div>
+            )}
+            {totalCost > 0 && (
+              <div>
+                <dt className="font-medium text-muted-foreground">
+                  Estimated Total Cost
+                </dt>
+                <dd>${totalCost.toLocaleString()} USD</dd>
+              </div>
+            )}
+          </dl>
+        </CardContent>
+      </Card>
 
       {sortedPhases.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="text-xl font-semibold">Phases</h2>
-          <ol className="space-y-2 ml-4 list-decimal list-inside">
-            {sortedPhases.map((phase) => (
-              <li key={phase.name}>
-                <span className="font-medium">{phase.name}</span>
-                {phase.certificateSlugs.length > 0 && (
-                  <span className="text-muted-foreground text-sm">
-                    {" "}
-                    ({phase.certificateSlugs.length} cert
-                    {phase.certificateSlugs.length !== 1 && "s"})
-                  </span>
-                )}
-              </li>
-            ))}
-          </ol>
+        <section className="space-y-6">
+          <h2 className="text-xl font-semibold">Certification Phases</h2>
+          {sortedPhases.map((phase) => (
+            <div key={phase.name} className="space-y-3">
+              <h3 className="text-lg font-medium">
+                Phase {phase.order}: {phase.name}
+                <span className="ml-2 text-sm font-normal text-muted-foreground">
+                  ({phase.certificateSlugs.length} cert
+                  {phase.certificateSlugs.length !== 1 && "s"})
+                </span>
+              </h3>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {phase.certificateSlugs.map((certSlug) => {
+                  const cert = getCertBySlug(certSlug);
+                  if (!cert) {
+                    return (
+                      <Card key={certSlug}>
+                        <CardHeader>
+                          <CardTitle className="text-lg">{certSlug}</CardTitle>
+                          <CardDescription>
+                            Certification data unavailable
+                          </CardDescription>
+                        </CardHeader>
+                      </Card>
+                    );
+                  }
+                  return (
+                    <Link
+                      key={certSlug}
+                      to={`/cert/${cert.slug}`}
+                      className="group"
+                    >
+                      <Card className="h-full transition-shadow hover:shadow-md">
+                        <CardHeader>
+                          <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                            {cert.shortName ?? cert.name}
+                          </CardTitle>
+                          <CardDescription className="line-clamp-2">
+                            {cert.description}
+                          </CardDescription>
+                        </CardHeader>
+                        <CardContent>
+                          <div className="flex flex-wrap gap-1">
+                            {cert.tags.slice(0, 3).map((tag) => (
+                              <Badge key={tag} variant="secondary">
+                                {tag}
+                              </Badge>
+                            ))}
+                          </div>
+                          {cert.cost && (
+                            <p className="mt-3 text-sm font-medium">
+                              {cert.cost}
+                            </p>
+                          )}
+                        </CardContent>
+                      </Card>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
         </section>
       )}
-
-      {certs.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="text-xl font-semibold">Required Certifications</h2>
-          <ul className="space-y-1 ml-4 list-disc list-inside">
-            {certs.map((c) => (
-              <li key={c.slug}>
-                <Link
-                  to={`/cert/${c.slug}`}
-                  className="text-primary hover:underline"
-                >
-                  {c.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      <section className="space-y-2">
-        <h2 className="text-xl font-semibold">Completion Criteria</h2>
-        <p>
-          <span className="font-medium">{program.completionCriteria.required}</span>{" "}
-          certification{program.completionCriteria.required !== 1 && "s"} required
-        </p>
-        {program.completionCriteria.notes && (
-          <p className="text-muted-foreground text-sm">
-            {program.completionCriteria.notes}
-          </p>
-        )}
-      </section>
     </div>
   );
 }
