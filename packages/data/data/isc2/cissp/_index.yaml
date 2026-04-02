@@ -30,6 +30,8 @@ related_certs:
   - cissp-issmp
   - cc
   - comptia-security-plus
+  - cisa
+  - cism
 
 versions: []
 

@@ -22,6 +22,9 @@ prerequisites:
 
 related_certs:
   - cissp
+  - cisa
+  - crisc
+  - cgeit
 
 versions: []
 

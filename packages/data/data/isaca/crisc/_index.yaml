@@ -1,0 +1,44 @@
+name: Certified in Risk and Information Systems Control
+short_name: CRISC
+slug: crisc
+status: active
+cost: "$575 USD (ISACA member) / $760 USD (non-member)"
+
+description: >-
+  The CRISC certification validates expertise in identifying, assessing,
+  and managing IT and enterprise risk, and in designing, implementing,
+  and maintaining information systems controls. It is the only certification
+  focused on enterprise IT risk management.
+
+tags:
+  - cybersecurity
+  - risk
+  - governance
+  - advanced
+  - isaca
+
+prerequisites:
+  - Three years of professional experience in IT risk management and IS control
+
+related_certs:
+  - cisa
+  - cism
+  - cgeit
+  - cissp
+  - cgrc
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isaca.org/credentialing/crisc
+    type: official
+  - label: CRISC Exam Content Outline
+    url: https://www.isaca.org/credentialing/crisc/crisc-exam-content-outline
+    type: source-of-truth
+  - label: r/ISACA
+    url: https://www.reddit.com/r/ISACA/
+    type: community
+
+source_of_truth_url: https://www.isaca.org/credentialing/crisc
+last_verified: "2026-04-01"

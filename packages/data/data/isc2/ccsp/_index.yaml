@@ -22,6 +22,7 @@ prerequisites:
 related_certs:
   - cissp
   - aws-solutions-architect-associate
+  - cism
 
 versions: []
 

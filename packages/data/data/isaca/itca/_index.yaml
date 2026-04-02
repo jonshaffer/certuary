@@ -1,0 +1,38 @@
+name: Information Technology Certified Associate
+short_name: ITCA
+slug: itca
+status: retired
+cost: "N/A"
+
+description: >-
+  The ITCA was ISACA's entry-level, modular IT certificate program designed
+  for early-career professionals and career changers. It covered five key
+  domains through individual certificate exams: IT Fundamentals, Networking
+  and Infrastructure, Cybersecurity, Data Science, and Software Development.
+  The program was discontinued in January 2026.
+
+tags:
+  - it-fundamentals
+  - entry-level
+  - isaca
+
+prerequisites: []
+
+related_certs:
+  - cisa
+  - cism
+  - comptia-a-plus
+  - cc
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.isaca.org/credentialing/itca
+    type: official
+  - label: r/ISACA
+    url: https://www.reddit.com/r/ISACA/
+    type: community
+
+source_of_truth_url: https://www.isaca.org/credentialing/itca
+last_verified: "2026-04-01"
