@@ -101,7 +101,7 @@ export function CertDetailPage() {
                   <dd>
                     {cert.questionCount.approximate ? "~" : ""}
                     {cert.questionCount.min}
-                    {cert.questionCount.max ? `–${cert.questionCount.max}` : ""}
+                    {cert.questionCount.max != null ? `–${cert.questionCount.max}` : ""}
                   </dd>
                 </div>
               )}
