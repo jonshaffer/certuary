@@ -16,7 +16,7 @@ export interface ResolvedPath {
  * Expands all prerequisite certs via BFS starting from the selected slugs.
  * Returns a map of slug → isAutoAdded (false for user-selected, true for prereqs).
  */
-function expandPrerequisites(
+export function expandPrerequisites(
   selectedSlugs: Set<string>,
 ): Map<string, boolean> {
   const expanded = new Map<string, boolean>();

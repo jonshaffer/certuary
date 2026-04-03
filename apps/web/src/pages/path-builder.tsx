@@ -5,7 +5,7 @@ import {
   getAllPrograms,
   getCertBySlug,
 } from "@certuary/data";
-import { resolvePath } from "@/lib/path-resolver";
+import { resolvePath, expandPrerequisites } from "@/lib/path-resolver";
 import { CertSelector } from "@/components/path-builder/cert-selector";
 import { ProgramShortcuts } from "@/components/path-builder/program-shortcuts";
 import { HeldCerts } from "@/components/path-builder/held-certs";
@@ -28,16 +28,13 @@ export function PathBuilderPage() {
     [selectedSlugs, heldSlugs],
   );
 
-  // All certs in the expanded path (for the "already held" list)
+  // All certs in the expanded path (before held filtering, so held certs remain visible)
   const certsInPath = useMemo(() => {
-    const allSlugs = new Set([
-      ...selectedSlugs,
-      ...resolvedPath.ordered.map((e) => e.slug),
-    ]);
-    return [...allSlugs]
+    const allSlugsInPath = expandPrerequisites(selectedSlugs);
+    return [...allSlugsInPath.keys()]
       .map((slug) => getCertBySlug(slug))
-      .filter((c) => c !== undefined);
-  }, [selectedSlugs, resolvedPath]);
+      .filter((c): c is NonNullable<typeof c> => !!c);
+  }, [selectedSlugs]);
 
   const toggleCertSelection = useCallback((slug: string) => {
     setSelectedSlugs((prev) => {

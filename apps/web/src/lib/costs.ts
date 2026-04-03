@@ -4,6 +4,6 @@ export function parseCost(cost: string | undefined): number {
   if (!trimmed.startsWith("$")) return 0;
   const dollarSigns = trimmed.match(/\$/g);
   if (!dollarSigns || dollarSigns.length !== 1) return 0;
-  const match = trimmed.match(/^\$(\d[\d,]*)/);
+  const match = trimmed.match(/^\$(\d{1,3}(?:,?\d{3})*|\d+)/);
   return match ? Number(match[1].replace(/,/g, "")) : 0;
 }
