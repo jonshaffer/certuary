@@ -1,0 +1,53 @@
+name: GitHub Administration
+short_name: GH Admin
+slug: github-administration
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 120
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates expertise in managing and administering GitHub environments. Covers
+  user identity and access management, repository administration, organization
+  policies, GitHub Actions configuration, and security controls for enterprise
+  deployments.
+
+tags:
+  - github
+  - administration
+  - intermediate
+  - enterprise
+
+prerequisites:
+  - Experience administering GitHub organizations or enterprise accounts
+
+related_certs:
+  - github-foundations
+  - github-advanced-security
+
+versions:
+  - version: GH-100
+    release_date: "2024-01-08"
+    notes: >-
+      Initial release covering GitHub enterprise administration, user
+      management, repository structure, and security configuration.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://resources.github.com/learn/certifications/
+    type: official
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/github-administration/
+    type: official
+  - label: GitHub Administration Documentation
+    url: https://docs.github.com/en/admin
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-administration/
+last_verified: "2026-04-03"

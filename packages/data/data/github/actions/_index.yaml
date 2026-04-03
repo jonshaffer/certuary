@@ -1,0 +1,54 @@
+name: GitHub Actions
+short_name: GH Actions
+slug: github-actions
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 120
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates expertise in automating workflows and CI/CD pipelines with GitHub
+  Actions. Covers workflow creation, action authoring, secret management,
+  self-hosted runners, and managing Actions for enterprise environments.
+
+tags:
+  - github
+  - ci-cd
+  - devops
+  - intermediate
+  - automation
+
+prerequisites:
+  - Working experience with GitHub Actions workflows and CI/CD concepts
+
+related_certs:
+  - github-foundations
+  - github-advanced-security
+  - github-administration
+
+versions:
+  - version: GH-200
+    release_date: "2024-01-08"
+    notes: >-
+      Initial release covering workflow authoring, action development,
+      and CI/CD pipeline management with GitHub Actions.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://resources.github.com/learn/certifications/
+    type: official
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/github-actions/
+    type: official
+  - label: GitHub Actions Documentation
+    url: https://docs.github.com/en/actions
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-actions/
+last_verified: "2026-04-03"
