@@ -1,0 +1,42 @@
+slug: cisco-certification-path
+name: Cisco Certification Path
+description: >-
+  Cisco's tiered certification framework progressing from associate-level
+  foundational skills through professional specialization to expert-level
+  lab-based validation across networking, security, data center, collaboration,
+  service provider, DevNet, and CyberOps tracks.
+website: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html
+status: active
+required_certs: []
+phases:
+  - name: Associate
+    order: 1
+    certificate_slugs:
+      - ccna
+      - cyberops-associate
+      - devnet-associate
+  - name: Professional
+    order: 2
+    certificate_slugs:
+      - ccnp-enterprise
+      - ccnp-security
+      - ccnp-data-center
+      - ccnp-collaboration
+      - ccnp-service-provider
+      - cyberops-professional
+      - devnet-professional
+  - name: Expert
+    order: 3
+    certificate_slugs:
+      - ccie-enterprise-infrastructure
+      - ccie-enterprise-wireless
+      - ccie-security
+      - ccie-data-center
+      - ccie-collaboration
+      - ccie-service-provider
+      - devnet-expert
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Cisco recommends progressing from Associate
+    to Professional to Expert within a chosen specialization track.

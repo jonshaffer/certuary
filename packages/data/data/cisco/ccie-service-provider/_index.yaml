@@ -1,0 +1,52 @@
+name: CCIE Service Provider
+short_name: CCIE SP
+slug: ccie-service-provider
+status: active
+cost: "$1,600 USD (lab exam)"
+exam_format: performance-based
+duration_minutes: 480
+
+description: >-
+  Validates expert-level knowledge of service provider networking through an
+  8-hour hands-on lab exam covering complex service provider technologies
+  including core architecture, services, networking, automation, and transport.
+  Requires passing the CCNP Service Provider SPCOR exam as a qualifying exam.
+
+tags:
+  - service-provider
+  - expert
+  - cisco
+  - networking
+  - mpls
+  - ccie
+
+prerequisites:
+  - 5-7 years of service provider networking experience recommended
+  - Must pass SPCOR (350-501) qualifying exam before scheduling lab
+
+prerequisite_certs:
+  - ccnp-service-provider
+
+related_certs:
+  - ccnp-service-provider
+
+versions:
+  - version: "v3.0"
+    release_date: "2020-02-24"
+    notes: >-
+      Updated lab exam aligned with the CCNP Service Provider SPCOR core exam
+      topics.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/service-provider/ccie-service-provider/index.html
+    type: official
+  - label: CCIE SP Lab Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccie-service-provider-exam-topics
+    type: source-of-truth
+  - label: r/ccie
+    url: https://www.reddit.com/r/ccie/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/service-provider/ccie-service-provider/index.html
+last_verified: "2026-04-01"

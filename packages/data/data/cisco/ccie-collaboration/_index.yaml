@@ -1,0 +1,52 @@
+name: CCIE Collaboration
+short_name: CCIE Collab
+slug: ccie-collaboration
+status: active
+cost: "$1,600 USD (lab exam)"
+exam_format: performance-based
+duration_minutes: 480
+
+description: >-
+  Validates expert-level knowledge of collaboration solutions through an
+  8-hour hands-on lab exam covering complex unified communications
+  technologies including call control, QoS, messaging, presence, and
+  collaboration endpoints. Requires passing the CCNP Collaboration CLCOR
+  exam as a qualifying exam.
+
+tags:
+  - collaboration
+  - expert
+  - cisco
+  - unified-communications
+  - ccie
+
+prerequisites:
+  - 5-7 years of collaboration solutions experience recommended
+  - Must pass CLCOR (350-801) qualifying exam before scheduling lab
+
+prerequisite_certs:
+  - ccnp-collaboration
+
+related_certs:
+  - ccnp-collaboration
+
+versions:
+  - version: "v3.0"
+    release_date: "2020-02-24"
+    notes: >-
+      Updated lab exam aligned with the CCNP Collaboration CLCOR core exam
+      topics.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/collaboration/ccie-collaboration/index.html
+    type: official
+  - label: CCIE Collaboration Lab Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccie-collaboration-exam-topics
+    type: source-of-truth
+  - label: r/ccie
+    url: https://www.reddit.com/r/ccie/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/collaboration/ccie-collaboration/index.html
+last_verified: "2026-04-01"

@@ -1,0 +1,50 @@
+name: CCIE Data Center
+short_name: CCIE DC
+slug: ccie-data-center
+status: active
+cost: "$1,600 USD (lab exam)"
+exam_format: performance-based
+duration_minutes: 480
+
+description: >-
+  Validates expert-level knowledge of data center infrastructure through an
+  8-hour hands-on lab exam covering complex data center technologies including
+  network, compute, storage networking, automation, and security. Requires
+  passing the CCNP Data Center DCCOR exam as a qualifying exam.
+
+tags:
+  - data-center
+  - expert
+  - cisco
+  - networking
+  - ccie
+
+prerequisites:
+  - 5-7 years of data center infrastructure experience recommended
+  - Must pass DCCOR (350-601) qualifying exam before scheduling lab
+
+prerequisite_certs:
+  - ccnp-data-center
+
+related_certs:
+  - ccnp-data-center
+
+versions:
+  - version: "v3.0"
+    release_date: "2020-02-24"
+    notes: >-
+      Updated lab exam aligned with the CCNP Data Center DCCOR core exam topics.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/data-center/ccie-data-center/index.html
+    type: official
+  - label: CCIE DC Lab Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccie-data-center-exam-topics
+    type: source-of-truth
+  - label: r/ccie
+    url: https://www.reddit.com/r/ccie/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/data-center/ccie-data-center/index.html
+last_verified: "2026-04-01"
