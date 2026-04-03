@@ -7,6 +7,7 @@ exam_format: multiple-choice
 duration_minutes: 90
 question_count:
   min: 45
+passing_score: 77
 
 description: >-
   The Certified SAFe Agilist (SA) credential validates knowledge in leading
@@ -33,6 +34,11 @@ related_certs:
   - safe-lpm
   - pmi-pmp
   - pmi-acp
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
 
 links:
   - label: Official Certification Page

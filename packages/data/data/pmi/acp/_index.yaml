@@ -29,6 +29,8 @@ related_certs:
   - pmi-pmp
   - scrum-org-psm-i
   - scrum-org-pspo-i
+  - safe-agilist
+  - safe-scrum-master
 
 versions: []
 
