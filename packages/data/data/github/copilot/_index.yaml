@@ -42,12 +42,12 @@ links:
   - label: Official Certification Page
     url: https://resources.github.com/learn/certifications/
     type: official
-  - label: Microsoft Learn Study Guide
+  - label: Official Certification Page
     url: https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/
-    type: source-of-truth
+    type: official
   - label: GitHub Copilot Documentation
     url: https://docs.github.com/en/copilot
-    type: official
+    type: source-of-truth
 
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/
 last_verified: "2026-04-03"

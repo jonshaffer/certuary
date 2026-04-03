@@ -42,12 +42,12 @@ links:
   - label: Official Certification Page
     url: https://resources.github.com/learn/certifications/
     type: official
-  - label: Microsoft Learn Study Guide
+  - label: Official Certification Page
     url: https://learn.microsoft.com/en-us/credentials/certifications/github-administration/
-    type: source-of-truth
+    type: official
   - label: GitHub Administration Documentation
     url: https://docs.github.com/en/admin
-    type: official
+    type: source-of-truth
 
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-administration/
 last_verified: "2026-04-03"
