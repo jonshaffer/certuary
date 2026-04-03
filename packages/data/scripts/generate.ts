@@ -15,9 +15,8 @@ interface RawProvider {
 
 interface RawExamDomain {
   name: string;
-  weight: number;
-  topic_categories?: string[];
-  topics?: string[];
+  weight?: number;
+  subdomains?: RawExamDomain[];
 }
 
 interface RawCert {
@@ -26,12 +25,17 @@ interface RawCert {
   short_name?: string;
   status: string;
   cost?: string;
+  exam_format?: string;
+  passing_score?: number;
+  duration_minutes?: number;
+  question_count?: { min: number; max?: number; approximate?: boolean };
   description: string;
   tags?: string[];
   prerequisites?: string[];
   related_certs?: string[];
   domains?: RawExamDomain[];
   prerequisite_certs?: string[];
+  domain_source_url?: string;
   versions?: {
     version: string;
     release_date?: string;
@@ -59,9 +63,23 @@ interface RawProgram {
     order: number;
     certificate_slugs: string[];
   }[];
+  ordering_strategies?: {
+    slug: string;
+    name: string;
+    description?: string;
+    phases: { name: string; order: number; certificate_slugs: string[] }[];
+  }[];
   completion_criteria?: {
     required: number;
     notes?: string;
+  };
+}
+
+function mapDomain(d: RawExamDomain): object {
+  return {
+    name: d.name,
+    ...(d.weight != null ? { weight: d.weight } : {}),
+    ...(d.subdomains ? { subdomains: d.subdomains.map(mapDomain) } : {}),
   };
 }
 
@@ -116,6 +134,10 @@ function generate() {
         description: raw.description,
         status: raw.status,
         ...(raw.cost ? { cost: raw.cost } : {}),
+        ...(raw.exam_format ? { examFormat: raw.exam_format } : {}),
+        ...(raw.passing_score != null ? { passingScore: raw.passing_score } : {}),
+        ...(raw.duration_minutes != null ? { durationMinutes: raw.duration_minutes } : {}),
+        ...(raw.question_count ? { questionCount: raw.question_count } : {}),
         prerequisites: raw.prerequisites ?? [],
         tags: raw.tags ?? [],
         links: (raw.links ?? []).map((l) => ({
@@ -130,13 +152,9 @@ function generate() {
           ...(v.notes ? { notes: v.notes } : {}),
         })),
         relatedCertSlugs: raw.related_certs ?? [],
-        domains: (raw.domains ?? []).map((d) => ({
-          name: d.name,
-          weight: d.weight,
-          ...(d.topic_categories ? { topicCategories: d.topic_categories } : {}),
-          ...(d.topics ? { topics: d.topics } : {}),
-        })),
+        domains: (raw.domains ?? []).map(mapDomain),
         prerequisiteCerts: raw.prerequisite_certs ?? [],
+        ...(raw.domain_source_url ? { domainSourceUrl: raw.domain_source_url } : {}),
         ...(raw.last_verified ? { lastVerified: raw.last_verified } : {}),
         ...(raw.source_of_truth_url ? { sourceOfTruthUrl: raw.source_of_truth_url } : {}),
       });
@@ -165,6 +183,20 @@ function generate() {
             order: p.order,
             certificateSlugs: p.certificate_slugs,
           })),
+          ...(raw.ordering_strategies
+            ? {
+                orderingStrategies: raw.ordering_strategies.map((s) => ({
+                  slug: s.slug,
+                  name: s.name,
+                  ...(s.description ? { description: s.description } : {}),
+                  phases: s.phases.map((p) => ({
+                    name: p.name,
+                    order: p.order,
+                    certificateSlugs: p.certificate_slugs,
+                  })),
+                })),
+              }
+            : {}),
           completionCriteria: raw.completion_criteria ?? { required: 0 },
         });
       }

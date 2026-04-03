@@ -3,6 +3,12 @@ short_name: CKS
 slug: cks
 status: active
 cost: "$445 USD"
+exam_format: performance-based
+passing_score: 67
+duration_minutes: 120
+question_count:
+  min: 17
+  approximate: true
 
 description: >-
   Validates advanced Kubernetes security skills including cluster hardening,
@@ -28,6 +34,20 @@ related_certs:
   - kcna
 
 versions: []
+
+domains:
+  - name: Cluster Setup
+    weight: 10
+  - name: Cluster Hardening
+    weight: 15
+  - name: System Hardening
+    weight: 15
+  - name: Minimize Microservice Vulnerabilities
+    weight: 20
+  - name: Supply Chain Security
+    weight: 20
+  - name: Monitoring, Logging and Runtime Security
+    weight: 20
 
 links:
   - label: Official Certification Page

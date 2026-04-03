@@ -3,6 +3,11 @@ short_name: CNPA
 slug: cnpa
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 64
+duration_minutes: 120
+question_count:
+  min: 60
 
 description: >-
   Validates foundational knowledge of platform engineering concepts
@@ -26,6 +31,16 @@ related_certs:
   - cgoa
 
 versions: []
+
+domains:
+  - name: Platform Engineering Fundamentals
+    weight: 25
+  - name: Building Platforms on Kubernetes
+    weight: 25
+  - name: Platform Capabilities and Services
+    weight: 25
+  - name: Platform Product Management
+    weight: 25
 
 links:
   - label: Official Certification Page

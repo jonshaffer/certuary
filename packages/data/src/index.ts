@@ -4,11 +4,14 @@ export type {
   CertVersion,
   CertStatus,
   ExamDomain,
+  ExamFormat,
+  OrderingStrategy,
   Program,
   ProgramCompletionCriteria,
   ProgramPhase,
   ProgramStatus,
   Provider,
+  QuestionCount,
 } from "./types.js";
 export { certifications, programs, providers } from "./generated.js";
 export {

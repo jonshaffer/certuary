@@ -3,6 +3,12 @@ short_name: LFCS
 slug: lfcs
 status: active
 cost: "$445 USD"
+exam_format: performance-based
+passing_score: 67
+duration_minutes: 120
+question_count:
+  min: 17
+  approximate: true
 
 description: >-
   Validates the ability to perform Linux system administration tasks
@@ -24,6 +30,20 @@ related_certs:
   - cka
 
 versions: []
+
+domains:
+  - name: Essential Commands
+    weight: 25
+  - name: Operation of Running Systems
+    weight: 20
+  - name: User and Group Management
+    weight: 10
+  - name: Networking
+    weight: 12
+  - name: Service Configuration
+    weight: 20
+  - name: Storage Management
+    weight: 13
 
 links:
   - label: Official Certification Page

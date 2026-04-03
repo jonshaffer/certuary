@@ -3,6 +3,11 @@ short_name: CGOA
 slug: cgoa
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 90
+question_count:
+  min: 60
 
 description: >-
   Validates understanding of GitOps principles, practices, and tooling
@@ -26,6 +31,18 @@ related_certs:
   - ckad
 
 versions: []
+
+domains:
+  - name: GitOps Terminology
+    weight: 20
+  - name: GitOps Principles
+    weight: 30
+  - name: Related Practices
+    weight: 16
+  - name: GitOps Patterns
+    weight: 20
+  - name: Tooling
+    weight: 14
 
 links:
   - label: Official Certification Page
