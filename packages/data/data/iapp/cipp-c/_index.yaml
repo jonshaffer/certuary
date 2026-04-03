@@ -31,6 +31,27 @@ related_certs:
   - cdpse
   - cissp
 
+domains:
+  - name: Introduction to Privacy in Canada
+    subdomains:
+      - name: Understand the Canadian governmental structure
+      - name: Apply privacy basics
+      - name: Understand the development of privacy principles
+      - name: Understand international privacy and implement where applicable
+  - name: "Canadian Privacy Laws and Practices \u2013 Private Sector"
+    subdomains:
+      - name: Know the Privacy Principles that are the foundation of PIPEDA and provincial private sector laws
+      - name: Know when provincial legislation is applicable instead of PIPEDA
+      - name: "Understand Canada\u2019s Anti-Spam Legislation (CASL)"
+  - name: "Canadian Privacy Laws and Practices \u2013 Public Sector"
+    subdomains:
+      - name: Know the Privacy Principles that are the foundation of the Privacy Act
+      - name: Conduct Privacy Impact Assessments
+      - name: Understand the applicability of the Freedom of Information and Protection of Privacy Acts
+  - name: "Canadian Privacy Laws and Practices \u2013 Health Sector"
+    subdomains:
+      - name: Understand when to apply the various health privacy acts of the provinces and territories
+
 versions: []
 
 links:

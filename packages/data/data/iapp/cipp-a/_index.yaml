@@ -31,6 +31,34 @@ related_certs:
   - cdpse
   - cissp
 
+domains:
+  - name: Privacy Fundamentals
+    subdomains:
+      - name: Modern Privacy Principles
+      - name: Adequacy and the Rest of the World
+      - name: Elements of personal information
+  - name: Singapore Privacy Laws and Practices
+    subdomains:
+      - name: Legislative history and origins
+      - name: Personal Data Protection Act 2012 (PDPA)
+      - name: Enforcement
+  - name: Hong Kong Privacy Laws and Practices
+    subdomains:
+      - name: Legislative history and origins
+      - name: Personal Data (Privacy) Ordinance (PDPO)
+      - name: Enforcement
+  - name: India Privacy Law and Practices
+    subdomains:
+      - name: Legislative history and origins
+      - name: Digital Personal Data Protection Act 2023 (DPDPA)
+      - name: Enforcement
+  - name: Common themes among principle frameworks
+    subdomains:
+      - name: Comparing protections and principles
+      - name: Rights of the data subject
+
+domain_source_url: https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt56a359d5dc6970dd/CIPP_Asia_BOK.pdf
+
 versions: []
 
 links:

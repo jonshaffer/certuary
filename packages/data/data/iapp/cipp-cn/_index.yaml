@@ -31,6 +31,34 @@ related_certs:
   - cdpse
   - cissp
 
+domains:
+  - name: Introduction to Personal Information Protection in China
+    subdomains:
+      - name: "Understand the main concepts of China\u2019s statutory and regulatory frameworks"
+      - name: Understand the different roles and responsibilities of the supervisory authorities
+  - name: The Personal Information Protection Law
+    subdomains:
+      - name: Understand the Personal Information Protection concepts as defined in PIPL
+      - name: Understand the principles that inform personal information processing activities
+      - name: Understand the scope of application of the Personal Information Protection Law
+      - name: Comply with the legal requirements for personal information processing
+      - name: "Ensure organizational compliance with personal information subject\u2019s rights"
+      - name: Implement the requirements for cross border data transfers
+      - name: Ensure accountability procedures and requirements for internal and external stakeholders
+      - name: Understand PIPL enforcement penalties and reporting requirements
+      - name: Understand the requirements when personal information is used in automated decision-making
+  - name: Sectoral Regulations and Compliance
+    subdomains:
+      - name: Ensure criminal records processing conforms to data processing requirements
+      - name: Ensure compliance with the Internet applications (apps) and electronic marketing laws
+      - name: Ensure compliance with child and minor protection laws
+      - name: Ensure compliance with processing requirements for banks and financial institutions
+      - name: Understand the regulatory obligations that apply to Internet platforms
+      - name: Understand personal information processing requirements in the automotive industry
+      - name: Ensure responsible governance of emerging technologies
+      - name: Ensure compliance with personal information processing requirements in an employment context
+      - name: Ensure compliance with collection and processing restrictions of health and human genetic data
+
 versions: []
 
 links:

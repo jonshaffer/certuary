@@ -31,6 +31,38 @@ related_certs:
   - cdpse
   - cissp
 
+domains:
+  - name: Introduction to European Data Protection
+    subdomains:
+      - name: Understand the origins and historical context of European data protection laws
+      - name: Understand the roles and functions of significant European Union institutions
+      - name: Understand the legislative framework underpinning the principles of European data protection
+  - name: European Data Protection Law and Regulation
+    subdomains:
+      - name: Understand basic GDPR data protection concepts
+      - name: Understand the requirements involved in maintaining the security of personal data
+      - name: "Understand data subjects\u2019 rights"
+  - name: European Data Processing
+    subdomains:
+      - name: Understand the principles of European data processing
+      - name: Know what constitutes a lawful processing basis
+      - name: Understand information provision obligations
+      - name: "Understand the principles of, and the risks involved in, international data transfers"
+  - name: "European Data Protection: Scope and Accountability"
+    subdomains:
+      - name: Understand issues related to the territorial and material scope of the GDPR
+      - name: Understand the various accountability requirements under the GDPR
+      - name: Understand the European data protection supervision and enforcement structure
+      - name: Understand the consequences for GDPR violations
+  - name: Compliance with European Data Protection Law and Regulation
+    subdomains:
+      - name: Understand how to comply with European data protection laws and regulations in the workplace
+      - name: Understand how to comply with European data protection laws and regulations related to surveillance activities
+      - name: Understand how to comply with European data protection laws and regulations related to direct marketing
+      - name: Understand how to comply with European data protection laws and regulations related to internet technology and communications
+
+domain_source_url: https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blte39ae9567661b3d2/IAPP_Training-CIPPE_BOK.pdf
+
 versions: []
 
 links:

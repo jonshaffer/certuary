@@ -32,6 +32,36 @@ related_certs:
   - cissp
   - hcispp
 
+domains:
+  - name: The U.S. Privacy Environment
+    subdomains:
+      - name: Understand the U.S. legal framework
+      - name: Understand the enforcement framework for U.S. privacy and security laws
+      - name: Understand the principles of information management from a U.S. perspective
+  - name: Federal Privacy Laws
+    subdomains:
+      - name: Understand how the Federal Trade Commission addresses consumer protection in regard to privacy and security
+      - name: Understand how healthcare and medical privacy is regulated
+      - name: Understand how financial sector privacy is regulated
+      - name: Understand how education sector privacy is regulated
+      - name: Understand how privacy is regulated in telecommunications and marketing activities
+  - name: Government and Court Access to Private-sector Information
+    subdomains:
+      - name: Understand the relationship between law enforcement and privacy issues
+      - name: Understand the relationship between national security and privacy
+      - name: Understand issues regarding civil litigation and privacy
+  - name: Workplace Privacy
+    subdomains:
+      - name: Understand the issues involved in workplace privacy
+      - name: "Understand workplace privacy issues that arise before, during and after employment"
+  - name: State Privacy Laws
+    subdomains:
+      - name: Understand concepts of authority governing state privacy laws
+      - name: Understand the key concepts and principles of state data privacy and security laws
+      - name: Understand the key principles of state data breach notification laws
+
+domain_source_url: https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt5ce0594463e20917/IAPP_Training-CIPPUS_BOK.pdf
+
 versions: []
 
 links:
