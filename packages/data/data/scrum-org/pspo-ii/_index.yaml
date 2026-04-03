@@ -28,7 +28,6 @@ prerequisite_certs:
   - scrum-org-pspo-i
 
 related_certs:
-  - scrum-org-pspo-i
   - scrum-org-pspo-iii
   - scrum-org-psm-i
   - scrum-org-psu-i

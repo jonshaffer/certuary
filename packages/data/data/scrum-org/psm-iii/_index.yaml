@@ -3,7 +3,6 @@ short_name: PSM III
 slug: scrum-org-psm-iii
 status: active
 cost: "$500 USD"
-exam_format: multiple-choice
 passing_score: 85
 duration_minutes: 120
 question_count:
@@ -31,7 +30,6 @@ prerequisite_certs:
 
 related_certs:
   - scrum-org-psm-i
-  - scrum-org-psm-ii
   - scrum-org-pspo-i
   - scrum-org-psd-i
   - scrum-org-sps
