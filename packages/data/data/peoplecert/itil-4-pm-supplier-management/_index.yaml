@@ -1,0 +1,44 @@
+name: "ITIL 4 Practice Manager: Supplier Management"
+short_name: "ITIL 4 PM: SM"
+slug: itil-4-pm-supplier-management
+status: active
+cost: "$285 USD"
+
+description: >-
+  The ITIL 4 Practice Manager: Supplier Management module validates the
+  ability to ensure that an organization's suppliers and their performance
+  levels are managed appropriately to support the provision of seamless,
+  quality products and services.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - practice-manager
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-pm-relationship-management
+  - itil-4-pm-service-level-management
+  - itil-4-dsv
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-practice-manager-supplier-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-supplier-management
+last_verified: "2026-04-03"

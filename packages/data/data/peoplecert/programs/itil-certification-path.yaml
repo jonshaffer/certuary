@@ -1,0 +1,61 @@
+slug: itil-certification-path
+name: ITIL 4 Certification Path
+description: >-
+  The ITIL 4 certification scheme provides a comprehensive framework for
+  IT service management professionals, progressing from foundational knowledge
+  through specialized modules to advanced designations including Managing
+  Professional, Strategic Leader, and Practice Manager.
+website: https://www.peoplecert.org/ways-to-get-certified/itil-702
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - itil-4-foundation
+  - name: Managing Professional
+    order: 2
+    certificate_slugs:
+      - itil-4-cds
+      - itil-4-dsv
+      - itil-4-hvit
+      - itil-4-dpi
+  - name: Strategic Leader
+    order: 3
+    certificate_slugs:
+      - itil-4-dpi
+      - itil-4-dits
+  - name: Extension Modules
+    order: 4
+    certificate_slugs:
+      - itil-4-cloud-services
+      - itil-4-sustainability
+      - itil-4-brm
+      - itil-4-itam
+      - itil-4-msf
+      - itil-4-pic
+  - name: Practice Manager
+    order: 5
+    certificate_slugs:
+      - itil-4-pm-incident-management
+      - itil-4-pm-problem-management
+      - itil-4-pm-change-enablement
+      - itil-4-pm-service-desk
+      - itil-4-pm-service-request-management
+      - itil-4-pm-monitoring-and-event-management
+      - itil-4-pm-deployment-management
+      - itil-4-pm-relationship-management
+      - itil-4-pm-supplier-management
+      - itil-4-pm-service-level-management
+      - itil-4-pm-capacity-and-performance-management
+      - itil-4-pm-availability-management
+      - itil-4-pm-it-service-continuity-management
+      - itil-4-pm-information-security-management
+      - itil-4-pm-service-configuration-management
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. ITIL 4 recommends starting with Foundation,
+    then pursuing the Managing Professional or Strategic Leader designation
+    based on career goals. Extension Modules and Practice Manager modules
+    provide additional specialization.

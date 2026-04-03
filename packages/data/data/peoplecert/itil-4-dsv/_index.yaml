@@ -1,0 +1,46 @@
+name: "ITIL 4 Specialist: Drive Stakeholder Value"
+short_name: ITIL 4 DSV
+slug: itil-4-dsv
+status: active
+cost: "$495 USD"
+
+description: >-
+  The ITIL 4 Specialist: Drive Stakeholder Value module covers all types
+  of engagement and interaction between a service provider and their
+  customers, users, suppliers, and partners. It focuses on the conversion
+  of demand into value through IT-enabled services, covering topics such as
+  SLA design, multi-supplier management, customer journey mapping,
+  and relationship management.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - managing-professional
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-cds
+  - itil-4-hvit
+  - itil-4-dpi
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-specialist-drive-stakeholder-value
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-drive-stakeholder-value
+last_verified: "2026-04-03"

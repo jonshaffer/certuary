@@ -1,0 +1,43 @@
+name: "ITIL 4 Specialist: Sustainability in Digital & IT"
+short_name: ITIL 4 Sustainability
+slug: itil-4-sustainability
+status: active
+cost: "$495 USD"
+
+description: >-
+  The ITIL 4 Specialist: Sustainability in Digital & IT module addresses how
+  organizations can embed sustainability principles within their digital and
+  IT strategies. It covers sustainable IT practices, green IT, and how to
+  measure and improve the environmental impact of IT services.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - sustainability
+  - intermediate
+  - peoplecert
+  - extension-module
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-dits
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-specialist-sustainability-in-digital-it
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-sustainability-in-digital-it
+last_verified: "2026-04-03"

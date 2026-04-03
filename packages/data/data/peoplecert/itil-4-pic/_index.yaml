@@ -1,0 +1,45 @@
+name: "ITIL 4 Specialist: Plan, Implement & Control"
+short_name: ITIL 4 PIC
+slug: itil-4-pic
+status: active
+cost: "$495 USD"
+
+description: >-
+  The ITIL 4 Specialist: Plan, Implement & Control module covers the
+  planning, implementation, and control aspects of IT service management,
+  including change enablement, deployment management, release management,
+  and service configuration management.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - operations
+  - intermediate
+  - peoplecert
+  - extension-module
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-cds
+  - itil-4-pm-change-enablement
+  - itil-4-pm-deployment-management
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-specialist-plan-implement-and-control
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-plan-implement-and-control
+last_verified: "2026-04-03"

@@ -1,0 +1,44 @@
+name: "ITIL 4 Specialist: Acquiring & Managing Cloud Services"
+short_name: ITIL 4 AMCS
+slug: itil-4-cloud-services
+status: active
+cost: "$495 USD"
+
+description: >-
+  The ITIL 4 Specialist: Acquiring & Managing Cloud Services module provides
+  guidance on how to integrate cloud services into an organization's service
+  management approach. It covers cloud strategy, sourcing models, and the
+  management of cloud-based services throughout their lifecycle.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - cloud
+  - intermediate
+  - peoplecert
+  - extension-module
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-cds
+  - itil-4-itam
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-specialist-acquiring-and-managing-cloud-services
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-acquiring-and-managing-cloud-services
+last_verified: "2026-04-03"

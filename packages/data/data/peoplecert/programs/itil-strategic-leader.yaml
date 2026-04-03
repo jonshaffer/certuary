@@ -1,0 +1,25 @@
+slug: itil-strategic-leader
+name: ITIL 4 Strategic Leader
+description: >-
+  The ITIL 4 Strategic Leader designation demonstrates that the professional
+  has a clear understanding of how IT influences and directs business strategy.
+  It requires ITIL 4 Foundation plus the Direct Plan and Improve module and
+  the Digital and IT Strategy module.
+website: https://www.peoplecert.org/ways-to-get-certified/itil-702
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - itil-4-foundation
+  - name: Strategic Leader Modules
+    order: 2
+    certificate_slugs:
+      - itil-4-dpi
+      - itil-4-dits
+completion_criteria:
+  required: 3
+  notes: >-
+    All three certifications are required: ITIL 4 Foundation plus both
+    Strategic Leader modules (DPI, DITS).
