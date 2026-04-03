@@ -8,13 +8,6 @@ description: >-
   and technology.
 website: https://iapp.org/certify/fip/
 status: active
-required_certs:
-  - cipp-us
-  - cipp-e
-  - cipp-c
-  - cipp-a
-  - cipm
-  - cipt
 phases:
   - name: Privacy Law Knowledge
     order: 1
@@ -31,5 +24,6 @@ phases:
 completion_criteria:
   required: 2
   notes: >-
-    Requires one CIPP certification (any jurisdiction variant: US, E, C, or A)
-    plus either CIPM or CIPT. Both certifications must be active simultaneously.
+    Requires one certification from each phase: one CIPP certification
+    (any jurisdiction variant: US, E, C, or A) from phase 1, plus either
+    CIPM or CIPT from phase 2. Both certifications must be active simultaneously.
