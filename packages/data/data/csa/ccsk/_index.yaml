@@ -1,0 +1,41 @@
+name: Certificate of Cloud Security Knowledge
+short_name: CCSK
+slug: ccsk
+status: active
+cost: "$445 USD"
+
+description: >-
+  The CCSK is the industry benchmark for cloud security expertise, covering
+  all domains from the CSA Security Guidance including zero trust, DevSecOps,
+  cloud telemetry, security analytics, and artificial intelligence. The exam
+  is open-book with 60 multiple-choice questions and requires an 80% passing
+  score.
+
+tags:
+  - cloud-security
+  - foundational
+  - vendor-neutral
+  - open-book
+  - csa
+
+prerequisites: []
+
+related_certs:
+  - cczt
+  - ccak
+  - taise
+  - ccsp
+  - comptia-security-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloudsecurityalliance.org/education/ccsk
+    type: official
+  - label: CCSK Training Platform
+    url: https://training.cloudsecurityalliance.org/page/certificate-of-cloud-security-knowledge-ccsk
+    type: source-of-truth
+
+source_of_truth_url: https://cloudsecurityalliance.org/education/ccsk
+last_verified: "2026-04-03"

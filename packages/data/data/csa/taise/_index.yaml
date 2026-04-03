@@ -1,0 +1,38 @@
+name: Trusted AI Safety Expert
+short_name: TAISE
+slug: taise
+status: active
+cost: "$795 USD"
+
+description: >-
+  Developed by the Cloud Security Alliance and Northeastern University, the
+  TAISE certificate equips professionals to lead the safe, secure, and
+  responsible development and deployment of AI systems. The self-paced program
+  covers generative AI fundamentals, architecture, governance, risk management,
+  privacy, and cloud security across 10 modules.
+
+tags:
+  - cloud-security
+  - artificial-intelligence
+  - governance
+  - vendor-neutral
+  - csa
+
+prerequisites: []
+
+related_certs:
+  - ccsk
+  - aigp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloudsecurityalliance.org/education/taise
+    type: official
+  - label: TAISE Training Bundle
+    url: https://training.cloudsecurityalliance.org/trusted-ai-safety-expert-exam-bundle
+    type: source-of-truth
+
+source_of_truth_url: https://cloudsecurityalliance.org/education/taise
+last_verified: "2026-04-03"
