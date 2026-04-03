@@ -1,0 +1,48 @@
+name: Portfolio Management Professional
+short_name: PfMP
+slug: pmi-pfmp
+status: active
+cost: "$800 USD (PMI member) / $1,000 USD (non-member)"
+exam_format: multiple-choice
+duration_minutes: 240
+question_count:
+  min: 170
+
+description: >-
+  The PfMP certification demonstrates advanced competence in the coordinated
+  management of one or more portfolios to achieve strategic objectives. It
+  validates the ability to manage a portfolio of projects and programs aligned
+  with organizational strategy.
+
+tags:
+  - project-management
+  - portfolio-management
+  - advanced
+  - pmi
+
+prerequisites:
+  - Four-year degree, 96 months of portfolio management experience; OR
+  - Secondary degree, 96 months of portfolio management experience; AND
+  - 84 months of project, program, or portfolio management experience
+
+prerequisite_certs:
+  - pmi-pmp
+
+related_certs:
+  - pmi-pgmp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.pmi.org/certifications/portfolio-management-pfmp
+    type: official
+  - label: PfMP Exam Content Outline
+    url: https://www.pmi.org/certifications/portfolio-management-pfmp/pfmp-exam-content-outline
+    type: source-of-truth
+  - label: r/pmp
+    url: https://www.reddit.com/r/pmp/
+    type: community
+
+source_of_truth_url: https://www.pmi.org/certifications/portfolio-management-pfmp
+last_verified: "2026-04-01"

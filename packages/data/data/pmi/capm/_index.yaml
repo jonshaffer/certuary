@@ -1,0 +1,44 @@
+name: Certified Associate in Project Management
+short_name: CAPM
+slug: pmi-capm
+status: active
+cost: "$225 USD (PMI member) / $300 USD (non-member)"
+exam_format: multiple-choice
+duration_minutes: 180
+question_count:
+  min: 150
+
+description: >-
+  The CAPM certification is an entry-level credential for aspiring project
+  managers. It demonstrates understanding of fundamental project management
+  concepts, terminology, and processes as defined in the PMBOK Guide and
+  other PMI standards.
+
+tags:
+  - project-management
+  - entry-level
+  - pmi
+
+prerequisites:
+  - Secondary degree (high school diploma, associate's degree, or equivalent)
+  - 23 hours of project management education completed before the exam
+
+related_certs:
+  - pmi-pmp
+  - comptia-project-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.pmi.org/certifications/certified-associate-capm
+    type: official
+  - label: CAPM Exam Content Outline
+    url: https://www.pmi.org/certifications/certified-associate-capm/exam-content-outline
+    type: source-of-truth
+  - label: r/pmp
+    url: https://www.reddit.com/r/pmp/
+    type: community
+
+source_of_truth_url: https://www.pmi.org/certifications/certified-associate-capm
+last_verified: "2026-04-01"

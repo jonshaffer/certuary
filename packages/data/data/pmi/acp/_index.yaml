@@ -1,0 +1,47 @@
+name: PMI Agile Certified Practitioner
+short_name: PMI-ACP
+slug: pmi-acp
+status: active
+cost: "$435 USD (PMI member) / $495 USD (non-member)"
+exam_format: multiple-choice
+duration_minutes: 180
+question_count:
+  min: 120
+
+description: >-
+  The PMI-ACP recognizes expertise in agile principles, practices, tools,
+  and techniques across agile methodologies including Scrum, Kanban, Lean,
+  extreme programming (XP), and test-driven development (TDD). It is
+  designed for practitioners who work on agile teams or organizations.
+
+tags:
+  - project-management
+  - agile
+  - professional
+  - pmi
+
+prerequisites:
+  - 21 contact hours of training in agile practices
+  - 12 months of general project experience within the last 5 years
+  - 8 months of agile project experience within the last 3 years
+
+related_certs:
+  - pmi-pmp
+  - scrum-org-psm-i
+  - scrum-org-pspo-i
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.pmi.org/certifications/agile-acp
+    type: official
+  - label: PMI-ACP Exam Content Outline
+    url: https://www.pmi.org/certifications/agile-acp/acp-exam-content-outline
+    type: source-of-truth
+  - label: r/pmp
+    url: https://www.reddit.com/r/pmp/
+    type: community
+
+source_of_truth_url: https://www.pmi.org/certifications/agile-acp
+last_verified: "2026-04-01"
