@@ -3,6 +3,12 @@ short_name: ICA
 slug: ica
 status: active
 cost: "$250 USD"
+exam_format: performance-based
+passing_score: 68
+duration_minutes: 120
+question_count:
+  min: 17
+  approximate: true
 
 description: >-
   Validates knowledge of Istio service mesh concepts including traffic
@@ -25,6 +31,18 @@ related_certs:
   - cka
 
 versions: []
+
+domains:
+  - name: Istio Installation, Upgrade & Configuration
+    weight: 7
+  - name: Traffic Management
+    weight: 40
+  - name: Resilience and Fault Injection
+    weight: 20
+  - name: Securing Workloads
+    weight: 20
+  - name: Advanced Scenarios
+    weight: 13
 
 links:
   - label: Official Certification Page

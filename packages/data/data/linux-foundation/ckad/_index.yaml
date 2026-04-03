@@ -3,6 +3,12 @@ short_name: CKAD
 slug: ckad
 status: active
 cost: "$445 USD"
+exam_format: performance-based
+passing_score: 66
+duration_minutes: 120
+question_count:
+  min: 17
+  approximate: true
 
 description: >-
   Validates the ability to design, build, configure, and deploy cloud
@@ -29,6 +35,18 @@ related_certs:
   - cnpe
 
 versions: []
+
+domains:
+  - name: Application Design and Build
+    weight: 20
+  - name: Application Deployment
+    weight: 20
+  - name: Application Observability and Maintenance
+    weight: 15
+  - name: Application Environment, Configuration and Security
+    weight: 25
+  - name: Services & Networking
+    weight: 20
 
 links:
   - label: Official Certification Page

@@ -3,6 +3,11 @@ short_name: OTCA
 slug: otca
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 90
+question_count:
+  min: 60
 
 description: >-
   Validates knowledge of OpenTelemetry for distributed tracing, metrics,
@@ -26,6 +31,18 @@ related_certs:
   - kcna
 
 versions: []
+
+domains:
+  - name: Observability Concepts
+    weight: 8
+  - name: OpenTelemetry Fundamentals
+    weight: 14
+  - name: OpenTelemetry API and SDK
+    weight: 46
+  - name: OpenTelemetry Collector
+    weight: 18
+  - name: OpenTelemetry Instrumentation
+    weight: 14
 
 links:
   - label: Official Certification Page

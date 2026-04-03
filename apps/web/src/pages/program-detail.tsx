@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link, useParams } from "react-router";
 import {
   getProgramBySlug,
@@ -13,12 +14,14 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { parseCost } from "@/lib/costs";
 
 export function ProgramDetailPage() {
   const { slug } = useParams<{ slug: string }>();
   const program = slug ? getProgramBySlug(slug) : undefined;
   const certs = slug ? getCertsByProgram(slug) : [];
+  const [selectedStrategy, setSelectedStrategy] = useState<string | null>(null);
 
   if (!program) {
     return (
@@ -32,7 +35,10 @@ export function ProgramDetailPage() {
   }
 
   const provider = getProviderBySlug(program.providerSlug);
-  const sortedPhases = [...program.phases].sort((a, b) => a.order - b.order);
+  const strategies = program.orderingStrategies ?? [];
+  const activeStrategy = strategies.find((s) => s.slug === selectedStrategy);
+  const activePhases = activeStrategy ? activeStrategy.phases : program.phases;
+  const sortedPhases = [...activePhases].sort((a, b) => a.order - b.order);
   const totalCost = certs.reduce((sum, c) => sum + parseCost(c.cost), 0);
 
   return (
@@ -99,7 +105,33 @@ export function ProgramDetailPage() {
 
       {sortedPhases.length > 0 && (
         <section className="space-y-6">
-          <h2 className="text-xl font-semibold">Certification Phases</h2>
+          <div className="flex items-center gap-4">
+            <h2 className="text-xl font-semibold">Certification Phases</h2>
+            {strategies.length > 1 && (
+              <div className="flex gap-1">
+                <Button
+                  variant={selectedStrategy === null ? "default" : "outline"}
+                  size="sm"
+                  onClick={() => setSelectedStrategy(null)}
+                >
+                  Default
+                </Button>
+                {strategies.map((s) => (
+                  <Button
+                    key={s.slug}
+                    variant={selectedStrategy === s.slug ? "default" : "outline"}
+                    size="sm"
+                    onClick={() => setSelectedStrategy(s.slug)}
+                  >
+                    {s.name}
+                  </Button>
+                ))}
+              </div>
+            )}
+          </div>
+          {activeStrategy?.description && (
+            <p className="text-sm text-muted-foreground">{activeStrategy.description}</p>
+          )}
           {sortedPhases.map((phase) => (
             <div key={phase.name} className="space-y-3">
               <h3 className="text-lg font-medium">

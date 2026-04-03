@@ -1,5 +1,28 @@
 import { Link } from "react-router";
 import { getCertsWithDomains } from "@certuary/data";
+import type { ExamDomain } from "@certuary/data";
+
+function DomainList({ domains, depth = 0 }: { domains: ExamDomain[]; depth?: number }) {
+  return (
+    <ul className={`space-y-1 ${depth === 0 ? "ml-4" : "ml-6 mt-1"}`}>
+      {domains.map((d) => (
+        <li key={d.name}>
+          <div className="flex items-baseline justify-between max-w-lg">
+            <span className={depth > 0 ? "text-sm text-muted-foreground" : ""}>{d.name}</span>
+            {d.weight != null && (
+              <span className="text-muted-foreground text-sm ml-2">
+                {d.weight}%
+              </span>
+            )}
+          </div>
+          {d.subdomains && d.subdomains.length > 0 && (
+            <DomainList domains={d.subdomains} depth={depth + 1} />
+          )}
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export function DomainsPage() {
   const certs = getCertsWithDomains();
@@ -23,19 +46,7 @@ export function DomainsPage() {
                   {c.name}
                 </Link>
               </h2>
-              <ul className="space-y-1 ml-4">
-                {c.domains.map((d) => (
-                  <li
-                    key={d.name}
-                    className="flex items-baseline justify-between max-w-lg"
-                  >
-                    <span>{d.name}</span>
-                    <span className="text-muted-foreground text-sm ml-2">
-                      {d.weight}%
-                    </span>
-                  </li>
-                ))}
-              </ul>
+              <DomainList domains={c.domains} />
             </div>
           ))}
         </div>

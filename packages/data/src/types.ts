@@ -1,5 +1,13 @@
 export type CertStatus = "active" | "retiring" | "retired";
 
+export type ExamFormat = "multiple-choice" | "performance-based";
+
+export interface QuestionCount {
+  min: number;
+  max?: number;
+  approximate?: boolean;
+}
+
 export interface Provider {
   slug: string;
   name: string;
@@ -23,9 +31,8 @@ export interface CertVersion {
 
 export interface ExamDomain {
   name: string;
-  weight: number;
-  topicCategories?: string[];
-  topics?: string[];
+  weight?: number;
+  subdomains?: ExamDomain[];
 }
 
 export interface Certification {
@@ -36,6 +43,10 @@ export interface Certification {
   description: string;
   status: CertStatus;
   cost?: string;
+  examFormat?: ExamFormat;
+  passingScore?: number;
+  durationMinutes?: number;
+  questionCount?: QuestionCount;
   prerequisites: string[];
   tags: string[];
   links: CertLink[];
@@ -43,6 +54,7 @@ export interface Certification {
   relatedCertSlugs: string[];
   domains: ExamDomain[];
   prerequisiteCerts: string[];
+  domainSourceUrl?: string;
   lastVerified?: string;
   sourceOfTruthUrl?: string;
 }
@@ -53,6 +65,13 @@ export interface ProgramPhase {
   name: string;
   order: number;
   certificateSlugs: string[];
+}
+
+export interface OrderingStrategy {
+  slug: string;
+  name: string;
+  description?: string;
+  phases: ProgramPhase[];
 }
 
 export interface ProgramCompletionCriteria {
@@ -69,5 +88,6 @@ export interface Program {
   status: ProgramStatus;
   requiredCerts: string[];
   phases: ProgramPhase[];
+  orderingStrategies?: OrderingStrategy[];
   completionCriteria: ProgramCompletionCriteria;
 }

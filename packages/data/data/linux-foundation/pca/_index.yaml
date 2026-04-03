@@ -3,6 +3,11 @@ short_name: PCA
 slug: pca
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 90
+question_count:
+  min: 60
 
 description: >-
   Validates foundational knowledge of observability and monitoring using
@@ -25,6 +30,18 @@ related_certs:
   - kcna
 
 versions: []
+
+domains:
+  - name: Observability Concepts
+    weight: 18
+  - name: Prometheus Fundamentals
+    weight: 20
+  - name: PromQL
+    weight: 28
+  - name: Instrumentation and Exporters
+    weight: 16
+  - name: Dashboarding and Visualization
+    weight: 18
 
 links:
   - label: Official Certification Page

@@ -3,6 +3,11 @@ short_name: KCSA
 slug: kcsa
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 90
+question_count:
+  min: 60
 
 description: >-
   Validates knowledge of baseline security concepts and their application
@@ -27,6 +32,20 @@ related_certs:
   - cka
 
 versions: []
+
+domains:
+  - name: Overview of Cloud Native Security
+    weight: 14
+  - name: Kubernetes Cluster Component Security
+    weight: 22
+  - name: Kubernetes Security Fundamentals
+    weight: 22
+  - name: Kubernetes Threat Model
+    weight: 16
+  - name: Platform Security
+    weight: 16
+  - name: Compliance and Security Frameworks
+    weight: 10
 
 links:
   - label: Official Certification Page

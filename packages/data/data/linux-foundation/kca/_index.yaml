@@ -3,6 +3,11 @@ short_name: KCA
 slug: kca
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 90
+question_count:
+  min: 60
 
 description: >-
   Validates knowledge of Kyverno for Kubernetes policy management
@@ -25,6 +30,18 @@ related_certs:
   - kcsa
 
 versions: []
+
+domains:
+  - name: Fundamentals of Kyverno
+    weight: 15
+  - name: Installation and Configuration
+    weight: 15
+  - name: Writing Policies
+    weight: 30
+  - name: Applying Policies
+    weight: 20
+  - name: Kyverno CLI and Testing
+    weight: 20
 
 links:
   - label: Official Certification Page

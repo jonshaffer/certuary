@@ -77,6 +77,34 @@ export function CertDetailPage() {
                   <dd>{cert.cost}</dd>
                 </div>
               )}
+              {cert.examFormat && (
+                <div>
+                  <dt className="font-medium text-muted-foreground">Exam Format</dt>
+                  <dd className="capitalize">{cert.examFormat}</dd>
+                </div>
+              )}
+              {cert.passingScore != null && (
+                <div>
+                  <dt className="font-medium text-muted-foreground">Passing Score</dt>
+                  <dd>{cert.passingScore}%</dd>
+                </div>
+              )}
+              {cert.durationMinutes != null && (
+                <div>
+                  <dt className="font-medium text-muted-foreground">Duration</dt>
+                  <dd>{cert.durationMinutes} minutes</dd>
+                </div>
+              )}
+              {cert.questionCount && (
+                <div>
+                  <dt className="font-medium text-muted-foreground">Questions</dt>
+                  <dd>
+                    {cert.questionCount.approximate ? "~" : ""}
+                    {cert.questionCount.min}
+                    {cert.questionCount.max != null ? `–${cert.questionCount.max}` : ""}
+                  </dd>
+                </div>
+              )}
               {cert.prerequisites.length > 0 && (
                 <div>
                   <dt className="font-medium text-muted-foreground">Prerequisites</dt>
