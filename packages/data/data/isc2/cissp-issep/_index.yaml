@@ -19,6 +19,9 @@ tags:
 prerequisites:
   - Must hold an active CISSP certification
 
+prerequisite_certs:
+  - cissp
+
 related_certs:
   - cissp
   - cissp-issap

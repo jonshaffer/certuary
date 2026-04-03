@@ -22,6 +22,9 @@ tags:
 prerequisites:
   - Must hold an active CKA certification
 
+prerequisite_certs:
+  - cka
+
 related_certs:
   - cka
   - kcsa

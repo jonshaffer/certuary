@@ -1,5 +1,7 @@
+import { useMemo } from "react";
 import { Link } from "react-router";
 import { getCertBySlug, getProviderBySlug } from "@certuary/data";
+import { parseCost } from "@/lib/costs";
 import type { ResolvedPath } from "@/lib/path-resolver";
 import { getTransitivePrerequisites, getTransitiveDependents } from "@/lib/path-resolver";
 import {
@@ -38,6 +40,16 @@ export function PathVisualization({
       </div>
     );
   }
+
+  // Compute cumulative cost per step
+  const cumulativeCosts = useMemo(() => {
+    let running = 0;
+    return ordered.map((entry) => {
+      const cert = getCertBySlug(entry.slug);
+      running += parseCost(cert?.cost);
+      return running;
+    });
+  }, [ordered]);
 
   // Compute which slugs are related to the hovered cert (transitive chains)
   const pathSlugs = new Set(ordered.map((e) => e.slug));
@@ -110,9 +122,15 @@ export function PathVisualization({
                         <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
                           {provider?.name ?? cert.providerSlug}
                         </span>
-                        {entry.isAutoAdded && (
+                        {entry.isAutoAdded && entry.requiredBy.length > 0 && (
                           <Badge variant="outline" className="text-[10px]">
-                            Prerequisite
+                            Required by{" "}
+                            {entry.requiredBy
+                              .map((s) => {
+                                const c = getCertBySlug(s);
+                                return c?.shortName ?? c?.name ?? s;
+                              })
+                              .join(", ")}
                           </Badge>
                         )}
                         <Badge
@@ -144,9 +162,14 @@ export function PathVisualization({
                             </Badge>
                           ))}
                         </div>
-                        {cert.cost && (
-                          <span className="text-sm font-medium">
-                            {cert.cost}
+                        {cumulativeCosts[index] > 0 && (
+                          <span className="text-right text-sm">
+                            {cert.cost && (
+                              <span className="font-medium">{cert.cost}</span>
+                            )}
+                            <span className="ml-2 text-xs text-muted-foreground">
+                              (${cumulativeCosts[index].toLocaleString()} total)
+                            </span>
                           </span>
                         )}
                       </div>
