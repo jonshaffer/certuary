@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { getCertBySlug, getProviderBySlug } from "@certuary/data";
 import type { ResolvedPath } from "@/lib/path-resolver";
-import { getPrerequisitesOf, getDependentsOf } from "@/lib/path-resolver";
+import { getTransitivePrerequisites, getTransitiveDependents } from "@/lib/path-resolver";
 import {
   Card,
   CardContent,
@@ -39,15 +39,15 @@ export function PathVisualization({
     );
   }
 
-  // Compute which slugs are related to the hovered cert
+  // Compute which slugs are related to the hovered cert (transitive chains)
   const pathSlugs = new Set(ordered.map((e) => e.slug));
   const highlightedSlugs = new Set<string>();
   if (activeCert) {
     highlightedSlugs.add(activeCert);
-    for (const s of getPrerequisitesOf(activeCert)) {
-      if (pathSlugs.has(s)) highlightedSlugs.add(s);
+    for (const s of getTransitivePrerequisites(activeCert, pathSlugs)) {
+      highlightedSlugs.add(s);
     }
-    for (const s of getDependentsOf(activeCert, pathSlugs)) {
+    for (const s of getTransitiveDependents(activeCert, pathSlugs)) {
       highlightedSlugs.add(s);
     }
   }

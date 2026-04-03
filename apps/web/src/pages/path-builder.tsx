@@ -44,15 +44,15 @@ export function PathBuilderPage() {
       const next = new Set(prev);
       if (next.has(slug)) {
         next.delete(slug);
+        // Remove from held only when deselecting
+        setHeldSlugs((h) => {
+          const nextH = new Set(h);
+          nextH.delete(slug);
+          return nextH;
+        });
       } else {
         next.add(slug);
       }
-      return next;
-    });
-    // Remove from held if deselected
-    setHeldSlugs((prev) => {
-      const next = new Set(prev);
-      next.delete(slug);
       return next;
     });
   }, []);

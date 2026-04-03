@@ -1,5 +1,5 @@
 import { getCertBySlug } from "@certuary/data";
-import { parseCost } from "./costs";
+import { parseCost } from "@/lib/costs";
 
 export interface PathEntry {
   slug: string;
@@ -27,8 +27,9 @@ function expandPrerequisites(
     queue.push(slug);
   }
 
-  while (queue.length > 0) {
-    const current = queue.shift()!;
+  let i = 0;
+  while (i < queue.length) {
+    const current = queue[i++];
     const cert = getCertBySlug(current);
     if (!cert) continue;
 
@@ -92,6 +93,7 @@ function topologicalSort(
   queue.sort();
 
   const ordered: PathEntry[] = [];
+  const orderedSet = new Set<string>();
 
   while (queue.length > 0) {
     const current = queue.shift()!;
@@ -99,6 +101,7 @@ function topologicalSort(
       slug: current,
       isAutoAdded: expanded.get(current) ?? false,
     });
+    orderedSet.add(current);
 
     for (const dep of dependents.get(current) ?? []) {
       const newDegree = (inDegree.get(dep) ?? 1) - 1;
@@ -116,7 +119,7 @@ function topologicalSort(
   const cycleDetected = ordered.length < activeSlugs.size;
   if (cycleDetected) {
     for (const slug of activeSlugs) {
-      if (!ordered.some((e) => e.slug === slug)) {
+      if (!orderedSet.has(slug)) {
         ordered.push({
           slug,
           isAutoAdded: expanded.get(slug) ?? false,
@@ -151,22 +154,45 @@ export function resolvePath(
   return { ordered, totalCost, cycleDetected };
 }
 
-/** Returns the direct prerequisite cert slugs of a given cert. */
-export function getPrerequisitesOf(slug: string): string[] {
-  const cert = getCertBySlug(slug);
-  return cert?.prerequisiteCerts ?? [];
-}
-
-/** Returns slugs within the given set that depend on the specified cert. */
-export function getDependentsOf(
+/** Returns all transitive prerequisite cert slugs of a given cert within the path. */
+export function getTransitivePrerequisites(
   slug: string,
   pathSlugs: Set<string>,
-): string[] {
-  const result: string[] = [];
-  for (const s of pathSlugs) {
-    const cert = getCertBySlug(s);
-    if (cert?.prerequisiteCerts.includes(slug)) {
-      result.push(s);
+): Set<string> {
+  const result = new Set<string>();
+  const queue = [slug];
+  let i = 0;
+  while (i < queue.length) {
+    const current = queue[i++];
+    const cert = getCertBySlug(current);
+    if (!cert) continue;
+    for (const prereq of cert.prerequisiteCerts) {
+      if (pathSlugs.has(prereq) && !result.has(prereq)) {
+        result.add(prereq);
+        queue.push(prereq);
+      }
+    }
+  }
+  return result;
+}
+
+/** Returns all transitive dependents of a cert within the path. */
+export function getTransitiveDependents(
+  slug: string,
+  pathSlugs: Set<string>,
+): Set<string> {
+  const result = new Set<string>();
+  const queue = [slug];
+  let i = 0;
+  while (i < queue.length) {
+    const current = queue[i++];
+    for (const s of pathSlugs) {
+      if (result.has(s)) continue;
+      const cert = getCertBySlug(s);
+      if (cert?.prerequisiteCerts.includes(current)) {
+        result.add(s);
+        queue.push(s);
+      }
     }
   }
   return result;
