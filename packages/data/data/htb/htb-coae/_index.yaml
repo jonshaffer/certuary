@@ -2,6 +2,7 @@ name: HTB Certified Offensive AI Expert
 short_name: HTB COAE
 slug: htb-coae
 status: active
+cost: "$350 USD"
 exam_format: performance-based
 description: >-
   The HTB COAE validates skills in identifying and exploiting vulnerabilities

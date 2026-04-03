@@ -23,6 +23,8 @@ prerequisites:
   - Network penetration testing concepts familiarity
   - Completion of the Active Directory Penetration Tester job role path on HTB Academy
   - HTB CPTS certification or equivalent experience strongly recommended
+prerequisite_certs:
+  - htb-cpts
 related_certs:
   - gpen
   - gxpn
