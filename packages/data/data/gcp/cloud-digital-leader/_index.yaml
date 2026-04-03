@@ -11,13 +11,11 @@ description: >-
 
 tags:
   - cloud
-  - foundational
+  - entry-level
   - gcp
   - digital-transformation
-  - beginner
 
-prerequisites:
-  - No prerequisites required
+prerequisites: []
 
 related_certs:
   - gcp-associate-cloud-engineer
