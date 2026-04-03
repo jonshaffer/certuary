@@ -33,6 +33,8 @@ links:
   - label: Official Certification Page
     url: https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist
     type: official
+source_of_truth_url: https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist
+last_verified: "2026-04-03"
 domains:
   - name: External Reconnaissance
   - name: Web Application Attacks

@@ -30,6 +30,8 @@ links:
   - label: Official Certification Page
     url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist
     type: official
+source_of_truth_url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist
+last_verified: "2026-04-03"
 domains:
   - name: Web Application Penetration Testing
   - name: Bug Bounty Hunting Methodologies

@@ -30,6 +30,8 @@ links:
   - label: Official Certification Page
     url: https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst
     type: official
+source_of_truth_url: https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst
+last_verified: "2026-04-03"
 domains:
   - name: Security Analysis
   - name: SOC Operations

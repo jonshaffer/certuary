@@ -31,6 +31,8 @@ links:
   - label: Official Certification Page
     url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert
     type: official
+source_of_truth_url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert
+last_verified: "2026-04-03"
 domains:
   - name: Advanced Web Vulnerability Identification
   - name: Black-Box Testing Techniques

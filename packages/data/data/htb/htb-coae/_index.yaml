@@ -27,6 +27,8 @@ links:
   - label: Official Certification Page
     url: https://academy.hackthebox.com/preview/certifications/htb-certified-offensive-ai-expert
     type: official
+source_of_truth_url: https://academy.hackthebox.com/preview/certifications/htb-certified-offensive-ai-expert
+last_verified: "2026-04-03"
 domains:
   - name: Adversarial Machine Learning
   - name: LLM Prompt Injection and Jailbreaking

@@ -24,6 +24,8 @@ prerequisites:
 related_certs:
   - comptia-security-plus
   - gsec
+source_of_truth_url: https://academy.hackthebox.com/preview/certifications/htb-certified-junior-cybersecurity-associate
+last_verified: "2026-04-03"
 versions: []
 links:
   - label: Official Certification Page
