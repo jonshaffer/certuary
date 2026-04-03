@@ -1,0 +1,49 @@
+name: Microsoft Certified - Azure AI Fundamentals
+short_name: AI-900
+slug: azure-ai-fundamentals
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 45
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates foundational knowledge of machine learning and AI concepts,
+  along with related Microsoft Azure services. Covers AI workloads,
+  fundamental principles of machine learning on Azure, computer vision,
+  natural language processing, and generative AI.
+
+tags:
+  - cloud
+  - entry-level
+  - azure
+  - microsoft
+  - ai
+  - machine-learning
+  - foundational
+
+prerequisites: []
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-fundamentals
+  - azure-ai-engineer
+  - aws-ai-practitioner
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/
+    type: official
+  - label: Exam AI-900 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/
+last_verified: "2026-04-03"

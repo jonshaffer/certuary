@@ -1,0 +1,47 @@
+name: Microsoft Certified - Azure Data Fundamentals
+short_name: DP-900
+slug: azure-data-fundamentals
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 45
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates foundational knowledge of core data concepts and how they are
+  implemented using Microsoft Azure data services. Covers relational data,
+  non-relational data, and analytics workloads on Azure.
+
+tags:
+  - cloud
+  - entry-level
+  - azure
+  - microsoft
+  - data
+  - foundational
+
+prerequisites: []
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-fundamentals
+  - azure-data-engineer
+  - azure-database-administrator
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/
+    type: official
+  - label: Exam DP-900 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/
+last_verified: "2026-04-03"

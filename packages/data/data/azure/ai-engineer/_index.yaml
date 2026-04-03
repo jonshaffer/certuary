@@ -1,0 +1,52 @@
+name: Microsoft Certified - Azure AI Engineer Associate
+short_name: AI-102
+slug: azure-ai-engineer
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates skills in building, managing, and deploying AI solutions that
+  leverage Azure AI services. Covers planning and managing Azure AI
+  solutions, implementing content moderation, computer vision, natural
+  language processing, knowledge mining, document intelligence, and
+  generative AI solutions.
+
+tags:
+  - cloud
+  - intermediate
+  - azure
+  - microsoft
+  - ai
+  - machine-learning
+  - cognitive-services
+
+prerequisites:
+  - Experience with Azure and AI/ML concepts
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-ai-fundamentals
+  - azure-data-engineer
+  - aws-machine-learning-engineer-associate
+  - gcp-machine-learning-engineer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/
+    type: official
+  - label: Exam AI-102 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/
+last_verified: "2026-04-03"

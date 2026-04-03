@@ -1,0 +1,46 @@
+name: Microsoft 365 Certified - Fundamentals
+short_name: MS-900
+slug: azure-microsoft-365-fundamentals
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 45
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates foundational knowledge of Microsoft 365 cloud services including
+  productivity, collaboration, endpoint management, security, and compliance.
+  Covers Microsoft 365 components, deployment options, and licensing models.
+
+tags:
+  - cloud
+  - entry-level
+  - azure
+  - microsoft
+  - microsoft-365
+  - foundational
+
+prerequisites: []
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-fundamentals
+  - azure-power-platform-fundamentals
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/microsoft-365-fundamentals/
+    type: official
+  - label: Exam MS-900 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-900
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/microsoft-365-fundamentals/
+last_verified: "2026-04-03"

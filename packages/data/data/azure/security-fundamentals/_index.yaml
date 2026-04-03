@@ -1,0 +1,49 @@
+name: Microsoft Certified - Security, Compliance, and Identity Fundamentals
+short_name: SC-900
+slug: azure-security-fundamentals
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 45
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates foundational knowledge of security, compliance, and identity
+  concepts and related cloud-based Microsoft solutions. Covers Microsoft
+  Entra, Microsoft Defender, Microsoft Purview, and Azure security features.
+
+tags:
+  - cloud
+  - entry-level
+  - azure
+  - microsoft
+  - security
+  - compliance
+  - identity
+  - foundational
+
+prerequisites: []
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-fundamentals
+  - azure-security-engineer
+  - comptia-security-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/
+    type: official
+  - label: Exam SC-900 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/
+last_verified: "2026-04-03"

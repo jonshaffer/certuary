@@ -1,0 +1,47 @@
+name: Microsoft Certified - Azure Fundamentals
+short_name: AZ-900
+slug: azure-fundamentals
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 45
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates foundational knowledge of cloud concepts, core Azure services,
+  Azure management and governance, and Azure pricing and support. Ideal for
+  those beginning to work with cloud-based solutions or who are new to Azure.
+
+tags:
+  - cloud
+  - entry-level
+  - azure
+  - microsoft
+  - foundational
+
+prerequisites: []
+
+prerequisite_certs: []
+
+related_certs:
+  - aws-cloud-practitioner
+  - gcp-cloud-digital-leader
+  - azure-administrator
+  - azure-developer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/
+    type: official
+  - label: Exam AZ-900 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/
+last_verified: "2026-04-03"

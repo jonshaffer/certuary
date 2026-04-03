@@ -1,0 +1,47 @@
+name: Microsoft Certified - Power Platform Fundamentals
+short_name: PL-900
+slug: azure-power-platform-fundamentals
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 45
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates foundational knowledge of Microsoft Power Platform capabilities
+  including Power Apps, Power Automate, Power BI, and Power Virtual Agents.
+  Covers business value and core functionality of the Power Platform.
+
+tags:
+  - cloud
+  - entry-level
+  - azure
+  - microsoft
+  - power-platform
+  - low-code
+  - foundational
+
+prerequisites: []
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-fundamentals
+  - azure-microsoft-365-fundamentals
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/
+    type: official
+  - label: Exam PL-900 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-900
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/
+last_verified: "2026-04-03"

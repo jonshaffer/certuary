@@ -1,0 +1,54 @@
+name: Microsoft Certified - DevOps Engineer Expert
+short_name: AZ-400
+slug: azure-devops-engineer
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates skills in combining people, process, and technologies to
+  continuously deliver valuable products and services that meet end-user
+  needs and business objectives. Covers designing and implementing
+  DevOps practices for version control, compliance, infrastructure as
+  code, configuration management, build, release, and testing.
+
+tags:
+  - cloud
+  - advanced
+  - azure
+  - microsoft
+  - devops
+  - ci-cd
+  - automation
+
+prerequisites:
+  - Experience with Azure administration or Azure development
+  - Must hold the Azure Administrator Associate or Azure Developer Associate certification
+
+prerequisite_certs:
+  - azure-administrator
+
+related_certs:
+  - azure-administrator
+  - azure-developer
+  - aws-devops-engineer-professional
+  - gcp-cloud-devops-engineer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
+    type: official
+  - label: Exam AZ-400 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-400
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
+last_verified: "2026-04-03"
