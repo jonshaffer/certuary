@@ -22,9 +22,13 @@ interface ExpandedEntry {
 /**
  * Expands all prerequisite certs via BFS starting from the selected slugs.
  * Returns a map of slug → { isAutoAdded, requiredBy }.
+ *
+ * When heldSlugs is provided, held certs are still added to the map but their
+ * own prerequisites are not traversed (they're already satisfied).
  */
 export function expandPrerequisites(
   selectedSlugs: Set<string>,
+  heldSlugs?: Set<string>,
 ): Map<string, ExpandedEntry> {
   const expanded = new Map<string, ExpandedEntry>();
   const queue: string[] = [];
@@ -37,6 +41,10 @@ export function expandPrerequisites(
   let i = 0;
   while (i < queue.length) {
     const current = queue[i++];
+
+    // Skip traversing prerequisites of held certs — they're already satisfied
+    if (heldSlugs?.has(current)) continue;
+
     const cert = getCertBySlug(current);
     if (!cert) continue;
 
@@ -114,7 +122,7 @@ function topologicalSort(
     ordered.push({
       slug: current,
       isAutoAdded: entry?.isAutoAdded ?? false,
-      requiredBy: [...(entry?.requiredBy ?? [])].sort(),
+      requiredBy: [...(entry?.requiredBy ?? [])].filter(s => activeSlugs.has(s)).sort(),
     });
     orderedSet.add(current);
 
@@ -139,7 +147,7 @@ function topologicalSort(
         ordered.push({
           slug,
           isAutoAdded: entry?.isAutoAdded ?? false,
-          requiredBy: [...(entry?.requiredBy ?? [])].sort(),
+          requiredBy: [...(entry?.requiredBy ?? [])].filter(s => activeSlugs.has(s)).sort(),
         });
       }
     }
@@ -160,7 +168,7 @@ export function resolvePath(
     return { ordered: [], totalCost: 0, cycleDetected: false };
   }
 
-  const expanded = expandPrerequisites(selectedSlugs);
+  const expanded = expandPrerequisites(selectedSlugs, heldSlugs);
   const { ordered, cycleDetected } = topologicalSort(expanded, heldSlugs);
 
   const totalCost = ordered.reduce((sum, entry) => {
