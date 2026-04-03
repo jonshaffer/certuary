@@ -1,0 +1,45 @@
+name: PMI Risk Management Professional
+short_name: PMI-RMP
+slug: pmi-rmp
+status: active
+cost: "$520 USD (PMI member) / $670 USD (non-member)"
+exam_format: multiple-choice
+duration_minutes: 150
+question_count:
+  min: 115
+
+description: >-
+  The PMI-RMP certification recognizes expertise in the specialized area
+  of assessing and identifying project risks and mitigating threats while
+  capitalizing on opportunities. It is designed for project risk specialists
+  and project managers who manage risk in complex projects.
+
+tags:
+  - project-management
+  - risk-management
+  - professional
+  - pmi
+
+prerequisites:
+  - Four-year degree, 36 months of project risk management experience, and 30 hours of project risk management education; OR
+  - Secondary degree, 54 months of project risk management experience, and 40 hours of project risk management education
+
+related_certs:
+  - pmi-pmp
+  - crisc
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.pmi.org/certifications/risk-management-rmp
+    type: official
+  - label: PMI-RMP Exam Content Outline
+    url: https://www.pmi.org/certifications/risk-management-rmp/rmp-exam-content-outline
+    type: source-of-truth
+  - label: r/pmp
+    url: https://www.reddit.com/r/pmp/
+    type: community
+
+source_of_truth_url: https://www.pmi.org/certifications/risk-management-rmp
+last_verified: "2026-04-01"

@@ -1,0 +1,36 @@
+slug: pmi-certification-path
+name: PMI Certification Path
+description: >-
+  PMI's certification pathway progressing from foundational project management
+  knowledge through professional-level specializations to advanced program
+  and portfolio management credentials.
+website: https://www.pmi.org/certifications
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - pmi-capm
+  - name: Professional
+    order: 2
+    certificate_slugs:
+      - pmi-pmp
+      - pmi-acp
+      - pmi-rmp
+      - pmi-sp
+      - pmi-pba
+      - pmi-cp
+  - name: Advanced
+    order: 3
+    certificate_slugs:
+      - pmi-pgmp
+      - pmi-pfmp
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. PMI recommends starting with the CAPM for
+    those new to project management, then pursuing the PMP as the core
+    professional credential. Specialty certifications (PMI-ACP, PMI-RMP,
+    PMI-SP, PMI-PBA, PMI-CP) can be pursued based on career focus. PgMP
+    and PfMP are advanced credentials for senior program and portfolio managers.

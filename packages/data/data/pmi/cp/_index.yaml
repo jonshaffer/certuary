@@ -1,0 +1,44 @@
+name: PMI Construction Professional
+short_name: PMI-CP
+slug: pmi-cp
+status: active
+cost: "$405 USD (PMI member) / $555 USD (non-member)"
+exam_format: multiple-choice
+duration_minutes: 180
+question_count:
+  min: 150
+
+description: >-
+  The PMI-CP certification validates specialized knowledge in construction
+  project management. It demonstrates expertise in managing construction
+  projects including planning, scheduling, cost management, quality,
+  safety, and contract administration specific to the construction industry.
+
+tags:
+  - project-management
+  - construction
+  - professional
+  - pmi
+
+prerequisites:
+  - Four-year degree and 36 months of construction project management experience; OR
+  - Secondary degree and 60 months of construction project management experience
+
+related_certs:
+  - pmi-pmp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.pmi.org/certifications/construction-professional-cp
+    type: official
+  - label: PMI-CP Exam Content Outline
+    url: https://www.pmi.org/certifications/construction-professional-cp/cp-exam-content-outline
+    type: source-of-truth
+  - label: r/pmp
+    url: https://www.reddit.com/r/pmp/
+    type: community
+
+source_of_truth_url: https://www.pmi.org/certifications/construction-professional-cp
+last_verified: "2026-04-01"

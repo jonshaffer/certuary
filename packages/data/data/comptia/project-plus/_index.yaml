@@ -20,6 +20,8 @@ prerequisites:
 
 related_certs:
   - comptia-a-plus
+  - pmi-pmp
+  - pmi-capm
 
 versions:
   - version: PK0-005

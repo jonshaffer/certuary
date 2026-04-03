@@ -1,0 +1,45 @@
+name: PMI Professional in Business Analysis
+short_name: PMI-PBA
+slug: pmi-pba
+status: active
+cost: "$405 USD (PMI member) / $555 USD (non-member)"
+exam_format: multiple-choice
+duration_minutes: 240
+question_count:
+  min: 175
+
+description: >-
+  The PMI-PBA certification recognizes expertise in business analysis. It
+  validates the ability to work effectively with stakeholders to define
+  business requirements, shape project outputs, and drive successful
+  business outcomes through needs assessment, planning, analysis,
+  traceability and monitoring, and evaluation.
+
+tags:
+  - project-management
+  - business-analysis
+  - professional
+  - pmi
+
+prerequisites:
+  - Four-year degree, 36 months of business analysis experience, and 35 hours of business analysis education; OR
+  - Secondary degree, 60 months of business analysis experience, and 35 hours of business analysis education
+
+related_certs:
+  - pmi-pmp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.pmi.org/certifications/business-analysis-pba
+    type: official
+  - label: PMI-PBA Exam Content Outline
+    url: https://www.pmi.org/certifications/business-analysis-pba/pba-exam-content-outline
+    type: source-of-truth
+  - label: r/pmp
+    url: https://www.reddit.com/r/pmp/
+    type: community
+
+source_of_truth_url: https://www.pmi.org/certifications/business-analysis-pba
+last_verified: "2026-04-01"

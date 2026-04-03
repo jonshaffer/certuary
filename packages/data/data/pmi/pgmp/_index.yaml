@@ -1,0 +1,47 @@
+name: Program Management Professional
+short_name: PgMP
+slug: pmi-pgmp
+status: active
+cost: "$800 USD (PMI member) / $1,000 USD (non-member)"
+exam_format: multiple-choice
+duration_minutes: 240
+question_count:
+  min: 170
+
+description: >-
+  The PgMP certification recognizes advanced competence in program management.
+  It validates the ability to manage multiple related projects aligned with
+  organizational objectives, oversee complex activities spanning functions,
+  organizations, regions, or cultures, and drive organizational strategy.
+
+tags:
+  - project-management
+  - program-management
+  - advanced
+  - pmi
+
+prerequisites:
+  - Four-year degree, 48 months of project management experience, and 84 months of program management experience; OR
+  - Secondary degree, 48 months of project management experience, and 120 months of program management experience
+
+prerequisite_certs:
+  - pmi-pmp
+
+related_certs:
+  - pmi-pfmp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.pmi.org/certifications/program-management-pgmp
+    type: official
+  - label: PgMP Exam Content Outline
+    url: https://www.pmi.org/certifications/program-management-pgmp/pgmp-exam-content-outline
+    type: source-of-truth
+  - label: r/pmp
+    url: https://www.reddit.com/r/pmp/
+    type: community
+
+source_of_truth_url: https://www.pmi.org/certifications/program-management-pgmp
+last_verified: "2026-04-01"

@@ -1,0 +1,44 @@
+name: PMI Scheduling Professional
+short_name: PMI-SP
+slug: pmi-sp
+status: active
+cost: "$520 USD (PMI member) / $670 USD (non-member)"
+exam_format: multiple-choice
+duration_minutes: 150
+question_count:
+  min: 115
+
+description: >-
+  The PMI-SP certification recognizes expertise in the specialized area
+  of developing and maintaining project schedules. It is designed for
+  project scheduling specialists who manage complex schedules, perform
+  schedule analysis, and ensure timely project delivery.
+
+tags:
+  - project-management
+  - scheduling
+  - professional
+  - pmi
+
+prerequisites:
+  - Four-year degree, 36 months of project scheduling experience, and 30 hours of project scheduling education; OR
+  - Secondary degree, 54 months of project scheduling experience, and 40 hours of project scheduling education
+
+related_certs:
+  - pmi-pmp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.pmi.org/certifications/scheduling-professional-sp
+    type: official
+  - label: PMI-SP Exam Content Outline
+    url: https://www.pmi.org/certifications/scheduling-professional-sp/sp-exam-content-outline
+    type: source-of-truth
+  - label: r/pmp
+    url: https://www.reddit.com/r/pmp/
+    type: community
+
+source_of_truth_url: https://www.pmi.org/certifications/scheduling-professional-sp
+last_verified: "2026-04-01"

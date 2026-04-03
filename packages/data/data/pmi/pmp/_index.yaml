@@ -1,0 +1,53 @@
+name: Project Management Professional
+short_name: PMP
+slug: pmi-pmp
+status: active
+cost: "$405 USD (PMI member) / $555 USD (non-member)"
+exam_format: multiple-choice
+duration_minutes: 230
+question_count:
+  min: 180
+
+description: >-
+  The PMP is PMI's flagship certification and the most recognized project
+  management credential worldwide. It validates competence in leading and
+  directing projects using predictive, agile, and hybrid approaches. The
+  exam covers people, process, and business environment domains.
+
+tags:
+  - project-management
+  - professional
+  - agile
+  - pmi
+
+prerequisites:
+  - Four-year degree, 36 months leading projects, and 35 hours of project management education; OR
+  - Secondary degree (high school diploma or equivalent), 60 months leading projects, and 35 hours of project management education
+
+related_certs:
+  - pmi-capm
+  - pmi-acp
+  - pmi-pgmp
+  - pmi-pfmp
+  - pmi-rmp
+  - pmi-sp
+  - pmi-pba
+  - pmi-cp
+  - comptia-project-plus
+  - scrum-org-psm-i
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.pmi.org/certifications/project-management-pmp
+    type: official
+  - label: PMP Exam Content Outline
+    url: https://www.pmi.org/certifications/project-management-pmp/pmp-exam-content-outline
+    type: source-of-truth
+  - label: r/pmp
+    url: https://www.reddit.com/r/pmp/
+    type: community
+
+source_of_truth_url: https://www.pmi.org/certifications/project-management-pmp
+last_verified: "2026-04-01"
