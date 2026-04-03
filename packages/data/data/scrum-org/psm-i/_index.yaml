@@ -28,6 +28,8 @@ related_certs:
   - scrum-org-psd-i
   - scrum-org-psk-i
   - scrum-org-sps
+  - pmi-pmp
+  - pmi-acp
 
 links:
   - label: Official Assessment Page
