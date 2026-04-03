@@ -24,6 +24,7 @@ related_certs:
   - cipp-us
   - cipp-e
   - cipp-c
+  - cipp-cn
   - cipm
   - cipt
   - aigp
@@ -34,11 +35,11 @@ versions: []
 
 links:
   - label: Official Certification Page
-    url: https://iapp.org/certify/cipp/asia/
+    url: https://iapp.org/certify/cippa
     type: official
   - label: CIPP/A Body of Knowledge
-    url: https://iapp.org/certify/cipp/asia/
+    url: https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt56a359d5dc6970dd/CIPP_Asia_BOK.pdf
     type: source-of-truth
 
-source_of_truth_url: https://iapp.org/certify/cipp/asia/
+source_of_truth_url: https://iapp.org/certify/cippa
 last_verified: "2026-04-03"

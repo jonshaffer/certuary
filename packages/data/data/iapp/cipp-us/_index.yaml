@@ -24,6 +24,7 @@ related_certs:
   - cipp-e
   - cipp-c
   - cipp-a
+  - cipp-cn
   - cipm
   - cipt
   - aigp
@@ -35,11 +36,11 @@ versions: []
 
 links:
   - label: Official Certification Page
-    url: https://iapp.org/certify/cipp/united-states/
+    url: https://iapp.org/certify/cippus
     type: official
   - label: CIPP/US Body of Knowledge
-    url: https://iapp.org/certify/cipp/united-states/
+    url: https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt5ce0594463e20917/IAPP_Training-CIPPUS_BOK.pdf
     type: source-of-truth
 
-source_of_truth_url: https://iapp.org/certify/cipp/united-states/
+source_of_truth_url: https://iapp.org/certify/cippus
 last_verified: "2026-04-03"

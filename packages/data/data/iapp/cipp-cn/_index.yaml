@@ -1,0 +1,45 @@
+name: Certified Information Privacy Professional/China
+short_name: CIPP/CN
+slug: cipp-cn
+status: active
+cost: "$550 USD (IAPP member) / $800 USD (non-member)"
+
+description: >-
+  The CIPP/CN certification validates knowledge of privacy laws and
+  regulations in China, including the Personal Information Protection
+  Law (PIPL), the Cybersecurity Law, and the Data Security Law, along
+  with common privacy principles and practices in the region.
+
+tags:
+  - privacy
+  - compliance
+  - data-protection
+  - intermediate
+  - iapp
+
+prerequisites:
+  - No formal prerequisites; professional experience in privacy recommended
+
+related_certs:
+  - cipp-us
+  - cipp-e
+  - cipp-c
+  - cipp-a
+  - cipm
+  - cipt
+  - aigp
+  - cdpse
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://iapp.org/certify/cippcn
+    type: official
+  - label: CIPP/CN Body of Knowledge
+    url: https://iapp.org/certify/cippcn
+    type: source-of-truth
+
+source_of_truth_url: https://iapp.org/certify/cippcn
+last_verified: "2026-04-03"

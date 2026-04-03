@@ -24,6 +24,7 @@ related_certs:
   - cipp-us
   - cipp-c
   - cipp-a
+  - cipp-cn
   - cipm
   - cipt
   - aigp
@@ -34,11 +35,11 @@ versions: []
 
 links:
   - label: Official Certification Page
-    url: https://iapp.org/certify/cipp/europe/
+    url: https://iapp.org/certify/cippe
     type: official
   - label: CIPP/E Body of Knowledge
-    url: https://iapp.org/certify/cipp/europe/
+    url: https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blte39ae9567661b3d2/IAPP_Training-CIPPE_BOK.pdf
     type: source-of-truth
 
-source_of_truth_url: https://iapp.org/certify/cipp/europe/
+source_of_truth_url: https://iapp.org/certify/cippe
 last_verified: "2026-04-03"
