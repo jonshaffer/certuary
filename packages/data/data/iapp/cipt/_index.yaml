@@ -1,0 +1,43 @@
+name: Certified Information Privacy Technologist
+short_name: CIPT
+slug: cipt
+status: active
+cost: "$550 USD (IAPP member) / $800 USD (non-member)"
+
+description: >-
+  The CIPT certification validates understanding of how to build privacy
+  requirements and controls into technology and products, covering
+  privacy by design, privacy engineering, technical privacy controls,
+  and privacy in the software development lifecycle.
+
+tags:
+  - privacy
+  - data-protection
+  - technology
+  - intermediate
+  - iapp
+
+prerequisites:
+  - No formal prerequisites; professional experience in privacy technology recommended
+
+related_certs:
+  - cipp-us
+  - cipp-e
+  - cipp-c
+  - cipp-a
+  - cipm
+  - cdpse
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://iapp.org/certify/cipt/
+    type: official
+  - label: CIPT Body of Knowledge
+    url: https://iapp.org/certify/cipt/
+    type: source-of-truth
+
+source_of_truth_url: https://iapp.org/certify/cipt/
+last_verified: "2026-04-03"

@@ -1,0 +1,43 @@
+name: Certified Information Privacy Professional/Europe
+short_name: CIPP/E
+slug: cipp-e
+status: active
+cost: "$550 USD (IAPP member) / $800 USD (non-member)"
+
+description: >-
+  The CIPP/E certification validates knowledge of European privacy laws
+  and regulations, including the General Data Protection Regulation (GDPR),
+  the ePrivacy Directive, and the European framework for data protection
+  and cross-border data transfers.
+
+tags:
+  - privacy
+  - compliance
+  - data-protection
+  - intermediate
+  - iapp
+
+prerequisites:
+  - No formal prerequisites; professional experience in privacy recommended
+
+related_certs:
+  - cipp-us
+  - cipp-c
+  - cipp-a
+  - cipm
+  - cipt
+  - cdpse
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://iapp.org/certify/cipp/europe/
+    type: official
+  - label: CIPP/E Body of Knowledge
+    url: https://iapp.org/certify/cipp/europe/
+    type: source-of-truth
+
+source_of_truth_url: https://iapp.org/certify/cipp/europe/
+last_verified: "2026-04-03"

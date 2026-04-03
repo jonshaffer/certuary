@@ -1,0 +1,44 @@
+name: Certified Information Privacy Manager
+short_name: CIPM
+slug: cipm
+status: active
+cost: "$550 USD (IAPP member) / $800 USD (non-member)"
+
+description: >-
+  The CIPM certification validates the ability to create and manage
+  a privacy program, covering privacy program governance, applicable
+  laws and practices, data assessments, protecting personal information,
+  and performance measurement.
+
+tags:
+  - privacy
+  - management
+  - compliance
+  - intermediate
+  - iapp
+
+prerequisites:
+  - No formal prerequisites; professional experience in privacy management recommended
+
+related_certs:
+  - cipp-us
+  - cipp-e
+  - cipp-c
+  - cipp-a
+  - cipt
+  - cdpse
+  - cism
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://iapp.org/certify/cipm/
+    type: official
+  - label: CIPM Body of Knowledge
+    url: https://iapp.org/certify/cipm/
+    type: source-of-truth
+
+source_of_truth_url: https://iapp.org/certify/cipm/
+last_verified: "2026-04-03"

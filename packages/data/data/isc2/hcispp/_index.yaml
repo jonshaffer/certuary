@@ -23,6 +23,8 @@ prerequisites:
 related_certs:
   - cissp
   - sscp
+  - cipp-us
+  - cipm
 
 versions: []
 

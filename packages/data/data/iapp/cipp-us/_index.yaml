@@ -1,0 +1,43 @@
+name: Certified Information Privacy Professional/United States
+short_name: CIPP/US
+slug: cipp-us
+status: active
+cost: "$550 USD (IAPP member) / $800 USD (non-member)"
+
+description: >-
+  The CIPP/US certification demonstrates comprehensive knowledge of
+  U.S. privacy laws and regulations, covering the legal environment,
+  limits on private-sector collection and use of data, government and
+  court access to private-sector information, and workplace privacy.
+
+tags:
+  - privacy
+  - compliance
+  - data-protection
+  - intermediate
+  - iapp
+
+prerequisites:
+  - No formal prerequisites; professional experience in privacy recommended
+
+related_certs:
+  - cipp-e
+  - cipp-c
+  - cipp-a
+  - cipm
+  - cipt
+  - cdpse
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://iapp.org/certify/cipp/united-states/
+    type: official
+  - label: CIPP/US Body of Knowledge
+    url: https://iapp.org/certify/cipp/united-states/
+    type: source-of-truth
+
+source_of_truth_url: https://iapp.org/certify/cipp/united-states/
+last_verified: "2026-04-03"
