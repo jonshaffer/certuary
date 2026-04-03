@@ -162,7 +162,7 @@ export function PathVisualization({
                             </Badge>
                           ))}
                         </div>
-                        {cumulativeCosts[index] > 0 && (
+                        {(cert.cost || cumulativeCosts[index] > 0) && (
                           <span className="text-right text-sm">
                             {cert.cost && (
                               <span className="font-medium">{cert.cost}</span>

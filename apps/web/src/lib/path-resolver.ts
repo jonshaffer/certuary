@@ -114,7 +114,7 @@ function topologicalSort(
     ordered.push({
       slug: current,
       isAutoAdded: entry?.isAutoAdded ?? false,
-      requiredBy: [...(entry?.requiredBy ?? [])],
+      requiredBy: [...(entry?.requiredBy ?? [])].sort(),
     });
     orderedSet.add(current);
 
@@ -139,7 +139,7 @@ function topologicalSort(
         ordered.push({
           slug,
           isAutoAdded: entry?.isAutoAdded ?? false,
-          requiredBy: [...(entry?.requiredBy ?? [])],
+          requiredBy: [...(entry?.requiredBy ?? [])].sort(),
         });
       }
     }
