@@ -1,0 +1,43 @@
+name: "ITIL 4 Practice Manager: Availability Management"
+short_name: "ITIL 4 PM: AM"
+slug: itil-4-pm-availability-management
+status: active
+cost: "$285 USD"
+
+description: >-
+  The ITIL 4 Practice Manager: Availability Management module validates
+  the ability to ensure that services deliver agreed levels of availability
+  to meet the needs of customers and users.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - practice-manager
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-pm-capacity-and-performance-management
+  - itil-4-pm-it-service-continuity-management
+  - itil-4-pm-monitoring-and-event-management
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-practice-manager-availability-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-availability-management
+last_verified: "2026-04-03"

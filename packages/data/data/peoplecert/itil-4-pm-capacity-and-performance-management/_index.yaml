@@ -1,0 +1,44 @@
+name: "ITIL 4 Practice Manager: Capacity and Performance Management"
+short_name: "ITIL 4 PM: CPM"
+slug: itil-4-pm-capacity-and-performance-management
+status: active
+cost: "$285 USD"
+
+description: >-
+  The ITIL 4 Practice Manager: Capacity and Performance Management module
+  validates the ability to ensure that services achieve agreed and expected
+  performance levels, satisfying current and future demand in a cost-effective
+  way.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - practice-manager
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-pm-availability-management
+  - itil-4-pm-service-level-management
+  - itil-4-pm-monitoring-and-event-management
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-practice-manager-capacity-and-performance-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-capacity-and-performance-management
+last_verified: "2026-04-03"

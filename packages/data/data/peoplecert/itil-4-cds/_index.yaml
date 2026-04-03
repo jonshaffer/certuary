@@ -1,0 +1,45 @@
+name: "ITIL 4 Specialist: Create, Deliver and Support"
+short_name: ITIL 4 CDS
+slug: itil-4-cds
+status: active
+cost: "$495 USD"
+
+description: >-
+  The ITIL 4 Specialist: Create, Deliver and Support module covers the
+  core service management activities and the integration of different value
+  streams and activities to create, deliver, and support IT-enabled products
+  and services. It focuses on service quality and covers relevant practices,
+  methods, and tools.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - managing-professional
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-dsv
+  - itil-4-hvit
+  - itil-4-dpi
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-specialist-create-deliver-and-support
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-create-deliver-and-support
+last_verified: "2026-04-03"

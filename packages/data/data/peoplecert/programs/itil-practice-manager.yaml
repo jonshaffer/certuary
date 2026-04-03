@@ -1,0 +1,38 @@
+slug: itil-practice-manager
+name: ITIL 4 Practice Manager
+description: >-
+  The ITIL 4 Practice Manager designation validates competency in specific
+  ITIL management practices. It requires ITIL 4 Foundation plus at least
+  five Practice Manager modules chosen from fifteen available practice areas.
+website: https://www.peoplecert.org/ways-to-get-certified/itil-702
+status: active
+required_certs:
+  - itil-4-foundation
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - itil-4-foundation
+  - name: Practice Manager Modules
+    order: 2
+    certificate_slugs:
+      - itil-4-pm-incident-management
+      - itil-4-pm-problem-management
+      - itil-4-pm-change-enablement
+      - itil-4-pm-service-desk
+      - itil-4-pm-service-request-management
+      - itil-4-pm-monitoring-and-event-management
+      - itil-4-pm-deployment-management
+      - itil-4-pm-relationship-management
+      - itil-4-pm-supplier-management
+      - itil-4-pm-service-level-management
+      - itil-4-pm-capacity-and-performance-management
+      - itil-4-pm-availability-management
+      - itil-4-pm-it-service-continuity-management
+      - itil-4-pm-information-security-management
+      - itil-4-pm-service-configuration-management
+completion_criteria:
+  required: 6
+  notes: >-
+    Requires ITIL 4 Foundation plus at least 5 of the 15 Practice Manager
+    modules to earn the Practice Manager designation.

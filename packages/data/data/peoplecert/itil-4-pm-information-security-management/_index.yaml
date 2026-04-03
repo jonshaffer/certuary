@@ -1,0 +1,46 @@
+name: "ITIL 4 Practice Manager: Information Security Management"
+short_name: "ITIL 4 PM: ISM"
+slug: itil-4-pm-information-security-management
+status: active
+cost: "$285 USD"
+
+description: >-
+  The ITIL 4 Practice Manager: Information Security Management module
+  validates the ability to protect the information needed by the organization
+  to conduct its business, covering confidentiality, integrity, and
+  availability of information assets.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - security
+  - intermediate
+  - peoplecert
+  - practice-manager
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-pm-it-service-continuity-management
+  - cism
+  - cissp
+  - comptia-security-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-practice-manager-information-security-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-information-security-management
+last_verified: "2026-04-03"

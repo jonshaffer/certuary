@@ -1,0 +1,44 @@
+name: "ITIL 4 Practice Manager: Service Level Management"
+short_name: "ITIL 4 PM: SLM"
+slug: itil-4-pm-service-level-management
+status: active
+cost: "$285 USD"
+
+description: >-
+  The ITIL 4 Practice Manager: Service Level Management module validates
+  the ability to set clear business-based targets for service levels and
+  to ensure that delivery of services is properly assessed, monitored,
+  and managed against these targets.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - practice-manager
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-pm-service-request-management
+  - itil-4-pm-capacity-and-performance-management
+  - itil-4-dsv
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-practice-manager-service-level-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-service-level-management
+last_verified: "2026-04-03"

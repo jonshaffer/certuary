@@ -1,0 +1,42 @@
+name: ITIL 4 Foundation
+short_name: ITIL 4 Foundation
+slug: itil-4-foundation
+status: active
+cost: "$395 USD"
+
+description: >-
+  The ITIL 4 Foundation certification introduces the ITIL 4 framework for
+  IT service management. It covers key concepts of service management,
+  the four dimensions of service management, the ITIL service value system,
+  ITIL guiding principles, and ITIL management practices.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - foundational
+  - peoplecert
+
+prerequisites:
+  - No formal prerequisites
+
+related_certs:
+  - itil-4-cds
+  - itil-4-dsv
+  - itil-4-hvit
+  - itil-4-dpi
+  - itil-4-dits
+  - comptia-project-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-foundation-2
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-foundation-2
+last_verified: "2026-04-03"

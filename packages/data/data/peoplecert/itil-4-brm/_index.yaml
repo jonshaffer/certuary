@@ -1,0 +1,44 @@
+name: "ITIL 4 Specialist: Business Relationship Management"
+short_name: ITIL 4 BRM
+slug: itil-4-brm
+status: active
+cost: "$495 USD"
+
+description: >-
+  The ITIL 4 Specialist: Business Relationship Management module covers
+  the establishment and nurturing of the links between an organization and
+  its stakeholders at strategic and tactical levels. It focuses on identifying,
+  analyzing, monitoring, and continually improving relationships with
+  stakeholders.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - extension-module
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-dsv
+  - itil-4-pm-relationship-management
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-specialist-business-relationship-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-business-relationship-management
+last_verified: "2026-04-03"

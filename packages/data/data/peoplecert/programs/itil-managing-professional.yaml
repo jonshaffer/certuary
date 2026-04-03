@@ -1,0 +1,33 @@
+slug: itil-managing-professional
+name: ITIL 4 Managing Professional
+description: >-
+  The ITIL 4 Managing Professional designation provides practical and technical
+  knowledge about how to run successful IT-enabled services, teams, and
+  workflows. It requires ITIL 4 Foundation plus all four Managing Professional
+  modules: Create Deliver and Support, Drive Stakeholder Value, High-velocity
+  IT, and Direct Plan and Improve.
+website: https://www.peoplecert.org/ways-to-get-certified/itil-702
+status: active
+required_certs:
+  - itil-4-foundation
+  - itil-4-cds
+  - itil-4-dsv
+  - itil-4-hvit
+  - itil-4-dpi
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - itil-4-foundation
+  - name: Managing Professional Modules
+    order: 2
+    certificate_slugs:
+      - itil-4-cds
+      - itil-4-dsv
+      - itil-4-hvit
+      - itil-4-dpi
+completion_criteria:
+  required: 5
+  notes: >-
+    All five certifications are required: ITIL 4 Foundation plus all four
+    Managing Professional modules (CDS, DSV, HVIT, DPI).

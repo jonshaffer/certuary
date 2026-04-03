@@ -1,0 +1,44 @@
+name: "ITIL 4 Specialist: IT Asset Management"
+short_name: ITIL 4 ITAM
+slug: itil-4-itam
+status: active
+cost: "$495 USD"
+
+description: >-
+  The ITIL 4 Specialist: IT Asset Management module covers the full lifecycle
+  management of IT assets, including hardware, software, cloud services, and
+  client devices. It addresses asset governance, financial management of IT
+  assets, and integration with other service management practices.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - asset-management
+  - intermediate
+  - peoplecert
+  - extension-module
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-cloud-services
+  - itil-4-pm-service-configuration-management
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-specialist-it-asset-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-it-asset-management
+last_verified: "2026-04-03"

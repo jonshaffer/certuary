@@ -1,0 +1,50 @@
+name: "ITIL 4 Strategist: Direct, Plan and Improve"
+short_name: ITIL 4 DPI
+slug: itil-4-dpi
+status: active
+cost: "$495 USD"
+
+description: >-
+  The ITIL 4 Strategist: Direct, Plan and Improve module provides practical
+  and strategic methods for planning and delivering continual improvement
+  with the necessary agility. It covers the influence and impact of Agile
+  and Lean ways of working and how they can be leveraged to an organization's
+  advantage. This module is shared between the Managing Professional and
+  Strategic Leader designations.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - governance
+  - intermediate
+  - peoplecert
+  - managing-professional
+  - strategic-leader
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-cds
+  - itil-4-dsv
+  - itil-4-hvit
+  - itil-4-dits
+  - cgeit
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-strategist-direct-plan-and-improve
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-strategist-direct-plan-and-improve
+last_verified: "2026-04-03"

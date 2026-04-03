@@ -1,0 +1,48 @@
+name: "ITIL 4 Specialist: Monitor, Support & Fulfil"
+short_name: ITIL 4 MSF
+slug: itil-4-msf
+status: active
+cost: "$495 USD"
+
+description: >-
+  The ITIL 4 Specialist: Monitor, Support & Fulfil module covers the
+  day-to-day operational practices of IT service management, including
+  monitoring and event management, incident management, service request
+  management, problem management, and service desk operations.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - operations
+  - intermediate
+  - peoplecert
+  - extension-module
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-cds
+  - itil-4-pm-incident-management
+  - itil-4-pm-service-desk
+  - itil-4-pm-monitoring-and-event-management
+  - itil-4-pm-service-request-management
+  - itil-4-pm-problem-management
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-specialist-monitor-support-and-fulfil
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-monitor-support-and-fulfil
+last_verified: "2026-04-03"

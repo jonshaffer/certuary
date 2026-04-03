@@ -1,0 +1,43 @@
+name: "ITIL 4 Practice Manager: Deployment Management"
+short_name: "ITIL 4 PM: DM"
+slug: itil-4-pm-deployment-management
+status: active
+cost: "$285 USD"
+
+description: >-
+  The ITIL 4 Practice Manager: Deployment Management module validates the
+  ability to move new or changed hardware, software, documentation, processes,
+  or any other component to live environments.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - practice-manager
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-pm-change-enablement
+  - itil-4-pm-service-configuration-management
+  - itil-4-pic
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-practice-manager-deployment-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-deployment-management
+last_verified: "2026-04-03"

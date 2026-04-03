@@ -1,0 +1,44 @@
+name: "ITIL 4 Practice Manager: Relationship Management"
+short_name: "ITIL 4 PM: RM"
+slug: itil-4-pm-relationship-management
+status: active
+cost: "$285 USD"
+
+description: >-
+  The ITIL 4 Practice Manager: Relationship Management module validates
+  the ability to establish and nurture the links between the organization
+  and its stakeholders at strategic and tactical levels.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - practice-manager
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-pm-supplier-management
+  - itil-4-pm-service-level-management
+  - itil-4-brm
+  - itil-4-dsv
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-practice-manager-relationship-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-relationship-management
+last_verified: "2026-04-03"

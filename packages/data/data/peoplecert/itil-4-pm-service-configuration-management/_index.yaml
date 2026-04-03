@@ -1,0 +1,44 @@
+name: "ITIL 4 Practice Manager: Service Configuration Management"
+short_name: "ITIL 4 PM: SCM"
+slug: itil-4-pm-service-configuration-management
+status: active
+cost: "$285 USD"
+
+description: >-
+  The ITIL 4 Practice Manager: Service Configuration Management module
+  validates the ability to ensure that accurate and reliable information
+  about the configuration of services and the configuration items that
+  support them is available when and where it is needed.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - practice-manager
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-pm-change-enablement
+  - itil-4-pm-deployment-management
+  - itil-4-itam
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-practice-manager-service-configuration-management
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-service-configuration-management
+last_verified: "2026-04-03"

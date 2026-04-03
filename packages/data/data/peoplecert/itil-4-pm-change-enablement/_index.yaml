@@ -1,0 +1,44 @@
+name: "ITIL 4 Practice Manager: Change Enablement"
+short_name: "ITIL 4 PM: CE"
+slug: itil-4-pm-change-enablement
+status: active
+cost: "$285 USD"
+
+description: >-
+  The ITIL 4 Practice Manager: Change Enablement module validates the
+  ability to maximize the number of successful service and product changes
+  by ensuring that risks are properly assessed, authorizing changes to
+  proceed, and managing the change schedule.
+
+tags:
+  - itil
+  - itsm
+  - service-management
+  - intermediate
+  - peoplecert
+  - practice-manager
+
+prerequisite_certs:
+  - itil-4-foundation
+
+prerequisites:
+  - ITIL 4 Foundation certification
+
+related_certs:
+  - itil-4-foundation
+  - itil-4-pm-deployment-management
+  - itil-4-pm-service-configuration-management
+  - itil-4-pic
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.peoplecert.org/itil-4-practice-manager-change-enablement
+    type: official
+  - label: r/ITIL
+    url: https://www.reddit.com/r/ITIL/
+    type: community
+
+source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-change-enablement
+last_verified: "2026-04-03"
