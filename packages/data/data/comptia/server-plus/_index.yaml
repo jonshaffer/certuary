@@ -19,6 +19,9 @@ prerequisites:
   - CompTIA A+ recommended
   - Eighteen to twenty-four months of IT administration experience recommended
 
+prerequisite_certs:
+  - comptia-a-plus
+
 related_certs:
   - comptia-a-plus
   - comptia-network-plus

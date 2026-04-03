@@ -19,6 +19,9 @@ prerequisites:
   - CompTIA A+ certification recommended
   - Nine to twelve months of networking experience recommended
 
+prerequisite_certs:
+  - comptia-a-plus
+
 related_certs:
   - comptia-a-plus
   - comptia-security-plus

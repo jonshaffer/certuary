@@ -19,6 +19,9 @@ prerequisites:
   - CompTIA Network+ recommended
   - Two to three years of IT experience with cloud technologies recommended
 
+prerequisite_certs:
+  - comptia-network-plus
+
 related_certs:
   - comptia-network-plus
   - comptia-security-plus

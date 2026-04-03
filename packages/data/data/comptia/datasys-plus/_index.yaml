@@ -18,6 +18,9 @@ tags:
 prerequisites:
   - Two to three years of database administration experience recommended
 
+prerequisite_certs:
+  - comptia-data-plus
+
 related_certs:
   - comptia-data-plus
   - comptia-cloud-plus
