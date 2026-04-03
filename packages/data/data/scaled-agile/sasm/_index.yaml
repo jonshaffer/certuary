@@ -2,7 +2,7 @@ name: Certified SAFe Advanced Scrum Master
 short_name: SASM
 slug: safe-advanced-scrum-master
 status: active
-cost: "$995 USD (exam only) / ~$1,500+ USD (course + exam)"
+cost: "$995 USD"
 exam_format: multiple-choice
 duration_minutes: 90
 question_count:
@@ -28,9 +28,6 @@ tags:
 prerequisites:
   - Attend the SAFe Advanced Scrum Master course from a Scaled Agile partner
   - Experience as a Scrum Master or equivalent role recommended
-
-prerequisite_certs:
-  - safe-scrum-master
 
 related_certs:
   - safe-scrum-master

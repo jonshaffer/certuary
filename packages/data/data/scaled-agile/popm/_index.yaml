@@ -2,7 +2,7 @@ name: Certified SAFe Product Owner/Product Manager
 short_name: POPM
 slug: safe-popm
 status: active
-cost: "$995 USD (exam only) / ~$1,500+ USD (course + exam)"
+cost: "$995 USD"
 exam_format: multiple-choice
 duration_minutes: 90
 question_count:

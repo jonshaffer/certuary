@@ -2,7 +2,7 @@ name: Certified SAFe Lean Portfolio Manager
 short_name: LPM
 slug: safe-lpm
 status: active
-cost: "$995 USD (exam only) / ~$2,000+ USD (course + exam)"
+cost: "$995 USD"
 exam_format: multiple-choice
 duration_minutes: 90
 question_count:

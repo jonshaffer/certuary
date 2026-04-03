@@ -2,7 +2,7 @@ name: Certified SAFe Practitioner
 short_name: SP
 slug: safe-practitioner
 status: active
-cost: "$995 USD (exam only) / ~$1,000+ USD (course + exam)"
+cost: "$995 USD"
 exam_format: multiple-choice
 duration_minutes: 90
 question_count:

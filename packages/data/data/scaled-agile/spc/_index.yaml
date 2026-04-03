@@ -2,7 +2,7 @@ name: Certified SAFe Program Consultant
 short_name: SPC
 slug: safe-spc
 status: active
-cost: "$995 USD (exam only) / ~$3,500+ USD (course + exam)"
+cost: "$995 USD"
 exam_format: multiple-choice
 duration_minutes: 90
 question_count:
@@ -29,9 +29,6 @@ prerequisites:
   - Attend the Implementing SAFe (SPC) course from Scaled Agile
   - Significant experience in an Agile environment recommended
   - Hold at least one SAFe certification recommended
-
-prerequisite_certs:
-  - safe-agilist
 
 related_certs:
   - safe-agilist
