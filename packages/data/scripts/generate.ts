@@ -1,78 +1,36 @@
 import fs from "node:fs";
 import path from "node:path";
 import { parse } from "yaml";
+import type { z } from "zod";
+import {
+  RawProviderSchema,
+  RawCertSchema,
+  RawProgramSchema,
+  type RawExamDomain,
+} from "../src/schemas.js";
 
 const DATA_DIR = path.resolve(import.meta.dirname, "../data");
 const OUT_FILE = path.resolve(import.meta.dirname, "../src/generated.ts");
 
-interface RawProvider {
-  name: string;
-  slug: string;
-  website: string;
-  description: string;
-  logo?: string;
-}
+function readYaml<T>(filePath: string, schema: z.ZodType<T>): T {
+  const content = fs.readFileSync(filePath, "utf-8");
 
-interface RawExamDomain {
-  name: string;
-  weight?: number;
-  subdomains?: RawExamDomain[];
-}
+  let parsed: unknown;
+  try {
+    parsed = parse(content);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Failed to parse YAML in "${filePath}": ${message}`);
+  }
 
-interface RawCert {
-  name: string;
-  slug: string;
-  short_name?: string;
-  status: string;
-  cost?: string;
-  exam_format?: string;
-  passing_score?: number;
-  duration_minutes?: number;
-  question_count?: { min: number; max?: number; approximate?: boolean };
-  description: string;
-  tags?: string[];
-  prerequisites?: string[];
-  related_certs?: string[];
-  domains?: RawExamDomain[];
-  prerequisite_certs?: string[];
-  domain_source_url?: string;
-  versions?: {
-    version: string;
-    release_date?: string;
-    retire_date?: string;
-    notes?: string;
-  }[];
-  links?: {
-    label: string;
-    url: string;
-    type: string;
-  }[];
-  source_of_truth_url?: string;
-  last_verified?: string;
-}
+  const result = schema.safeParse(parsed);
+  if (!result.success) {
+    throw new Error(
+      `Validation failed for "${filePath}": ${result.error.message}`,
+    );
+  }
 
-interface RawProgram {
-  slug: string;
-  name: string;
-  description: string;
-  website: string;
-  status: string;
-  required_certs?: string[];
-  phases?: {
-    name: string;
-    order: number;
-    certificate_slugs: string[];
-  }[];
-  ordering_strategies?: {
-    slug: string;
-    name: string;
-    description?: string;
-    phases: { name: string; order: number; certificate_slugs: string[] }[];
-  }[];
-  completion_criteria?: {
-    required: number;
-    notes?: string;
-  };
+  return result.data;
 }
 
 function mapDomain(d: RawExamDomain): object {
@@ -81,11 +39,6 @@ function mapDomain(d: RawExamDomain): object {
     ...(d.weight != null ? { weight: d.weight } : {}),
     ...(d.subdomains ? { subdomains: d.subdomains.map(mapDomain) } : {}),
   };
-}
-
-function readYaml<T>(filePath: string): T {
-  const content = fs.readFileSync(filePath, "utf-8");
-  return parse(content) as T;
 }
 
 function generate() {
@@ -105,7 +58,7 @@ function generate() {
 
     if (!fs.existsSync(providerIndexPath)) continue;
 
-    const rawProvider = readYaml<RawProvider>(providerIndexPath);
+    const rawProvider = readYaml(providerIndexPath, RawProviderSchema);
     providers.push({
       slug: rawProvider.slug,
       name: rawProvider.name,
@@ -124,7 +77,7 @@ function generate() {
       const certIndexPath = path.join(providerDir, certEntry.name, "_index.yaml");
       if (!fs.existsSync(certIndexPath)) continue;
 
-      const raw = readYaml<RawCert>(certIndexPath);
+      const raw = readYaml(certIndexPath, RawCertSchema);
 
       certifications.push({
         slug: raw.slug,
@@ -169,7 +122,7 @@ function generate() {
         .sort();
 
       for (const programFile of programFiles) {
-        const raw = readYaml<RawProgram>(path.join(programsDir, programFile));
+        const raw = readYaml(path.join(programsDir, programFile), RawProgramSchema);
         programs.push({
           slug: raw.slug,
           name: raw.name,

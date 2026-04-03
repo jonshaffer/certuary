@@ -26,6 +26,9 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
+      - name: Validate data
+        run: pnpm --filter @certuary/data generate
+
       - name: Typecheck
         run: pnpm typecheck
 
