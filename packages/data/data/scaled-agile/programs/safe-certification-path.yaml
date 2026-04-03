@@ -1,0 +1,43 @@
+slug: safe-certification-path
+name: SAFe Certification Path
+description: >-
+  The Scaled Agile Framework certification path guides practitioners from
+  foundational SAFe knowledge through role-based specializations to advanced
+  leadership and expert-level consulting certifications. SAFe certifications
+  require attending official Scaled Agile courses and passing the associated
+  exam.
+website: https://scaledagile.com/training/
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - safe-practitioner
+  - name: Role-Based
+    order: 2
+    certificate_slugs:
+      - safe-scrum-master
+      - safe-popm
+      - safe-devops
+      - safe-government-practitioner
+  - name: Advanced
+    order: 3
+    certificate_slugs:
+      - safe-agilist
+      - safe-advanced-scrum-master
+      - safe-rte
+      - safe-lpm
+      - safe-apm
+      - safe-architect
+  - name: Expert
+    order: 4
+    certificate_slugs:
+      - safe-spc
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Scaled Agile recommends starting with the
+    SAFe Practitioner or a role-based certification and progressing based on
+    career goals. Advanced and expert certifications build on foundational
+    and role-based knowledge.

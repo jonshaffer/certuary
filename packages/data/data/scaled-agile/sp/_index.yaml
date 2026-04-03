@@ -1,0 +1,39 @@
+name: Certified SAFe Practitioner
+short_name: SP
+slug: safe-practitioner
+status: active
+cost: "$995 USD (exam only) / ~$1,000+ USD (course + exam)"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+
+description: >-
+  The Certified SAFe Practitioner (SP) credential validates foundational
+  knowledge of the Scaled Agile Framework. SP-certified professionals
+  understand SAFe principles, how to participate effectively on an Agile
+  Release Train, and how to collaborate with other teams to deliver value
+  in a SAFe enterprise.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - entry-level
+
+prerequisites:
+  - Attend the SAFe for Teams or Implementing SAFe course from a Scaled Agile partner
+
+related_certs:
+  - safe-scrum-master
+  - safe-popm
+  - scrum-org-psm-i
+  - pmi-acp
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/safe-for-teams/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/safe-for-teams/
+last_verified: "2026-04-03"

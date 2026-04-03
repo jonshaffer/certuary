@@ -1,0 +1,44 @@
+name: Certified SAFe Lean Portfolio Manager
+short_name: LPM
+slug: safe-lpm
+status: active
+cost: "$995 USD (exam only) / ~$2,000+ USD (course + exam)"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+
+description: >-
+  The Certified SAFe Lean Portfolio Manager (LPM) credential validates
+  knowledge of applying Lean and Agile principles to portfolio strategy
+  and investment funding, Agile portfolio operations, and Lean governance.
+  LPM-certified professionals understand how to align portfolio strategy
+  with enterprise objectives, establish portfolio flow, and apply Lean
+  budgeting and guardrails across a SAFe portfolio.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - advanced
+  - leadership
+  - lean
+  - portfolio-management
+
+prerequisites:
+  - Attend the Lean Portfolio Management course from a Scaled Agile partner
+  - Experience with portfolio management, Lean-Agile, or SAFe recommended
+
+related_certs:
+  - safe-agilist
+  - safe-spc
+  - pmi-pgmp
+  - pmi-pmp
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/lean-portfolio-management/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/lean-portfolio-management/
+last_verified: "2026-04-03"
