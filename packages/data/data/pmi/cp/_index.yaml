@@ -33,6 +33,9 @@ links:
   - label: Official Certification Page
     url: https://www.pmi.org/certifications/construction-professional-cp
     type: official
+  - label: PMI-CP Exam Content Outline
+    url: https://www.pmi.org/certifications/construction-professional-cp/cp-exam-content-outline
+    type: source-of-truth
   - label: r/pmp
     url: https://www.reddit.com/r/pmp/
     type: community
