@@ -29,6 +29,10 @@ related_certs:
   - pmi-acp
   - pmi-pgmp
   - pmi-pfmp
+  - pmi-rmp
+  - pmi-sp
+  - pmi-pba
+  - pmi-cp
   - comptia-project-plus
   - scrum-org-psm-i
 
