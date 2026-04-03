@@ -1,0 +1,50 @@
+name: Microsoft Certified - Azure Virtual Desktop Specialty
+short_name: AZ-140
+slug: azure-virtual-desktop-specialty
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates skills in planning, delivering, managing, and monitoring
+  virtual desktop experiences and remote apps on Microsoft Azure for any
+  device. Covers designing Azure Virtual Desktop architecture, implementing
+  networking and storage, managing access and security, and managing user
+  environments and apps.
+
+tags:
+  - cloud
+  - intermediate
+  - azure
+  - microsoft
+  - virtual-desktop
+  - infrastructure
+  - specialty
+
+prerequisites:
+  - Experience with Azure administration, networking, and virtual desktop infrastructure
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-administrator
+  - azure-network-engineer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-virtual-desktop-specialty/
+    type: official
+  - label: Exam AZ-140 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-140
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-virtual-desktop-specialty/
+last_verified: "2026-04-03"

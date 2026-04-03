@@ -1,0 +1,51 @@
+name: Microsoft Certified - Azure Security Engineer Associate
+short_name: AZ-500
+slug: azure-security-engineer
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates skills in implementing security controls and threat protection,
+  managing identity and access, and protecting data, applications, and
+  networks in cloud and hybrid environments as part of an end-to-end
+  infrastructure.
+
+tags:
+  - cloud
+  - intermediate
+  - azure
+  - microsoft
+  - security
+  - cybersecurity
+
+prerequisites:
+  - Experience with Azure administration and security concepts
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-security-fundamentals
+  - azure-administrator
+  - aws-security-specialty
+  - gcp-cloud-security-engineer
+  - comptia-security-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/
+    type: official
+  - label: Exam AZ-500 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/
+last_verified: "2026-04-03"

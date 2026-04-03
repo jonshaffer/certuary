@@ -1,0 +1,54 @@
+name: Microsoft Certified - Azure Solutions Architect Expert
+short_name: AZ-305
+slug: azure-solutions-architect
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates advanced skills in designing cloud and hybrid solutions that
+  run on Microsoft Azure, including compute, network, storage, monitoring,
+  and security. Requires expertise in IT operations, including networking,
+  virtualization, identity, security, business continuity, and disaster
+  recovery.
+
+tags:
+  - cloud
+  - advanced
+  - azure
+  - microsoft
+  - architecture
+  - solutions-architect
+
+prerequisites:
+  - Advanced experience and knowledge of IT operations and Azure administration
+  - Must hold the Azure Administrator Associate certification
+
+prerequisite_certs:
+  - azure-administrator
+
+related_certs:
+  - azure-administrator
+  - azure-developer
+  - aws-solutions-architect-associate
+  - aws-solutions-architect-professional
+  - gcp-cloud-architect
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/
+    type: official
+  - label: Exam AZ-305 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/
+last_verified: "2026-04-03"

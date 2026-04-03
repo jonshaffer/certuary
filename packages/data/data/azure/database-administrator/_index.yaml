@@ -1,0 +1,50 @@
+name: Microsoft Certified - Azure Database Administrator Associate
+short_name: DP-300
+slug: azure-database-administrator
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates skills in administering and managing relational databases on
+  Azure, including SQL Server on Azure VMs, Azure SQL Database, and Azure
+  SQL Managed Instance. Covers planning, implementing, securing, monitoring,
+  and optimizing Azure data platform resources.
+
+tags:
+  - cloud
+  - intermediate
+  - azure
+  - microsoft
+  - database
+  - sql
+  - data
+
+prerequisites:
+  - Experience with SQL Server and Azure data services
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-data-fundamentals
+  - azure-data-engineer
+  - gcp-cloud-database-engineer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/
+    type: official
+  - label: Exam DP-300 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/
+last_verified: "2026-04-03"

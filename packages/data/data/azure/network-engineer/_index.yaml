@@ -1,0 +1,49 @@
+name: Microsoft Certified - Azure Network Engineer Associate
+short_name: AZ-700
+slug: azure-network-engineer
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates skills in planning, implementing, and managing Azure networking
+  solutions. Covers designing and implementing core networking infrastructure,
+  routing, load balancing, hybrid networking, and network security.
+
+tags:
+  - cloud
+  - intermediate
+  - azure
+  - microsoft
+  - networking
+  - infrastructure
+
+prerequisites:
+  - Experience with networking concepts and Azure administration
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-fundamentals
+  - azure-administrator
+  - aws-advanced-networking-specialty
+  - gcp-cloud-network-engineer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-network-engineer-associate/
+    type: official
+  - label: Exam AZ-700 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-700
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-network-engineer-associate/
+last_verified: "2026-04-03"

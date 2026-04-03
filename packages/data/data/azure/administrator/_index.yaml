@@ -1,0 +1,49 @@
+name: Microsoft Certified - Azure Administrator Associate
+short_name: AZ-104
+slug: azure-administrator
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates skills in implementing, managing, and monitoring an
+  organization's Microsoft Azure environment. Covers identity, governance,
+  storage, compute, and virtual networks in a cloud environment.
+
+tags:
+  - cloud
+  - intermediate
+  - azure
+  - microsoft
+  - administration
+  - infrastructure
+
+prerequisites:
+  - Experience administering Azure workloads and some experience with networking, storage, compute, and security
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-fundamentals
+  - azure-solutions-architect
+  - azure-devops-engineer
+  - aws-sysops-administrator-associate
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/
+    type: official
+  - label: Exam AZ-104 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/
+last_verified: "2026-04-03"

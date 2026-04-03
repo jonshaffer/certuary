@@ -1,0 +1,51 @@
+name: Microsoft Certified - Azure Data Engineer Associate
+short_name: DP-203
+slug: azure-data-engineer
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates skills in integrating, transforming, and consolidating data
+  from various structured and unstructured data systems into Azure
+  analytics solutions. Covers designing and implementing data storage,
+  data processing, and data security and governance.
+
+tags:
+  - cloud
+  - intermediate
+  - azure
+  - microsoft
+  - data-engineering
+  - analytics
+  - data
+
+prerequisites:
+  - Experience with data processing languages and Azure data services
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-data-fundamentals
+  - azure-database-administrator
+  - aws-data-engineer-associate
+  - gcp-data-engineer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/
+    type: official
+  - label: Exam DP-203 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-203
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/
+last_verified: "2026-04-03"

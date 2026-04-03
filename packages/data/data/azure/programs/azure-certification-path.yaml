@@ -1,0 +1,45 @@
+slug: azure-certification-path
+name: Azure Certification Path
+description: >-
+  Microsoft's tiered certification framework progressing from fundamentals-level
+  cloud knowledge through associate-level role-based certifications to
+  expert-level design and engineering skills on the Microsoft Azure platform.
+website: https://learn.microsoft.com/en-us/credentials/
+status: active
+required_certs: []
+phases:
+  - name: Fundamentals
+    order: 1
+    certificate_slugs:
+      - azure-fundamentals
+      - azure-ai-fundamentals
+      - azure-data-fundamentals
+      - azure-security-fundamentals
+      - azure-power-platform-fundamentals
+      - azure-microsoft-365-fundamentals
+  - name: Associate
+    order: 2
+    certificate_slugs:
+      - azure-administrator
+      - azure-developer
+      - azure-security-engineer
+      - azure-network-engineer
+      - azure-database-administrator
+      - azure-ai-engineer
+      - azure-data-engineer
+  - name: Expert
+    order: 3
+    certificate_slugs:
+      - azure-solutions-architect
+      - azure-devops-engineer
+  - name: Specialty
+    order: 4
+    certificate_slugs:
+      - azure-virtual-desktop-specialty
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Microsoft recommends starting with a
+    Fundamentals certification to build foundational knowledge, then
+    pursuing Associate and Expert certifications based on your role and
+    career goals.

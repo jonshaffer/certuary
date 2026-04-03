@@ -1,0 +1,50 @@
+name: Microsoft Certified - Azure Developer Associate
+short_name: AZ-204
+slug: azure-developer
+status: active
+cost: "$165 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 100
+question_count:
+  min: 40
+  max: 60
+  approximate: true
+
+description: >-
+  Validates skills in designing, building, testing, and maintaining cloud
+  applications and services on Microsoft Azure. Covers Azure compute
+  solutions, storage, security, monitoring, and connecting to Azure services.
+
+tags:
+  - cloud
+  - intermediate
+  - azure
+  - microsoft
+  - development
+  - software-engineering
+
+prerequisites:
+  - One to two years of professional development experience and experience with Azure
+
+prerequisite_certs: []
+
+related_certs:
+  - azure-fundamentals
+  - azure-devops-engineer
+  - azure-solutions-architect
+  - aws-developer-associate
+  - gcp-cloud-developer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
+    type: official
+  - label: Exam AZ-204 Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
+last_verified: "2026-04-03"
