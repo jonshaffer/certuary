@@ -1,0 +1,38 @@
+name: Certificate of Competence in Zero Trust
+short_name: CCZT
+slug: cczt
+status: active
+cost: "$175 USD"
+
+description: >-
+  The CCZT is the cloud security industry's first vendor-neutral Zero Trust
+  certification program. It covers foundational Zero Trust components from
+  CISA and NIST, Software Defined Perimeter guidance from CSA Research, and
+  principles from Zero Trust experts. The exam is open-book with 60
+  multiple-choice questions and requires an 80% passing score.
+
+tags:
+  - cloud-security
+  - zero-trust
+  - vendor-neutral
+  - open-book
+  - csa
+
+prerequisites: []
+
+related_certs:
+  - ccsk
+  - comptia-security-plus
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloudsecurityalliance.org/education/cczt
+    type: official
+  - label: CCZT Training Bundle
+    url: https://training.cloudsecurityalliance.org/certificate-of-competence-in-zero-trust-cczt
+    type: course
+
+source_of_truth_url: https://cloudsecurityalliance.org/education/cczt
+last_verified: "2026-04-03"
