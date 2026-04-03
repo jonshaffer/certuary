@@ -1,0 +1,61 @@
+name: AWS Certified Solutions Architect – Professional
+short_name: AWS SAP
+slug: aws-solutions-architect-professional
+status: active
+cost: "$300 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 180
+question_count:
+  min: 75
+  approximate: true
+
+description: >-
+  Validates advanced technical skills in designing distributed applications
+  and systems on AWS. Covers complex, multi-tier architectures, migration
+  strategies, cost optimization, and organizational design patterns for
+  enterprise-scale cloud solutions.
+
+tags:
+  - cloud
+  - architecture
+  - advanced
+  - aws
+  - solutions-architect
+  - professional
+
+prerequisites:
+  - Two or more years of hands-on experience designing and deploying cloud architecture on AWS recommended
+  - AWS Certified Solutions Architect – Associate recommended
+
+related_certs:
+  - aws-solutions-architect-associate
+  - gcp-cloud-architect
+  - ccsp
+
+versions:
+  - version: SAP-C02
+    release_date: "2022-11-15"
+    notes: >-
+      Updated with emphasis on modern architectures, migrations, and
+      cost optimization strategies.
+  - version: SAP-C01
+    release_date: "2019-02-04"
+    retire_date: "2022-11-14"
+    notes: Previous version, now retired.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-solutions-architect-professional/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-solutions-architect-professional/
+last_verified: "2026-04-01"

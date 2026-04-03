@@ -1,0 +1,56 @@
+name: AWS Certified Cloud Practitioner
+short_name: AWS CLF
+slug: aws-cloud-practitioner
+status: active
+cost: "$100 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates foundational understanding of AWS Cloud concepts, services, and
+  terminology. Ideal for individuals in non-technical roles or those beginning
+  their cloud journey who want a broad understanding of the AWS platform.
+
+tags:
+  - cloud
+  - entry-level
+  - aws
+  - foundational
+
+prerequisites: []
+
+related_certs:
+  - aws-solutions-architect-associate
+  - aws-ai-practitioner
+  - gcp-cloud-digital-leader
+
+versions:
+  - version: CLF-C02
+    release_date: "2023-09-19"
+    notes: >-
+      Updated to reflect current AWS services and best practices. Increased
+      emphasis on security and cloud economics.
+  - version: CLF-C01
+    release_date: "2018-03-27"
+    retire_date: "2023-09-18"
+    notes: Original version, now retired.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-cloud-practitioner/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-cloud-practitioner/
+last_verified: "2026-04-01"

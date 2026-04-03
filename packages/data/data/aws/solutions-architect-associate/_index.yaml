@@ -20,6 +20,9 @@ prerequisites:
   - One or more years of hands-on AWS experience recommended
 
 related_certs:
+  - aws-solutions-architect-professional
+  - aws-developer-associate
+  - aws-cloud-practitioner
   - comptia-security-plus
   - ccsp
   - gcp-cloud-architect

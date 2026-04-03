@@ -1,0 +1,56 @@
+name: AWS Certified Machine Learning Engineer – Associate
+short_name: AWS MLA
+slug: aws-machine-learning-engineer-associate
+status: active
+cost: "$150 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 170
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates the ability to build, train, tune, and deploy ML models on AWS.
+  Covers the ML pipeline, data engineering for ML, model development,
+  deployment patterns, and monitoring using services like SageMaker,
+  Bedrock, and other AWS AI/ML services.
+
+tags:
+  - cloud
+  - machine-learning
+  - ai
+  - intermediate
+  - aws
+  - data-science
+
+prerequisites:
+  - One or more years of hands-on experience with ML/AI workloads on AWS recommended
+
+related_certs:
+  - aws-ai-practitioner
+  - aws-data-engineer-associate
+  - gcp-machine-learning-engineer
+
+versions:
+  - version: MLA-C01
+    release_date: "2024-11-19"
+    notes: >-
+      Initial release covering the full ML lifecycle on AWS, including
+      generative AI and foundation model deployment.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-machine-learning-engineer-associate/AWS-Certified-Machine-Learning-Engineer-Associate_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/
+last_verified: "2026-04-01"

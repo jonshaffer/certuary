@@ -1,0 +1,55 @@
+name: AWS Certified Data Engineer – Associate
+short_name: AWS DEA
+slug: aws-data-engineer-associate
+status: active
+cost: "$150 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 170
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates the ability to design, build, and manage data pipelines and
+  data stores on AWS. Covers data ingestion, transformation, orchestration,
+  security, and governance using services like Glue, Redshift, Kinesis,
+  and Lake Formation.
+
+tags:
+  - cloud
+  - data-engineering
+  - intermediate
+  - aws
+  - data
+  - analytics
+
+prerequisites:
+  - One or more years of hands-on experience with AWS data services recommended
+
+related_certs:
+  - aws-solutions-architect-associate
+  - gcp-data-engineer
+
+versions:
+  - version: DEA-C01
+    release_date: "2024-03-12"
+    notes: >-
+      Initial release replacing the retired Data Analytics Specialty
+      certification with an associate-level data engineering focus.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-data-engineer-associate/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-data-engineer-associate/AWS-Certified-Data-Engineer-Associate_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-data-engineer-associate/
+last_verified: "2026-04-01"

@@ -1,0 +1,58 @@
+name: AWS Certified Developer – Associate
+short_name: AWS DVA
+slug: aws-developer-associate
+status: active
+cost: "$150 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 130
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates the ability to develop, deploy, and debug cloud-based applications
+  on AWS. Covers core AWS services, development tools, CI/CD pipelines,
+  serverless applications, and security best practices for developers.
+
+tags:
+  - cloud
+  - development
+  - intermediate
+  - aws
+  - developer
+
+prerequisites:
+  - One or more years of hands-on AWS experience recommended
+
+related_certs:
+  - aws-solutions-architect-associate
+  - aws-devops-engineer-professional
+  - gcp-cloud-developer
+
+versions:
+  - version: DVA-C02
+    release_date: "2023-02-28"
+    notes: >-
+      Updated with increased emphasis on serverless architectures, event-driven
+      development, and modern development practices on AWS.
+  - version: DVA-C01
+    release_date: "2018-06-04"
+    retire_date: "2023-02-27"
+    notes: Previous version, now retired.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-developer-associate/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-developer-associate/
+last_verified: "2026-04-01"

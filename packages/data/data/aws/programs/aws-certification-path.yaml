@@ -1,0 +1,38 @@
+slug: aws-certification-path
+name: AWS Certification Path
+description: >-
+  A recommended learning path through AWS certifications, from foundational
+  cloud knowledge through associate-level role-based certifications to
+  professional and specialty expertise on the Amazon Web Services platform.
+website: https://aws.amazon.com/certification/
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - aws-cloud-practitioner
+      - aws-ai-practitioner
+  - name: Associate
+    order: 2
+    certificate_slugs:
+      - aws-solutions-architect-associate
+      - aws-developer-associate
+      - aws-sysops-administrator-associate
+      - aws-data-engineer-associate
+      - aws-machine-learning-engineer-associate
+  - name: Professional
+    order: 3
+    certificate_slugs:
+      - aws-solutions-architect-professional
+      - aws-devops-engineer-professional
+  - name: Specialty
+    order: 4
+    certificate_slugs:
+      - aws-advanced-networking-specialty
+      - aws-security-specialty
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. AWS recommends progressing from Foundational
+    to Associate to Professional or Specialty based on your role and experience.

@@ -1,0 +1,61 @@
+name: AWS Certified Security – Specialty
+short_name: AWS SCS
+slug: aws-security-specialty
+status: active
+cost: "$300 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 170
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates expertise in securing workloads and architectures on AWS.
+  Covers identity and access management, infrastructure protection, data
+  protection, incident response, and compliance on the AWS platform.
+
+tags:
+  - cloud
+  - security
+  - advanced
+  - aws
+  - specialty
+
+prerequisites:
+  - Five or more years of IT security experience recommended
+  - AWS Associate-level certification or equivalent experience recommended
+
+related_certs:
+  - aws-solutions-architect-associate
+  - comptia-security-plus
+  - gcp-cloud-security-engineer
+  - ccsp
+  - cissp
+
+versions:
+  - version: SCS-C02
+    release_date: "2023-06-13"
+    notes: >-
+      Updated with expanded coverage of threat detection, security
+      automation, and modern AWS security services.
+  - version: SCS-C01
+    release_date: "2018-04-09"
+    retire_date: "2023-06-12"
+    notes: Previous version, now retired.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-security-specialty/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-security-spec/AWS-Certified-Security-Specialty_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-security-specialty/
+last_verified: "2026-04-01"
