@@ -1,0 +1,37 @@
+name: GIAC Web Application Penetration Tester
+short_name: GWAPT
+slug: gwapt
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 180
+question_count:
+  min: 82
+  max: 82
+description: >-
+  The GWAPT certification validates a practitioner's ability to assess
+  web application security through penetration testing. It covers web
+  application technology, authentication attacks, injection flaws,
+  cross-site scripting, cross-site request forgery, and web application
+  reconnaissance. Associated with SANS SEC542: Web App Penetration
+  Testing and Ethical Hacking.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - penetration-testing
+  - web-security
+prerequisites: []
+related_certs:
+  - gpen
+  - gxpn
+  - comptia-pentest-plus
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/web-application-penetration-tester-gwapt/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/web-application-penetration-tester-gwapt/
+last_verified: "2026-04-03"

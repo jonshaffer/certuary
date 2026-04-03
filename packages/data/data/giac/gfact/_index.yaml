@@ -1,0 +1,35 @@
+name: GIAC Foundational Cybersecurity Technologies
+short_name: GFACT
+slug: gfact
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 71
+duration_minutes: 120
+question_count:
+  min: 75
+  max: 75
+description: >-
+  The GFACT certification validates a practitioner's foundational knowledge
+  of cybersecurity concepts and technologies. It covers computer hardware
+  and virtualization, operating systems and Linux, networking fundamentals,
+  web technologies, and core cybersecurity principles. Associated with
+  SANS SEC275: Foundations - Computers, Technology, & Security.
+tags:
+  - cybersecurity
+  - entry-level
+  - giac
+  - sans
+  - foundational
+prerequisites: []
+related_certs:
+  - gsec
+  - cc
+  - comptia-security-plus
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/
+last_verified: "2026-04-03"

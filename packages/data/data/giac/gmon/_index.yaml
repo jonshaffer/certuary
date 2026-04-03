@@ -1,0 +1,37 @@
+name: GIAC Continuous Monitoring
+short_name: GMON
+slug: gmon
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 74
+duration_minutes: 300
+question_count:
+  min: 82
+  max: 115
+description: >-
+  The GMON certification validates a practitioner's ability to implement
+  continuous monitoring and security operations. It covers network security
+  architecture, monitoring tools, automation, detection techniques, and
+  the development of a security operations center. Associated with SANS
+  SEC511: Continuous Monitoring and Security Operations.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - cyber-defense
+  - security-operations
+prerequisites: []
+related_certs:
+  - gsec
+  - gcia
+  - gcda
+  - gdsa
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/continuous-monitoring-certification-gmon/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/continuous-monitoring-certification-gmon/
+last_verified: "2026-04-03"

@@ -28,6 +28,9 @@ related_certs:
   - cissp
   - cism
   - cisa
+  - gcih
+  - gcfa
+  - gcda
 
 prerequisite_certs:
   - comptia-security-plus

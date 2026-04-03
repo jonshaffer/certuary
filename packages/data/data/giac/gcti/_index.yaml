@@ -1,0 +1,36 @@
+name: GIAC Cyber Threat Intelligence
+short_name: GCTI
+slug: gcti
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 82
+description: >-
+  The GCTI certification validates a practitioner's ability to collect,
+  analyze, and apply cyber threat intelligence. It covers strategic,
+  operational, and tactical intelligence, threat modeling, attribution,
+  intelligence sharing frameworks, and analysis of adversary tactics,
+  techniques, and procedures. Associated with SANS FOR578: Cyber Threat
+  Intelligence.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - threat-intelligence
+prerequisites: []
+related_certs:
+  - gcih
+  - gcfa
+  - gdat
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/cyber-threat-intelligence-gcti/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/cyber-threat-intelligence-gcti/
+last_verified: "2026-04-03"

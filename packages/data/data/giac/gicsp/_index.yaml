@@ -1,0 +1,35 @@
+name: GIAC Global Industrial Cyber Security Professional
+short_name: GICSP
+slug: gicsp
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 71
+duration_minutes: 180
+question_count:
+  min: 82
+  max: 115
+description: >-
+  The GICSP certification validates a practitioner's knowledge of securing
+  industrial control systems (ICS) and SCADA environments. It bridges IT
+  and OT security, covering ICS components, network design, threat
+  intelligence, incident response, and governance for industrial
+  environments. Associated with SANS ICS410: ICS/SCADA Security Essentials.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - industrial-control-systems
+  - ics-scada
+prerequisites: []
+related_certs:
+  - grid
+  - gsec
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/global-industrial-cyber-security-professional-gicsp/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/global-industrial-cyber-security-professional-gicsp/
+last_verified: "2026-04-03"

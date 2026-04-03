@@ -1,0 +1,35 @@
+name: GIAC Cloud Security Automation
+short_name: GCSA
+slug: gcsa
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 75
+description: >-
+  The GCSA certification validates a practitioner's ability to automate
+  security in cloud environments using DevSecOps practices. It covers
+  infrastructure as code, container security, CI/CD pipeline security,
+  microservices security, and cloud-native security automation. Associated
+  with SANS SEC540: Cloud Security and DevSecOps Automation.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - cloud-security
+  - devsecops
+prerequisites: []
+related_certs:
+  - gcld
+  - gpcs
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/cloud-security-automation-gcsa/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/cloud-security-automation-gcsa/
+last_verified: "2026-04-03"

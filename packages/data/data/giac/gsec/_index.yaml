@@ -1,0 +1,38 @@
+name: GIAC Security Essentials
+short_name: GSEC
+slug: gsec
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 73
+duration_minutes: 300
+question_count:
+  min: 106
+  max: 180
+description: >-
+  The GSEC certification validates a practitioner's knowledge of information
+  security beyond simple terminology and concepts. It demonstrates hands-on
+  ability in areas such as defense-in-depth, cryptography, cloud security,
+  incident handling, and Linux and Windows security. Associated with SANS
+  SEC401: Security Essentials - Network, Endpoint, and Cloud.
+tags:
+  - cybersecurity
+  - foundational
+  - giac
+  - sans
+  - cyber-defense
+prerequisites: []
+related_certs:
+  - gcih
+  - gcia
+  - gced
+  - comptia-security-plus
+  - cissp
+  - sscp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/security-essentials-gsec/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/security-essentials-gsec/
+last_verified: "2026-04-03"

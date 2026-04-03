@@ -1,0 +1,36 @@
+name: GIAC Public Cloud Security
+short_name: GPCS
+slug: gpcs
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 69
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 82
+description: >-
+  The GPCS certification validates a practitioner's ability to secure
+  public cloud environments including AWS, Azure, and GCP. It covers
+  cloud fundamentals, identity management, compute and network security,
+  logging and monitoring, and automation of security controls. Associated
+  with SANS SEC541: Cloud Security Attacker Techniques, Monitoring, and
+  Threat Detection.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - cloud-security
+prerequisites: []
+related_certs:
+  - gcld
+  - gcsa
+  - ccsp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/public-cloud-security-gpcs/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/public-cloud-security-gpcs/
+last_verified: "2026-04-03"

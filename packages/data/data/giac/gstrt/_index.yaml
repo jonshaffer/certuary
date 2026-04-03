@@ -1,0 +1,35 @@
+name: GIAC Strategic Planning, Policy, and Leadership
+short_name: GSTRT
+slug: gstrt
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 75
+description: >-
+  The GSTRT certification validates a practitioner's ability to develop
+  and execute cybersecurity strategy at the organizational level. It covers
+  strategic planning, policy development, security program management,
+  risk frameworks, and building a security-aware culture. Associated with
+  SANS MGT514: Security Strategic Planning, Policy, and Leadership.
+tags:
+  - cybersecurity
+  - management
+  - giac
+  - sans
+  - leadership
+  - strategy
+prerequisites: []
+related_certs:
+  - gslc
+  - cissp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/strategic-planning-policy-leadership-gstrt/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/strategic-planning-policy-leadership-gstrt/
+last_verified: "2026-04-03"

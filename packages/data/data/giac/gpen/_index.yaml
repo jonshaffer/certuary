@@ -1,0 +1,38 @@
+name: GIAC Penetration Tester
+short_name: GPEN
+slug: gpen
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 180
+question_count:
+  min: 82
+  max: 115
+description: >-
+  The GPEN certification validates a practitioner's ability to conduct
+  penetration tests using best-practice techniques and methodologies. It
+  covers comprehensive pen test planning, scoping, reconnaissance,
+  exploitation, password attacks, and web application attacks. Associated
+  with SANS SEC560: Enterprise Penetration Testing.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - penetration-testing
+  - offensive-security
+prerequisites: []
+related_certs:
+  - gwapt
+  - gxpn
+  - gsec
+  - comptia-pentest-plus
+  - cissp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/penetration-tester-gpen/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/penetration-tester-gpen/
+last_verified: "2026-04-03"

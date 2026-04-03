@@ -1,0 +1,36 @@
+name: GIAC Mobile Device Security Analyst
+short_name: GMOB
+slug: gmob
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 73
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 75
+description: >-
+  The GMOB certification validates a practitioner's ability to assess and
+  manage the security of mobile devices and applications. It covers mobile
+  device and app security testing, mobile malware analysis, mobile
+  penetration testing, and mobile forensics. Associated with SANS SEC575:
+  Mobile Device Security and Ethical Hacking.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - penetration-testing
+  - mobile-security
+prerequisites: []
+related_certs:
+  - gpen
+  - gwapt
+  - gasf
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/mobile-device-security-analyst-gmob/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/mobile-device-security-analyst-gmob/
+last_verified: "2026-04-03"

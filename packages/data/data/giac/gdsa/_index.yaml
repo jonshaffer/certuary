@@ -1,0 +1,37 @@
+name: GIAC Defensible Security Architecture
+short_name: GDSA
+slug: gdsa
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 300
+question_count:
+  min: 75
+  max: 75
+description: >-
+  The GDSA certification validates a practitioner's ability to design and
+  implement defensible security architectures. It covers network-centric
+  and data-centric security, zero trust architecture, cloud security,
+  and security infrastructure design. Associated with SANS SEC530:
+  Defensible Security Architecture and Engineering.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - cyber-defense
+  - architecture
+prerequisites: []
+related_certs:
+  - gsec
+  - gced
+  - gmon
+  - gcld
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/defensible-security-architecture-gdsa/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/defensible-security-architecture-gdsa/
+last_verified: "2026-04-03"

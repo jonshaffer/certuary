@@ -1,0 +1,36 @@
+name: GIAC Python Coder
+short_name: GPYC
+slug: gpyc
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 75
+description: >-
+  The GPYC certification validates a practitioner's ability to write
+  and analyze Python code for security tasks. It covers Python
+  fundamentals, data structures, object-oriented programming, libraries,
+  and the application of Python to security-related tasks such as
+  automation and tool development. Associated with SANS SEC573: Automating
+  Information Security with Python.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - programming
+  - python
+  - automation
+prerequisites: []
+related_certs:
+  - gsec
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/python-coder-gpyc/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/python-coder-gpyc/
+last_verified: "2026-04-03"

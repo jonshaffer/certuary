@@ -1,0 +1,36 @@
+name: GIAC Security Leadership
+short_name: GSLC
+slug: gslc
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 75
+description: >-
+  The GSLC certification validates a practitioner's understanding of
+  security management concepts, technical security frameworks, and
+  operational security. It covers project management, risk management,
+  security policy, network and communication security, and change
+  management. Associated with SANS MGT512: Security Leadership Essentials
+  for Managers.
+tags:
+  - cybersecurity
+  - management
+  - giac
+  - sans
+  - leadership
+prerequisites: []
+related_certs:
+  - gstrt
+  - cissp
+  - cgrc
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/security-leadership-gslc/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/security-leadership-gslc/
+last_verified: "2026-04-03"

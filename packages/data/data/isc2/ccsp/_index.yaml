@@ -25,6 +25,8 @@ related_certs:
   - cism
   - gcp-cloud-security-engineer
   - ccsk
+  - gcld
+  - gpcs
 
 versions: []
 

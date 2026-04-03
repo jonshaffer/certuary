@@ -1,0 +1,36 @@
+name: GIAC Exploit Researcher and Advanced Penetration Tester
+short_name: GXPN
+slug: gxpn
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 67
+duration_minutes: 180
+question_count:
+  min: 60
+  max: 75
+description: >-
+  The GXPN certification validates a practitioner's ability to find and
+  mitigate significant security flaws in systems, networks, and applications
+  through advanced exploitation techniques. It covers network attacks,
+  cryptography, fuzzing, exploit development, and bypassing security
+  controls. Associated with SANS SEC660: Advanced Penetration Testing,
+  Exploit Writing, and Ethical Hacking.
+tags:
+  - cybersecurity
+  - expert
+  - giac
+  - sans
+  - penetration-testing
+  - exploit-development
+prerequisites: []
+related_certs:
+  - gpen
+  - gwapt
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/exploit-researcher-advanced-penetration-tester-gxpn/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/exploit-researcher-advanced-penetration-tester-gxpn/
+last_verified: "2026-04-03"
