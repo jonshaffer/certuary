@@ -44,10 +44,10 @@ links:
     type: official
   - label: Microsoft Learn Study Guide
     url: https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/
-    type: course
+    type: source-of-truth
   - label: GitHub Copilot Documentation
     url: https://docs.github.com/en/copilot
-    type: source-of-truth
+    type: official
 
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/
 last_verified: "2026-04-03"

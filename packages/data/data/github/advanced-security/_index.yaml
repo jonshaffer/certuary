@@ -45,10 +45,10 @@ links:
     type: official
   - label: Microsoft Learn Study Guide
     url: https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/
-    type: course
+    type: source-of-truth
   - label: GitHub Advanced Security Documentation
     url: https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security
-    type: source-of-truth
+    type: official
 
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/
 last_verified: "2026-04-03"

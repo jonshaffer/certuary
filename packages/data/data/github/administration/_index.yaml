@@ -44,10 +44,10 @@ links:
     type: official
   - label: Microsoft Learn Study Guide
     url: https://learn.microsoft.com/en-us/credentials/certifications/github-administration/
-    type: course
-  - label: GitHub Enterprise Administration Documentation
-    url: https://docs.github.com/en/enterprise-cloud@latest/admin
     type: source-of-truth
+  - label: GitHub Administration Documentation
+    url: https://docs.github.com/en/admin
+    type: official
 
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-administration/
 last_verified: "2026-04-03"
