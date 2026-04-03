@@ -1,0 +1,48 @@
+name: Certified SAFe Government Practitioner
+short_name: SGP
+slug: safe-government-practitioner
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe Government Practitioner (SGP) credential validates
+  knowledge of applying Lean-Agile principles and SAFe practices within
+  government and public sector organizations. SGP-certified professionals
+  understand how to navigate regulatory environments, apply SAFe in the
+  context of government acquisition processes, and deliver value in
+  compliance with public sector requirements such as FAR and FITARA.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - intermediate
+  - government
+
+prerequisites:
+  - Attend the SAFe for Government course from a Scaled Agile partner
+  - Experience in government or public sector IT recommended
+
+related_certs:
+  - safe-practitioner
+  - safe-agilist
+  - pmi-pmp
+  - pmi-acp
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/safe-for-government/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/safe-for-government/
+last_verified: "2026-04-03"

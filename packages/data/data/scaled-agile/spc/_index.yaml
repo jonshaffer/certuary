@@ -1,0 +1,51 @@
+name: Certified SAFe Program Consultant
+short_name: SPC
+slug: safe-spc
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe Program Consultant (SPC) credential is the highest
+  widely-attained SAFe certification. SPC-certified professionals are
+  change agents who combine technical knowledge of SAFe with the ability
+  to train others and lead enterprise Lean-Agile transformations. SPCs
+  can teach SAFe courses, coach Agile Release Trains, and guide
+  organizations in adopting SAFe practices at scale.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - expert
+  - consulting
+  - lean
+
+prerequisites:
+  - Attend the Implementing SAFe (SPC) course from Scaled Agile
+  - Significant experience in an Agile environment recommended
+  - Hold at least one SAFe certification recommended
+
+related_certs:
+  - safe-agilist
+  - safe-rte
+  - safe-lpm
+  - pmi-pmp
+  - pmi-acp
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/implementing-safe/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/implementing-safe/
+last_verified: "2026-04-03"

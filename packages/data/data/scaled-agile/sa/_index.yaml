@@ -1,0 +1,49 @@
+name: Certified SAFe Agilist
+short_name: SA
+slug: safe-agilist
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe Agilist (SA) credential validates knowledge in leading
+  a Lean-Agile enterprise by applying the principles and practices of the
+  Scaled Agile Framework. SA-certified professionals understand how to
+  execute and release value through Agile Release Trains, build an Agile
+  portfolio, and lead the Lean-Agile transformation at enterprise scale.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - advanced
+  - leadership
+  - lean
+
+prerequisites:
+  - Attend the Leading SAFe course from a Scaled Agile partner
+  - 5+ years of experience in software development, testing, business analysis, product, or project management recommended
+
+related_certs:
+  - safe-spc
+  - safe-rte
+  - safe-lpm
+  - pmi-pmp
+  - pmi-acp
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/leading-safe/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/leading-safe/
+last_verified: "2026-04-03"

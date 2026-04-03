@@ -1,0 +1,47 @@
+name: Certified SAFe DevOps Practitioner
+short_name: SDP
+slug: safe-devops
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe DevOps Practitioner (SDP) credential validates knowledge
+  of integrating DevOps practices with SAFe principles to improve the flow
+  of value through the continuous delivery pipeline. SDP-certified professionals
+  understand how to map value streams, implement continuous integration and
+  deployment, apply test automation strategies, and build a culture of shared
+  responsibility between development and operations.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - intermediate
+  - devops
+
+prerequisites:
+  - Attend the SAFe DevOps course from a Scaled Agile partner
+  - Familiarity with Agile and DevOps concepts recommended
+
+related_certs:
+  - safe-practitioner
+  - safe-scrum-master
+  - safe-spc
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/safe-devops/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/safe-devops/
+last_verified: "2026-04-03"

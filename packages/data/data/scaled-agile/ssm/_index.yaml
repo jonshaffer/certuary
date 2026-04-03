@@ -1,0 +1,50 @@
+name: Certified SAFe Scrum Master
+short_name: SSM
+slug: safe-scrum-master
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe Scrum Master (SSM) credential validates knowledge of
+  the Scrum Master role within a SAFe enterprise. SSM-certified professionals
+  understand how to facilitate Agile team events, support program execution,
+  coach teams in SAFe principles, and remove impediments to help deliver
+  value on an Agile Release Train.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - intermediate
+  - scrum-master
+  - scrum
+
+prerequisites:
+  - Attend the SAFe Scrum Master course from a Scaled Agile partner
+  - Familiarity with Agile concepts and principles recommended
+  - Experience with Scrum recommended
+
+related_certs:
+  - safe-advanced-scrum-master
+  - safe-practitioner
+  - scrum-org-psm-i
+  - scrum-org-psm-ii
+  - pmi-acp
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/safe-scrum-master/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/safe-scrum-master/
+last_verified: "2026-04-03"

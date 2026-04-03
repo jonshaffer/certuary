@@ -1,0 +1,49 @@
+name: Certified SAFe Release Train Engineer
+short_name: RTE
+slug: safe-rte
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe Release Train Engineer (RTE) credential validates
+  knowledge of the servant leader and coach role responsible for facilitating
+  Agile Release Train (ART) events and processes. RTE-certified professionals
+  understand how to plan and execute Program Increments, facilitate system
+  demos, foster continuous improvement, and manage risks and dependencies
+  across teams.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - advanced
+  - program-management
+
+prerequisites:
+  - Attend the SAFe Release Train Engineer course from a Scaled Agile partner
+  - 5+ years of experience in software development, testing, or project management recommended
+  - Experience in a SAFe environment recommended
+
+related_certs:
+  - safe-agilist
+  - safe-advanced-scrum-master
+  - safe-spc
+  - pmi-pmp
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/safe-release-train-engineer/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/safe-release-train-engineer/
+last_verified: "2026-04-03"

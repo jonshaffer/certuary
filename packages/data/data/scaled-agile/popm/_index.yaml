@@ -1,0 +1,48 @@
+name: Certified SAFe Product Owner/Product Manager
+short_name: POPM
+slug: safe-popm
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe Product Owner/Product Manager (POPM) credential validates
+  knowledge of how to perform the Product Owner and Product Manager roles in a
+  SAFe enterprise. POPM-certified professionals understand how to write epics
+  and user stories, prioritize and manage program and team backlogs, build
+  minimum viable products, and deliver value through Agile Release Trains.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - intermediate
+  - product-management
+
+prerequisites:
+  - Attend the SAFe Product Owner/Product Manager course from a Scaled Agile partner
+  - Experience in product management or as a Product Owner recommended
+
+related_certs:
+  - safe-apm
+  - safe-practitioner
+  - scrum-org-pspo-i
+  - scrum-org-pspo-ii
+  - pmi-acp
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/safe-product-owner-product-manager/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/safe-product-owner-product-manager/
+last_verified: "2026-04-03"

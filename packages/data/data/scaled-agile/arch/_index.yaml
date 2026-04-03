@@ -1,0 +1,47 @@
+name: Certified SAFe Architect
+short_name: ARCH
+slug: safe-architect
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe Architect (ARCH) credential validates knowledge of
+  aligning architecture with business value while enabling Agile development
+  at enterprise scale. ARCH-certified professionals understand how to
+  develop architectural runway, align architecture with program and
+  portfolio backlogs, support continuous delivery, and apply set-based
+  design and emergent architecture principles within SAFe.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - advanced
+  - architecture
+
+prerequisites:
+  - Attend the SAFe for Architects course from a Scaled Agile partner
+  - 5+ years of architecture or technical leadership experience recommended
+
+related_certs:
+  - safe-agilist
+  - safe-spc
+  - safe-rte
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/safe-for-architects/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/safe-for-architects/
+last_verified: "2026-04-03"

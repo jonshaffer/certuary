@@ -1,0 +1,50 @@
+name: Certified SAFe Agile Product Management
+short_name: APM
+slug: safe-apm
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe Agile Product Management (APM) credential validates
+  knowledge of defining and delivering desirable, viable, feasible, and
+  sustainable products in a SAFe enterprise. APM-certified professionals
+  understand how to apply Design Thinking, manage products by value stream,
+  define product strategy and vision, develop and evolve product roadmaps,
+  and deliver value using SAFe's customer-centric approach.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - advanced
+  - product-management
+
+prerequisites:
+  - Attend the Agile Product Management course from a Scaled Agile partner
+  - 5+ years of experience in product management recommended
+  - Experience in a SAFe or Lean-Agile environment recommended
+
+related_certs:
+  - safe-popm
+  - safe-agilist
+  - scrum-org-pspo-i
+  - scrum-org-pspo-ii
+  - pmi-acp
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/agile-product-management/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/agile-product-management/
+last_verified: "2026-04-03"

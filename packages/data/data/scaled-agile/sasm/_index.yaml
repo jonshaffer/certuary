@@ -1,0 +1,50 @@
+name: Certified SAFe Advanced Scrum Master
+short_name: SASM
+slug: safe-advanced-scrum-master
+status: active
+cost: "$995 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 45
+passing_score: 77
+
+description: >-
+  The Certified SAFe Advanced Scrum Master (SASM) credential validates
+  advanced knowledge in facilitating Agile team and program-level processes,
+  coaching teams to improve, and addressing Agile anti-patterns in a SAFe
+  enterprise. SASM-certified professionals can facilitate program planning
+  events, support DevOps and continuous delivery, and scale Scrum practices
+  across the organization.
+
+tags:
+  - agile
+  - scaled-agile
+  - safe
+  - advanced
+  - scrum-master
+  - scrum
+
+prerequisites:
+  - Attend the SAFe Advanced Scrum Master course from a Scaled Agile partner
+  - Experience as a Scrum Master or equivalent role recommended
+
+related_certs:
+  - safe-scrum-master
+  - safe-rte
+  - scrum-org-psm-ii
+  - scrum-org-psm-iii
+  - pmi-acp
+
+versions:
+  - version: "6.0"
+    release_date: "2023-03-07"
+    notes: Current version aligned with SAFe 6.0 framework.
+
+links:
+  - label: Official Certification Page
+    url: https://scaledagile.com/training/safe-advanced-scrum-master/
+    type: official
+
+source_of_truth_url: https://scaledagile.com/training/safe-advanced-scrum-master/
+last_verified: "2026-04-03"
