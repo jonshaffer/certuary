@@ -3,7 +3,9 @@ short_name: PSM III
 slug: scrum-org-psm-iii
 status: active
 cost: "$500 USD"
-exam_format: mixed
+exam_format:
+  - multiple-choice
+  - essay
 passing_score: 85
 duration_minutes: 120
 question_count:

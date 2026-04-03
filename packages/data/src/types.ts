@@ -1,10 +1,8 @@
 export type CertStatus = "active" | "retiring" | "retired";
 
-export type ExamFormat =
-  | "multiple-choice"
-  | "performance-based"
-  | "essay"
-  | "mixed";
+export type ExamFormatValue = "multiple-choice" | "performance-based" | "essay";
+
+export type ExamFormat = ExamFormatValue | ExamFormatValue[];
 
 export interface QuestionCount {
   min: number;

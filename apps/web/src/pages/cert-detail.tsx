@@ -80,7 +80,7 @@ export function CertDetailPage() {
               {cert.examFormat && (
                 <div>
                   <dt className="font-medium text-muted-foreground">Exam Format</dt>
-                  <dd className="capitalize">{cert.examFormat}</dd>
+                  <dd className="capitalize">{Array.isArray(cert.examFormat) ? cert.examFormat.join(", ") : cert.examFormat}</dd>
                 </div>
               )}
               {cert.passingScore != null && (
