@@ -8,7 +8,7 @@ description: >-
   The ITIL 4 Specialist: Monitor, Support & Fulfil module covers the
   day-to-day operational practices of IT service management, including
   monitoring and event management, incident management, service request
-  management, and service desk operations.
+  management, problem management, and service desk operations.
 
 tags:
   - itil
@@ -31,6 +31,8 @@ related_certs:
   - itil-4-pm-incident-management
   - itil-4-pm-service-desk
   - itil-4-pm-monitoring-and-event-management
+  - itil-4-pm-service-request-management
+  - itil-4-pm-problem-management
 
 versions: []
 

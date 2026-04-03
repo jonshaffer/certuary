@@ -8,7 +8,7 @@ description: >-
   The ITIL 4 Specialist: Plan, Implement & Control module covers the
   planning, implementation, and control aspects of IT service management,
   including change enablement, deployment management, release management,
-  and service configuration management.
+  service configuration management, and IT asset management.
 
 tags:
   - itil
@@ -30,6 +30,8 @@ related_certs:
   - itil-4-cds
   - itil-4-pm-change-enablement
   - itil-4-pm-deployment-management
+  - itil-4-pm-service-configuration-management
+  - itil-4-itam
 
 versions: []
 

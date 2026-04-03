@@ -6,7 +6,8 @@ description: >-
   five Practice Manager modules chosen from fifteen available practice areas.
 website: https://www.peoplecert.org/ways-to-get-certified/itil-702
 status: active
-required_certs: []
+required_certs:
+  - itil-4-foundation
 phases:
   - name: Foundation
     order: 1

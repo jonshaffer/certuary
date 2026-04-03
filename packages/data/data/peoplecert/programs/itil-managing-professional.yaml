@@ -8,7 +8,12 @@ description: >-
   IT, and Direct Plan and Improve.
 website: https://www.peoplecert.org/ways-to-get-certified/itil-702
 status: active
-required_certs: []
+required_certs:
+  - itil-4-foundation
+  - itil-4-cds
+  - itil-4-dsv
+  - itil-4-hvit
+  - itil-4-dpi
 phases:
   - name: Foundation
     order: 1
