@@ -1,0 +1,38 @@
+name: GIAC Certified Detection Analyst
+short_name: GCDA
+slug: gcda
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 69
+duration_minutes: 300
+question_count:
+  min: 82
+  max: 115
+description: >-
+  The GCDA certification validates a practitioner's ability to collect,
+  analyze, and leverage network and endpoint data for detecting threats.
+  It covers SIEM usage, log analysis, network forensics fundamentals,
+  and advanced detection techniques for security operations. Associated
+  with SANS SEC555: SIEM with Tactical Analytics.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - cyber-defense
+  - security-operations
+  - detection
+prerequisites: []
+related_certs:
+  - gmon
+  - gcia
+  - gcih
+  - comptia-cysa-plus
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/certified-detection-analyst-gcda/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/certified-detection-analyst-gcda/
+last_verified: "2026-04-03"

@@ -1,0 +1,36 @@
+name: GIAC Advanced Smartphone Forensics
+short_name: GASF
+slug: gasf
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 72
+duration_minutes: 180
+question_count:
+  min: 66
+  max: 75
+description: >-
+  The GASF certification validates a practitioner's ability to perform
+  forensic examinations on smartphones and mobile devices. It covers mobile
+  device forensics methodologies, filesystem analysis, application analysis,
+  and the extraction and decoding of evidence from iOS and Android devices.
+  Associated with SANS FOR585: Smartphone Forensic Analysis In-Depth.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - digital-forensics
+  - mobile-security
+prerequisites: []
+related_certs:
+  - gcfe
+  - gcfa
+  - gmob
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/advanced-smartphone-forensics-gasf/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/advanced-smartphone-forensics-gasf/
+last_verified: "2026-04-03"

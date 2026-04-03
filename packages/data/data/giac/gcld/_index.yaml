@@ -1,0 +1,37 @@
+name: GIAC Cloud Security
+short_name: GCLD
+slug: gcld
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 75
+description: >-
+  The GCLD certification validates a practitioner's ability to implement
+  preventive, detective, and reactive security controls in cloud
+  environments. It covers cloud infrastructure, identity and access
+  management, data protection, and securing workloads across major cloud
+  providers. Associated with SANS SEC510: Cloud Security Controls and
+  Mitigations.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - cloud-security
+prerequisites: []
+related_certs:
+  - gpcs
+  - gcsa
+  - gdsa
+  - ccsp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/cloud-security-gcld/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/cloud-security-gcld/
+last_verified: "2026-04-03"

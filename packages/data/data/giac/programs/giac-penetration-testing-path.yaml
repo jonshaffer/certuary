@@ -1,0 +1,34 @@
+slug: giac-penetration-testing-path
+name: GIAC Penetration Testing Certification Path
+description: >-
+  A recommended progression through GIAC offensive security certifications,
+  from foundational penetration testing through web application testing,
+  mobile security, and advanced exploit research.
+website: https://www.giac.org/focus-areas/penetration-testing/
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - gsec
+  - name: Core Penetration Testing
+    order: 2
+    certificate_slugs:
+      - gpen
+      - gwapt
+  - name: Specialized Testing
+    order: 3
+    certificate_slugs:
+      - gmob
+      - gpyc
+  - name: Expert
+    order: 4
+    certificate_slugs:
+      - gxpn
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. GIAC recommends GSEC as a foundation,
+    then GPEN for core skills before pursuing specialized or expert-level
+    penetration testing certifications.

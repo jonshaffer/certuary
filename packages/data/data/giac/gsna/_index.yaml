@@ -1,0 +1,37 @@
+name: GIAC Systems and Network Auditor
+short_name: GSNA
+slug: gsna
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 72
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 115
+description: >-
+  The GSNA certification validates a practitioner's ability to apply
+  risk-driven auditing techniques to enterprise systems and networks.
+  It covers auditing network infrastructure, Windows and Linux systems,
+  web applications, and cloud environments using an audit methodology
+  that ensures comprehensive coverage. Associated with SANS AUD507:
+  Auditing Systems, Applications, and the Cloud.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - auditing
+  - compliance
+prerequisites: []
+related_certs:
+  - gsec
+  - cissp
+  - cgrc
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/systems-network-auditor-gsna/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/systems-network-auditor-gsna/
+last_verified: "2026-04-03"

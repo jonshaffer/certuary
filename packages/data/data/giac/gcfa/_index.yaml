@@ -1,0 +1,40 @@
+name: GIAC Certified Forensic Analyst
+short_name: GCFA
+slug: gcfa
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 72
+duration_minutes: 180
+question_count:
+  min: 82
+  max: 115
+description: >-
+  The GCFA certification validates a practitioner's advanced skills in
+  digital forensics, threat hunting, and incident response. It covers
+  advanced forensic analysis of file systems, volatile data, timeline
+  analysis, anti-forensics detection, and threat hunting techniques.
+  Associated with SANS FOR508: Advanced Incident Response, Threat Hunting,
+  and Digital Forensics.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - digital-forensics
+  - incident-response
+  - threat-hunting
+prerequisites: []
+related_certs:
+  - gcfe
+  - gnfa
+  - grem
+  - gcih
+  - comptia-cysa-plus
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/certified-forensic-analyst-gcfa/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/certified-forensic-analyst-gcfa/
+last_verified: "2026-04-03"

@@ -1,0 +1,33 @@
+slug: giac-digital-forensics-path
+name: GIAC Digital Forensics & Incident Response Path
+description: >-
+  A recommended progression through GIAC digital forensics and incident
+  response certifications, from foundational forensic examination through
+  advanced analysis, network forensics, malware reverse engineering, and
+  threat intelligence.
+website: https://www.giac.org/focus-areas/digital-forensics-incident-response/
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - gcfe
+  - name: Advanced Forensics
+    order: 2
+    certificate_slugs:
+      - gcfa
+      - gnfa
+      - gasf
+  - name: Specialized Analysis
+    order: 3
+    certificate_slugs:
+      - grem
+      - gcti
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. GIAC recommends starting with GCFE for
+    foundational forensics skills, then advancing based on specialization
+    in host forensics, network forensics, malware analysis, or threat
+    intelligence.

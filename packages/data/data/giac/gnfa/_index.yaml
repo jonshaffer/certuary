@@ -1,0 +1,38 @@
+name: GIAC Network Forensic Analyst
+short_name: GNFA
+slug: gnfa
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 180
+question_count:
+  min: 66
+  max: 66
+description: >-
+  The GNFA certification validates a practitioner's ability to perform
+  network forensics investigations. It covers network architecture,
+  protocols, automated tools, network analysis, wireless network forensics,
+  and the examination of network-based evidence. Associated with SANS
+  FOR572: Advanced Network Forensics - Threat Hunting, Analysis, and
+  Incident Response.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - digital-forensics
+  - network-security
+prerequisites: []
+related_certs:
+  - gcfa
+  - gcfe
+  - gcia
+  - grem
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/network-forensic-analyst-gnfa/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/network-forensic-analyst-gnfa/
+last_verified: "2026-04-03"

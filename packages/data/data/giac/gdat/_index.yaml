@@ -1,0 +1,37 @@
+name: GIAC Defending Advanced Threats
+short_name: GDAT
+slug: gdat
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 69
+duration_minutes: 180
+question_count:
+  min: 75
+  max: 75
+description: >-
+  The GDAT certification validates a practitioner's ability to defend against
+  advanced persistent threats and sophisticated adversaries. It covers
+  adversary techniques, advanced threat hunting, data exfiltration defense,
+  and enterprise kill chain analysis. Associated with SANS SEC599: Defeating
+  Advanced Adversaries - Purple Team Tactics & Kill Chain Defenses.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - cyber-defense
+  - threat-hunting
+prerequisites: []
+related_certs:
+  - gcih
+  - gcti
+  - gcfa
+  - gcda
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/defending-advanced-threats-gdat/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/defending-advanced-threats-gdat/
+last_verified: "2026-04-03"

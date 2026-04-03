@@ -1,0 +1,36 @@
+name: GIAC Response and Industrial Defense
+short_name: GRID
+slug: grid
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 180
+question_count:
+  min: 82
+  max: 115
+description: >-
+  The GRID certification validates a practitioner's ability to perform
+  active defense and incident response in industrial control system
+  environments. It covers ICS threat intelligence, visibility, detection,
+  and response to attacks targeting industrial infrastructure. Associated
+  with SANS ICS515: ICS Visibility, Detection, and Response.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - industrial-control-systems
+  - ics-scada
+  - incident-response
+prerequisites: []
+related_certs:
+  - gicsp
+  - gcih
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/response-industrial-defense-grid/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/response-industrial-defense-grid/
+last_verified: "2026-04-03"

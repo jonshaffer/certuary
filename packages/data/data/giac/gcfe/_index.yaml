@@ -1,0 +1,36 @@
+name: GIAC Certified Forensic Examiner
+short_name: GCFE
+slug: gcfe
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 71
+duration_minutes: 180
+question_count:
+  min: 82
+  max: 115
+description: >-
+  The GCFE certification validates a practitioner's knowledge of computer
+  forensic analysis with a focus on core skills needed to collect and
+  analyze data from Windows, Linux, and macOS systems. It covers digital
+  forensics fundamentals, browser forensics, email analysis, and Windows
+  artifact analysis. Associated with SANS FOR500: Windows Forensic Analysis.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - digital-forensics
+prerequisites: []
+related_certs:
+  - gcfa
+  - gnfa
+  - gasf
+  - comptia-cysa-plus
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/certified-forensic-examiner-gcfe/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/certified-forensic-examiner-gcfe/
+last_verified: "2026-04-03"

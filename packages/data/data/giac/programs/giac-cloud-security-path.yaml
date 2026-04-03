@@ -1,0 +1,30 @@
+slug: giac-cloud-security-path
+name: GIAC Cloud Security Certification Path
+description: >-
+  A recommended progression through GIAC cloud security certifications,
+  covering cloud security fundamentals, public cloud protection, and
+  DevSecOps automation.
+website: https://www.giac.org/focus-areas/cloud-security/
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - gsec
+  - name: Cloud Security
+    order: 2
+    certificate_slugs:
+      - gcld
+      - gpcs
+  - name: Cloud Automation
+    order: 3
+    certificate_slugs:
+      - gcsa
+      - gdsa
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. GIAC recommends starting with
+    foundational security knowledge before pursuing cloud-specific
+    certifications in security controls and DevSecOps automation.

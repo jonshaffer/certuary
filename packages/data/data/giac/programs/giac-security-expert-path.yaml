@@ -1,0 +1,35 @@
+slug: giac-security-expert-path
+name: GIAC Security Expert (GSE) Path
+description: >-
+  The path to the GIAC Security Expert (GSE) designation, the most
+  prestigious GIAC certification. The GSE requires passing the GSEC,
+  GCIH, and GCIA certifications before attempting the GSE qualification
+  exam and lab. It validates elite-level mastery of information security
+  concepts and hands-on skills.
+website: https://www.giac.org/certifications/security-expert-gse/
+status: active
+required_certs:
+  - gsec
+  - gcih
+  - gcia
+phases:
+  - name: Required Certifications
+    order: 1
+    certificate_slugs:
+      - gsec
+      - gcih
+      - gcia
+  - name: Recommended Preparation
+    order: 2
+    certificate_slugs:
+      - gced
+      - gpen
+      - gcfa
+completion_criteria:
+  required: 3
+  notes: >-
+    GSEC, GCIH, and GCIA are required prerequisites before attempting the
+    GSE qualification exam. The GSE itself consists of a written exam and
+    a hands-on lab component. Additional certifications like GCED, GPEN,
+    and GCFA are recommended to build the breadth of knowledge tested in
+    the GSE lab.

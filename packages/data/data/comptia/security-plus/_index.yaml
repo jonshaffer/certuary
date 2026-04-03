@@ -32,6 +32,9 @@ related_certs:
   - cisa
   - cism
   - gcp-cloud-security-engineer
+  - gsec
+  - gcih
+  - gfact
 
 versions:
   - version: SY0-701

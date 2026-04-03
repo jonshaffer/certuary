@@ -1,0 +1,38 @@
+name: GIAC Certified Intrusion Analyst
+short_name: GCIA
+slug: gcia
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 67
+duration_minutes: 300
+question_count:
+  min: 106
+  max: 150
+description: >-
+  The GCIA certification validates a practitioner's knowledge of network
+  and host monitoring, traffic analysis, and intrusion detection. It covers
+  TCP/IP protocols, application protocols, IDS tuning, and advanced
+  traffic analysis techniques. Associated with SANS SEC503: Network
+  Monitoring and Threat Detection In-Depth.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - cyber-defense
+  - network-security
+prerequisites: []
+related_certs:
+  - gsec
+  - gcih
+  - gced
+  - gmon
+  - comptia-cysa-plus
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/certified-intrusion-analyst-gcia/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/certified-intrusion-analyst-gcia/
+last_verified: "2026-04-03"

@@ -36,6 +36,9 @@ related_certs:
   - cipp-e
   - cipm
   - cipt
+  - gsec
+  - gcih
+  - gslc
 
 versions: []
 

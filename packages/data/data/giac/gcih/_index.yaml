@@ -1,0 +1,40 @@
+name: GIAC Certified Incident Handler
+short_name: GCIH
+slug: gcih
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 300
+question_count:
+  min: 106
+  max: 150
+description: >-
+  The GCIH certification validates a practitioner's ability to detect, respond
+  to, and resolve computer security incidents. It covers incident handling
+  processes, common attack techniques, and defense strategies including
+  endpoint attacks, network attacks, and cloud-based threats. Associated
+  with SANS SEC504: Hacker Tools, Techniques, and Incident Handling.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - cyber-defense
+  - incident-response
+prerequisites: []
+related_certs:
+  - gsec
+  - gcia
+  - gced
+  - gcfa
+  - comptia-security-plus
+  - comptia-cysa-plus
+  - cissp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/certified-incident-handler-gcih/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/certified-incident-handler-gcih/
+last_verified: "2026-04-03"

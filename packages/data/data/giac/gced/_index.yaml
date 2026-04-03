@@ -1,0 +1,37 @@
+name: GIAC Certified Enterprise Defender
+short_name: GCED
+slug: gced
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 71
+duration_minutes: 300
+question_count:
+  min: 115
+  max: 115
+description: >-
+  The GCED certification validates a practitioner's ability to implement
+  defensive technologies and practices to protect enterprise networks. It
+  covers defensive network architecture, packet analysis, penetration testing
+  methodology, incident handling, and malware analysis. Associated with
+  SANS SEC501: Advanced Security Essentials - Enterprise Defender.
+tags:
+  - cybersecurity
+  - intermediate
+  - giac
+  - sans
+  - cyber-defense
+prerequisites: []
+related_certs:
+  - gsec
+  - gcih
+  - gcia
+  - gdsa
+  - cissp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/certified-enterprise-defender-gced/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/certified-enterprise-defender-gced/
+last_verified: "2026-04-03"

@@ -1,0 +1,36 @@
+name: GIAC Reverse Engineering Malware
+short_name: GREM
+slug: grem
+status: active
+cost: "$979 USD"
+exam_format: multiple-choice
+passing_score: 73
+duration_minutes: 180
+question_count:
+  min: 66
+  max: 75
+description: >-
+  The GREM certification validates a practitioner's ability to reverse-engineer
+  malicious software targeting common platforms including Windows and web
+  browsers. It covers malware analysis, document analysis, protected
+  executables, and web-based malware. Associated with SANS FOR610: Reverse
+  Engineering Malware - Malware Analysis Tools and Techniques.
+tags:
+  - cybersecurity
+  - advanced
+  - giac
+  - sans
+  - digital-forensics
+  - malware-analysis
+prerequisites: []
+related_certs:
+  - gcfa
+  - gnfa
+  - gcih
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.giac.org/certifications/reverse-engineering-malware-grem/
+    type: official
+source_of_truth_url: https://www.giac.org/certifications/reverse-engineering-malware-grem/
+last_verified: "2026-04-03"

@@ -25,6 +25,8 @@ related_certs:
   - cisa
   - crisc
   - cgeit
+  - gslc
+  - gsna
 
 versions: []
 
