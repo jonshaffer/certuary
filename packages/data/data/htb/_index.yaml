@@ -1,0 +1,9 @@
+name: Hack The Box (HTB)
+slug: htb
+website: https://academy.hackthebox.com
+description: >-
+  Hack The Box Academy offers hands-on cybersecurity certifications that
+  validate practical skills through real-world scenarios. All HTB exams are
+  100% performance-based, requiring candidates to compromise live systems
+  and submit professional penetration testing reports. Certifications span
+  from entry-level to expert across offensive and defensive security domains.

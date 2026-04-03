@@ -1,0 +1,33 @@
+slug: htb-certification-path
+name: HTB Certification Path
+description: >-
+  A recommended progression through Hack The Box certifications, starting with
+  foundational cybersecurity skills and advancing through intermediate
+  specializations to expert-level certifications. Each phase builds on
+  the skills validated in the previous tier.
+website: https://academy.hackthebox.com/preview/certifications
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - htb-cjca
+  - name: Intermediate
+    order: 2
+    certificate_slugs:
+      - htb-cpts
+      - htb-cwes
+      - htb-cdsa
+  - name: Expert
+    order: 3
+    certificate_slugs:
+      - htb-cwee
+      - htb-cape
+      - htb-coae
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Candidates can pursue certifications based on
+    their career goals. The foundational CJCA is recommended before intermediate
+    certifications, and intermediate certs are recommended before expert-level.

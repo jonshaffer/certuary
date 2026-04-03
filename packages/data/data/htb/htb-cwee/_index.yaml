@@ -1,0 +1,41 @@
+name: HTB Certified Web Exploitation Expert
+short_name: HTB CWEE
+slug: htb-cwee
+status: active
+cost: "$350 USD"
+exam_format: performance-based
+description: >-
+  The HTB CWEE is an advanced certification that validates expert-level web
+  application security skills. Candidates must identify and exploit hard-to-find
+  vulnerabilities in modern, highly secure web applications using both black-box
+  and white-box testing techniques. The certification emphasizes advanced
+  exploitation, secure coding analysis, and identification of logical errors
+  that require deep expertise to discover.
+tags:
+  - cybersecurity
+  - advanced
+  - htb
+  - penetration-testing
+  - offensive-security
+  - web-security
+prerequisites:
+  - Advanced understanding of web security concepts
+  - Completion of the Senior Web Penetration Tester path on HTB Academy
+  - HTB CWES or equivalent experience recommended
+related_certs:
+  - gwapt
+  - gxpn
+  - htb-cwes
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert
+    type: official
+source_of_truth_url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert
+last_verified: "2026-04-03"
+domains:
+  - name: Advanced Web Vulnerability Identification
+  - name: Black-Box Testing Techniques
+  - name: White-Box Testing and Code Analysis
+  - name: Modern Web Application Security
+  - name: Secure Coding and Logical Error Identification

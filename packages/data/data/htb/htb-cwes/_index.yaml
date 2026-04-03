@@ -1,0 +1,39 @@
+name: HTB Certified Web Exploitation Specialist
+short_name: HTB CWES
+slug: htb-cwes
+status: active
+cost: "$218 USD"
+exam_format: performance-based
+description: >-
+  The HTB CWES (formerly Certified Bug Bounty Hunter / CBBH) validates
+  practical web application penetration testing and bug bounty hunting skills.
+  Candidates must compromise multiple real-world web applications and submit
+  a professional report. The certification focuses on identifying and
+  exploiting web vulnerabilities using hands-on techniques aligned with
+  modern bug bounty methodologies.
+tags:
+  - cybersecurity
+  - intermediate
+  - htb
+  - penetration-testing
+  - offensive-security
+  - web-security
+  - bug-bounty
+prerequisites:
+  - Completion of 100% of the Web Penetration Tester job role path on HTB Academy
+related_certs:
+  - gwapt
+  - htb-cwee
+  - htb-cpts
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist
+    type: official
+source_of_truth_url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist
+last_verified: "2026-04-03"
+domains:
+  - name: Web Application Penetration Testing
+  - name: Bug Bounty Hunting Methodologies
+  - name: Web Vulnerability Identification
+  - name: Enterprise-Grade Web Security Assessment

@@ -1,0 +1,46 @@
+name: HTB Certified Penetration Testing Specialist
+short_name: HTB CPTS
+slug: htb-cpts
+status: active
+cost: "$210 USD"
+exam_format: performance-based
+description: >-
+  The HTB CPTS validates a practitioner's ability to conduct comprehensive
+  penetration tests using industry-standard techniques. The exam requires
+  candidates to compromise real systems across external and internal networks,
+  including Active Directory environments, and submit a professional
+  penetration testing report. The certification covers the full penetration
+  testing lifecycle from reconnaissance through exploitation and reporting.
+tags:
+  - cybersecurity
+  - intermediate
+  - htb
+  - penetration-testing
+  - offensive-security
+  - active-directory
+prerequisites:
+  - Completion of 100% of the Penetration Tester job role path on HTB Academy
+  - Intermediate knowledge of web and infrastructure penetration testing
+  - Knowledge of web applications, operating systems, and networking basics
+  - Manual and automated exploitation skills
+  - Professional communication and reporting abilities
+related_certs:
+  - gpen
+  - comptia-pentest-plus
+  - htb-cjca
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist
+    type: official
+source_of_truth_url: https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist
+last_verified: "2026-04-03"
+domains:
+  - name: External Reconnaissance
+  - name: Web Application Attacks
+  - name: Internal Network Pivoting
+  - name: Active Directory Enumeration and Exploitation
+  - name: Privilege Escalation
+  - name: Exploitation Chaining
+  - name: Infrastructure Risk Assessment
+  - name: Professional Report Writing
