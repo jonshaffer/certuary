@@ -4,6 +4,8 @@ import { parseCost } from "@/lib/costs";
 export interface PathEntry {
   slug: string;
   isAutoAdded: boolean;
+  /** Slugs of certs that directly require this cert as a prerequisite. */
+  requiredBy: string[];
 }
 
 export interface ResolvedPath {
@@ -12,30 +14,49 @@ export interface ResolvedPath {
   cycleDetected: boolean;
 }
 
+interface ExpandedEntry {
+  isAutoAdded: boolean;
+  requiredBy: Set<string>;
+}
+
 /**
  * Expands all prerequisite certs via BFS starting from the selected slugs.
- * Returns a map of slug → isAutoAdded (false for user-selected, true for prereqs).
+ * Returns a map of slug → { isAutoAdded, requiredBy }.
+ *
+ * When heldSlugs is provided, held certs are still added to the map but their
+ * own prerequisites are not traversed (they're already satisfied).
  */
 export function expandPrerequisites(
   selectedSlugs: Set<string>,
-): Map<string, boolean> {
-  const expanded = new Map<string, boolean>();
+  heldSlugs?: Set<string>,
+): Map<string, ExpandedEntry> {
+  const expanded = new Map<string, ExpandedEntry>();
   const queue: string[] = [];
 
   for (const slug of selectedSlugs) {
-    expanded.set(slug, false);
+    expanded.set(slug, { isAutoAdded: false, requiredBy: new Set() });
     queue.push(slug);
   }
 
   let i = 0;
   while (i < queue.length) {
     const current = queue[i++];
+
+    // Skip traversing prerequisites of held certs — they're already satisfied
+    if (heldSlugs?.has(current)) continue;
+
     const cert = getCertBySlug(current);
     if (!cert) continue;
 
     for (const prereqSlug of cert.prerequisiteCerts) {
-      if (!expanded.has(prereqSlug)) {
-        expanded.set(prereqSlug, true);
+      const existing = expanded.get(prereqSlug);
+      if (existing) {
+        existing.requiredBy.add(current);
+      } else {
+        expanded.set(prereqSlug, {
+          isAutoAdded: true,
+          requiredBy: new Set([current]),
+        });
         queue.push(prereqSlug);
       }
     }
@@ -49,7 +70,7 @@ export function expandPrerequisites(
  * Edges go from prerequisite → dependent (prereq must come first).
  */
 function topologicalSort(
-  expanded: Map<string, boolean>,
+  expanded: Map<string, ExpandedEntry>,
   heldSlugs: Set<string>,
 ): { ordered: PathEntry[]; cycleDetected: boolean } {
   // Filter out held certs
@@ -97,9 +118,11 @@ function topologicalSort(
 
   while (queue.length > 0) {
     const current = queue.shift()!;
+    const entry = expanded.get(current);
     ordered.push({
       slug: current,
-      isAutoAdded: expanded.get(current) ?? false,
+      isAutoAdded: entry?.isAutoAdded ?? false,
+      requiredBy: [...(entry?.requiredBy ?? [])].filter(s => activeSlugs.has(s)).sort(),
     });
     orderedSet.add(current);
 
@@ -120,9 +143,11 @@ function topologicalSort(
   if (cycleDetected) {
     for (const slug of activeSlugs) {
       if (!orderedSet.has(slug)) {
+        const entry = expanded.get(slug);
         ordered.push({
           slug,
-          isAutoAdded: expanded.get(slug) ?? false,
+          isAutoAdded: entry?.isAutoAdded ?? false,
+          requiredBy: [...(entry?.requiredBy ?? [])].filter(s => activeSlugs.has(s)).sort(),
         });
       }
     }
@@ -143,7 +168,7 @@ export function resolvePath(
     return { ordered: [], totalCost: 0, cycleDetected: false };
   }
 
-  const expanded = expandPrerequisites(selectedSlugs);
+  const expanded = expandPrerequisites(selectedSlugs, heldSlugs);
   const { ordered, cycleDetected } = topologicalSort(expanded, heldSlugs);
 
   const totalCost = ordered.reduce((sum, entry) => {
