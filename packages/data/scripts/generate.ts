@@ -14,7 +14,23 @@ const OUT_FILE = path.resolve(import.meta.dirname, "../src/generated.ts");
 
 function readYaml<T>(filePath: string, schema: z.ZodType<T>): T {
   const content = fs.readFileSync(filePath, "utf-8");
-  return schema.parse(parse(content));
+
+  let parsed: unknown;
+  try {
+    parsed = parse(content);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Failed to parse YAML in "${filePath}": ${message}`);
+  }
+
+  const result = schema.safeParse(parsed);
+  if (!result.success) {
+    throw new Error(
+      `Validation failed for "${filePath}": ${result.error.message}`,
+    );
+  }
+
+  return result.data;
 }
 
 function mapDomain(d: RawExamDomain): object {
