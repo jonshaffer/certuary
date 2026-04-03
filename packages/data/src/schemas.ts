@@ -32,7 +32,16 @@ export const RawExamDomainSchema: z.ZodType<RawExamDomain> = z.object({
 
 const CertStatusSchema = z.enum(["active", "retiring", "retired"]);
 
-const ExamFormatSchema = z.enum(["multiple-choice", "performance-based"]);
+const ExamFormatValueSchema = z.enum([
+  "multiple-choice",
+  "performance-based",
+  "essay",
+]);
+
+const ExamFormatSchema = z.union([
+  ExamFormatValueSchema,
+  z.array(ExamFormatValueSchema),
+]);
 
 const LinkTypeSchema = z.enum([
   "official",

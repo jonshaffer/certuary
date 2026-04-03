@@ -1,0 +1,37 @@
+name: Professional Scrum Product Owner I
+short_name: PSPO I
+slug: scrum-org-pspo-i
+status: active
+cost: "$200 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 60
+question_count:
+  min: 80
+
+description: >-
+  Professional Scrum Product Owner I (PSPO I) validates foundational knowledge
+  of the Scrum framework and the role of the Product Owner. It demonstrates
+  understanding of how to maximize the value delivered by the Scrum Team.
+
+tags:
+  - scrum
+  - agile
+  - entry-level
+  - product-owner
+
+prerequisites: []
+
+related_certs:
+  - scrum-org-pspo-ii
+  - scrum-org-psm-i
+  - scrum-org-psu-i
+  - scrum-org-sps
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification
+last_verified: "2026-04-03"

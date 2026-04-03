@@ -1,0 +1,42 @@
+name: Professional Scrum Master II
+short_name: PSM II
+slug: scrum-org-psm-ii
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 90
+question_count:
+  min: 30
+
+description: >-
+  Professional Scrum Master II (PSM II) validates an advanced understanding of
+  the Scrum framework, its application, and the role of the Scrum Master. It
+  assesses the ability to apply Scrum in complex, real-world situations.
+
+tags:
+  - scrum
+  - agile
+  - intermediate
+  - scrum-master
+
+prerequisites:
+  - PSM I certification recommended but not required
+
+prerequisite_certs:
+  - scrum-org-psm-i
+
+related_certs:
+  - scrum-org-psm-iii
+  - scrum-org-pspo-i
+  - scrum-org-psd-i
+  - scrum-org-psk-i
+  - scrum-org-sps
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-scrum-master-ii-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-master-ii-certification
+last_verified: "2026-04-03"
