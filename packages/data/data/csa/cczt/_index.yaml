@@ -32,7 +32,7 @@ links:
     type: official
   - label: CCZT Training Bundle
     url: https://training.cloudsecurityalliance.org/certificate-of-competence-in-zero-trust-cczt
-    type: source-of-truth
+    type: course
 
 source_of_truth_url: https://cloudsecurityalliance.org/education/cczt
 last_verified: "2026-04-03"

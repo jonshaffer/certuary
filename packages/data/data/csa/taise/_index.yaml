@@ -13,7 +13,7 @@ description: >-
 
 tags:
   - cloud-security
-  - artificial-intelligence
+  - ai-governance
   - governance
   - vendor-neutral
   - csa
@@ -32,7 +32,7 @@ links:
     type: official
   - label: TAISE Training Bundle
     url: https://training.cloudsecurityalliance.org/trusted-ai-safety-expert-exam-bundle
-    type: source-of-truth
+    type: course
 
 source_of_truth_url: https://cloudsecurityalliance.org/education/taise
 last_verified: "2026-04-03"

@@ -34,7 +34,7 @@ links:
     type: official
   - label: CCSK Training Platform
     url: https://training.cloudsecurityalliance.org/page/certificate-of-cloud-security-knowledge-ccsk
-    type: source-of-truth
+    type: course
 
 source_of_truth_url: https://cloudsecurityalliance.org/education/ccsk
 last_verified: "2026-04-03"
