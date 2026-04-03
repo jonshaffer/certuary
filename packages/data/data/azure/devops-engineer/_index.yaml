@@ -31,8 +31,7 @@ prerequisites:
   - Experience with Azure administration or Azure development
   - Must hold the Azure Administrator Associate or Azure Developer Associate certification
 
-prerequisite_certs:
-  - azure-administrator
+prerequisite_certs: []
 
 related_certs:
   - azure-administrator
