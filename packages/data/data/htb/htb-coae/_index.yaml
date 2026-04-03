@@ -1,0 +1,36 @@
+name: HTB Certified Offensive AI Expert
+short_name: HTB COAE
+slug: htb-coae
+status: active
+exam_format: performance-based
+description: >-
+  The HTB COAE validates skills in identifying and exploiting vulnerabilities
+  in AI and machine learning systems. Co-developed with Google, this
+  certification covers adversarial machine learning, LLM prompt injection
+  and jailbreaking, AI application security, and AI defense mechanisms.
+  Candidates must demonstrate practical offensive security skills against
+  modern AI/ML systems.
+tags:
+  - cybersecurity
+  - advanced
+  - htb
+  - offensive-security
+  - artificial-intelligence
+  - machine-learning
+prerequisites:
+  - Understanding of AI and machine learning concepts
+  - Cybersecurity fundamentals
+related_certs:
+  - htb-cpts
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://academy.hackthebox.com/preview/certifications/htb-certified-offensive-ai-expert
+    type: official
+domains:
+  - name: Adversarial Machine Learning
+  - name: LLM Prompt Injection and Jailbreaking
+  - name: LLM Output Exploitation
+  - name: AI Application and System Security
+  - name: AI Defense Mechanisms
+  - name: AI Privacy

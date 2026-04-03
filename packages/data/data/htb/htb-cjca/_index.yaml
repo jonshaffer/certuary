@@ -1,0 +1,46 @@
+name: HTB Certified Junior Cybersecurity Associate
+short_name: HTB CJCA
+slug: htb-cjca
+status: active
+cost: "$105 USD"
+exam_format: performance-based
+description: >-
+  The HTB CJCA is an entry-level certification that validates foundational
+  cybersecurity skills across both offensive and defensive domains. Candidates
+  must complete a gray-box penetration test, perform defensive analysis using
+  SIEM tools, and submit a commercial-grade professional report. The exam
+  assesses the ability to identify vulnerabilities, perform basic exploitation,
+  analyze network traffic and logs, and detect intrusions.
+tags:
+  - cybersecurity
+  - entry-level
+  - htb
+  - penetration-testing
+  - defensive-security
+  - soc
+prerequisites:
+  - Foundational cybersecurity knowledge
+  - Completion of the Junior Cybersecurity Associate job role path on HTB Academy
+related_certs:
+  - comptia-security-plus
+  - gsec
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://academy.hackthebox.com/preview/certifications/htb-certified-junior-cybersecurity-associate
+    type: official
+domains:
+  - name: Offensive Security Fundamentals
+    subdomains:
+      - name: Vulnerability identification
+      - name: Basic exploitation techniques
+  - name: Defensive Security Fundamentals
+    subdomains:
+      - name: SIEM-assisted security monitoring
+      - name: Network traffic analysis
+      - name: Log analysis
+      - name: Intrusion detection
+  - name: Enterprise Security Assessment and Reporting
+    subdomains:
+      - name: Gray-box penetration testing
+      - name: Commercial-grade report writing

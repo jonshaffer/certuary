@@ -1,0 +1,39 @@
+name: HTB Certified Defensive Security Analyst
+short_name: HTB CDSA
+slug: htb-cdsa
+status: active
+cost: "$210 USD"
+exam_format: performance-based
+description: >-
+  The HTB CDSA validates skills in security analysis and SOC operations.
+  Candidates must demonstrate the ability to identify security incidents,
+  analyze network traffic and logs, detect intrusions, and identify detection
+  avenues not immediately apparent from data analysis. The practical exam
+  requires submitting flags and a professional report within seven days.
+tags:
+  - cybersecurity
+  - intermediate
+  - htb
+  - defensive-security
+  - soc
+  - incident-response
+prerequisites:
+  - Completion of the SOC Analyst job role path on HTB Academy
+  - Security analysis fundamentals
+  - SOC operations knowledge
+related_certs:
+  - gcih
+  - gcia
+  - htb-cjca
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst
+    type: official
+domains:
+  - name: Security Analysis
+  - name: SOC Operations
+  - name: Incident Handling
+  - name: Intrusion Detection and Analysis
+  - name: Log and Network Traffic Analysis
+  - name: Detection Avenue Identification

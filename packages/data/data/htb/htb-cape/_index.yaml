@@ -1,0 +1,44 @@
+name: HTB Certified Active Directory Pentesting Expert
+short_name: HTB CAPE
+slug: htb-cape
+status: active
+cost: "$350 USD"
+exam_format: performance-based
+description: >-
+  The HTB CAPE is an advanced certification that validates expert-level Active
+  Directory penetration testing skills. Candidates must demonstrate sophisticated
+  attack execution, complex attack path identification and chaining, and advanced
+  exploitation of AD environments. The exam covers both internal and external AD
+  penetration testing, including advanced authentication protocol attacks against
+  Kerberos and NTLM.
+tags:
+  - cybersecurity
+  - advanced
+  - htb
+  - penetration-testing
+  - offensive-security
+  - active-directory
+prerequisites:
+  - Solid understanding of Active Directory fundamentals
+  - Network penetration testing concepts familiarity
+  - Completion of the Active Directory Penetration Tester job role path on HTB Academy
+  - HTB CPTS certification or equivalent experience strongly recommended
+related_certs:
+  - gpen
+  - gxpn
+  - htb-cpts
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://academy.hackthebox.com/preview/certifications/htb-certified-active-directory-pentesting-expert
+    type: official
+domains:
+  - name: Active Directory Enumeration and Exploitation
+  - name: Internal AD Penetration Testing
+  - name: External AD Penetration Testing
+  - name: Advanced Authentication Protocol Attacks
+    subdomains:
+      - name: Kerberos attacks
+      - name: NTLM attacks
+  - name: Complex Attack Path Identification and Chaining
+  - name: Windows Penetration Testing
