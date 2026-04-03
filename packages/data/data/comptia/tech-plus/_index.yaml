@@ -1,0 +1,46 @@
+name: CompTIA Tech+
+short_name: Tech+
+slug: comptia-tech-plus
+status: active
+cost: "$138 USD"
+
+description: >-
+  CompTIA Tech+ (formerly ITF+) is a foundational certification that validates
+  broad knowledge of IT concepts including hardware, software, networking,
+  security, and database fundamentals. It is ideal for those exploring an
+  IT career.
+
+tags:
+  - entry-level
+  - it-fundamentals
+  - foundational
+
+prerequisites: []
+
+related_certs:
+  - comptia-a-plus
+
+versions:
+  - version: FC0-U71
+    release_date: "2023-08-01"
+    notes: >-
+      Current exam covering IT concepts, infrastructure, applications and
+      software, software development, database fundamentals, and security.
+  - version: FC0-U61
+    release_date: "2018-01-15"
+    retire_date: "2024-01-31"
+    notes: Previous version (branded as ITF+), now retired.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/tech
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/tech#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+
+source_of_truth_url: https://www.comptia.org/certifications/tech
+last_verified: "2026-04-01"

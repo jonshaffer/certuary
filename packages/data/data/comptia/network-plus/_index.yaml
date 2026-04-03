@@ -1,0 +1,57 @@
+name: CompTIA Network+
+short_name: Network+
+slug: comptia-network-plus
+status: active
+cost: "$404 USD"
+
+description: >-
+  CompTIA Network+ validates the ability to design, configure, manage, and
+  troubleshoot wired and wireless network devices. It covers networking
+  fundamentals, implementations, operations, security, and troubleshooting.
+
+tags:
+  - networking
+  - intermediate
+  - infrastructure
+  - dod-8570
+
+prerequisites:
+  - CompTIA A+ certification recommended
+  - Nine to twelve months of networking experience recommended
+
+prerequisite_certs:
+  - comptia-a-plus
+
+related_certs:
+  - comptia-a-plus
+  - comptia-security-plus
+  - comptia-cloud-plus
+  - ccna
+
+versions:
+  - version: N10-009
+    release_date: "2024-06-20"
+    notes: >-
+      Current exam covering network architecture, security, troubleshooting,
+      and emerging networking technologies.
+  - version: N10-008
+    release_date: "2021-09-15"
+    retire_date: "2024-12-15"
+    notes: Previous version, now retired.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/network
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/network#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+  - label: Professor Messer Network+ Training
+    url: https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-training-course/
+    type: course
+
+source_of_truth_url: https://www.comptia.org/certifications/network
+last_verified: "2026-04-01"

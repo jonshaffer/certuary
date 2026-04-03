@@ -1,0 +1,44 @@
+name: CompTIA Data+
+short_name: Data+
+slug: comptia-data-plus
+status: active
+cost: "$366 USD"
+
+description: >-
+  CompTIA Data+ validates the skills required to mine, manipulate, visualize,
+  and report on data. It covers data concepts, environments, collection,
+  analysis, visualization, governance, and quality.
+
+tags:
+  - data-analytics
+  - entry-level
+  - data-visualization
+  - data-governance
+
+prerequisites:
+  - Eighteen to twenty-four months of data analytics experience recommended
+
+related_certs:
+  - comptia-datasys-plus
+  - comptia-a-plus
+
+versions:
+  - version: DA0-001
+    release_date: "2022-03-22"
+    notes: >-
+      Current exam covering data concepts, mining, analysis, visualization,
+      governance, quality, and controls.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/data
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/data#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+
+source_of_truth_url: https://www.comptia.org/certifications/data
+last_verified: "2026-04-01"

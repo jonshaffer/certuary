@@ -1,0 +1,47 @@
+name: CompTIA Project+
+short_name: Project+
+slug: comptia-project-plus
+status: active
+cost: "$366 USD"
+
+description: >-
+  CompTIA Project+ validates the foundational project management skills needed
+  to manage small to medium-sized projects. It covers project basics,
+  constraints, communication, change management, and agile methodologies.
+
+tags:
+  - project-management
+  - intermediate
+  - agile
+  - business
+
+prerequisites:
+  - Twelve months of project management experience recommended
+
+related_certs:
+  - comptia-a-plus
+
+versions:
+  - version: PK0-005
+    release_date: "2022-11-01"
+    notes: >-
+      Current exam covering project basics, constraints, communication
+      and change management, and tools and documentation.
+  - version: PK0-004
+    release_date: "2017-05-30"
+    retire_date: "2023-05-01"
+    notes: Previous version, now retired.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/project
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/project#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+
+source_of_truth_url: https://www.comptia.org/certifications/project
+last_verified: "2026-04-01"

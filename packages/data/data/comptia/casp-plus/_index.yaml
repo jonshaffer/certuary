@@ -1,0 +1,57 @@
+name: CompTIA CASP+
+short_name: CASP+
+slug: comptia-casp-plus
+status: active
+cost: "$509 USD"
+
+description: >-
+  CompTIA Advanced Security Practitioner (CASP+) is an advanced-level
+  cybersecurity certification covering enterprise security architecture,
+  operations, governance, risk, and compliance. It is the pinnacle of the
+  CompTIA cybersecurity pathway and meets DoD 8570 requirements.
+
+tags:
+  - cybersecurity
+  - advanced
+  - enterprise-security
+  - security-architecture
+  - dod-8570
+
+prerequisites:
+  - Minimum ten years of IT experience, including five years of hands-on security experience recommended
+  - CompTIA CySA+ or PenTest+ recommended
+
+related_certs:
+  - comptia-security-plus
+  - comptia-cysa-plus
+  - comptia-pentest-plus
+  - cissp
+  - cism
+
+prerequisite_certs:
+  - comptia-security-plus
+
+versions:
+  - version: CAS-004
+    release_date: "2021-10-06"
+    notes: >-
+      Current exam covering security architecture, security operations,
+      governance risk and compliance, and security engineering and cryptography.
+  - version: CAS-003
+    release_date: "2018-04-02"
+    retire_date: "2022-06-20"
+    notes: Previous version, now retired.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/comptia-advanced-security-practitioner
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/comptia-advanced-security-practitioner#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+
+source_of_truth_url: https://www.comptia.org/certifications/comptia-advanced-security-practitioner
+last_verified: "2026-04-01"

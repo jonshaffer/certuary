@@ -1,0 +1,48 @@
+name: CompTIA DataSys+
+short_name: DataSys+
+slug: comptia-datasys-plus
+status: active
+cost: "$366 USD"
+
+description: >-
+  CompTIA DataSys+ validates skills in database administration including
+  deploying, managing, and maintaining database systems. It covers database
+  fundamentals, management, security, business continuity, and governance.
+
+tags:
+  - database
+  - intermediate
+  - data-management
+  - database-administration
+
+prerequisites:
+  - Two to three years of database administration experience recommended
+
+prerequisite_certs:
+  - comptia-data-plus
+
+related_certs:
+  - comptia-data-plus
+  - comptia-cloud-plus
+  - comptia-server-plus
+
+versions:
+  - version: DS0-001
+    release_date: "2024-01-23"
+    notes: >-
+      First exam version covering database fundamentals, management,
+      security, business continuity, and governance.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/datasys
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/datasys#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+
+source_of_truth_url: https://www.comptia.org/certifications/datasys
+last_verified: "2026-04-01"

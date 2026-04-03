@@ -1,0 +1,58 @@
+name: CompTIA CySA+
+short_name: CySA+
+slug: comptia-cysa-plus
+status: active
+cost: "$404 USD"
+
+description: >-
+  CompTIA CySA+ (Cybersecurity Analyst) validates the ability to detect,
+  prevent, and respond to cybersecurity threats through continuous security
+  monitoring. It covers threat detection, vulnerability management, incident
+  response, and security architecture.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - threat-detection
+  - incident-response
+  - dod-8570
+
+prerequisites:
+  - CompTIA Security+ recommended
+  - Four years of hands-on security experience recommended
+
+related_certs:
+  - comptia-security-plus
+  - comptia-pentest-plus
+  - comptia-casp-plus
+  - cissp
+  - cism
+  - cisa
+
+prerequisite_certs:
+  - comptia-security-plus
+
+versions:
+  - version: CS0-003
+    release_date: "2023-06-06"
+    notes: >-
+      Current exam covering security operations, vulnerability management,
+      incident response, and reporting and communication.
+  - version: CS0-002
+    release_date: "2020-04-21"
+    retire_date: "2023-12-05"
+    notes: Previous version, now retired.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/cybersecurity-analyst
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/cybersecurity-analyst#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+
+source_of_truth_url: https://www.comptia.org/certifications/cybersecurity-analyst
+last_verified: "2026-04-01"
