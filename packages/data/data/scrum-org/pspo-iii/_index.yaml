@@ -3,6 +3,7 @@ short_name: PSPO III
 slug: scrum-org-pspo-iii
 status: active
 cost: "$500 USD"
+exam_format: mixed
 passing_score: 85
 duration_minutes: 120
 question_count:
