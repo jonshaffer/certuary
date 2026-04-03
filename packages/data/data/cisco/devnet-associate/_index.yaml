@@ -4,7 +4,6 @@ slug: devnet-associate
 status: active
 cost: "$330 USD"
 exam_format: multiple-choice
-passing_score: 75
 duration_minutes: 120
 question_count:
   min: 100
