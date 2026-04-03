@@ -1,0 +1,54 @@
+name: GitHub Advanced Security
+short_name: GH Advanced Security
+slug: github-advanced-security
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 120
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates expertise in securing the software development lifecycle with GitHub
+  Advanced Security. Covers code scanning, secret scanning, dependency review,
+  CodeQL analysis, and security policy configuration for enterprise
+  environments.
+
+tags:
+  - github
+  - security
+  - advanced
+  - devsecops
+
+prerequisites:
+  - Experience with GitHub Advanced Security features and DevSecOps practices
+
+related_certs:
+  - github-actions
+  - github-administration
+  - comptia-security-plus
+
+versions:
+  - version: GH-500
+    release_date: "2024-01-08"
+    notes: >-
+      Initial release covering code scanning, secret scanning, dependency
+      management, and CodeQL for securing code at every stage.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://resources.github.com/learn/certifications/
+    type: official
+  - label: Microsoft Learn Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/
+    type: course
+  - label: GitHub Advanced Security Documentation
+    url: https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/
+last_verified: "2026-04-03"

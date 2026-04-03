@@ -1,0 +1,52 @@
+name: GitHub Foundations
+short_name: GH Foundations
+slug: github-foundations
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 60
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates foundational understanding of GitHub, Git, and collaboration
+  concepts. Covers repositories, commits, branching, pull requests, project
+  management features, and modern development practices on the GitHub platform.
+
+tags:
+  - github
+  - git
+  - entry-level
+  - foundational
+
+prerequisites: []
+
+related_certs:
+  - github-actions
+  - github-administration
+  - github-copilot
+
+versions:
+  - version: GH-900
+    release_date: "2024-01-08"
+    notes: >-
+      Initial release covering Git fundamentals, GitHub collaboration,
+      project management, and modern development concepts.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://resources.github.com/learn/certifications/
+    type: official
+  - label: Microsoft Learn Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/
+    type: course
+  - label: GitHub Certifications Documentation
+    url: https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/
+last_verified: "2026-04-03"

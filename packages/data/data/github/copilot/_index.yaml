@@ -1,0 +1,53 @@
+name: GitHub Copilot
+short_name: GH Copilot
+slug: github-copilot
+status: active
+cost: "$99 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 120
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates expertise in using GitHub Copilot for AI-assisted software
+  development. Covers prompt engineering, responsible AI usage, Copilot
+  features across IDE integrations, and optimizing development workflows
+  with AI-powered code suggestions.
+
+tags:
+  - github
+  - ai
+  - intermediate
+  - developer
+
+prerequisites:
+  - Experience using GitHub Copilot in a development environment
+
+related_certs:
+  - github-foundations
+  - github-actions
+
+versions:
+  - version: GH-300
+    release_date: "2024-01-08"
+    notes: >-
+      Initial release covering Copilot features, prompt engineering,
+      responsible AI practices, and workflow optimization.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://resources.github.com/learn/certifications/
+    type: official
+  - label: Microsoft Learn Study Guide
+    url: https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/
+    type: course
+  - label: GitHub Copilot Documentation
+    url: https://docs.github.com/en/copilot
+    type: source-of-truth
+
+source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/
+last_verified: "2026-04-03"
