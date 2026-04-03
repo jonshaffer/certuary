@@ -1,0 +1,27 @@
+slug: cdpo-br
+name: Certified Data Protection Officer/Brazil
+description: >-
+  The CDPO/BR designation recognizes professionals with demonstrated
+  expertise in Brazilian data protection law (LGPD) combined with
+  practical privacy management skills. It requires holding a CIPP
+  certification in any jurisdiction plus the CIPM certification.
+website: https://iapp.org/certify/cdpo-br
+status: active
+phases:
+  - name: Privacy Law Knowledge
+    order: 1
+    certificate_slugs:
+      - cipp-us
+      - cipp-e
+      - cipp-c
+      - cipp-a
+  - name: Privacy Management Knowledge
+    order: 2
+    certificate_slugs:
+      - cipm
+completion_criteria:
+  required: 2
+  notes: >-
+    Requires one certification from each phase: one CIPP certification
+    (any jurisdiction variant: US, E, C, or A) from phase 1, plus CIPM
+    from phase 2. Both certifications must be active simultaneously.

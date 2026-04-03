@@ -1,0 +1,29 @@
+slug: fip
+name: Fellow of Information Privacy
+description: >-
+  The Fellow of Information Privacy (FIP) is IAPP's highest designation,
+  recognizing professionals who hold a CIPP certification in any
+  jurisdiction combined with either the CIPM or CIPT certification,
+  demonstrating comprehensive privacy expertise across law, management,
+  and technology.
+website: https://iapp.org/certify/fellow-of-information-privacy
+status: active
+phases:
+  - name: Privacy Law Knowledge
+    order: 1
+    certificate_slugs:
+      - cipp-us
+      - cipp-e
+      - cipp-c
+      - cipp-a
+  - name: Privacy Practice Knowledge
+    order: 2
+    certificate_slugs:
+      - cipm
+      - cipt
+completion_criteria:
+  required: 2
+  notes: >-
+    Requires one certification from each phase: one CIPP certification
+    (any jurisdiction variant: US, E, C, or A) from phase 1, plus either
+    CIPM or CIPT from phase 2. Both certifications must be active simultaneously.

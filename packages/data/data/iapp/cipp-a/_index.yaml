@@ -1,0 +1,44 @@
+name: Certified Information Privacy Professional/Asia
+short_name: CIPP/A
+slug: cipp-a
+status: active
+cost: "$550 USD (IAPP member) / $800 USD (non-member)"
+
+description: >-
+  The CIPP/A certification validates knowledge of privacy laws and
+  regulations across the Asia-Pacific region, specifically focusing on
+  the frameworks of Singapore, Hong Kong, and India, along with
+  common privacy principles and practices in the region.
+
+tags:
+  - privacy
+  - compliance
+  - data-protection
+  - intermediate
+  - iapp
+
+prerequisites:
+  - No formal prerequisites; professional experience in privacy recommended
+
+related_certs:
+  - cipp-us
+  - cipp-e
+  - cipp-c
+  - cipm
+  - cipt
+  - aigp
+  - cdpse
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://iapp.org/certify/cipp/asia/
+    type: official
+  - label: CIPP/A Body of Knowledge
+    url: https://iapp.org/certify/cipp/asia/
+    type: source-of-truth
+
+source_of_truth_url: https://iapp.org/certify/cipp/asia/
+last_verified: "2026-04-03"

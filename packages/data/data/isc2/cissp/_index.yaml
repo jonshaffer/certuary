@@ -32,6 +32,10 @@ related_certs:
   - comptia-security-plus
   - cisa
   - cism
+  - cipp-us
+  - cipp-e
+  - cipm
+  - cipt
 
 versions: []
 

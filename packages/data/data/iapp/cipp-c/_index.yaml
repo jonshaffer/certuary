@@ -1,0 +1,44 @@
+name: Certified Information Privacy Professional/Canada
+short_name: CIPP/C
+slug: cipp-c
+status: active
+cost: "$550 USD (IAPP member) / $800 USD (non-member)"
+
+description: >-
+  The CIPP/C certification validates knowledge of Canadian privacy laws
+  and regulations, including PIPEDA, provincial privacy legislation,
+  and the Canadian framework for both public and private-sector
+  data protection.
+
+tags:
+  - privacy
+  - compliance
+  - data-protection
+  - intermediate
+  - iapp
+
+prerequisites:
+  - No formal prerequisites; professional experience in privacy recommended
+
+related_certs:
+  - cipp-us
+  - cipp-e
+  - cipp-a
+  - cipm
+  - cipt
+  - aigp
+  - cdpse
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://iapp.org/certify/cipp/canada/
+    type: official
+  - label: CIPP/C Body of Knowledge
+    url: https://iapp.org/certify/cipp/canada/
+    type: source-of-truth
+
+source_of_truth_url: https://iapp.org/certify/cipp/canada/
+last_verified: "2026-04-03"

@@ -26,6 +26,10 @@ related_certs:
   - cism
   - hcispp
   - cissp
+  - cipp-us
+  - cipp-e
+  - cipm
+  - cipt
 
 versions: []
 
