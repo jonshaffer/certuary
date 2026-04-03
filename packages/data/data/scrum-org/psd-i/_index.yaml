@@ -1,0 +1,36 @@
+name: Professional Scrum Developer I
+short_name: PSD I
+slug: scrum-org-psd-i
+status: active
+cost: "$200 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 60
+question_count:
+  min: 80
+
+description: >-
+  Professional Scrum Developer I (PSD I) validates understanding of how to
+  apply modern software development practices within the context of Scrum.
+  It covers topics such as continuous integration, test-driven development,
+  and agile architecture.
+
+tags:
+  - scrum
+  - agile
+  - entry-level
+  - developer
+
+prerequisites: []
+
+related_certs:
+  - scrum-org-psm-i
+  - scrum-org-psk-i
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-scrum-developer-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-developer-certification
+last_verified: "2026-04-03"

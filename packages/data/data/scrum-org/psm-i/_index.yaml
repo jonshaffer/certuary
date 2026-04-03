@@ -1,0 +1,38 @@
+name: Professional Scrum Master I
+short_name: PSM I
+slug: scrum-org-psm-i
+status: active
+cost: "$150 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 60
+question_count:
+  min: 80
+
+description: >-
+  Professional Scrum Master I (PSM I) validates foundational knowledge of the
+  Scrum framework and its application. It demonstrates an understanding of
+  Scrum as described in the Scrum Guide and the concepts of applying Scrum.
+
+tags:
+  - scrum
+  - agile
+  - entry-level
+  - scrum-master
+
+prerequisites: []
+
+related_certs:
+  - scrum-org-psm-ii
+  - scrum-org-pspo-i
+  - scrum-org-psd-i
+  - scrum-org-psk-i
+  - scrum-org-sps
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-scrum-master-i-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-master-i-certification
+last_verified: "2026-04-03"

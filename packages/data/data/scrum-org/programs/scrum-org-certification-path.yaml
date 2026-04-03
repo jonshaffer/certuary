@@ -1,0 +1,37 @@
+slug: scrum-org-certification-path
+name: Scrum.org Certification Path
+description: >-
+  Scrum.org's Professional Scrum certification pathway progressing from
+  foundational Scrum knowledge through intermediate specializations to
+  expert-level mastery across Scrum Master and Product Owner tracks.
+website: https://www.scrum.org/assessments
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - scrum-org-psm-i
+      - scrum-org-pspo-i
+      - scrum-org-psd-i
+  - name: Intermediate
+    order: 2
+    certificate_slugs:
+      - scrum-org-psm-ii
+      - scrum-org-pspo-ii
+      - scrum-org-psk-i
+      - scrum-org-pal-i
+      - scrum-org-pal-ebm
+      - scrum-org-sps
+      - scrum-org-psu-i
+  - name: Expert
+    order: 3
+    certificate_slugs:
+      - scrum-org-psm-iii
+      - scrum-org-pspo-iii
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Scrum.org recommends starting with PSM I or
+    PSPO I and progressing through the levels based on experience and career
+    goals. Intermediate specializations can be pursued in any order.

@@ -1,0 +1,44 @@
+name: Professional Scrum Product Owner III
+short_name: PSPO III
+slug: scrum-org-pspo-iii
+status: active
+cost: "$500 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 120
+question_count:
+  min: 30
+  approximate: true
+
+description: >-
+  Professional Scrum Product Owner III (PSPO III) validates a distinguished
+  level of Product Owner mastery. It assesses deep understanding of product
+  management, business strategy, and the ability to maximize value in complex
+  environments.
+
+tags:
+  - scrum
+  - agile
+  - expert
+  - product-owner
+
+prerequisites:
+  - PSPO II certification recommended
+  - Extensive experience as a Product Owner in complex environments
+
+prerequisite_certs:
+  - scrum-org-pspo-ii
+
+related_certs:
+  - scrum-org-pspo-i
+  - scrum-org-pspo-ii
+  - scrum-org-psm-i
+  - scrum-org-psu-i
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-scrum-product-owner-iii-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-product-owner-iii-certification
+last_verified: "2026-04-03"

@@ -1,0 +1,39 @@
+name: Professional Agile Leadership - Evidence-Based Management
+short_name: PAL-EBM
+slug: scrum-org-pal-ebm
+status: active
+cost: "$200 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 60
+question_count:
+  min: 40
+
+description: >-
+  Professional Agile Leadership - Evidence-Based Management (PAL-EBM) validates
+  understanding of how to guide organizations toward improved business outcomes
+  using empirical approaches. It covers the Evidence-Based Management framework
+  for measuring and improving value delivery.
+
+tags:
+  - scrum
+  - agile
+  - intermediate
+  - leadership
+  - metrics
+
+prerequisites:
+  - Experience in a leadership role recommended
+
+related_certs:
+  - scrum-org-pal-i
+  - scrum-org-psm-i
+  - scrum-org-pspo-i
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-agile-leadership-evidence-based-management-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-agile-leadership-evidence-based-management-certification
+last_verified: "2026-04-03"

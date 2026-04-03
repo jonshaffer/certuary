@@ -1,0 +1,42 @@
+name: Professional Scrum Product Owner II
+short_name: PSPO II
+slug: scrum-org-pspo-ii
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 60
+question_count:
+  min: 40
+
+description: >-
+  Professional Scrum Product Owner II (PSPO II) validates an advanced
+  understanding of the Product Owner role. It assesses the ability to use
+  Scrum to maximize business value and address complex product management
+  challenges.
+
+tags:
+  - scrum
+  - agile
+  - intermediate
+  - product-owner
+
+prerequisites:
+  - PSPO I certification recommended but not required
+
+prerequisite_certs:
+  - scrum-org-pspo-i
+
+related_certs:
+  - scrum-org-pspo-i
+  - scrum-org-pspo-iii
+  - scrum-org-psm-i
+  - scrum-org-psu-i
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-scrum-product-owner-ii-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-product-owner-ii-certification
+last_verified: "2026-04-03"

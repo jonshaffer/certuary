@@ -1,0 +1,38 @@
+name: Scaled Professional Scrum
+short_name: SPS
+slug: scrum-org-sps
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 60
+question_count:
+  min: 40
+
+description: >-
+  Scaled Professional Scrum (SPS) validates understanding of how to scale
+  Scrum using the Nexus framework. It covers the challenges of scaling,
+  cross-team coordination, and how to minimize dependencies across multiple
+  Scrum Teams working on a single product.
+
+tags:
+  - scrum
+  - agile
+  - intermediate
+  - scaling
+
+prerequisites:
+  - Experience working with Scrum recommended
+  - Understanding of the Nexus framework recommended
+
+related_certs:
+  - scrum-org-psm-i
+  - scrum-org-pspo-i
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/scaled-professional-scrum-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/scaled-professional-scrum-certification
+last_verified: "2026-04-03"

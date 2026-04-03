@@ -1,0 +1,45 @@
+name: Professional Scrum Master III
+short_name: PSM III
+slug: scrum-org-psm-iii
+status: active
+cost: "$500 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 120
+question_count:
+  min: 30
+  approximate: true
+
+description: >-
+  Professional Scrum Master III (PSM III) validates a distinguished level of
+  Scrum mastery. It assesses deep understanding of Scrum, the ability to apply
+  Scrum in a variety of complex team and organizational situations, and
+  coaching and mentoring skills.
+
+tags:
+  - scrum
+  - agile
+  - expert
+  - scrum-master
+
+prerequisites:
+  - PSM II certification recommended
+  - Extensive experience as a Scrum Master in complex environments
+
+prerequisite_certs:
+  - scrum-org-psm-ii
+
+related_certs:
+  - scrum-org-psm-i
+  - scrum-org-psm-ii
+  - scrum-org-pspo-i
+  - scrum-org-psd-i
+  - scrum-org-sps
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-scrum-master-iii-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-master-iii-certification
+last_verified: "2026-04-03"

@@ -1,0 +1,36 @@
+name: Professional Scrum with User Experience I
+short_name: PSU I
+slug: scrum-org-psu-i
+status: active
+cost: "$200 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 60
+question_count:
+  min: 80
+
+description: >-
+  Professional Scrum with User Experience I (PSU I) validates understanding
+  of how to integrate modern UX practices into Scrum. It covers how Scrum
+  Teams can incorporate UX work to deliver valuable products while maintaining
+  healthy team dynamics.
+
+tags:
+  - scrum
+  - agile
+  - intermediate
+  - ux
+
+prerequisites:
+  - Experience with Scrum or UX practices recommended
+
+related_certs:
+  - scrum-org-pspo-i
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-scrum-with-user-experience-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-with-user-experience-certification
+last_verified: "2026-04-03"

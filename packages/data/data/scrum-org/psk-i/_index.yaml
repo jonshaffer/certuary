@@ -1,0 +1,37 @@
+name: Professional Scrum with Kanban I
+short_name: PSK I
+slug: scrum-org-psk-i
+status: active
+cost: "$200 USD"
+exam_format: multiple-choice
+passing_score: 85
+duration_minutes: 60
+question_count:
+  min: 45
+
+description: >-
+  Professional Scrum with Kanban I (PSK I) validates understanding of how
+  Scrum Teams can use Kanban practices to improve flow, transparency, and
+  delivery. It covers Kanban practices within the context of the Scrum
+  framework.
+
+tags:
+  - scrum
+  - agile
+  - intermediate
+  - kanban
+
+prerequisites:
+  - Experience working with Scrum recommended
+
+related_certs:
+  - scrum-org-psm-i
+  - scrum-org-psd-i
+
+links:
+  - label: Official Assessment Page
+    url: https://www.scrum.org/assessments/professional-scrum-with-kanban-certification
+    type: official
+
+source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-with-kanban-certification
+last_verified: "2026-04-03"
