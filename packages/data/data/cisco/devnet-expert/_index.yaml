@@ -1,0 +1,54 @@
+name: Cisco Certified DevNet Expert
+short_name: DevNet Expert
+slug: devnet-expert
+status: active
+cost: "$1,600 USD (lab exam)"
+exam_format: performance-based
+duration_minutes: 480
+
+description: >-
+  The highest level of Cisco DevNet certification. Validates expert-level
+  knowledge of software development and automation for Cisco platforms
+  through an 8-hour hands-on lab exam covering application design, deployment,
+  infrastructure automation, and network programmability. Requires passing
+  the DevNet Professional DEVCOR exam as a qualifying exam.
+
+tags:
+  - automation
+  - expert
+  - cisco
+  - devops
+  - programming
+  - ccie
+
+prerequisites:
+  - 5-7 years of software development and network automation experience recommended
+  - Must pass DEVCOR (350-901) qualifying exam before scheduling lab
+
+prerequisite_certs:
+  - devnet-professional
+
+related_certs:
+  - devnet-professional
+  - devnet-associate
+
+versions:
+  - version: "v1.0"
+    release_date: "2021-11-01"
+    notes: >-
+      First version of the DevNet Expert lab exam covering application
+      development and automation for Cisco platforms.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/devnet-expert/index.html
+    type: official
+  - label: DevNet Expert Lab Exam Topics
+    url: https://learningnetwork.cisco.com/s/devnet-expert-exam-topics
+    type: source-of-truth
+  - label: Cisco DevNet
+    url: https://developer.cisco.com/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/devnet-expert/index.html
+last_verified: "2026-04-01"

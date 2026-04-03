@@ -1,0 +1,52 @@
+name: CCNP Data Center
+short_name: CCNP Data Center
+slug: ccnp-data-center
+status: active
+cost: "$400 USD (core) + $300 USD (concentration)"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 90
+  approximate: true
+
+description: >-
+  Validates advanced knowledge of data center infrastructure including
+  networking, compute, storage networking, automation, and security within
+  data center environments. Requires passing the DCCOR core exam (350-601)
+  plus one concentration exam.
+
+tags:
+  - data-center
+  - professional
+  - cisco
+  - networking
+  - storage
+  - compute
+
+prerequisites:
+  - 3-5 years of experience implementing data center solutions recommended
+
+related_certs:
+  - ccna
+  - ccie-data-center
+
+versions:
+  - version: "350-601"
+    release_date: "2020-02-24"
+    notes: >-
+      DCCOR core exam covering implementing and operating Cisco data center
+      core technologies.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/data-center/ccnp-data-center/index.html
+    type: official
+  - label: DCCOR Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccnp-data-center-exam-topics
+    type: source-of-truth
+  - label: r/ccnp
+    url: https://www.reddit.com/r/ccnp/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/data-center/ccnp-data-center/index.html
+last_verified: "2026-04-01"

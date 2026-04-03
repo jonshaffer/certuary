@@ -1,0 +1,52 @@
+name: CCIE Enterprise Wireless
+short_name: CCIE EW
+slug: ccie-enterprise-wireless
+status: active
+cost: "$1,600 USD (lab exam)"
+exam_format: performance-based
+duration_minutes: 480
+
+description: >-
+  Validates expert-level knowledge of enterprise wireless networking through
+  an 8-hour hands-on lab exam covering wireless network design, deployment,
+  operation, and optimization. Requires passing the CCNP Enterprise ENCOR
+  exam as a qualifying exam.
+
+tags:
+  - networking
+  - expert
+  - cisco
+  - wireless
+  - enterprise
+  - ccie
+
+prerequisites:
+  - 5-7 years of enterprise wireless networking experience recommended
+  - Must pass ENCOR (350-401) qualifying exam before scheduling lab
+
+prerequisite_certs:
+  - ccnp-enterprise
+
+related_certs:
+  - ccnp-enterprise
+  - ccie-enterprise-infrastructure
+
+versions:
+  - version: "v3.0"
+    release_date: "2020-02-24"
+    notes: >-
+      Updated lab exam aligned with the CCNP Enterprise ENCOR core exam topics.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccie-enterprise-wireless/index.html
+    type: official
+  - label: CCIE EW Lab Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccie-enterprise-wireless-exam-topics
+    type: source-of-truth
+  - label: r/ccie
+    url: https://www.reddit.com/r/ccie/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccie-enterprise-wireless/index.html
+last_verified: "2026-04-01"

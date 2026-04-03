@@ -1,0 +1,52 @@
+name: CCIE Security
+short_name: CCIE Security
+slug: ccie-security
+status: active
+cost: "$1,600 USD (lab exam)"
+exam_format: performance-based
+duration_minutes: 480
+
+description: >-
+  Validates expert-level knowledge of network security through an 8-hour
+  hands-on lab exam covering complex security technologies including
+  perimeter security, intrusion prevention, identity management, firewall
+  technologies, and VPN solutions. Requires passing the CCNP Security
+  SCOR exam as a qualifying exam.
+
+tags:
+  - cybersecurity
+  - expert
+  - cisco
+  - network-security
+  - ccie
+
+prerequisites:
+  - 5-7 years of network security experience recommended
+  - Must pass SCOR (350-701) qualifying exam before scheduling lab
+
+prerequisite_certs:
+  - ccnp-security
+
+related_certs:
+  - ccnp-security
+  - cissp
+
+versions:
+  - version: "v3.0"
+    release_date: "2020-02-24"
+    notes: >-
+      Updated lab exam aligned with the CCNP Security SCOR core exam topics.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccie-security/index.html
+    type: official
+  - label: CCIE Security Lab Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccie-security-exam-topics
+    type: source-of-truth
+  - label: r/ccie
+    url: https://www.reddit.com/r/ccie/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccie-security/index.html
+last_verified: "2026-04-01"

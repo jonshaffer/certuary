@@ -1,0 +1,57 @@
+name: Cisco CyberOps Professional
+short_name: CyberOps Professional
+slug: cyberops-professional
+status: active
+cost: "$400 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 90
+  approximate: true
+
+description: >-
+  Validates advanced knowledge of cybersecurity operations including core
+  security concepts, threat analysis, forensics, incident response, and
+  security operations automation. Requires holding CyberOps Associate
+  certification and passing the CBRCOR core exam (350-201).
+
+tags:
+  - cybersecurity
+  - professional
+  - cisco
+  - soc
+  - incident-response
+  - threat-analysis
+
+prerequisites:
+  - 3-5 years of experience in security operations recommended
+
+prerequisite_certs:
+  - cyberops-associate
+
+related_certs:
+  - cyberops-associate
+  - ccnp-security
+  - cissp
+  - comptia-security-plus
+
+versions:
+  - version: "350-201"
+    release_date: "2020-06-12"
+    notes: >-
+      CBRCOR core exam covering performing CyberOps using Cisco security
+      technologies.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-professional/index.html
+    type: official
+  - label: CBRCOR Exam Topics
+    url: https://learningnetwork.cisco.com/s/cyberops-professional-exam-topics
+    type: source-of-truth
+  - label: r/Cisco
+    url: https://www.reddit.com/r/Cisco/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-professional/index.html
+last_verified: "2026-04-01"

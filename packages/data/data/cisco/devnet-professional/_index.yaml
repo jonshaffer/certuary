@@ -1,0 +1,52 @@
+name: Cisco Certified DevNet Professional
+short_name: DevNet Professional
+slug: devnet-professional
+status: active
+cost: "$400 USD (core) + $300 USD (concentration)"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 90
+  approximate: true
+
+description: >-
+  Validates advanced knowledge of software development and automation for
+  Cisco platforms including advanced API design, application deployment and
+  security, infrastructure and automation, and network programmability.
+  Requires passing the DEVCOR core exam (350-901) plus one concentration exam.
+
+tags:
+  - automation
+  - professional
+  - cisco
+  - devops
+  - programming
+  - api
+
+prerequisites:
+  - 3-5 years of experience in software development and Cisco platform automation recommended
+
+related_certs:
+  - devnet-associate
+  - devnet-expert
+
+versions:
+  - version: "350-901"
+    release_date: "2020-02-24"
+    notes: >-
+      DEVCOR core exam covering developing applications using Cisco platforms
+      and APIs.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/devnet-professional/index.html
+    type: official
+  - label: DEVCOR Exam Topics
+    url: https://learningnetwork.cisco.com/s/devnet-professional-exam-topics
+    type: source-of-truth
+  - label: Cisco DevNet
+    url: https://developer.cisco.com/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/devnet-professional/index.html
+last_verified: "2026-04-01"

@@ -1,0 +1,54 @@
+name: CCIE Enterprise Infrastructure
+short_name: CCIE EI
+slug: ccie-enterprise-infrastructure
+status: active
+cost: "$1,600 USD (lab exam)"
+exam_format: performance-based
+duration_minutes: 480
+
+description: >-
+  The highest level of Cisco enterprise networking certification. Validates
+  expert-level knowledge through an 8-hour hands-on lab exam covering complex
+  enterprise infrastructure including dual-stack architecture, virtualization,
+  infrastructure, network assurance, security, and automation. Requires passing
+  the CCNP Enterprise ENCOR exam as a qualifying exam.
+
+tags:
+  - networking
+  - expert
+  - cisco
+  - enterprise
+  - routing
+  - switching
+  - ccie
+
+prerequisites:
+  - 5-7 years of enterprise networking experience recommended
+  - Must pass ENCOR (350-401) qualifying exam before scheduling lab
+
+prerequisite_certs:
+  - ccnp-enterprise
+
+related_certs:
+  - ccnp-enterprise
+  - ccie-enterprise-wireless
+
+versions:
+  - version: "v3.0"
+    release_date: "2020-02-24"
+    notes: >-
+      Updated lab exam aligned with the CCNP Enterprise ENCOR core exam topics.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccie-enterprise-infrastructure/index.html
+    type: official
+  - label: CCIE EI Lab Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccie-enterprise-infrastructure-exam-topics
+    type: source-of-truth
+  - label: r/ccie
+    url: https://www.reddit.com/r/ccie/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccie-enterprise-infrastructure/index.html
+last_verified: "2026-04-01"

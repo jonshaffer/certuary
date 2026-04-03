@@ -1,0 +1,51 @@
+name: CCNP Collaboration
+short_name: CCNP Collaboration
+slug: ccnp-collaboration
+status: active
+cost: "$400 USD (core) + $300 USD (concentration)"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 90
+  approximate: true
+
+description: >-
+  Validates advanced knowledge of collaboration solutions including
+  infrastructure design, protocols, codecs, endpoints, call control,
+  QoS, and collaboration applications. Requires passing the CLCOR core
+  exam (350-801) plus one concentration exam.
+
+tags:
+  - collaboration
+  - professional
+  - cisco
+  - unified-communications
+  - voip
+
+prerequisites:
+  - 3-5 years of experience implementing collaboration solutions recommended
+
+related_certs:
+  - ccna
+  - ccie-collaboration
+
+versions:
+  - version: "350-801"
+    release_date: "2020-02-24"
+    notes: >-
+      CLCOR core exam covering implementing and operating Cisco collaboration
+      core technologies.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/collaboration/ccnp-collaboration/index.html
+    type: official
+  - label: CLCOR Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccnp-collaboration-exam-topics
+    type: source-of-truth
+  - label: r/ccnp
+    url: https://www.reddit.com/r/ccnp/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/collaboration/ccnp-collaboration/index.html
+last_verified: "2026-04-01"

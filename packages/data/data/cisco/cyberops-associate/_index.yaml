@@ -1,0 +1,52 @@
+name: Cisco CyberOps Associate
+short_name: CyberOps Associate
+slug: cyberops-associate
+status: active
+cost: "$330 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 120
+question_count:
+  min: 100
+  approximate: true
+
+description: >-
+  Validates foundational knowledge and skills in security operations center
+  (SOC) concepts, security monitoring, host-based analysis, network intrusion
+  analysis, and security policies and procedures. Designed for those beginning
+  a career in cybersecurity operations.
+
+tags:
+  - cybersecurity
+  - entry-level
+  - cisco
+  - soc
+  - security-operations
+
+prerequisites: []
+
+related_certs:
+  - ccna
+  - comptia-security-plus
+  - cc
+  - cyberops-professional
+
+versions:
+  - version: "200-201"
+    release_date: "2020-06-12"
+    notes: >-
+      Understanding Cisco Cybersecurity Operations Fundamentals (CBROPS).
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-associate/index.html
+    type: official
+  - label: CyberOps Associate Exam Topics
+    url: https://learningnetwork.cisco.com/s/cyberops-associate-exam-topics
+    type: source-of-truth
+  - label: r/Cisco
+    url: https://www.reddit.com/r/Cisco/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-associate/index.html
+last_verified: "2026-04-01"

@@ -1,0 +1,55 @@
+name: CCNP Enterprise
+short_name: CCNP Enterprise
+slug: ccnp-enterprise
+status: active
+cost: "$400 USD (core) + $300 USD (concentration)"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 90
+  approximate: true
+
+description: >-
+  Validates advanced knowledge of enterprise networking including dual-stack
+  architecture, virtualization, infrastructure, network assurance, security,
+  and automation. Requires passing the ENCOR core exam (350-401) plus one
+  concentration exam in a chosen specialty area.
+
+tags:
+  - networking
+  - professional
+  - cisco
+  - enterprise
+  - routing
+  - switching
+  - wireless
+
+prerequisites:
+  - 3-5 years of experience implementing enterprise networking solutions recommended
+
+related_certs:
+  - ccna
+  - ccie-enterprise-infrastructure
+  - ccie-enterprise-wireless
+  - aws-advanced-networking-specialty
+  - gcp-cloud-network-engineer
+
+versions:
+  - version: "350-401"
+    release_date: "2020-02-24"
+    notes: >-
+      ENCOR core exam covering enterprise network core technologies.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html
+    type: official
+  - label: ENCOR Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccnp-enterprise-exam-topics
+    type: source-of-truth
+  - label: r/ccnp
+    url: https://www.reddit.com/r/ccnp/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html
+last_verified: "2026-04-01"

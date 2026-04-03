@@ -1,0 +1,54 @@
+name: CCNP Security
+short_name: CCNP Security
+slug: ccnp-security
+status: active
+cost: "$400 USD (core) + $300 USD (concentration)"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 90
+  approximate: true
+
+description: >-
+  Validates advanced knowledge of network security including core security
+  technologies, network security, cloud security, content security, endpoint
+  protection, secure network access, visibility, and enforcement. Requires
+  passing the SCOR core exam (350-701) plus one concentration exam.
+
+tags:
+  - cybersecurity
+  - professional
+  - cisco
+  - network-security
+  - firewalls
+
+prerequisites:
+  - 3-5 years of experience implementing security solutions recommended
+
+related_certs:
+  - ccna
+  - ccie-security
+  - comptia-security-plus
+  - cissp
+  - gcp-cloud-security-engineer
+
+versions:
+  - version: "350-701"
+    release_date: "2020-02-24"
+    notes: >-
+      SCOR core exam covering implementing and operating Cisco security core
+      technologies.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccnp-security/index.html
+    type: official
+  - label: SCOR Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccnp-security-exam-topics
+    type: source-of-truth
+  - label: r/ccnp
+    url: https://www.reddit.com/r/ccnp/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccnp-security/index.html
+last_verified: "2026-04-01"

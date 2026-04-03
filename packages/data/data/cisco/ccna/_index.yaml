@@ -23,6 +23,10 @@ related_certs:
   - comptia-a-plus
   - comptia-security-plus
   - gcp-cloud-network-engineer
+  - cyberops-associate
+  - devnet-associate
+  - ccnp-enterprise
+  - ccnp-security
 
 versions:
   - version: "200-301"

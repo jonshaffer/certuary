@@ -1,0 +1,52 @@
+name: CCNP Service Provider
+short_name: CCNP Service Provider
+slug: ccnp-service-provider
+status: active
+cost: "$400 USD (core) + $300 USD (concentration)"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 90
+  approximate: true
+
+description: >-
+  Validates advanced knowledge of service provider networking including
+  core architecture, services, networking, automation, quality of service,
+  security, and transport technologies. Requires passing the SPCOR core
+  exam (350-501) plus one concentration exam.
+
+tags:
+  - service-provider
+  - professional
+  - cisco
+  - networking
+  - mpls
+  - bgp
+
+prerequisites:
+  - 3-5 years of experience implementing service provider solutions recommended
+
+related_certs:
+  - ccna
+  - ccie-service-provider
+
+versions:
+  - version: "350-501"
+    release_date: "2020-02-24"
+    notes: >-
+      SPCOR core exam covering implementing and operating Cisco service
+      provider network core technologies.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/service-provider/ccnp-service-provider/index.html
+    type: official
+  - label: SPCOR Exam Topics
+    url: https://learningnetwork.cisco.com/s/ccnp-service-provider-exam-topics
+    type: source-of-truth
+  - label: r/ccnp
+    url: https://www.reddit.com/r/ccnp/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/service-provider/ccnp-service-provider/index.html
+last_verified: "2026-04-01"

@@ -1,0 +1,51 @@
+name: Cisco Certified DevNet Associate
+short_name: DevNet Associate
+slug: devnet-associate
+status: active
+cost: "$330 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 120
+question_count:
+  min: 100
+  approximate: true
+
+description: >-
+  Validates foundational knowledge in software development and design for Cisco
+  platforms including understanding APIs, Cisco platforms and development,
+  application development and security, and infrastructure and automation.
+
+tags:
+  - automation
+  - entry-level
+  - cisco
+  - devops
+  - programming
+  - api
+
+prerequisites: []
+
+related_certs:
+  - ccna
+  - devnet-professional
+
+versions:
+  - version: "200-901"
+    release_date: "2020-02-24"
+    notes: >-
+      DevNet Associate DEVASC exam covering software development fundamentals
+      for Cisco platforms.
+
+links:
+  - label: Official Certification Page
+    url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/devnet-associate/index.html
+    type: official
+  - label: DevNet Associate Exam Topics
+    url: https://learningnetwork.cisco.com/s/devnet-associate-exam-topics
+    type: source-of-truth
+  - label: Cisco DevNet
+    url: https://developer.cisco.com/
+    type: community
+
+source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/devnet-associate/index.html
+last_verified: "2026-04-01"
