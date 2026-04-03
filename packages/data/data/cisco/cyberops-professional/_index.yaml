@@ -2,7 +2,7 @@ name: Cisco CyberOps Professional
 short_name: CyberOps Professional
 slug: cyberops-professional
 status: active
-cost: "$400 USD"
+cost: "$400 USD (core) + $300 USD (concentration)"
 exam_format: multiple-choice
 duration_minutes: 120
 question_count:
@@ -12,8 +12,8 @@ question_count:
 description: >-
   Validates advanced knowledge of cybersecurity operations including core
   security concepts, threat analysis, forensics, incident response, and
-  security operations automation. Requires holding CyberOps Associate
-  certification and passing the CBRCOR core exam (350-201).
+  security operations automation. Requires passing the CBRCOR core exam
+  (350-201) plus one concentration exam.
 
 tags:
   - cybersecurity
@@ -25,9 +25,6 @@ tags:
 
 prerequisites:
   - 3-5 years of experience in security operations recommended
-
-prerequisite_certs:
-  - cyberops-associate
 
 related_certs:
   - cyberops-associate
