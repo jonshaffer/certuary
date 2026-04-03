@@ -1,0 +1,47 @@
+slug: comptia-certification-path
+name: CompTIA Certification Path
+description: >-
+  CompTIA's vendor-neutral certification pathway progressing from foundational
+  IT knowledge through core infrastructure skills to advanced cybersecurity
+  and data specializations.
+website: https://www.comptia.org/certifications
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - comptia-tech-plus
+  - name: Core
+    order: 2
+    certificate_slugs:
+      - comptia-a-plus
+      - comptia-network-plus
+      - comptia-security-plus
+  - name: Infrastructure
+    order: 3
+    certificate_slugs:
+      - comptia-cloud-plus
+      - comptia-linux-plus
+      - comptia-server-plus
+  - name: Cybersecurity
+    order: 4
+    certificate_slugs:
+      - comptia-cysa-plus
+      - comptia-pentest-plus
+      - comptia-casp-plus
+  - name: Data
+    order: 5
+    certificate_slugs:
+      - comptia-data-plus
+      - comptia-datasys-plus
+  - name: Additional Professional
+    order: 6
+    certificate_slugs:
+      - comptia-project-plus
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. CompTIA recommends progressing through
+    foundational and core certifications before pursuing specialized tracks
+    in cybersecurity, infrastructure, or data.

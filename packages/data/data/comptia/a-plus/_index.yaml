@@ -20,6 +20,8 @@ prerequisites: []
 
 related_certs:
   - comptia-security-plus
+  - comptia-network-plus
+  - comptia-tech-plus
   - ccna
 
 versions:

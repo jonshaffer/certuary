@@ -1,0 +1,51 @@
+name: CompTIA Linux+
+short_name: Linux+
+slug: comptia-linux-plus
+status: active
+cost: "$404 USD"
+
+description: >-
+  CompTIA Linux+ validates the competencies required for system administrators
+  supporting Linux systems. It covers system management, security, scripting,
+  containers, automation, and troubleshooting.
+
+tags:
+  - linux
+  - intermediate
+  - system-administration
+  - open-source
+
+prerequisites:
+  - CompTIA A+ recommended
+  - At least twelve months of Linux administration experience recommended
+
+related_certs:
+  - comptia-a-plus
+  - comptia-network-plus
+  - comptia-cloud-plus
+  - comptia-server-plus
+
+versions:
+  - version: XK0-005
+    release_date: "2022-10-17"
+    notes: >-
+      Current exam covering system management, security, scripting,
+      containers, and troubleshooting.
+  - version: XK0-004
+    release_date: "2019-10-15"
+    retire_date: "2023-04-15"
+    notes: Previous version, now retired.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/linux
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/linux#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+
+source_of_truth_url: https://www.comptia.org/certifications/linux
+last_verified: "2026-04-01"

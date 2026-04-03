@@ -1,0 +1,53 @@
+name: CompTIA Cloud+
+short_name: Cloud+
+slug: comptia-cloud-plus
+status: active
+cost: "$404 USD"
+
+description: >-
+  CompTIA Cloud+ validates the skills needed to deploy, manage, and automate
+  secure cloud environments. It covers cloud architecture, security,
+  deployment, operations, and troubleshooting across multi-cloud environments.
+
+tags:
+  - cloud
+  - intermediate
+  - infrastructure
+  - multi-cloud
+
+prerequisites:
+  - CompTIA Network+ recommended
+  - Two to three years of IT experience with cloud technologies recommended
+
+related_certs:
+  - comptia-network-plus
+  - comptia-security-plus
+  - comptia-linux-plus
+  - aws-cloud-practitioner
+  - aws-solutions-architect-associate
+  - gcp-associate-cloud-engineer
+
+versions:
+  - version: CV0-004
+    release_date: "2023-12-05"
+    notes: >-
+      Current exam covering cloud architecture, security, deployment,
+      operations, and troubleshooting.
+  - version: CV0-003
+    release_date: "2021-03-15"
+    retire_date: "2024-06-15"
+    notes: Previous version, now retired.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/cloud
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/cloud#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+
+source_of_truth_url: https://www.comptia.org/certifications/cloud
+last_verified: "2026-04-01"

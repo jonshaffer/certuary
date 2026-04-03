@@ -21,6 +21,10 @@ prerequisites:
 
 related_certs:
   - comptia-a-plus
+  - comptia-network-plus
+  - comptia-cysa-plus
+  - comptia-pentest-plus
+  - comptia-casp-plus
   - aws-solutions-architect-associate
   - cissp
   - sscp

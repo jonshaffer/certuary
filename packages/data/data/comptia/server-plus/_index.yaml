@@ -1,0 +1,51 @@
+name: CompTIA Server+
+short_name: Server+
+slug: comptia-server-plus
+status: active
+cost: "$404 USD"
+
+description: >-
+  CompTIA Server+ validates the skills required to work in data centers and
+  cloud environments. It covers server hardware, server administration,
+  security, disaster recovery, and troubleshooting.
+
+tags:
+  - server
+  - intermediate
+  - infrastructure
+  - data-center
+
+prerequisites:
+  - CompTIA A+ recommended
+  - Eighteen to twenty-four months of IT administration experience recommended
+
+related_certs:
+  - comptia-a-plus
+  - comptia-network-plus
+  - comptia-linux-plus
+  - comptia-cloud-plus
+
+versions:
+  - version: SK0-005
+    release_date: "2021-12-07"
+    notes: >-
+      Current exam covering server hardware, administration, security,
+      disaster recovery, and troubleshooting.
+  - version: SK0-004
+    release_date: "2015-07-20"
+    retire_date: "2022-06-30"
+    notes: Previous version, now retired.
+
+links:
+  - label: Official Certification Page
+    url: https://www.comptia.org/certifications/server
+    type: official
+  - label: Exam Objectives
+    url: https://www.comptia.org/certifications/server#examdetails
+    type: source-of-truth
+  - label: r/CompTIA
+    url: https://www.reddit.com/r/CompTIA/
+    type: community
+
+source_of_truth_url: https://www.comptia.org/certifications/server
+last_verified: "2026-04-01"
