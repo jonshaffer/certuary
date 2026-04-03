@@ -1,0 +1,37 @@
+name: Google Cloud Certified - Professional Cloud Network Engineer
+short_name: GCP PCNE
+slug: gcp-cloud-network-engineer
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates ability to implement and manage network architectures on Google
+  Cloud, including VPC networks, hybrid connectivity, network services,
+  and security.
+
+tags:
+  - cloud
+  - networking
+  - advanced
+  - gcp
+
+prerequisites:
+  - Three or more years of industry experience including one or more years designing and managing solutions using Google Cloud recommended
+
+related_certs:
+  - gcp-cloud-architect
+  - gcp-cloud-security-engineer
+  - ccna
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/cloud-network-engineer
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/cloud-network-engineer
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/cloud-network-engineer
+last_verified: "2026-04-01"

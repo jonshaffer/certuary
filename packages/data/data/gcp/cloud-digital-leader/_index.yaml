@@ -1,0 +1,35 @@
+name: Google Cloud Digital Leader
+short_name: GCP CDL
+slug: gcp-cloud-digital-leader
+status: active
+cost: "$99 USD"
+
+description: >-
+  Validates foundational knowledge of cloud concepts and Google Cloud products,
+  services, tools, features, benefits, and use cases. Designed for individuals
+  in both technical and non-technical roles.
+
+tags:
+  - cloud
+  - entry-level
+  - gcp
+  - digital-transformation
+
+prerequisites: []
+
+related_certs:
+  - gcp-associate-cloud-engineer
+  - cc
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/cloud-digital-leader
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/cloud-digital-leader
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/cloud-digital-leader
+last_verified: "2026-04-01"

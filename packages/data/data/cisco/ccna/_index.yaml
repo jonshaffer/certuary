@@ -22,6 +22,7 @@ prerequisites: []
 related_certs:
   - comptia-a-plus
   - comptia-security-plus
+  - gcp-cloud-network-engineer
 
 versions:
   - version: "200-301"

@@ -1,0 +1,38 @@
+name: Google Cloud Certified - Professional Data Engineer
+short_name: GCP PDE
+slug: gcp-data-engineer
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates ability to design, build, operationalize, secure, and monitor
+  data processing systems, with emphasis on security, compliance, scalability,
+  and efficiency on Google Cloud.
+
+tags:
+  - cloud
+  - data-engineering
+  - advanced
+  - gcp
+  - big-data
+  - machine-learning
+
+prerequisites:
+  - Three or more years of industry experience including one or more years designing and managing data solutions using Google Cloud recommended
+
+related_certs:
+  - gcp-cloud-architect
+  - gcp-machine-learning-engineer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/data-engineer
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/data-engineer
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/data-engineer
+last_verified: "2026-04-01"

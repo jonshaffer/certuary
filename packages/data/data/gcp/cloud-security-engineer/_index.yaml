@@ -1,0 +1,38 @@
+name: Google Cloud Certified - Professional Cloud Security Engineer
+short_name: GCP PCSE
+slug: gcp-cloud-security-engineer
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates ability to configure access, manage network security, ensure
+  data protection, and manage operations within Google Cloud security solutions.
+
+tags:
+  - cloud
+  - cybersecurity
+  - cloud-security
+  - advanced
+  - gcp
+
+prerequisites:
+  - Three or more years of industry experience including one or more years designing and managing solutions using Google Cloud recommended
+
+related_certs:
+  - gcp-cloud-architect
+  - ccsp
+  - comptia-security-plus
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/cloud-security-engineer
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/cloud-security-engineer
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/cloud-security-engineer
+last_verified: "2026-04-01"

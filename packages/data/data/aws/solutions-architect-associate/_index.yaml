@@ -22,6 +22,7 @@ prerequisites:
 related_certs:
   - comptia-security-plus
   - ccsp
+  - gcp-cloud-architect
 
 versions:
   - version: SAA-C03

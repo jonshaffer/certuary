@@ -1,0 +1,37 @@
+name: Google Cloud Certified - Professional Machine Learning Engineer
+short_name: GCP PMLE
+slug: gcp-machine-learning-engineer
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates ability to design, build, and productionize ML models using
+  Google Cloud technologies including Vertex AI, BigQuery ML, and TensorFlow.
+
+tags:
+  - cloud
+  - machine-learning
+  - ai
+  - advanced
+  - gcp
+  - data-science
+
+prerequisites:
+  - Three or more years of industry experience including one or more years designing and managing ML solutions using Google Cloud recommended
+
+related_certs:
+  - gcp-data-engineer
+  - gcp-cloud-architect
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/machine-learning-engineer
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/machine-learning-engineer
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/machine-learning-engineer
+last_verified: "2026-04-01"
