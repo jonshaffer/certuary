@@ -1,0 +1,62 @@
+name: AWS Certified DevOps Engineer – Professional
+short_name: AWS DOP
+slug: aws-devops-engineer-professional
+status: active
+cost: "$300 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 180
+question_count:
+  min: 75
+  approximate: true
+
+description: >-
+  Validates technical expertise in provisioning, operating, and managing
+  distributed application systems on AWS. Covers CI/CD pipelines,
+  monitoring and logging, incident response, security controls, and
+  infrastructure as code at enterprise scale.
+
+tags:
+  - cloud
+  - devops
+  - advanced
+  - aws
+  - professional
+  - ci-cd
+  - automation
+
+prerequisites:
+  - Two or more years of experience provisioning, operating, and managing AWS environments recommended
+  - AWS Developer Associate or SysOps Administrator Associate recommended
+
+related_certs:
+  - aws-developer-associate
+  - aws-sysops-administrator-associate
+  - gcp-cloud-devops-engineer
+
+versions:
+  - version: DOP-C02
+    release_date: "2023-03-07"
+    notes: >-
+      Updated with focus on modern DevOps practices, container orchestration,
+      and infrastructure as code tools.
+  - version: DOP-C01
+    release_date: "2019-02-04"
+    retire_date: "2023-03-06"
+    notes: Previous version, now retired.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-devops-engineer-professional/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-devops-pro/AWS-Certified-DevOps-Engineer-Professional_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-devops-engineer-professional/
+last_verified: "2026-04-01"

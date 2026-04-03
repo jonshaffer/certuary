@@ -1,0 +1,54 @@
+name: AWS Certified AI Practitioner
+short_name: AWS AIF
+slug: aws-ai-practitioner
+status: active
+cost: "$100 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 120
+question_count:
+  min: 85
+  approximate: true
+
+description: >-
+  Validates foundational knowledge of AI/ML concepts and their application
+  on AWS. Covers generative AI, responsible AI, and AWS AI/ML services
+  including Amazon SageMaker, Bedrock, and other managed AI services.
+
+tags:
+  - cloud
+  - ai
+  - machine-learning
+  - entry-level
+  - aws
+  - foundational
+
+prerequisites: []
+
+related_certs:
+  - aws-cloud-practitioner
+  - aws-machine-learning-engineer-associate
+  - gcp-cloud-digital-leader
+
+versions:
+  - version: AIF-C01
+    release_date: "2024-08-13"
+    notes: >-
+      Initial release covering foundational AI/ML concepts, generative AI,
+      and AWS AI services.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-ai-practitioner/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-ai-practitioner/AWS-Certified-AI-Practitioner_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-ai-practitioner/
+last_verified: "2026-04-01"

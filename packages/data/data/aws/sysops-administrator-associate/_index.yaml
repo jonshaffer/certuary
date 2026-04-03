@@ -1,0 +1,55 @@
+name: AWS Certified SysOps Administrator – Associate
+short_name: AWS SOA
+slug: aws-sysops-administrator-associate
+status: active
+cost: "$150 USD"
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 130
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates the ability to deploy, manage, and operate workloads on AWS.
+  Covers monitoring, logging, networking, security, automation, and
+  cost optimization from an operations perspective.
+
+tags:
+  - cloud
+  - operations
+  - intermediate
+  - aws
+  - sysops
+  - administration
+
+prerequisites:
+  - One or more years of hands-on AWS experience in operations recommended
+
+related_certs:
+  - aws-solutions-architect-associate
+  - aws-devops-engineer-professional
+  - gcp-cloud-devops-engineer
+
+versions:
+  - version: SOA-C02
+    release_date: "2021-07-27"
+    notes: >-
+      Updated with increased focus on automation, security, and operational
+      best practices. Removed performance-based exam labs.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-sysops-admin-associate/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-sysops-admin-associate/
+last_verified: "2026-04-01"

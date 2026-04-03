@@ -1,0 +1,56 @@
+name: AWS Certified Advanced Networking – Specialty
+short_name: AWS ANS
+slug: aws-advanced-networking-specialty
+status: active
+cost: "$300 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 170
+question_count:
+  min: 65
+  approximate: true
+
+description: >-
+  Validates advanced networking expertise on AWS, including designing and
+  implementing complex hybrid IT network architectures, VPC connectivity,
+  DNS, content delivery, and network security at scale.
+
+tags:
+  - cloud
+  - networking
+  - advanced
+  - aws
+  - specialty
+
+prerequisites:
+  - Five or more years of hands-on experience with advanced networking architectures recommended
+  - AWS Associate-level certification or equivalent experience recommended
+
+related_certs:
+  - aws-solutions-architect-associate
+  - aws-solutions-architect-professional
+  - gcp-cloud-network-engineer
+  - ccna
+
+versions:
+  - version: ANS-C01
+    release_date: "2022-07-11"
+    notes: >-
+      Updated with emphasis on hybrid connectivity, network automation,
+      and modern AWS networking services.
+
+prerequisite_certs: []
+
+links:
+  - label: Official Certification Page
+    url: https://aws.amazon.com/certification/certified-advanced-networking-specialty/
+    type: official
+  - label: Exam Guide (PDF)
+    url: https://d1.awsstatic.com/training-and-certification/docs-advnetworking-spec/AWS-Certified-Advanced-Networking-Specialty_Exam-Guide.pdf
+    type: source-of-truth
+  - label: r/AWSCertifications
+    url: https://www.reddit.com/r/AWSCertifications/
+    type: community
+
+source_of_truth_url: https://aws.amazon.com/certification/certified-advanced-networking-specialty/
+last_verified: "2026-04-01"
