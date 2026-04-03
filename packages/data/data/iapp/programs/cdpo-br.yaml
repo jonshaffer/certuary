@@ -15,6 +15,7 @@ phases:
       - cipp-e
       - cipp-c
       - cipp-a
+      - cipp-cn
   - name: Privacy Management Knowledge
     order: 2
     certificate_slugs:
@@ -23,5 +24,5 @@ completion_criteria:
   required: 2
   notes: >-
     Requires one certification from each phase: one CIPP certification
-    (any jurisdiction variant: US, E, C, or A) from phase 1, plus CIPM
+    (any jurisdiction variant: US, E, C, A, or CN) from phase 1, plus CIPM
     from phase 2. Both certifications must be active simultaneously.
