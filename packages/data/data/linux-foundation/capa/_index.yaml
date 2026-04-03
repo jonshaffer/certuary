@@ -3,6 +3,11 @@ short_name: CAPA
 slug: capa
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 90
+question_count:
+  min: 60
 
 description: >-
   Validates knowledge of the Argo project ecosystem including Argo CD,
@@ -26,6 +31,18 @@ related_certs:
   - cnpe
 
 versions: []
+
+domains:
+  - name: Argo Fundamentals
+    weight: 16
+  - name: Argo Workflows
+    weight: 22
+  - name: Argo CD
+    weight: 28
+  - name: Argo Rollouts
+    weight: 18
+  - name: Argo Events
+    weight: 16
 
 links:
   - label: Official Certification Page

@@ -3,6 +3,11 @@ short_name: CCA
 slug: cca
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 90
+question_count:
+  min: 60
 
 description: >-
   Validates knowledge of Cilium for Kubernetes networking, observability,
@@ -25,6 +30,24 @@ related_certs:
   - cka
 
 versions: []
+
+domains:
+  - name: Architecture
+    weight: 10
+  - name: Network Policies
+    weight: 20
+  - name: Service Mesh
+    weight: 20
+  - name: Network Observability
+    weight: 10
+  - name: Cluster Mesh
+    weight: 10
+  - name: eBPF
+    weight: 10
+  - name: BGP and External Networking
+    weight: 10
+  - name: Cilium CLI and Tooling
+    weight: 10
 
 links:
   - label: Official Certification Page

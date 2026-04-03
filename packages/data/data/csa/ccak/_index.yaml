@@ -1,0 +1,41 @@
+name: Certificate of Cloud Auditing Knowledge
+short_name: CCAK
+slug: ccak
+status: retired
+cost: "$395 USD (ISACA member) / $495 USD (non-member)"
+
+description: >-
+  The CCAK is the industry's first global, vendor-neutral credential for
+  auditing cloud computing systems. Developed in collaboration between CSA
+  and ISACA, it fills the gap for technical education in cloud IT auditing.
+  The exam has 76 multiple-choice questions with a 70% passing score, and
+  the credential is valid for life with no continuing education required.
+
+tags:
+  - cloud-security
+  - audit
+  - vendor-neutral
+  - csa
+  - isaca
+
+prerequisites: []
+
+related_certs:
+  - ccsk
+  - cisa
+  - cism
+  - crisc
+  - ccsp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloudsecurityalliance.org/education/ccak
+    type: official
+  - label: CCAK on ISACA
+    url: https://www.isaca.org/credentialing/certificate-of-cloud-auditing-knowledge
+    type: source-of-truth
+
+source_of_truth_url: https://cloudsecurityalliance.org/education/ccak
+last_verified: "2026-04-03"

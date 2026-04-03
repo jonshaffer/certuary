@@ -3,6 +3,12 @@ short_name: CKA
 slug: cka
 status: active
 cost: "$445 USD"
+exam_format: performance-based
+passing_score: 66
+duration_minutes: 120
+question_count:
+  min: 17
+  approximate: true
 
 description: >-
   Validates skills in Kubernetes cluster administration including
@@ -29,6 +35,18 @@ related_certs:
   - cnpe
 
 versions: []
+
+domains:
+  - name: Cluster Architecture, Installation & Configuration
+    weight: 25
+  - name: Workloads & Scheduling
+    weight: 15
+  - name: Services & Networking
+    weight: 20
+  - name: Storage
+    weight: 10
+  - name: Troubleshooting
+    weight: 30
 
 links:
   - label: Official Certification Page

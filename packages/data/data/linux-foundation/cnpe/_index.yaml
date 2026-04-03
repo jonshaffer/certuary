@@ -3,6 +3,12 @@ short_name: CNPE
 slug: cnpe
 status: active
 cost: "$445 USD"
+exam_format: performance-based
+passing_score: 66
+duration_minutes: 120
+question_count:
+  min: 17
+  approximate: true
 
 description: >-
   Validates advanced platform engineering skills including designing and
@@ -29,6 +35,20 @@ related_certs:
   - cba
 
 versions: []
+
+domains:
+  - name: Platform Engineering Fundamentals
+    weight: 15
+  - name: Kubernetes Infrastructure
+    weight: 25
+  - name: GitOps and CI/CD
+    weight: 20
+  - name: Observability and Monitoring
+    weight: 15
+  - name: Security and Compliance
+    weight: 15
+  - name: Developer Experience
+    weight: 10
 
 links:
   - label: Official Certification Page

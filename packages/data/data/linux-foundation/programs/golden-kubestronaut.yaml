@@ -61,6 +61,86 @@ phases:
       - kca
       - capa
       - otca
+ordering_strategies:
+  - slug: by-topic
+    name: By Topic Area
+    description: Organized by technology domain
+    phases:
+      - name: Foundation
+        order: 1
+        certificate_slugs:
+          - kcna
+      - name: Administration
+        order: 2
+        certificate_slugs:
+          - cka
+          - lfcs
+      - name: Development
+        order: 3
+        certificate_slugs:
+          - ckad
+      - name: Security
+        order: 4
+        certificate_slugs:
+          - cks
+          - kcsa
+      - name: Networking & Platform
+        order: 5
+        certificate_slugs:
+          - cnpa
+          - cnpe
+      - name: Observability & Service Mesh
+        order: 6
+        certificate_slugs:
+          - pca
+          - ica
+          - otca
+      - name: Cloud Native Tooling
+        order: 7
+        certificate_slugs:
+          - cba
+          - cca
+          - cgoa
+          - kca
+          - capa
+  - slug: by-difficulty
+    name: By Difficulty
+    description: Community-recommended order from easiest to hardest
+    phases:
+      - name: Easy MCQs
+        order: 1
+        certificate_slugs:
+          - cgoa
+          - kcna
+          - cnpa
+      - name: Moderate MCQs
+        order: 2
+        certificate_slugs:
+          - cba
+          - kcsa
+          - capa
+          - kca
+          - otca
+          - pca
+      - name: Hard MCQ
+        order: 3
+        certificate_slugs:
+          - cca
+      - name: Core Kubernetes Hands-on
+        order: 4
+        certificate_slugs:
+          - ckad
+          - cka
+      - name: Linux & Service Mesh
+        order: 5
+        certificate_slugs:
+          - lfcs
+          - ica
+      - name: Security & Capstone
+        order: 6
+        certificate_slugs:
+          - cks
+          - cnpe
 completion_criteria:
   required: 16
   notes: All 16 certifications must be active simultaneously.

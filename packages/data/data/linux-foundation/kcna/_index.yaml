@@ -3,6 +3,11 @@ short_name: KCNA
 slug: kcna
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 90
+question_count:
+  min: 60
 
 description: >-
   Demonstrates foundational knowledge of Kubernetes and the broader cloud
@@ -27,6 +32,18 @@ related_certs:
   - kcsa
 
 versions: []
+
+domains:
+  - name: Kubernetes Fundamentals
+    weight: 46
+  - name: Container Orchestration
+    weight: 22
+  - name: Cloud Native Architecture
+    weight: 16
+  - name: Cloud Native Observability
+    weight: 8
+  - name: Cloud Native Application Delivery
+    weight: 8
 
 links:
   - label: Official Certification Page

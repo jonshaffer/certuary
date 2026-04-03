@@ -3,6 +3,11 @@ short_name: CBA
 slug: cba
 status: active
 cost: "$250 USD"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 90
+question_count:
+  min: 60
 
 description: >-
   Validates knowledge of Backstage, the open platform for building
@@ -25,6 +30,18 @@ related_certs:
   - cnpa
 
 versions: []
+
+domains:
+  - name: Backstage Overview and Architecture
+    weight: 18
+  - name: Backstage Catalog
+    weight: 22
+  - name: Backstage Software Templates
+    weight: 16
+  - name: Backstage Plugins
+    weight: 12
+  - name: Customizing Backstage
+    weight: 32
 
 links:
   - label: Official Certification Page
