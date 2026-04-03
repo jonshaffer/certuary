@@ -1,0 +1,35 @@
+name: Google Cloud Certified - Professional Cloud Database Engineer
+short_name: GCP PCDE
+slug: gcp-cloud-database-engineer
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates ability to design, create, manage, and troubleshoot Google Cloud
+  databases including Cloud SQL, Cloud Spanner, Firestore, and Bigtable.
+
+tags:
+  - cloud
+  - databases
+  - advanced
+  - gcp
+
+prerequisites:
+  - Three or more years of industry experience including one or more years designing and managing solutions using Google Cloud recommended
+
+related_certs:
+  - gcp-data-engineer
+  - gcp-cloud-architect
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/cloud-database-engineer
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/cloud-database-engineer
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/cloud-database-engineer
+last_verified: "2026-04-01"

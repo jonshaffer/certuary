@@ -1,0 +1,38 @@
+name: Google Cloud Certified - Professional Cloud Developer
+short_name: GCP PCD
+slug: gcp-cloud-developer
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates ability to build scalable and highly available applications using
+  Google Cloud recommended practices and tools, including Cloud Run, GKE,
+  and Cloud Functions.
+
+tags:
+  - cloud
+  - development
+  - advanced
+  - gcp
+  - software-engineering
+
+prerequisites:
+  - Three or more years of industry experience including one or more years developing and managing solutions using Google Cloud recommended
+
+related_certs:
+  - gcp-associate-cloud-engineer
+  - gcp-cloud-architect
+  - ckad
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/cloud-developer
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/cloud-developer
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/cloud-developer
+last_verified: "2026-04-01"

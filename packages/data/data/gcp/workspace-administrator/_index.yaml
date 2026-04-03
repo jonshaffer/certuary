@@ -1,0 +1,37 @@
+name: Google Cloud Certified - Professional Google Workspace Administrator
+short_name: GCP GWA
+slug: gcp-workspace-administrator
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates ability to configure and manage Google Workspace, including user
+  lifecycle management, mail routing, security settings, and organizational
+  compliance.
+
+tags:
+  - cloud
+  - administration
+  - advanced
+  - gcp
+  - workspace
+  - collaboration
+
+prerequisites:
+  - Three or more years of industry experience including one or more years administering Google Workspace recommended
+
+related_certs:
+  - gcp-associate-cloud-engineer
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/workspace-administrator
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/workspace-administrator
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/workspace-administrator
+last_verified: "2026-04-01"

@@ -27,6 +27,7 @@ related_certs:
   - cc
   - cisa
   - cism
+  - gcp-cloud-security-engineer
 
 versions:
   - version: SY0-701

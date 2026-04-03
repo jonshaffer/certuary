@@ -1,0 +1,39 @@
+name: Google Cloud Certified - Professional Cloud DevOps Engineer
+short_name: GCP PDOE
+slug: gcp-cloud-devops-engineer
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates ability to implement CI/CD pipelines, optimize service performance,
+  apply site reliability engineering principles, and manage logging and
+  monitoring on Google Cloud.
+
+tags:
+  - cloud
+  - devops
+  - advanced
+  - gcp
+  - sre
+  - ci-cd
+
+prerequisites:
+  - Three or more years of industry experience including one or more years managing solutions using Google Cloud recommended
+
+related_certs:
+  - gcp-associate-cloud-engineer
+  - gcp-cloud-architect
+  - cka
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/cloud-devops-engineer
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/cloud-devops-engineer
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/cloud-devops-engineer
+last_verified: "2026-04-01"

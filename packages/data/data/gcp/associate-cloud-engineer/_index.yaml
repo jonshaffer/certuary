@@ -1,0 +1,37 @@
+name: Google Cloud Certified - Associate Cloud Engineer
+short_name: GCP ACE
+slug: gcp-associate-cloud-engineer
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates ability to deploy and secure applications and infrastructure,
+  monitor operations, and manage enterprise solutions on Google Cloud.
+
+tags:
+  - cloud
+  - engineering
+  - intermediate
+  - gcp
+  - infrastructure
+
+prerequisites:
+  - Six months or more of hands-on Google Cloud experience recommended
+
+related_certs:
+  - gcp-cloud-digital-leader
+  - gcp-cloud-architect
+  - aws-solutions-architect-associate
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://cloud.google.com/learn/certification/cloud-engineer
+    type: official
+  - label: Exam Guide
+    url: https://cloud.google.com/learn/certification/cloud-engineer
+    type: source-of-truth
+
+source_of_truth_url: https://cloud.google.com/learn/certification/cloud-engineer
+last_verified: "2026-04-01"
