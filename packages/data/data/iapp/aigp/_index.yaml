@@ -1,0 +1,43 @@
+name: Artificial Intelligence Governance Professional
+short_name: AIGP
+slug: aigp
+status: active
+cost: "$550 USD (IAPP member) / $800 USD (non-member)"
+
+description: >-
+  The AIGP certification validates knowledge of AI governance, including
+  the regulatory landscape for AI, risk frameworks, responsible AI
+  principles, and the practical implementation of AI governance programs.
+  It covers AI development lifecycle management, ethical considerations,
+  and compliance with emerging AI regulations worldwide.
+
+tags:
+  - privacy
+  - ai-governance
+  - compliance
+  - intermediate
+  - iapp
+
+prerequisites:
+  - No formal prerequisites; professional experience in AI governance, privacy, or related fields recommended
+
+related_certs:
+  - cipp-us
+  - cipp-e
+  - cipm
+  - cipt
+  - cdpse
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://iapp.org/certify/aigp
+    type: official
+  - label: AIGP Body of Knowledge
+    url: https://iapp.org/certify/aigp
+    type: source-of-truth
+
+source_of_truth_url: https://iapp.org/certify/aigp
+last_verified: "2026-04-03"

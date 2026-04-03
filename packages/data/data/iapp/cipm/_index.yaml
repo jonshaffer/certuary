@@ -26,9 +26,11 @@ related_certs:
   - cipp-c
   - cipp-a
   - cipt
+  - aigp
   - cdpse
   - cism
   - cissp
+  - hcispp
 
 versions: []
 

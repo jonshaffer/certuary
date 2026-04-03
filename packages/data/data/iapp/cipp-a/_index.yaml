@@ -6,9 +6,9 @@ cost: "$550 USD (IAPP member) / $800 USD (non-member)"
 
 description: >-
   The CIPP/A certification validates knowledge of privacy laws and
-  regulations across the Asia-Pacific region, covering frameworks in
-  jurisdictions such as Australia, India, Japan, South Korea, and
-  other key Asia-Pacific economies.
+  regulations across the Asia-Pacific region, specifically focusing on
+  the frameworks of Singapore, Hong Kong, and India, along with
+  common privacy principles and practices in the region.
 
 tags:
   - privacy
@@ -26,6 +26,7 @@ related_certs:
   - cipp-c
   - cipm
   - cipt
+  - aigp
   - cdpse
   - cissp
 
