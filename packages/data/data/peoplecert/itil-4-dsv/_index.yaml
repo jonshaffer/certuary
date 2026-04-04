@@ -42,5 +42,15 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Customer Journey Design"
+  - name: "Understanding Markets and Stakeholders"
+  - name: "Fostering Stakeholder Relationships"
+  - name: "Shaping Demand and Service Offerings"
+  - name: "Aligning Expectations and Agreeing on Services"
+  - name: "Onboarding and Offboarding"
+  - name: "Continual Value Co-creation"
+  - name: "Realising and Validating Service Value"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-drive-stakeholder-value
 last_verified: "2026-04-03"

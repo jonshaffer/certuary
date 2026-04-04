@@ -46,5 +46,15 @@ links:
     url: https://www.redhat.com/en/services/training/ex415-red-hat-certified-specialist-security-linux-exam
     type: source-of-truth
 
+domains:
+  - name: "Use Red Hat Ansible Automation for security configuration"
+  - name: "Configure file integrity monitoring with AIDE"
+  - name: "Configure disk encryption using LUKS and NBDE"
+  - name: "Manage USB device access with USBGuard"
+  - name: "Manage system login security using PAM"
+  - name: "Configure system auditing"
+  - name: "Configure SELinux"
+  - name: "Enforce security compliance with OpenSCAP"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex415-red-hat-certified-specialist-security-linux-exam
 last_verified: "2026-04-04"

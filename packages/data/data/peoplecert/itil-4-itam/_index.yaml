@@ -40,5 +40,12 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Key Concepts and Value of IT Asset Management"
+  - name: "ITAM Value Streams and Processes"
+  - name: "ITAM Roles and Organizational Integration"
+  - name: "Information and Technology for ITAM"
+  - name: "Capability Development and Practice Metrics"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-it-asset-management
 last_verified: "2026-04-03"

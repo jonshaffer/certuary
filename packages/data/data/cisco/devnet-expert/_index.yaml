@@ -50,5 +50,17 @@ links:
     url: https://developer.cisco.com/
     type: community
 
+domains:
+  - name: Software Design, Development, and Deployment
+    weight: 20
+  - name: Infrastructure as Code
+    weight: 30
+  - name: Network Programmability and Automation
+    weight: 25
+  - name: Containers
+    weight: 10
+  - name: Security
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/devnet-expert/index.html
 last_verified: "2026-04-01"

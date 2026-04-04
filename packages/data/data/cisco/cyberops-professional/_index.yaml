@@ -50,5 +50,15 @@ links:
     url: https://www.reddit.com/r/Cisco/
     type: community
 
+domains:
+  - name: Fundamentals
+    weight: 20
+  - name: Techniques
+    weight: 30
+  - name: Processes
+    weight: 30
+  - name: Automation
+    weight: 20
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-professional/index.html
 last_verified: "2026-04-01"

@@ -30,5 +30,12 @@ links:
     url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-for-teams
     type: official
 
+domains:
+  - name: "Team Dynamics and Development"
+  - name: "Empowering Self-Managing Teams"
+  - name: "Fostering Collaboration"
+  - name: "Conflict Resolution and Psychological Safety"
+  - name: "Measuring Team Performance"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-for-teams
 last_verified: "2026-04-03"

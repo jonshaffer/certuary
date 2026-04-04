@@ -47,5 +47,11 @@ links:
     url: https://www.opengroup.org/archimate-forum/archimate-overview
     type: source-of-truth
 
+domains:
+  - name: "Applying the ArchiMate Language"
+  - name: "Creating ArchiMate Models"
+  - name: "Analyzing ArchiMate Models"
+  - name: "Communicating with Stakeholders Using ArchiMate"
+
 source_of_truth_url: https://www.opengroup.org/certifications/archimate
 last_verified: "2026-04-04"

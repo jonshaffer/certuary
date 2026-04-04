@@ -42,5 +42,15 @@ links:
     url: https://www.redhat.com/en/services/training/ex316-red-hat-certified-specialist-virtualization-exam
     type: source-of-truth
 
+domains:
+  - name: "Install Red Hat Virtualization Manager and dependencies"
+  - name: "Configure Red Hat Virtualization Manager authentication"
+  - name: "Install Red Hat Virtualization Hypervisor"
+  - name: "Create and manage virtual machines"
+  - name: "Configure virtual machines using cloud-init"
+  - name: "Create logical networks and assign hosts"
+  - name: "Manage virtual machine templates and snapshots"
+  - name: "Manage storage domains"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex316-red-hat-certified-specialist-virtualization-exam
 last_verified: "2026-04-04"

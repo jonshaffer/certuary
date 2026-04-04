@@ -35,5 +35,13 @@ links:
     url: https://www.scrumalliance.org/get-certified/scrum-master-track/advanced-certified-scrummaster
     type: official
 
+domains:
+  - name: "Lean and Agile Principles"
+  - name: "Scrum Master as a Facilitator"
+  - name: "Scrum Master as a Coach"
+  - name: "Scrum Master as a Leader"
+  - name: "Scrum Master as a Change Agent"
+  - name: "Organizational Design and Culture"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/scrum-master-track/advanced-certified-scrummaster
 last_verified: "2026-04-03"

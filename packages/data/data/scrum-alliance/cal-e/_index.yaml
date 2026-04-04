@@ -30,5 +30,11 @@ links:
     url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-essentials
     type: official
 
+domains:
+  - name: "Agile Values and Principles"
+  - name: "Leadership Mindset and Behaviors"
+  - name: "Creating an Agile-Friendly Environment"
+  - name: "Self-Awareness and Growth"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-essentials
 last_verified: "2026-04-03"

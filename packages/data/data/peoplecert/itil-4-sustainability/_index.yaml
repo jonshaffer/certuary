@@ -39,5 +39,12 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Sustainability Concepts and Drivers"
+  - name: "Sustainability in a VUCA Environment"
+  - name: "ITIL Practices Supporting Sustainability"
+  - name: "Governance, Auditing and Communication"
+  - name: "Measurement and Reporting"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-sustainability-in-digital-it
 last_verified: "2026-04-03"

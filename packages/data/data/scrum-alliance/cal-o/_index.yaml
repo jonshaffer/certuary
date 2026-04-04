@@ -31,5 +31,12 @@ links:
     url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-for-organizations
     type: official
 
+domains:
+  - name: "Organizational Design for Agility"
+  - name: "Culture Change and Transformation"
+  - name: "Strategic Agility"
+  - name: "Systems Thinking"
+  - name: "Leading Organizational Change"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-for-organizations
 last_verified: "2026-04-03"

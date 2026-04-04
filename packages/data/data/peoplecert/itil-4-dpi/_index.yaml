@@ -46,5 +46,19 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Key Concepts of Direct, Plan and Improve"
+  - name: "Scope and Activities of Direction and Planning"
+    weight: 20
+  - name: "Governance, Risk and Compliance"
+    weight: 15
+  - name: "Continual Improvement"
+  - name: "Measurement and Reporting"
+    weight: 20
+  - name: "Organizational Change Management"
+    weight: 15
+  - name: "Value Streams and Practices"
+    weight: 15
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-strategist-direct-plan-and-improve
 last_verified: "2026-04-03"

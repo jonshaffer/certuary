@@ -39,5 +39,11 @@ links:
     url: https://www.opengroup.org/certifications/certified-architect-open-ca
     type: source-of-truth
 
+domains:
+  - name: "Business Architecture"
+  - name: "Digital Architecture"
+  - name: "Enterprise Architecture"
+  - name: "Solution Architecture"
+
 source_of_truth_url: https://www.opengroup.org/certifications/certified-architect-open-ca
 last_verified: "2026-04-04"

@@ -35,5 +35,13 @@ links:
     url: https://www.scrumalliance.org/get-certified/product-owner-track/advanced-certified-scrum-product-owner
     type: official
 
+domains:
+  - name: "Product Strategy and Vision"
+  - name: "Customer and Market Understanding"
+  - name: "Product Backlog Management at Scale"
+  - name: "Validating Product Assumptions"
+  - name: "Stakeholder Management"
+  - name: "Delivering Value with Scrum"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/product-owner-track/advanced-certified-scrum-product-owner
 last_verified: "2026-04-03"

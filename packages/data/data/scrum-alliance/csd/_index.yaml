@@ -30,5 +30,12 @@ links:
     url: https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer
     type: official
 
+domains:
+  - name: "Scrum Framework"
+  - name: "Agile Software Design and Architecture"
+  - name: "Agile Engineering Practices"
+  - name: "Quality and Testing in Scrum"
+  - name: "Continuous Integration and Continuous Delivery"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer
 last_verified: "2026-04-03"

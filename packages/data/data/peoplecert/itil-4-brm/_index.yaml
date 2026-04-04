@@ -40,5 +40,12 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Key Concepts and Challenges of BRM"
+  - name: "BRM Value Streams and Processes"
+  - name: "Relationship Models and Techniques"
+  - name: "BRM Roles and Organizational Integration"
+  - name: "Capability Development and Maturity"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-business-relationship-management
 last_verified: "2026-04-03"

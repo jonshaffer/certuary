@@ -36,5 +36,13 @@ links:
     url: https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrum-professional-scrummaster
     type: official
 
+domains:
+  - name: "Lean and Agile Practices"
+  - name: "Facilitation"
+  - name: "Coaching and Mentoring"
+  - name: "Teaching"
+  - name: "Servant Leadership"
+  - name: "Organizational Change and Transformation"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrum-professional-scrummaster
 last_verified: "2026-04-03"

@@ -44,5 +44,12 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Monitoring and Event Management"
+  - name: "Incident Management"
+  - name: "Problem Management"
+  - name: "Service Request Management"
+  - name: "Service Desk"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-monitor-support-and-fulfil
 last_verified: "2026-04-03"

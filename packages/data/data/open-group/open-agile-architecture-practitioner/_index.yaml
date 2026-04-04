@@ -43,5 +43,18 @@ links:
     url: https://www.opengroup.org/open-agile-architecture
     type: source-of-truth
 
+domains:
+  - name: "Role of Architecture When Deploying Agile at Scale"
+  - name: "Business Agility"
+  - name: "Intentional Architecture and Continuous Product Development"
+  - name: "Characteristics of an Agile Organization"
+  - name: "O-AA Building Blocks"
+  - name: "Axioms for Agile Architecture"
+  - name: "Mental Model for Agile Architecture"
+  - name: "Digital Transformation and Digital Products"
+  - name: "Lean Value Stream Mapping"
+  - name: "Types of Agile Architecture"
+  - name: "Agile Security Architecture"
+
 source_of_truth_url: https://www.opengroup.org/certifications/open-agile-architecture
 last_verified: "2026-04-04"

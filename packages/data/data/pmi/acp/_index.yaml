@@ -48,13 +48,13 @@ links:
     type: community
 
 domains:
-  - name: "Agile Mindset"
+  - name: "Mindset"
     weight: 28
-  - name: "Value-Driven Delivery"
+  - name: "Delivery"
     weight: 28
-  - name: "Stakeholder Engagement"
+  - name: "Leadership"
     weight: 25
-  - name: "Team Performance"
+  - name: "Product"
     weight: 19
 
 source_of_truth_url: https://www.pmi.org/certifications/agile-acp

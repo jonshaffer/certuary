@@ -33,5 +33,12 @@ links:
     url: https://www.scrumalliance.org/get-certified/coaching-track/certified-team-coach
     type: official
 
+domains:
+  - name: "Agile and Lean Coaching"
+  - name: "Professional Coaching Skills"
+  - name: "Facilitating Team Performance"
+  - name: "Mentoring and Teaching"
+  - name: "Organizational Awareness"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/coaching-track/certified-team-coach
 last_verified: "2026-04-03"

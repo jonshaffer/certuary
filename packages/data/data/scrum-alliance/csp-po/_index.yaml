@@ -35,5 +35,12 @@ links:
     url: https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-professional-product-owner
     type: official
 
+domains:
+  - name: "Product Management"
+  - name: "Product Discovery and Validation"
+  - name: "Product Delivery and Metrics"
+  - name: "Strategic Product Ownership"
+  - name: "Organizational Influence"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-professional-product-owner
 last_verified: "2026-04-03"

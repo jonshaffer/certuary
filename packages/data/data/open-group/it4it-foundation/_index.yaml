@@ -42,5 +42,14 @@ links:
     url: https://www.opengroup.org/it4it
     type: source-of-truth
 
+domains:
+  - name: "IT4IT Overview"
+  - name: "Basic Concepts"
+  - name: "IT4IT Core"
+  - name: "Strategy to Portfolio Value Stream"
+  - name: "Requirement to Deploy Value Stream"
+  - name: "Request to Fulfill Value Stream"
+  - name: "Detect to Correct Value Stream"
+
 source_of_truth_url: https://www.opengroup.org/certifications/it4it
 last_verified: "2026-04-04"

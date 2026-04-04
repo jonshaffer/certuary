@@ -33,5 +33,13 @@ links:
     url: https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner
     type: official
 
+domains:
+  - name: "Scrum Framework"
+  - name: "Product Owner Accountabilities"
+  - name: "Product Vision and Strategy"
+  - name: "Product Backlog Management"
+  - name: "Stakeholder Engagement"
+  - name: "Maximizing Product Value"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner
 last_verified: "2026-04-03"

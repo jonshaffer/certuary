@@ -48,5 +48,23 @@ links:
     url: https://www.opengroup.org/togaf
     type: source-of-truth
 
+domains:
+  - name: "Architecture Governance"
+  - name: "ADM Phases"
+    subdomains:
+      - name: "Preliminary Phase"
+      - name: "Phase A: Architecture Vision"
+      - name: "Phase B: Business Architecture"
+      - name: "Phase C: Information Systems Architectures"
+      - name: "Phase D: Technology Architecture"
+      - name: "Phase E: Opportunities and Solutions"
+      - name: "Phase F: Migration Planning"
+      - name: "Phase G: Implementation Governance"
+      - name: "Phase H: Architecture Change Management"
+  - name: "ADM Techniques and Application"
+  - name: "Stakeholder Management"
+  - name: "Architecture Views and Viewpoints"
+  - name: "Architecture Content and Deliverables"
+
 source_of_truth_url: https://www.opengroup.org/certifications/togaf-certification-portfolio
 last_verified: "2026-04-04"
