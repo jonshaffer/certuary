@@ -1,0 +1,47 @@
+name: Open Agile Architecture Practitioner
+short_name: O-AA P
+slug: open-agile-architecture-practitioner
+status: active
+cost: "$330 USD"
+
+description: >-
+  The Open Agile Architecture Practitioner certification validates knowledge of
+  the Open Agile Architecture (O-AA) standard. It covers applying O-AA axioms
+  to develop and maintain agile architectures, including agile strategy,
+  business agility, design thinking, product architecture, and operations
+  architecture.
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 60
+question_count:
+  min: 40
+
+tags:
+  - enterprise-architecture
+  - intermediate
+  - agile
+
+prerequisites: []
+
+related_certs:
+  - togaf-foundation
+  - togaf-certified
+
+versions:
+  - version: O-AA Standard
+    release_date: "2022-01-01"
+    notes: >-
+      Based on the Open Agile Architecture Standard, integrating agile
+      principles with enterprise architecture practices.
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/open-agile-architecture
+    type: official
+  - label: O-AA Standard Overview
+    url: https://www.opengroup.org/open-agile-architecture
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/open-agile-architecture
+last_verified: "2026-04-04"

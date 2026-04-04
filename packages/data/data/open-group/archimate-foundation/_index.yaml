@@ -1,0 +1,47 @@
+name: ArchiMate Foundation
+short_name: ArchiMate F
+slug: archimate-foundation
+status: active
+cost: "$330 USD"
+
+description: >-
+  The ArchiMate Foundation certification validates knowledge of the ArchiMate
+  modeling language notation, terminology, structure, and core concepts. It
+  covers the ArchiMate framework, viewpoints, and the relationships used to
+  model enterprise architectures.
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 60
+question_count:
+  min: 40
+
+tags:
+  - enterprise-architecture
+  - foundational
+  - modeling
+
+prerequisites: []
+
+related_certs:
+  - archimate-practitioner
+  - togaf-foundation
+  - open-ca
+
+versions:
+  - version: ArchiMate 3.2
+    release_date: "2023-01-01"
+    notes: >-
+      Based on the ArchiMate 3.2 Specification, covering updated modeling
+      concepts and notation.
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/archimate
+    type: official
+  - label: ArchiMate Specification
+    url: https://www.opengroup.org/archimate-forum/archimate-overview
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/archimate
+last_verified: "2026-04-04"

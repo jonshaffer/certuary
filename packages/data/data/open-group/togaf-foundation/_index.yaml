@@ -1,0 +1,48 @@
+name: TOGAF Foundation
+short_name: TOGAF F
+slug: togaf-foundation
+status: active
+cost: "$555 USD"
+
+description: >-
+  The TOGAF Foundation certification validates knowledge of TOGAF terminology,
+  structure, and core concepts. It covers the Architecture Development Method
+  (ADM), enterprise architecture governance, and the key deliverables and
+  artifacts of the TOGAF Standard.
+
+exam_format: multiple-choice
+passing_score: 55
+duration_minutes: 60
+question_count:
+  min: 40
+
+tags:
+  - enterprise-architecture
+  - foundational
+  - it-management
+
+prerequisites: []
+
+related_certs:
+  - togaf-certified
+  - archimate-foundation
+  - open-agile-architecture-practitioner
+  - open-ca
+
+versions:
+  - version: TOGAF Standard, 10th Edition
+    release_date: "2022-04-25"
+    notes: >-
+      Updated to align with the TOGAF Standard, 10th Edition. Covers the
+      modular structure of the TOGAF Library.
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/togaf-certification-portfolio
+    type: official
+  - label: TOGAF Standard Overview
+    url: https://www.opengroup.org/togaf
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/togaf-certification-portfolio
+last_verified: "2026-04-04"

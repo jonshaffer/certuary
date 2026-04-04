@@ -1,0 +1,23 @@
+slug: open-group-professional-path
+name: Open Group Professional Certification Path
+description: >-
+  The Open Group's experience-based professional certification path for IT
+  architects and technical specialists. These certifications are earned through
+  portfolio assessment and peer interviews rather than examinations, recognizing
+  demonstrated professional competence at three progressive levels.
+website: https://www.opengroup.org/certifications
+status: active
+required_certs: []
+phases:
+  - name: Professional Certifications
+    order: 1
+    certificate_slugs:
+      - open-ca
+      - open-cts
+completion_criteria:
+  required: 0
+  notes: >-
+    Each professional certification has three levels (Certified, Master,
+    Distinguished). Candidates choose between architect and technical
+    specialist tracks based on their career focus. TOGAF and ArchiMate
+    knowledge certifications are recommended but not required.

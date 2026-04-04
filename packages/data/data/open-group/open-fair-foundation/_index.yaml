@@ -1,0 +1,46 @@
+name: Open FAIR Foundation
+short_name: Open FAIR F
+slug: open-fair-foundation
+status: active
+cost: "$330 USD"
+
+description: >-
+  The Open FAIR Foundation certification validates knowledge of the Open FAIR
+  body of knowledge for information risk analysis. It covers the Open FAIR
+  Risk Taxonomy (O-RT) and Risk Analysis (O-RA) standards, providing a
+  framework for understanding, analyzing, and quantifying information risk.
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 60
+question_count:
+  min: 40
+
+tags:
+  - risk-management
+  - foundational
+  - cybersecurity
+
+prerequisites: []
+
+related_certs:
+  - togaf-foundation
+  - dpbok-foundation
+
+versions:
+  - version: Open FAIR 2
+    release_date: "2023-01-01"
+    notes: >-
+      Based on Open FAIR 2 with Risk Analysis (O-RA) Standard v2.0.1 and
+      Risk Taxonomy (O-RT) Standard v3.0.1.
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/openfair
+    type: official
+  - label: Open FAIR Overview
+    url: https://www.opengroup.org/certifications/openfair
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/openfair
+last_verified: "2026-04-04"
