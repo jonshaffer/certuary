@@ -31,5 +31,16 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/
     type: official
+domains:
+  - name: Hardware and Virtualization
+  - name: Networking
+  - name: Operating Systems
+  - name: Web, Cloud, and Data Storage
+  - name: Logic and Programming
+  - name: Windows Fundamentals
+  - name: Linux Fundamentals
+  - name: Exploitation and Mitigation
+  - name: Forensics and Post-Exploitation
+
 source_of_truth_url: https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/
 last_verified: "2026-04-03"

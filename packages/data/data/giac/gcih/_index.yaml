@@ -38,5 +38,13 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/certified-incident-handler-gcih/
     type: official
+domains:
+  - name: Password Attacks
+  - name: Evasive and Post-Exploitation Techniques
+  - name: Exploitation and Covert Communications Tools
+  - name: Endpoint Attacks and Pivoting
+  - name: Drive-By Attacks
+  - name: Cover-Up and Evidence Removal
+
 source_of_truth_url: https://www.giac.org/certifications/certified-incident-handler-gcih/
 last_verified: "2026-04-03"

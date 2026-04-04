@@ -31,5 +31,13 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/global-industrial-cyber-security-professional-gicsp/
     type: official
+domains:
+  - name: ICS Fundamentals and Roles
+  - name: Architecture and Purdue Reference Model
+  - name: ICS Communications Security and Protocols
+  - name: Operating Systems Security in ICS Environments
+  - name: ICS Attack Surfaces and Defense
+  - name: Incident Response in Control System Environments
+
 source_of_truth_url: https://www.giac.org/certifications/global-industrial-cyber-security-professional-gicsp/
 last_verified: "2026-04-03"

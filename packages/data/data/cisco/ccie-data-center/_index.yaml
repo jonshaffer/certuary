@@ -46,5 +46,21 @@ links:
     url: https://www.reddit.com/r/ccie/
     type: community
 
+domains:
+  - name: Data Center L2/L3 Connectivity
+    weight: 20
+  - name: Data Center Fabric Infrastructure
+    weight: 15
+  - name: Data Center Fabric Connectivity
+    weight: 15
+  - name: Data Center Compute
+    weight: 15
+  - name: Data Center Storage Protocols and Features
+    weight: 10
+  - name: Data Center Security and Network Services
+    weight: 10
+  - name: Data Center Automation and Orchestration
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/data-center/ccie-data-center/index.html
 last_verified: "2026-04-01"

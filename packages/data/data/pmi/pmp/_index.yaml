@@ -50,5 +50,13 @@ links:
     url: https://www.reddit.com/r/pmp/
     type: community
 
+domains:
+  - name: "People"
+    weight: 42
+  - name: "Process"
+    weight: 50
+  - name: "Business Environment"
+    weight: 8
+
 source_of_truth_url: https://www.pmi.org/certifications/project-management-pmp
-last_verified: "2026-04-01"
+last_verified: "2026-04-04"

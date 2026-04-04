@@ -26,5 +26,14 @@ links:
   - label: Official Certification Page
     url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/
     type: official
+domains:
+  - name: "Soft Skills and Incident Management"
+  - name: "Core Technical Skills"
+  - name: "Background Information Gathering and Open Source"
+  - name: "Network Intrusion Analysis"
+  - name: "Analysing Host Intrusions"
+  - name: "Malware Reverse Engineering"
+  - name: "Incident Response Management"
+
 source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/
 last_verified: "2026-04-04"

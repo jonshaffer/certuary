@@ -35,6 +35,18 @@ export interface ExamDomain {
   name: string;
   weight?: number;
   subdomains?: ExamDomain[];
+  categories?: string[];
+}
+
+export interface CategoryGroup {
+  slug: string;
+  label: string;
+}
+
+export interface DomainCategory {
+  slug: string;
+  label: string;
+  group: string;
 }
 
 export interface Certification {

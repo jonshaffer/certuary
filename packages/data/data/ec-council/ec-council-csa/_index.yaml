@@ -48,5 +48,19 @@ links:
     url: https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/
     type: official
 
+domains:
+  - name: Security Operations and Management
+    weight: 5
+  - name: Understanding Cyber Threats, IoCs, and Attack Methodology
+    weight: 11
+  - name: Incidents, Events, and Logging
+    weight: 21
+  - name: Incident Detection with Security Information and Event Management (SIEM)
+    weight: 26
+  - name: Enhanced Incident Detection with Threat Intelligence
+    weight: 8
+  - name: Incident Response
+    weight: 29
+
 source_of_truth_url: https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/
 last_verified: "2026-04-04"

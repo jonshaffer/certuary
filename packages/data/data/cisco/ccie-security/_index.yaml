@@ -48,5 +48,17 @@ links:
     url: https://www.reddit.com/r/ccie/
     type: community
 
+domains:
+  - name: Perimeter Security and Intrusion Prevention
+    weight: 20
+  - name: Secure Connectivity and Segmentation
+    weight: 20
+  - name: Infrastructure Security
+    weight: 15
+  - name: Identity Management and Access Control
+    weight: 25
+  - name: Advanced Threat Protection
+    weight: 20
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccie-security/index.html
 last_verified: "2026-04-01"

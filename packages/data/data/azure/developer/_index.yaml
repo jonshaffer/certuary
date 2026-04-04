@@ -46,5 +46,17 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204
     type: source-of-truth
 
+domains:
+  - name: Develop Azure compute solutions
+    weight: 28
+  - name: Develop for Azure storage
+    weight: 18
+  - name: Implement Azure security
+    weight: 18
+  - name: Monitor, troubleshoot, and optimize Azure solutions
+    weight: 13
+  - name: Connect to and consume Azure services and third-party services
+    weight: 23
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
 last_verified: "2026-04-03"

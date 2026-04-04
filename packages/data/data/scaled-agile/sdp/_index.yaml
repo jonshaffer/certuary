@@ -43,5 +43,19 @@ links:
     url: https://scaledagile.com/training/safe-devops/
     type: official
 
+domains:
+  - name: "Introducing DevOps"
+    weight: 11
+  - name: "Mapping Your Value Stream"
+    weight: 13
+  - name: "Gaining Alignment with Continuous Exploration"
+    weight: 31
+  - name: "Building Quality In with Continuous Integration"
+    weight: 31
+  - name: "Reducing Time-to-Market with Continuous Deployment"
+    weight: 5
+  - name: "Delivering Business Value with Release on Demand"
+    weight: 9
+
 source_of_truth_url: https://scaledagile.com/training/safe-devops/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

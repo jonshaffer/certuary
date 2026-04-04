@@ -48,5 +48,17 @@ links:
     url: https://www.reddit.com/r/ccnp/
     type: community
 
+domains:
+  - name: Architecture
+    weight: 15
+  - name: Networking
+    weight: 30
+  - name: MPLS and Segment Routing
+    weight: 20
+  - name: Services
+    weight: 20
+  - name: Automation and Assurance
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/service-provider/ccnp-service-provider/index.html
 last_verified: "2026-04-01"

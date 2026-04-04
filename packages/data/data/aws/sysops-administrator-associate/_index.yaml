@@ -51,5 +51,19 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Monitoring, Logging, and Remediation
+    weight: 20
+  - name: Reliability and Business Continuity
+    weight: 16
+  - name: Deployment, Provisioning, and Automation
+    weight: 18
+  - name: Security and Compliance
+    weight: 16
+  - name: Networking and Content Delivery
+    weight: 18
+  - name: Cost and Performance Optimization
+    weight: 12
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-sysops-admin-associate/
 last_verified: "2026-04-01"

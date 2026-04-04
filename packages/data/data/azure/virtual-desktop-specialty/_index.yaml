@@ -46,5 +46,15 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-140
     type: source-of-truth
 
+domains:
+  - name: Plan and implement an Azure Virtual Desktop infrastructure
+    weight: 43
+  - name: Plan and implement identity and security
+    weight: 18
+  - name: Plan and implement user environments and apps
+    weight: 23
+  - name: Monitor and maintain an Azure Virtual Desktop infrastructure
+    weight: 13
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-virtual-desktop-specialty/
 last_verified: "2026-04-03"

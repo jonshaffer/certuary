@@ -43,5 +43,12 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Change Enablement"
+  - name: "Deployment Management"
+  - name: "Release Management"
+  - name: "Service Configuration Management"
+  - name: "IT Asset Management"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-plan-implement-and-control
 last_verified: "2026-04-03"

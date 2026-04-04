@@ -40,5 +40,15 @@ links:
     url: https://www.reddit.com/r/pmp/
     type: community
 
+domains:
+  - name: "Contracts Management"
+    weight: 50
+  - name: "Stakeholder Engagement"
+    weight: 30
+  - name: "Strategy and Scope Management"
+    weight: 15
+  - name: "Project Governance"
+    weight: 5
+
 source_of_truth_url: https://www.pmi.org/certifications/construction-professional-cp
-last_verified: "2026-04-01"
+last_verified: "2026-04-04"

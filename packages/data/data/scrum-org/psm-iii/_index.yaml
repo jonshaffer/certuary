@@ -43,5 +43,31 @@ links:
     url: https://www.scrum.org/assessments/professional-scrum-master-iii-certification
     type: official
 
+domains:
+  - name: "Understanding and Applying the Scrum Framework"
+    subdomains:
+      - name: Empiricism
+      - name: Scrum Values
+      - name: Scrum Team
+      - name: Events
+      - name: Artifacts
+      - name: Done
+  - name: "Developing People and Teams"
+    subdomains:
+      - name: Self-Managing Teams
+      - name: Facilitation
+      - name: Leadership Styles
+      - name: Coaching and Mentoring
+  - name: "Managing Products with Agility"
+    subdomains:
+      - name: Forecasting and Release Planning
+      - name: Product Vision
+      - name: Product Value
+      - name: Product Backlog Management
+      - name: Business Strategy
+      - name: Stakeholders and Customers
+  - name: "Developing and Delivering Products Professionally"
+  - name: "Evolving the Agile Organization"
+
 source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-master-iii-certification
 last_verified: "2026-04-03"

@@ -47,5 +47,31 @@ links:
     url: https://scaledagile.com/training/implementing-safe/
     type: official
 
+domains:
+  - name: "Thriving in the Digital Age with Business Agility"
+    weight: 6
+  - name: "Becoming a Lean-Agile Leader"
+    weight: 13
+  - name: "Establishing Team and Technical Agility"
+    weight: 6
+  - name: "Building Solutions with Agile Product Delivery"
+    weight: 16
+  - name: "Exploring Lean Portfolio Management"
+    weight: 10
+  - name: "Leading the Change"
+    weight: 5
+  - name: "Reaching the SAFe Tipping Point"
+    weight: 3
+  - name: "Designing the Implementation"
+    weight: 8
+  - name: "Launching an Agile Release Train"
+    weight: 5
+  - name: "Coaching ART Execution"
+    weight: 6
+  - name: "Enhancing the Portfolio"
+    weight: 10
+  - name: "Accelerating to Business Agility"
+    weight: 12
+
 source_of_truth_url: https://scaledagile.com/training/implementing-safe/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

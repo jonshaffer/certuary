@@ -33,5 +33,17 @@ links:
     url: https://cloud.google.com/learn/certification/cloud-network-engineer
     type: source-of-truth
 
+domains:
+  - name: Designing, planning, and prototyping a Google Cloud network
+    weight: 26
+  - name: Implementing Virtual Private Cloud (VPC) instances
+    weight: 21
+  - name: Configuring network services
+    weight: 23
+  - name: Implementing hybrid interconnectivity
+    weight: 14
+  - name: Managing, monitoring, and optimizing network operations
+    weight: 16
+
 source_of_truth_url: https://cloud.google.com/learn/certification/cloud-network-engineer
 last_verified: "2026-04-01"

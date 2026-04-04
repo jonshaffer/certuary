@@ -43,5 +43,20 @@ links:
     url: https://www.opengroup.org/dpbok
     type: source-of-truth
 
+domains:
+  - name: "Introduction to the DPBoK Standard"
+  - name: "Digital Value"
+  - name: "Digital Infrastructure"
+  - name: "Application Delivery"
+  - name: "Product Management"
+  - name: "Work Management"
+  - name: "Operations Management"
+  - name: "Coordination and Process"
+  - name: "Investment and Portfolio"
+  - name: "Organization and Culture"
+  - name: "Governance, Risk, Security, and Compliance"
+  - name: "Information Management"
+  - name: "Architecture"
+
 source_of_truth_url: https://www.opengroup.org/certifications/dpbok
 last_verified: "2026-04-04"

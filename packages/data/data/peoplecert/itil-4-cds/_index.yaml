@@ -41,5 +41,10 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Plan and Build a Service Value Stream"
+  - name: "ITIL Practices Across the Service Value Stream"
+  - name: "Creating, Delivering and Supporting Services"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-create-deliver-and-support
 last_verified: "2026-04-03"

@@ -40,5 +40,14 @@ links:
     url: https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam
     type: source-of-truth
 
+domains:
+  - name: "Implement images using Containerfile/Dockerfile commands"
+  - name: "Manage images"
+  - name: "Run and configure containers"
+  - name: "Manage container networking and port exposure"
+  - name: "Manage container storage and volumes"
+  - name: "Manage container lifecycle"
+  - name: "Manage container security and permissions"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam
 last_verified: "2026-04-04"

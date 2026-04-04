@@ -41,5 +41,15 @@ links:
     url: https://www.reddit.com/r/ISACA/
     type: community
 
+domains:
+  - name: Governance
+    weight: 26
+  - name: Risk Assessment
+    weight: 22
+  - name: Risk Response and Reporting
+    weight: 32
+  - name: Technology and Security
+    weight: 20
+
 source_of_truth_url: https://www.isaca.org/credentialing/crisc
 last_verified: "2026-04-01"

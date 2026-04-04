@@ -34,5 +34,17 @@ links:
     url: https://cloud.google.com/learn/certification/data-engineer
     type: source-of-truth
 
+domains:
+  - name: Design data processing systems
+    weight: 25
+  - name: Ingest and process the data
+    weight: 10
+  - name: Store the data
+    weight: 25
+  - name: Prepare and use data for analysis
+    weight: 25
+  - name: Maintain and automate data workloads
+    weight: 15
+
 source_of_truth_url: https://cloud.google.com/learn/certification/data-engineer
 last_verified: "2026-04-01"

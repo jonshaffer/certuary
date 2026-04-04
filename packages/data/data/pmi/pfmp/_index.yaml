@@ -44,5 +44,17 @@ links:
     url: https://www.reddit.com/r/pmp/
     type: community
 
+domains:
+  - name: "Portfolio Strategic Management"
+    weight: 25
+  - name: "Portfolio Governance Management"
+    weight: 20
+  - name: "Portfolio Performance Management"
+    weight: 25
+  - name: "Portfolio Risk Management"
+    weight: 15
+  - name: "Portfolio Communications Management"
+    weight: 15
+
 source_of_truth_url: https://www.pmi.org/certifications/portfolio-management-pfmp
-last_verified: "2026-04-01"
+last_verified: "2026-04-04"

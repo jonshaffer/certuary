@@ -44,5 +44,16 @@ links:
     url: https://www.redhat.com/en/services/training/ex342-red-hat-certified-specialist-linux-diagnostics-and-troubleshooting-exam
     type: source-of-truth
 
+domains:
+  - name: "Understand and employ general methods for troubleshooting"
+  - name: "Collect system information to aid in troubleshooting"
+  - name: "Consult documentation resources to aid in troubleshooting"
+  - name: "Diagnose and troubleshoot system startup issues"
+  - name: "Diagnose and troubleshoot file system issues"
+  - name: "Diagnose and troubleshoot network issues"
+  - name: "Diagnose and troubleshoot application issues"
+  - name: "Diagnose and troubleshoot security issues"
+  - name: "Diagnose and troubleshoot kernel issues"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex342-red-hat-certified-specialist-linux-diagnostics-and-troubleshooting-exam
 last_verified: "2026-04-04"

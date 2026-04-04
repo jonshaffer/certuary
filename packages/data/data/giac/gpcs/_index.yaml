@@ -32,5 +32,16 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/public-cloud-security-gpcs/
     type: official
+domains:
+  - name: Cloud Identity and Access Management (IAM)
+  - name: Cloud End-User Identity and Single Sign-On
+  - name: Public Cloud Security Landscape
+  - name: Cloud Data Encryption Services
+  - name: Key Management Systems
+  - name: Virtual Network Logging and Monitoring
+  - name: Cloud Compliance Auditing
+  - name: Credential Storage Best Practices
+  - name: Instance Metadata API Security
+
 source_of_truth_url: https://www.giac.org/certifications/public-cloud-security-gpcs/
 last_verified: "2026-04-03"

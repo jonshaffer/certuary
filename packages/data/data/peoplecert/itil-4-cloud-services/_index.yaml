@@ -40,5 +40,12 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Cloud Concepts and Service Models"
+  - name: "Exploring Cloud Service Strategy"
+  - name: "Engaging Cloud Service Providers"
+  - name: "Acquiring and Onboarding Cloud Services"
+  - name: "Managing and Co-creating Value with Cloud Services"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-acquiring-and-managing-cloud-services
 last_verified: "2026-04-03"

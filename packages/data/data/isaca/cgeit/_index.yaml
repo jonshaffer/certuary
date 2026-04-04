@@ -39,5 +39,15 @@ links:
     url: https://www.reddit.com/r/ISACA/
     type: community
 
+domains:
+  - name: Governance of Enterprise IT
+    weight: 40
+  - name: IT Resources
+    weight: 15
+  - name: Benefits Realization
+    weight: 26
+  - name: Risk Optimization
+    weight: 19
+
 source_of_truth_url: https://www.isaca.org/credentialing/cgeit
 last_verified: "2026-04-01"

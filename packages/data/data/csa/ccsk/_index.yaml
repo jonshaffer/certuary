@@ -36,5 +36,19 @@ links:
     url: https://training.cloudsecurityalliance.org/page/certificate-of-cloud-security-knowledge-ccsk
     type: course
 
+domains:
+  - name: "Cloud Computing Concepts and Architectures"
+  - name: "Cloud Governance"
+  - name: "Risk, Audit, and Compliance"
+  - name: "Organization Management"
+  - name: "Identity and Access Management"
+  - name: "Security Monitoring"
+  - name: "Infrastructure and Networking"
+  - name: "Cloud Workload Security"
+  - name: "Data Security"
+  - name: "Application Security"
+  - name: "Incident Response and Resilience"
+  - name: "Related Technologies and Strategies"
+
 source_of_truth_url: https://cloudsecurityalliance.org/education/ccsk
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

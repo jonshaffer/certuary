@@ -40,5 +40,12 @@ links:
     url: https://iapp.org/certify/cipt/
     type: source-of-truth
 
+domains:
+  - name: "Privacy Roles, Responsibilities, and Translating Legal Requirements into Technical Controls"
+  - name: "Minimizing Privacy Risks in Data Collection, Use, and Disclosure"
+  - name: "Monitoring, Tracking, Surveillance, and Intrusion Risks"
+  - name: "Privacy by Design and Value-Sensitive Design"
+  - name: "Privacy Engineering and Governance"
+
 source_of_truth_url: https://iapp.org/certify/cipt/
 last_verified: "2026-04-03"

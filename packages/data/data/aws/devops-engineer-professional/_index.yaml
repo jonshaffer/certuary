@@ -58,5 +58,19 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: SDLC Automation
+    weight: 22
+  - name: Configuration Management and IaC
+    weight: 17
+  - name: Resilient Cloud Solutions
+    weight: 15
+  - name: Monitoring and Logging
+    weight: 15
+  - name: Incident and Event Response
+    weight: 14
+  - name: Security and Compliance
+    weight: 17
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-devops-engineer-professional/
 last_verified: "2026-04-01"

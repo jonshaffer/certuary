@@ -43,5 +43,15 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900
     type: source-of-truth
 
+domains:
+  - name: Describe core data concepts
+    weight: 28
+  - name: Identify considerations for relational data on Azure
+    weight: 23
+  - name: Describe considerations for working with non-relational data on Azure
+    weight: 18
+  - name: Describe an analytics workload on Azure
+    weight: 28
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/
 last_verified: "2026-04-03"

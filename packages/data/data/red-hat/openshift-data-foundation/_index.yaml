@@ -41,5 +41,12 @@ links:
     url: https://www.redhat.com/en/services/training/ex370-red-hat-certified-specialist-openshift-data-foundation-exam
     type: source-of-truth
 
+domains:
+  - name: "Manage OpenShift Container Platform storage concepts"
+  - name: "Configure application workloads to use ODF file and block storage"
+  - name: "Configure applications to use ODF object storage"
+  - name: "Control access to storage resources"
+  - name: "Perform backup and restore of Kubernetes block and file volumes"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex370-red-hat-certified-specialist-openshift-data-foundation-exam
 last_verified: "2026-04-04"

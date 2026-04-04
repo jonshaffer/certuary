@@ -44,5 +44,19 @@ links:
     url: https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/
     type: official
 
+domains:
+  - name: Introduction to Threat Intelligence
+    weight: 14
+  - name: Cyber Threats and Kill Chain Methodology
+    weight: 14
+  - name: Requirements, Planning, Direction, and Review
+    weight: 16
+  - name: Data Collection and Processing
+    weight: 24
+  - name: Data Analysis
+    weight: 18
+  - name: Dissemination and Reporting of Intelligence
+    weight: 14
+
 source_of_truth_url: https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/
 last_verified: "2026-04-04"

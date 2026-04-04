@@ -54,5 +54,23 @@ links:
     url: https://www.reddit.com/r/cissp/
     type: community
 
+domains:
+  - name: Security and Risk Management
+    weight: 16
+  - name: Asset Security
+    weight: 10
+  - name: Security Architecture and Engineering
+    weight: 13
+  - name: Communication and Network Security
+    weight: 13
+  - name: Identity and Access Management (IAM)
+    weight: 13
+  - name: Security Assessment and Testing
+    weight: 12
+  - name: Security Operations
+    weight: 13
+  - name: Software Development Security
+    weight: 10
+
 source_of_truth_url: https://www.isc2.org/certifications/cissp
 last_verified: "2026-04-01"

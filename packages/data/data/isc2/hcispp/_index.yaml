@@ -37,5 +37,21 @@ links:
     url: https://www.isc2.org/certifications/hcispp/hcispp-certification-exam-outline
     type: source-of-truth
 
+domains:
+  - name: Healthcare Industry
+    weight: 10
+  - name: Information Governance in Healthcare
+    weight: 5
+  - name: Information Technologies in Healthcare
+    weight: 11
+  - name: Regulatory and Standards Environment
+    weight: 16
+  - name: Privacy and Security in Healthcare
+    weight: 26
+  - name: Risk Management and Risk Assessment
+    weight: 17
+  - name: Third-Party Risk Management
+    weight: 15
+
 source_of_truth_url: https://www.isc2.org/certifications/hcispp
 last_verified: "2026-04-01"

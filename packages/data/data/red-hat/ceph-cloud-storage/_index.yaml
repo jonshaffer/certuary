@@ -43,5 +43,15 @@ links:
     url: https://www.redhat.com/en/services/training/ex260-red-hat-certified-specialist-ceph-cloud-storage-exam
     type: source-of-truth
 
+domains:
+  - name: "Install Red Hat Ceph Storage"
+  - name: "Configure Red Hat Ceph Storage"
+  - name: "Provide block storage using RADOS Block Device (RBD)"
+  - name: "Provide object storage using RADOS Gateway (RGW)"
+  - name: "Provide file storage with CephFS"
+  - name: "Manage CRUSH maps and placement rules"
+  - name: "Monitor and manage cluster operations"
+  - name: "Integrate with Red Hat OpenStack Platform"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex260-red-hat-certified-specialist-ceph-cloud-storage-exam
 last_verified: "2026-04-04"

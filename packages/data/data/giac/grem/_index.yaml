@@ -32,5 +32,15 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/reverse-engineering-malware-grem/
     type: official
+domains:
+  - name: Static Property Analysis
+  - name: Windows API Calls Used by Malware
+  - name: Malware Techniques (Code Injection, Hooking, Process Hollowing)
+  - name: Dynamic and Static Analysis with Debugger and Disassembler
+  - name: .NET Malware Analysis
+  - name: Anti-Debugging and Data Protection Bypass
+  - name: Unpacking Malware
+  - name: Malicious Document Analysis (Office, PDF, RTF)
+
 source_of_truth_url: https://www.giac.org/certifications/reverse-engineering-malware-grem/
 last_verified: "2026-04-03"

@@ -6,6 +6,7 @@ import {
   RawProviderSchema,
   RawCertSchema,
   RawProgramSchema,
+  RawCategoryTaxonomySchema,
   type RawExamDomain,
 } from "../src/schemas.js";
 
@@ -38,6 +39,7 @@ function mapDomain(d: RawExamDomain): object {
     name: d.name,
     ...(d.weight != null ? { weight: d.weight } : {}),
     ...(d.subdomains ? { subdomains: d.subdomains.map(mapDomain) } : {}),
+    ...(d.categories?.length ? { categories: d.categories } : {}),
   };
 }
 
@@ -156,15 +158,32 @@ function generate() {
     }
   }
 
+  // Parse category taxonomy
+  const categoryTaxonomyPath = path.join(DATA_DIR, "_categories.yaml");
+  const rawTaxonomy = readYaml(categoryTaxonomyPath, RawCategoryTaxonomySchema);
+  const categoryGroups = rawTaxonomy.groups.map((g) => ({
+    slug: g.slug,
+    label: g.label,
+  }));
+  const domainCategories = rawTaxonomy.categories.map((c) => ({
+    slug: c.slug,
+    label: c.label,
+    group: c.group,
+  }));
+
   const output = `// Auto-generated from data/**/_index.yaml and data/**/programs/*.yaml — do not edit manually.
 // Run "pnpm generate" to regenerate.
-import type { Provider, Certification, Program } from "./types.js";
+import type { Provider, Certification, Program, CategoryGroup, DomainCategory } from "./types.js";
 
 export const providers: Provider[] = ${JSON.stringify(providers, null, 2)};
 
 export const certifications: Certification[] = ${JSON.stringify(certifications, null, 2)};
 
 export const programs: Program[] = ${JSON.stringify(programs, null, 2)};
+
+export const categoryGroups: CategoryGroup[] = ${JSON.stringify(categoryGroups, null, 2)};
+
+export const domainCategories: DomainCategory[] = ${JSON.stringify(domainCategories, null, 2)};
 `;
 
   fs.writeFileSync(OUT_FILE, output, "utf-8");

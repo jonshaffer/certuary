@@ -33,5 +33,17 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/security-leadership-gslc/
     type: official
+domains:
+  - name: Risk Management and Security Frameworks
+  - name: Vulnerability Management
+  - name: Cryptographic Concepts for Managers
+  - name: Incident Response and Business Continuity
+  - name: Security Operations Center (SOC) Management
+  - name: Application Security and DevOps
+  - name: AI Technologies, Risks, and Benefits
+  - name: Networking Concepts and Monitoring for Managers
+  - name: Security Policy and Awareness
+  - name: Negotiations and Vendor Management
+
 source_of_truth_url: https://www.giac.org/certifications/security-leadership-gslc/
 last_verified: "2026-04-03"

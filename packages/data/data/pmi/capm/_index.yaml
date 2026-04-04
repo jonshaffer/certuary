@@ -40,5 +40,15 @@ links:
     url: https://www.reddit.com/r/pmp/
     type: community
 
+domains:
+  - name: "Project Management Fundamentals and Core Concepts"
+    weight: 36
+  - name: "Predictive, Plan-Based Methodologies"
+    weight: 17
+  - name: "Agile Frameworks/Methodologies"
+    weight: 20
+  - name: "Business Analysis Frameworks"
+    weight: 27
+
 source_of_truth_url: https://www.pmi.org/certifications/certified-associate-capm
-last_verified: "2026-04-01"
+last_verified: "2026-04-04"

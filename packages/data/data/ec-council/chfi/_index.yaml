@@ -51,5 +51,19 @@ links:
     url: https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/
     type: official
 
+domains:
+  - name: Forensic Science
+    weight: 15
+  - name: Regulations, Policies, and Ethics
+    weight: 10
+  - name: Digital Evidence
+    weight: 10
+  - name: Procedures and Methodology
+    weight: 20
+  - name: Digital Forensics
+    weight: 25
+  - name: Tools, Systems, and Programs
+    weight: 20
+
 source_of_truth_url: https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/
 last_verified: "2026-04-04"

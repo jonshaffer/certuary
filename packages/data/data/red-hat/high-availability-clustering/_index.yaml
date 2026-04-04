@@ -44,5 +44,15 @@ links:
     url: https://www.redhat.com/en/services/training/ex436-red-hat-certified-specialist-high-availability-clustering-exam
     type: source-of-truth
 
+domains:
+  - name: "Configure a high-availability cluster using Pacemaker"
+  - name: "Configure fencing"
+  - name: "Manage cluster resources"
+  - name: "Configure failover and preferred node constraints"
+  - name: "Manage logical volumes in a clustered environment"
+  - name: "Configure GFS2 file systems"
+  - name: "Configure iSCSI initiators and multipathed devices"
+  - name: "Configure cluster logging and monitoring"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex436-red-hat-certified-specialist-high-availability-clustering-exam
 last_verified: "2026-04-04"

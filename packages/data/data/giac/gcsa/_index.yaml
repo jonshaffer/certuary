@@ -31,5 +31,15 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/cloud-security-automation-gcsa/
     type: official
+domains:
+  - name: Secure DevOps Fundamentals and Culture
+  - name: Infrastructure Configuration Management
+  - name: CI/CD Pipeline Security
+  - name: Event-Based Architecture and Automated Remediation
+  - name: Continuous Compliance and Policy Automation
+  - name: Container Security and Hardening
+  - name: Kubernetes Security and Orchestration
+  - name: Deployment Orchestration and Cloud-Native Monitoring
+
 source_of_truth_url: https://www.giac.org/certifications/cloud-security-automation-gcsa/
 last_verified: "2026-04-03"

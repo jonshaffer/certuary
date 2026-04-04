@@ -40,5 +40,17 @@ links:
     url: https://www.reddit.com/r/pmp/
     type: community
 
+domains:
+  - name: "Schedule Strategy"
+    weight: 14
+  - name: "Schedule Planning and Development"
+    weight: 31
+  - name: "Schedule Monitoring and Controlling"
+    weight: 35
+  - name: "Schedule Closeout"
+    weight: 6
+  - name: "Stakeholder Communications Management"
+    weight: 14
+
 source_of_truth_url: https://www.pmi.org/certifications/scheduling-professional-sp
-last_verified: "2026-04-01"
+last_verified: "2026-04-04"

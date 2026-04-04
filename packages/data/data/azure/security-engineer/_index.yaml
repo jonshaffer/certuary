@@ -47,5 +47,15 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500
     type: source-of-truth
 
+domains:
+  - name: Secure identity and access
+    weight: 18
+  - name: Secure networking
+    weight: 23
+  - name: Secure compute, storage, and databases
+    weight: 23
+  - name: Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel
+    weight: 33
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/
 last_verified: "2026-04-03"

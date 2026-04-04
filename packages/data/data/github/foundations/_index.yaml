@@ -49,5 +49,21 @@ links:
     url: https://docs.github.com/en/get-started/showcase-your-expertise-with-github-certifications
     type: source-of-truth
 
+domains:
+  - name: "Introduction to Git and GitHub"
+    weight: 22
+  - name: "Working with GitHub Repositories"
+    weight: 8
+  - name: "Collaboration Features"
+    weight: 30
+  - name: "Modern Development"
+    weight: 13
+  - name: "Project Management"
+    weight: 7
+  - name: "Privacy, Security, and Administration"
+    weight: 10
+  - name: "Benefits of the GitHub Community"
+    weight: 10
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/
 last_verified: "2026-04-03"

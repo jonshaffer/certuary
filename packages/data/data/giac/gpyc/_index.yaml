@@ -32,5 +32,16 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/python-coder-gpyc/
     type: official
+domains:
+  - name: Python Fundamentals (Creating, Debugging, I/O)
+  - name: Object-Oriented Programming (Functions, Classes)
+  - name: Data Structures and Programming Concepts
+  - name: Python Essentials (Variables, Math, Strings, Compound Statements)
+  - name: Network Programming (TCP/UDP Sockets)
+  - name: Network Traffic Analysis with Scapy
+  - name: Regular Expressions
+  - name: Web Interaction (URLs, Cookies, Traffic Capture)
+  - name: Penetration Testing Applications (Backdoors, SQL Injection)
+
 source_of_truth_url: https://www.giac.org/certifications/python-coder-gpyc/
 last_verified: "2026-04-03"

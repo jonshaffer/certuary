@@ -50,5 +50,17 @@ links:
     url: https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security
     type: source-of-truth
 
+domains:
+  - name: "Describe the GHAS Security Features and Functionality"
+    weight: 15
+  - name: "Configure and Use Secret Scanning"
+    weight: 15
+  - name: "Configure and Use Dependabot and Dependency Review"
+    weight: 35
+  - name: "Configure and Use Code Scanning with CodeQL"
+    weight: 25
+  - name: "Describe GitHub Advanced Security Best Practices, Results, and How to Take Corrective Measures"
+    weight: 10
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/
 last_verified: "2026-04-03"

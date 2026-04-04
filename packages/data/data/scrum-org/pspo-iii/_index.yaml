@@ -42,5 +42,17 @@ links:
     url: https://www.scrum.org/assessments/professional-scrum-product-owner-iii-certification
     type: official
 
+domains:
+  - name: "Understanding and Applying the Scrum Framework"
+  - name: "Managing Products with Agility"
+    subdomains:
+      - name: Forecasting and Release Planning
+      - name: Product Vision
+      - name: Product Value
+      - name: Product Backlog Management
+      - name: Business Strategy
+      - name: Stakeholders and Customers
+  - name: "Evolving the Agile Organization"
+
 source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-product-owner-iii-certification
 last_verified: "2026-04-03"

@@ -41,5 +41,16 @@ links:
     url: https://www.redhat.com/en/services/training/ex380-red-hat-certified-specialist-openshift-virtualization-exam
     type: source-of-truth
 
+domains:
+  - name: "Deploy Red Hat OpenShift Virtualization operator"
+  - name: "Use and modify preconfigured templates to provision virtual machines"
+  - name: "Generate custom templates to provision virtual machines"
+  - name: "Use cloud-init in virtual machine templates"
+  - name: "Create and manage virtual machine snapshots"
+  - name: "Configure health probes and watchdog devices"
+  - name: "Configure virtual machine networking"
+  - name: "Configure virtual machine storage"
+  - name: "Manage virtual machine live migration"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex380-red-hat-certified-specialist-openshift-virtualization-exam
 last_verified: "2026-04-04"

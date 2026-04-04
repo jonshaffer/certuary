@@ -52,5 +52,15 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Data Preparation for Machine Learning (ML)
+    weight: 28
+  - name: ML Model Development
+    weight: 26
+  - name: Deployment and Orchestration of ML Workflows
+    weight: 22
+  - name: ML Solution Monitoring, Maintenance, and Security
+    weight: 24
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/
 last_verified: "2026-04-01"

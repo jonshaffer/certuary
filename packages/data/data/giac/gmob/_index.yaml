@@ -32,5 +32,17 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/mobile-device-security-analyst-gmob/
     type: official
+domains:
+  - name: Mobile Application Binary and Permission Analysis
+  - name: SSL/TLS Exploitation in Mobile Testing
+  - name: Android Configuration and Security Model
+  - name: iOS Configuration and Security Model
+  - name: Security Evasion Techniques for Mobile Applications
+  - name: Mobile Data Protection and Malware Mitigation
+  - name: Stolen Device Threat Mitigation
+  - name: Mobile Application Security Verification Standard (MASVS)
+  - name: Mobile Application Reverse Engineering
+  - name: Rooting, Jailbreaking, and Unlocking
+
 source_of_truth_url: https://www.giac.org/certifications/mobile-device-security-analyst-gmob/
 last_verified: "2026-04-03"

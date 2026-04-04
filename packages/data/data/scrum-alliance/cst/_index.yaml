@@ -34,5 +34,12 @@ links:
     url: https://www.scrumalliance.org/get-certified/trainer-track/certified-scrum-trainer
     type: official
 
+domains:
+  - name: "Scrum Framework Mastery"
+  - name: "Training Design and Delivery"
+  - name: "Facilitation and Experiential Learning"
+  - name: "Coaching and Mentoring"
+  - name: "Community Engagement"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/trainer-track/certified-scrum-trainer
 last_verified: "2026-04-03"

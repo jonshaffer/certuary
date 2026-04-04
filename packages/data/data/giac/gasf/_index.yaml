@@ -32,5 +32,13 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/advanced-smartphone-forensics-gasf/
     type: official
+domains:
+  - name: Android Device Analysis
+  - name: Apple iOS Device Analysis
+  - name: Mobile Device Data Collection and Analysis
+  - name: Filesystem Artifacts and Relational Databases
+  - name: Third-Party Application Activity Analysis
+  - name: Mobile Malware Detection and Analysis
+
 source_of_truth_url: https://www.giac.org/certifications/advanced-smartphone-forensics-gasf/
 last_verified: "2026-04-03"

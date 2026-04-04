@@ -34,5 +34,15 @@ links:
     url: https://cloud.google.com/learn/certification/cloud-developer
     type: source-of-truth
 
+domains:
+  - name: Designing highly scalable, available, and reliable cloud-native applications
+    weight: 32
+  - name: Building and testing applications
+    weight: 22
+  - name: Deploying applications
+    weight: 26
+  - name: Integrating Google Cloud services
+    weight: 20
+
 source_of_truth_url: https://cloud.google.com/learn/certification/cloud-developer
 last_verified: "2026-04-01"

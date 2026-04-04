@@ -42,5 +42,20 @@ links:
     url: https://www.opengroup.org/certifications/openfair
     type: source-of-truth
 
+domains:
+  - name: "Basic Risk Concepts"
+  - name: "Open FAIR Risk Taxonomy (O-RT)"
+    subdomains:
+      - name: Loss Event Frequency
+      - name: Vulnerability
+      - name: Threat Event Frequency
+      - name: Loss Magnitude
+  - name: "Open FAIR Risk Analysis (O-RA)"
+    subdomains:
+      - name: Risk Analysis Process
+      - name: Risk Scenario Identification
+      - name: Risk Estimation
+  - name: "Applying the Open FAIR Standards"
+
 source_of_truth_url: https://www.opengroup.org/certifications/openfair
 last_verified: "2026-04-04"

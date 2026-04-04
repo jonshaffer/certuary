@@ -33,5 +33,12 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/cyber-threat-intelligence-gcti/
     type: official
+domains:
+  - name: Data Collection and Storage
+  - name: Threat Intelligence Application
+  - name: Fundamental Concepts and Technologies
+  - name: Analysis Frameworks (Kill Chain, Diamond Model, Courses of Action)
+  - name: Reporting and Communication
+
 source_of_truth_url: https://www.giac.org/certifications/cyber-threat-intelligence-gcti/
 last_verified: "2026-04-03"

@@ -35,5 +35,23 @@ links:
     url: https://www.isc2.org/certifications/csslp/csslp-certification-exam-outline
     type: source-of-truth
 
+domains:
+  - name: Secure Software Concepts
+    weight: 10
+  - name: Secure Software Requirements
+    weight: 14
+  - name: Secure Software Architecture and Design
+    weight: 14
+  - name: Secure Software Implementation
+    weight: 14
+  - name: Secure Software Testing
+    weight: 14
+  - name: Secure Software Lifecycle Management
+    weight: 11
+  - name: Secure Software Deployment, Operations, Maintenance
+    weight: 12
+  - name: Secure Software Supply Chain
+    weight: 11
+
 source_of_truth_url: https://www.isc2.org/certifications/csslp
 last_verified: "2026-04-01"

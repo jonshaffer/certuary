@@ -49,5 +49,17 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-400
     type: source-of-truth
 
+domains:
+  - name: Design and implement processes and communications
+    weight: 13
+  - name: Design and implement a source control strategy
+    weight: 13
+  - name: Design and implement build and release pipelines
+    weight: 53
+  - name: Develop a security and compliance plan
+    weight: 13
+  - name: Implement an instrumentation strategy
+    weight: 8
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
 last_verified: "2026-04-03"

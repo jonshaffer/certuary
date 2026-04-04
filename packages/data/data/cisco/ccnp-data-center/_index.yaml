@@ -48,5 +48,17 @@ links:
     url: https://www.reddit.com/r/ccnp/
     type: community
 
+domains:
+  - name: Network
+    weight: 25
+  - name: Compute
+    weight: 25
+  - name: Storage Network
+    weight: 20
+  - name: Automation
+    weight: 15
+  - name: Security
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/data-center/ccnp-data-center/index.html
 last_verified: "2026-04-01"

@@ -42,5 +42,15 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-900
     type: source-of-truth
 
+domains:
+  - name: Describe cloud concepts
+    weight: 13
+  - name: Describe Microsoft 365 apps and services
+    weight: 48
+  - name: Describe security, compliance, privacy, and trust in Microsoft 365
+    weight: 28
+  - name: Describe Microsoft 365 pricing, licensing, and support
+    weight: 8
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/microsoft-365-fundamentals/
 last_verified: "2026-04-03"

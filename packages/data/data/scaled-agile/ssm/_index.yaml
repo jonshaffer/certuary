@@ -47,5 +47,15 @@ links:
     url: https://scaledagile.com/training/safe-scrum-master/
     type: official
 
+domains:
+  - name: "Scrum Master Core Competencies"
+    weight: 28
+  - name: "Applying Scrum in SAFe"
+    weight: 28
+  - name: "Supporting Program Execution"
+    weight: 23
+  - name: "Coaching Agile Teams"
+    weight: 21
+
 source_of_truth_url: https://scaledagile.com/training/safe-scrum-master/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

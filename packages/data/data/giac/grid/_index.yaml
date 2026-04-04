@@ -32,5 +32,15 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/response-industrial-defense-grid/
     type: official
+domains:
+  - name: Active Defense in ICS Environments
+  - name: ICS Network Security Monitoring
+  - name: Digital Forensics and Incident Response in ICS
+  - name: ICS Protocol Monitoring
+  - name: Threat Hunting and Analysis in ICS
+  - name: Threat Intelligence for ICS
+  - name: Visibility and Asset Awareness in ICS
+  - name: Malware Analysis in ICS
+
 source_of_truth_url: https://www.giac.org/certifications/response-industrial-defense-grid/
 last_verified: "2026-04-03"

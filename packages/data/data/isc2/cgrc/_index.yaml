@@ -38,5 +38,21 @@ links:
     url: https://www.isc2.org/certifications/cgrc/cgrc-certification-exam-outline
     type: source-of-truth
 
+domains:
+  - name: Security and Privacy Governance, Risk Management, and Compliance Program
+    weight: 16
+  - name: Scope of the System
+    weight: 10
+  - name: Selection and Approval of Framework, Security, and Privacy Controls
+    weight: 14
+  - name: Implementation of Security and Privacy Controls
+    weight: 17
+  - name: Assessment/Audit of Security and Privacy Controls
+    weight: 16
+  - name: System Compliance
+    weight: 14
+  - name: Compliance Maintenance
+    weight: 13
+
 source_of_truth_url: https://www.isc2.org/certifications/cgrc
 last_verified: "2026-04-01"

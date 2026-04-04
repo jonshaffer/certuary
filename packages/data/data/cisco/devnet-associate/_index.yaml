@@ -46,5 +46,19 @@ links:
     url: https://developer.cisco.com/
     type: community
 
+domains:
+  - name: Software Development and Design
+    weight: 15
+  - name: Understanding and Using APIs
+    weight: 20
+  - name: Cisco Platforms and Development
+    weight: 15
+  - name: Application Deployment and Security
+    weight: 15
+  - name: Infrastructure and Automation
+    weight: 20
+  - name: Network Fundamentals
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/devnet-associate/index.html
 last_verified: "2026-04-01"

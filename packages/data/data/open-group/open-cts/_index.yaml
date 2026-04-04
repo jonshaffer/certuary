@@ -37,5 +37,11 @@ links:
     url: https://www.opengroup.org/certifications/certified-technical-specialist-open-cts
     type: source-of-truth
 
+domains:
+  - name: "Application Development"
+  - name: "Product Support"
+  - name: "IT Operations"
+  - name: "Technical Architecture"
+
 source_of_truth_url: https://www.opengroup.org/certifications/certified-technical-specialist-open-cts
 last_verified: "2026-04-04"

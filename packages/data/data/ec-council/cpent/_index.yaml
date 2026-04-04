@@ -46,5 +46,20 @@ links:
     url: https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/
     type: official
 
+domains:
+  - name: Penetration Testing Scoping and Engagement
+  - name: Open Source Intelligence (OSINT)
+  - name: Social Engineering Penetration Testing
+  - name: Network Penetration Testing - External
+  - name: Network Penetration Testing - Internal
+  - name: Network Penetration Testing - Perimeter Devices
+  - name: Web Application Penetration Testing
+  - name: Wireless Penetration Testing
+  - name: IoT Penetration Testing
+  - name: OT/SCADA Penetration Testing
+  - name: Cloud Penetration Testing
+  - name: Binary Analysis and Exploitation
+  - name: Report Writing and Post-Testing Actions
+
 source_of_truth_url: https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/
 last_verified: "2026-04-04"

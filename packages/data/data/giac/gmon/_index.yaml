@@ -33,5 +33,16 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/continuous-monitoring-certification-gmon/
     type: official
+domains:
+  - name: Access Control
+  - name: Configuration Change Monitoring
+  - name: Endpoint Monitoring
+  - name: Network and Vulnerability Assessment
+  - name: Network Traffic Analysis
+  - name: Host-Based Intrusion Detection
+  - name: Security Architecture and SIEM
+  - name: Software Inventory and Whitelisting
+  - name: Threat Knowledge
+
 source_of_truth_url: https://www.giac.org/certifications/continuous-monitoring-certification-gmon/
 last_verified: "2026-04-03"

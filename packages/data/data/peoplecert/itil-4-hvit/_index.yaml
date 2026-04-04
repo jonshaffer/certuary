@@ -40,5 +40,15 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Key Concepts of High-velocity IT"
+  - name: "Digital Product Lifecycle"
+  - name: "High-velocity IT Operating Model"
+  - name: "Valuable Investments"
+  - name: "Fast Development"
+  - name: "Resilient Operations"
+  - name: "Co-created Value"
+  - name: "Assured Conformance"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-specialist-high-velocity-it
 last_verified: "2026-04-03"

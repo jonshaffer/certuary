@@ -41,5 +41,17 @@ links:
     url: https://www.reddit.com/r/pmp/
     type: community
 
+domains:
+  - name: "Risk Strategy and Planning"
+    weight: 22
+  - name: "Risk Identification"
+    weight: 23
+  - name: "Risk Analysis"
+    weight: 23
+  - name: "Risk Response"
+    weight: 13
+  - name: "Monitor and Close Risks"
+    weight: 19
+
 source_of_truth_url: https://www.pmi.org/certifications/risk-management-rmp
-last_verified: "2026-04-01"
+last_verified: "2026-04-04"

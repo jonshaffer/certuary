@@ -32,5 +32,19 @@ links:
     url: https://www.scrum.org/assessments/professional-scrum-with-user-experience-certification
     type: official
 
+domains:
+  - name: "Understanding and Applying the Scrum Framework"
+  - name: "Managing Products with Agility"
+    subdomains:
+      - name: Product Value
+      - name: Product Backlog Management
+      - name: Stakeholders and Customers
+  - name: "Integrating UX with Scrum"
+    subdomains:
+      - name: Balancing Discovery and Delivery
+      - name: UX Work in the Product Backlog
+      - name: Customer Feedback Loops
+      - name: Cross-Functional Collaboration
+
 source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-with-user-experience-certification
 last_verified: "2026-04-03"

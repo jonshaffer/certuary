@@ -35,5 +35,19 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/security-essentials-gsec/
     type: official
+domains:
+  - name: Defense in Depth and Security Strategy
+  - name: Access Control and Password Management
+  - name: Cryptography Concepts and Applications
+  - name: VPNs, GPG, and PKI
+  - name: Network Security and Architecture
+  - name: Endpoint Security
+  - name: Incident Handling
+  - name: Windows Security
+  - name: Linux Operating System Security
+  - name: Data Loss Prevention and Mobile Device Security
+  - name: Wireless Network Security
+  - name: Container Security and macOS Security
+
 source_of_truth_url: https://www.giac.org/certifications/security-essentials-gsec/
 last_verified: "2026-04-03"

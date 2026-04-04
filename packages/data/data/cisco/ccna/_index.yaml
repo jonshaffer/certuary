@@ -46,5 +46,19 @@ links:
     url: https://www.reddit.com/r/ccna/
     type: community
 
+domains:
+  - name: Network Fundamentals
+    weight: 20
+  - name: Network Access
+    weight: 20
+  - name: IP Connectivity
+    weight: 25
+  - name: IP Services
+    weight: 10
+  - name: Security Fundamentals
+    weight: 15
+  - name: Automation and Programmability
+    weight: 10
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
 last_verified: "2026-03-01"

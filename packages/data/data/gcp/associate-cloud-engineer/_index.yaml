@@ -33,5 +33,17 @@ links:
     url: https://cloud.google.com/learn/certification/cloud-engineer
     type: source-of-truth
 
+domains:
+  - name: Setting up a cloud solution environment
+    weight: 20
+  - name: Planning and configuring a cloud solution
+    weight: 18
+  - name: Deploying and implementing a cloud solution
+    weight: 25
+  - name: Ensuring successful operation of a cloud solution
+    weight: 20
+  - name: Configuring access and security
+    weight: 18
+
 source_of_truth_url: https://cloud.google.com/learn/certification/cloud-engineer
 last_verified: "2026-04-01"

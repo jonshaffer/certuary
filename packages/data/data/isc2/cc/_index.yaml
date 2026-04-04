@@ -33,5 +33,17 @@ links:
     url: https://www.isc2.org/certifications/cc/cc-certification-exam-outline
     type: source-of-truth
 
+domains:
+  - name: Security Principles
+    weight: 26
+  - name: Business Continuity, Disaster Recovery, and Incident Response Concepts
+    weight: 10
+  - name: Access Controls Concepts
+    weight: 22
+  - name: Network Security
+    weight: 24
+  - name: Security Operations
+    weight: 18
+
 source_of_truth_url: https://www.isc2.org/certifications/cc
 last_verified: "2026-04-01"

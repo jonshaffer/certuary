@@ -50,5 +50,37 @@ links:
     url: https://www.eccouncil.org/train-certify/certified-network-defender-cnd/
     type: official
 
+domains:
+  - name: Network Attacks and Defense Strategies
+    weight: 10
+  - name: Administrative Network Security
+    weight: 10
+  - name: Technical Network Security
+    weight: 16
+  - name: Network Perimeter Security
+    weight: 16
+  - name: Endpoint Security
+    weight: 8
+  - name: Application Data Security
+    weight: 4
+  - name: Enterprise Virtual Network Security
+    weight: 4
+  - name: Cloud and Wireless Security
+    weight: 6
+  - name: Mobile Device and IoT Security
+    weight: 6
+  - name: Network Traffic Monitoring and Analysis
+    weight: 4
+  - name: Network Logs Monitoring and Analysis
+    weight: 4
+  - name: Incident Response and Forensic Investigation
+    weight: 6
+  - name: Business Continuity and Disaster Recovery
+    weight: 4
+  - name: Risk Anticipation with Risk Management
+    weight: 10
+  - name: Threat Assessment with Attack Surface Analysis
+    weight: 4
+
 source_of_truth_url: https://www.eccouncil.org/train-certify/certified-network-defender-cnd/
 last_verified: "2026-04-04"

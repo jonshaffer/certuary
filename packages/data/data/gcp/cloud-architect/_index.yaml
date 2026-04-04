@@ -33,5 +33,19 @@ links:
     url: https://cloud.google.com/learn/certification/cloud-architect
     type: source-of-truth
 
+domains:
+  - name: Designing and planning a cloud solution architecture
+    weight: 24
+  - name: Managing and provisioning a solution infrastructure
+    weight: 15
+  - name: Designing for security and compliance
+    weight: 18
+  - name: Analyzing and optimizing technical and business processes
+    weight: 18
+  - name: Managing implementation
+    weight: 11
+  - name: Ensuring solution and operations reliability
+    weight: 14
+
 source_of_truth_url: https://cloud.google.com/learn/certification/cloud-architect
 last_verified: "2026-04-01"

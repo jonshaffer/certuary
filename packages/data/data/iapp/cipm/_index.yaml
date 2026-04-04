@@ -42,5 +42,15 @@ links:
     url: https://iapp.org/certify/cipm/
     type: source-of-truth
 
+domains:
+  - name: "Privacy Program: Developing a Framework"
+  - name: "Privacy Program: Establishing Program Governance"
+  - name: "Privacy Program Operational Life Cycle: Assessing Data"
+  - name: "Privacy Program Operational Life Cycle: Protecting Personal Data"
+  - name: "Privacy Program Operational Life Cycle: Sustaining Program Performance"
+  - name: "Privacy Program Operational Life Cycle: Responding to Requests and Incidents"
+
+domain_source_url: https://prod.iapp.org/media/pdf/certification/CIPM_BoK_EBP_FINAL_14May25.pdf
+
 source_of_truth_url: https://iapp.org/certify/cipm/
 last_verified: "2026-04-03"

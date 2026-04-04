@@ -41,5 +41,14 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Digital and IT Strategy Concepts"
+  - name: "Digital Disruption and Strategic Response"
+  - name: "Relationship Between Strategy and SVS"
+  - name: "Strategic Approaches for Customer Relevance"
+  - name: "Risks and Opportunities of Digital Strategy"
+  - name: "Defining and Advocating a Digital Strategy"
+  - name: "Strategy Implementation and Leadership"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-leader-digital-and-it-strategy
 last_verified: "2026-04-03"

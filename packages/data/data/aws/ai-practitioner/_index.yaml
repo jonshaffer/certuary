@@ -50,5 +50,17 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Fundamentals of AI and ML
+    weight: 20
+  - name: Fundamentals of Generative AI
+    weight: 24
+  - name: Applications of Foundation Models
+    weight: 28
+  - name: Guidelines for Responsible AI
+    weight: 14
+  - name: Security, Compliance, and Governance for AI Solutions
+    weight: 14
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-ai-practitioner/
 last_verified: "2026-04-01"

@@ -52,5 +52,19 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: "Cloud Architecture"
+    weight: 23
+  - name: "Deployment"
+    weight: 19
+  - name: "Operations"
+    weight: 17
+  - name: "Security"
+    weight: 19
+  - name: "DevOps Fundamentals"
+    weight: 10
+  - name: "Troubleshooting"
+    weight: 12
+
 source_of_truth_url: https://www.comptia.org/certifications/cloud
 last_verified: "2026-04-01"

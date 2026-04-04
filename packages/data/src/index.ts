@@ -1,8 +1,10 @@
 export type {
+  CategoryGroup,
   Certification,
   CertLink,
   CertVersion,
   CertStatus,
+  DomainCategory,
   ExamDomain,
   ExamFormat,
   OrderingStrategy,
@@ -13,14 +15,17 @@ export type {
   Provider,
   QuestionCount,
 } from "./types.js";
-export { certifications, programs, providers } from "./generated.js";
+export { categoryGroups, certifications, domainCategories, programs, providers } from "./generated.js";
 export {
+  getAllCategoryGroups,
   getAllCerts,
+  getAllDomainCategories,
   getCertBySlug,
   getCertsByProgram,
   getCertsByProvider,
   getCertsByTag,
   getCertsWithDomains,
+  getDomainCategoriesByGroup,
   getAllPrograms,
   getAllProviders,
   getProgramBySlug,

@@ -27,5 +27,14 @@ links:
   - label: Official Certification Page
     url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager/
     type: official
+domains:
+  - name: "Key Concepts"
+  - name: "Direction and Review"
+  - name: "Data Collection"
+  - name: "Data Analysis"
+  - name: "Product Dissemination"
+  - name: "Management"
+  - name: "Legal and Ethical"
+
 source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager/
 last_verified: "2026-04-04"

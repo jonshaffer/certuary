@@ -43,5 +43,22 @@ links:
     url: https://www.redhat.com/en/services/training/ex358-red-hat-certified-specialist-services-management-and-automation-exam
     type: source-of-truth
 
+domains:
+  - name: "Manage network services"
+  - name: "Manage firewall services"
+  - name: "Manage SELinux"
+  - name: "Manage system processes"
+  - name: "Manage link aggregation"
+  - name: "Manage DNS"
+  - name: "Manage DHCP"
+  - name: "Manage printers"
+  - name: "Manage email services"
+  - name: "Manage a MariaDB database server"
+  - name: "Manage HTTP web access"
+  - name: "Manage iSCSI"
+  - name: "Manage NFS"
+  - name: "Manage SMB"
+  - name: "Use Ansible to configure standard services"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex358-red-hat-certified-specialist-services-management-and-automation-exam
 last_verified: "2026-04-04"

@@ -48,5 +48,19 @@ links:
     url: https://www.reddit.com/r/ccie/
     type: community
 
+domains:
+  - name: Core Routing
+    weight: 25
+  - name: Architectures and Services
+    weight: 25
+  - name: Access Connectivity
+    weight: 10
+  - name: High Availability and Fast Convergence
+    weight: 10
+  - name: Security
+    weight: 10
+  - name: Assurance and Automation
+    weight: 20
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/service-provider/ccie-service-provider/index.html
 last_verified: "2026-04-01"

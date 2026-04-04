@@ -61,5 +61,25 @@ links:
     url: https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/
     type: official
 
+domains:
+  - name: Information Security and Ethical Hacking Overview
+    weight: 6
+  - name: Reconnaissance Techniques
+    weight: 17
+  - name: System Hacking Techniques and Countermeasures
+    weight: 15
+  - name: Network and Perimeter Hacking
+    weight: 14
+  - name: Web Application Hacking
+    weight: 16
+  - name: Wireless Network Hacking
+    weight: 6
+  - name: Mobile Platform, IoT, and OT Hacking
+    weight: 8
+  - name: Cloud Computing
+    weight: 5
+  - name: Cryptography
+    weight: 13
+
 source_of_truth_url: https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/
 last_verified: "2026-04-04"

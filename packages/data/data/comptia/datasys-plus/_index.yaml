@@ -44,5 +44,17 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: "Database Fundamentals"
+    weight: 24
+  - name: "Database Deployment"
+    weight: 16
+  - name: "Database Management and Maintenance"
+    weight: 25
+  - name: "Data and Database Security"
+    weight: 23
+  - name: "Business Continuity"
+    weight: 12
+
 source_of_truth_url: https://www.comptia.org/certifications/datasys
 last_verified: "2026-04-01"

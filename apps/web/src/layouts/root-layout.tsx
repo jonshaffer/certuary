@@ -21,6 +21,12 @@ export function RootLayout() {
             <Link to="/domains" className="hover:text-foreground transition-colors">
               Domains
             </Link>
+            <Link to="/heatmap" className="hover:text-foreground transition-colors">
+              Heatmap
+            </Link>
+            <Link to="/network" className="hover:text-foreground transition-colors">
+              Network
+            </Link>
             <Link to="/graph" className="hover:text-foreground transition-colors">
               Prereq Graph
             </Link>

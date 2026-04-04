@@ -57,5 +57,19 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Threat Detection and Incident Response
+    weight: 14
+  - name: Security Logging and Monitoring
+    weight: 18
+  - name: Infrastructure Security
+    weight: 20
+  - name: Identity and Access Management
+    weight: 16
+  - name: Data Protection
+    weight: 18
+  - name: Management and Security Governance
+    weight: 14
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-security-specialty/
 last_verified: "2026-04-01"

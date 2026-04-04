@@ -41,5 +41,15 @@ links:
     url: https://www.redhat.com/en/services/training/ex248-red-hat-certified-specialist-enterprise-application-server-administration-exam
     type: source-of-truth
 
+domains:
+  - name: "Install and manage JBoss EAP"
+  - name: "Configure JBoss EAP domains, hosts, and servers"
+  - name: "Configure JBoss EAP to support clustered and high-availability operation"
+  - name: "Manage and monitor JBoss EAP"
+  - name: "Configure JBoss EAP security"
+  - name: "Configure JBoss EAP messaging"
+  - name: "Deploy Java applications to JBoss EAP"
+  - name: "Configure database connectivity"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex248-red-hat-certified-specialist-enterprise-application-server-administration-exam
 last_verified: "2026-04-04"

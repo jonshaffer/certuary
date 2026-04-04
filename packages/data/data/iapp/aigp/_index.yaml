@@ -40,5 +40,13 @@ links:
     url: https://iapp.org/certify/aigp
     type: source-of-truth
 
+domains:
+  - name: "Understanding the Foundations of AI Governance"
+  - name: "Understanding How Laws, Standards, and Frameworks Apply to AI"
+  - name: "Understanding How to Govern AI Development"
+  - name: "Understanding How to Govern AI Deployment and Use"
+
+domain_source_url: https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt0d33152fd20bc134/AIGP_Cert%20BOK.pdf
+
 source_of_truth_url: https://iapp.org/certify/aigp
 last_verified: "2026-04-03"

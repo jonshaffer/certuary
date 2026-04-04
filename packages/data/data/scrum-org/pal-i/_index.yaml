@@ -34,5 +34,15 @@ links:
     url: https://www.scrum.org/assessments/professional-agile-leadership-certification
     type: official
 
+domains:
+  - name: "Understanding and Applying the Scrum Framework"
+  - name: "Developing People and Teams"
+    subdomains:
+      - name: Self-Managing Teams
+      - name: Facilitation
+      - name: Leadership Styles
+      - name: Coaching and Mentoring
+  - name: "Evolving the Agile Organization"
+
 source_of_truth_url: https://www.scrum.org/assessments/professional-agile-leadership-certification
 last_verified: "2026-04-03"

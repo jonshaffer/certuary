@@ -53,5 +53,17 @@ links:
     url: https://www.eccouncil.org/train-certify/certified-chief-information-security-officer-cciso/
     type: official
 
+domains:
+  - name: Governance, Risk, and Compliance
+    weight: 21
+  - name: Information Security Controls and Audit Management
+    weight: 20
+  - name: Security Program Management and Operations
+    weight: 21
+  - name: Information Security Core Competencies
+    weight: 19
+  - name: Strategic Planning, Finance, Procurement, and Third-Party Management
+    weight: 19
+
 source_of_truth_url: https://www.eccouncil.org/train-certify/certified-chief-information-security-officer-cciso/
 last_verified: "2026-04-04"

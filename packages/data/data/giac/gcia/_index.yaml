@@ -34,5 +34,13 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/certified-intrusion-analyst-gcia/
     type: official
+domains:
+  - name: Forensic Analysis of Network Data
+  - name: IDS Tuning and Correlation
+  - name: Application Layer Protocol Analysis
+  - name: TCP/IP and Link Layer
+  - name: DNS Analysis
+  - name: Fragmentation and Fragmentation-Based Attacks
+
 source_of_truth_url: https://www.giac.org/certifications/certified-intrusion-analyst-gcia/
 last_verified: "2026-04-03"

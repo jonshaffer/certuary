@@ -37,5 +37,16 @@ links:
     url: https://www.isaca.org/credentialing/certificate-of-cloud-auditing-knowledge
     type: source-of-truth
 
+domains:
+  - name: "Cloud Governance"
+  - name: "Cloud Compliance Program"
+  - name: "CCM and CAIQ Goals, Objectives, and Structure"
+  - name: "Threat Analysis Methodology for Cloud Using CCM"
+  - name: "Cloud Auditing"
+  - name: "Evaluating a Cloud Compliance Program"
+  - name: "CCM Auditing Guidelines"
+  - name: "Continuous Assurance and Compliance"
+  - name: "CSA STAR Program"
+
 source_of_truth_url: https://cloudsecurityalliance.org/education/ccak
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

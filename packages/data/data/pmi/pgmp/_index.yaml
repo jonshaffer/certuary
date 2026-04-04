@@ -43,5 +43,17 @@ links:
     url: https://www.reddit.com/r/pmp/
     type: community
 
+domains:
+  - name: "Strategic Program Management"
+    weight: 15
+  - name: "Program Life Cycle"
+    weight: 44
+  - name: "Benefits Management"
+    weight: 11
+  - name: "Stakeholder Engagement"
+    weight: 16
+  - name: "Governance"
+    weight: 14
+
 source_of_truth_url: https://www.pmi.org/certifications/program-management-pgmp
-last_verified: "2026-04-01"
+last_verified: "2026-04-04"

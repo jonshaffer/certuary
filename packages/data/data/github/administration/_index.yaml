@@ -49,5 +49,19 @@ links:
     url: https://docs.github.com/en/admin
     type: source-of-truth
 
+domains:
+  - name: "Support GitHub Enterprise for Users and Key Stakeholders"
+    weight: 15
+  - name: "Manage User Identities and GitHub Authentication"
+    weight: 11
+  - name: "Describe How GitHub Is Deployed, Distributed, and Licensed"
+    weight: 9
+  - name: "Manage Access and Permissions Based on Membership"
+    weight: 18
+  - name: "Enable Secure Software Development and Ensure Compliance"
+    weight: 36
+  - name: "Manage GitHub Actions"
+    weight: 11
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-administration/
 last_verified: "2026-04-03"

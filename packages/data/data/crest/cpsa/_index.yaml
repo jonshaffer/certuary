@@ -23,5 +23,17 @@ links:
   - label: Official Certification Page
     url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst/
     type: official
+domains:
+  - name: "Soft Skills and Assessment Management"
+  - name: "Core Technical Skills"
+  - name: "Background Information Gathering and Open Source"
+  - name: "Networking Equipment"
+  - name: "Microsoft Windows Security Assessment"
+  - name: "Unix Security Assessment"
+  - name: "Web Technologies"
+  - name: "Web Testing Methodologies"
+  - name: "Web Testing Techniques"
+  - name: "Databases"
+
 source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst/
 last_verified: "2026-04-04"

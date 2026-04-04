@@ -57,5 +57,15 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Design Solutions for Organizational Complexity
+    weight: 26
+  - name: Design for New Solutions
+    weight: 29
+  - name: Continuous Improvement for Existing Solutions
+    weight: 25
+  - name: Accelerate Workload Migration and Modernization
+    weight: 20
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-solutions-architect-professional/
 last_verified: "2026-04-01"

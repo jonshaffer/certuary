@@ -33,5 +33,14 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/web-application-penetration-tester-gwapt/
     type: official
+domains:
+  - name: Cross-Site Request Forgery and Cross-Site Scripting
+  - name: Web Application Discovery and Reconnaissance
+  - name: Authentication Testing and Exploitation
+  - name: Configuration Auditing and Flaw Identification
+  - name: Web Technologies and Protocols (HTTP, HTTPS, AJAX)
+  - name: Session Management and SSL/TLS Attacks
+  - name: SQL Injection Testing
+
 source_of_truth_url: https://www.giac.org/certifications/web-application-penetration-tester-gwapt/
 last_verified: "2026-04-03"

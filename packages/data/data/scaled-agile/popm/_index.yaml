@@ -45,5 +45,17 @@ links:
     url: https://scaledagile.com/training/safe-product-owner-product-manager/
     type: official
 
+domains:
+  - name: "Product Owner/Product Manager Roles and Responsibilities"
+    weight: 15
+  - name: "Preparing for PI Planning"
+    weight: 19
+  - name: "Leading PI Planning"
+    weight: 19
+  - name: "Executing Iterations"
+    weight: 31
+  - name: "Executing the PI"
+    weight: 16
+
 source_of_truth_url: https://scaledagile.com/training/safe-product-owner-product-manager/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

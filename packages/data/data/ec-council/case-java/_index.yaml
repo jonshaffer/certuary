@@ -44,5 +44,17 @@ links:
     url: https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/
     type: official
 
+domains:
+  - name: Understanding Application Security, Threats, and Attacks
+  - name: Security Requirements Gathering
+  - name: Secure Application Design and Architecture
+  - name: Secure Coding Practices for Input Validation
+  - name: Secure Coding Practices for Authentication and Authorization
+  - name: Secure Coding Practices for Cryptography
+  - name: Secure Coding Practices for Session Management
+  - name: Secure Coding Practices for Error Handling
+  - name: Static and Dynamic Application Security Testing (SAST and DAST)
+  - name: Secure Deployment and Maintenance
+
 source_of_truth_url: https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/
 last_verified: "2026-04-04"

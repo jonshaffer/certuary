@@ -23,5 +23,13 @@ links:
   - label: Official Certification Page
     url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-intrusion-analyst/
     type: official
+domains:
+  - name: "Soft Skills and Incident Management"
+  - name: "Core Technical Skills"
+  - name: "Background Information Gathering and Open Source"
+  - name: "Network Intrusion Analysis"
+  - name: "Analysing Host Intrusions"
+  - name: "Malware Reverse Engineering"
+
 source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-intrusion-analyst/
 last_verified: "2026-04-04"

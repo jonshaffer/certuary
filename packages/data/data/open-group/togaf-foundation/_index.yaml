@@ -44,5 +44,15 @@ links:
     url: https://www.opengroup.org/togaf
     type: source-of-truth
 
+domains:
+  - name: "Core Concepts"
+  - name: "Key Terminology and Definitions"
+  - name: "Introduction to the ADM"
+  - name: "Introduction to ADM Techniques"
+  - name: "Introduction to Applying the ADM"
+  - name: "Introduction to Architecture Governance"
+  - name: "Architecture Content"
+  - name: "TOGAF Reference Models and Guidance"
+
 source_of_truth_url: https://www.opengroup.org/certifications/togaf-certification-portfolio
 last_verified: "2026-04-04"

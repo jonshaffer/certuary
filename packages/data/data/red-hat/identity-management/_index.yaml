@@ -46,5 +46,18 @@ links:
     url: https://www.redhat.com/en/services/training/ex362-red-hat-certified-specialist-identity-management-exam
     type: source-of-truth
 
+domains:
+  - name: "Install Red Hat Identity Management"
+  - name: "Configure IdM replication and fault tolerance"
+  - name: "Install and configure IdM clients"
+  - name: "Create and manage users, groups, and policies"
+  - name: "Configure Kerberos authentication and keytabs"
+  - name: "Configure and manage a certificate authority"
+  - name: "Configure roaming and automounted home directories"
+  - name: "Create trust relationships with Active Directory"
+  - name: "Configure IdM as an LDAP backend for external services"
+  - name: "Back up an IdM infrastructure"
+  - name: "Use REST APIs to query IdM"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex362-red-hat-certified-specialist-identity-management-exam
 last_verified: "2026-04-04"

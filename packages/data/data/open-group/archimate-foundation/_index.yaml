@@ -43,5 +43,17 @@ links:
     url: https://www.opengroup.org/archimate-forum/archimate-overview
     type: source-of-truth
 
+domains:
+  - name: "Language Structure and Core Concepts"
+  - name: "Generic Metamodel"
+  - name: "Relationships"
+  - name: "Motivation Elements"
+  - name: "Strategy Elements"
+  - name: "Business Layer"
+  - name: "Application Layer"
+  - name: "Technology Layer"
+  - name: "Implementation and Migration"
+  - name: "Viewpoints"
+
 source_of_truth_url: https://www.opengroup.org/certifications/archimate
 last_verified: "2026-04-04"

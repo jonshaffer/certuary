@@ -45,5 +45,15 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: "Project Management Concepts"
+    weight: 33
+  - name: "Project Life Cycle Phases"
+    weight: 30
+  - name: "Tools and Documentation"
+    weight: 19
+  - name: "Basics of IT and Governance"
+    weight: 18
+
 source_of_truth_url: https://www.comptia.org/certifications/project
 last_verified: "2026-04-01"

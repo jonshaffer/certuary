@@ -31,5 +31,11 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/strategic-planning-policy-leadership-gstrt/
     type: official
+domains:
+  - name: Team Management and Communication
+  - name: Leadership and Organizational Change
+  - name: Security Principles, Policies, and Procedures
+  - name: Security Policy Assessment and Improvement
+
 source_of_truth_url: https://www.giac.org/certifications/strategic-planning-policy-leadership-gstrt/
 last_verified: "2026-04-03"

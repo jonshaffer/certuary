@@ -44,5 +44,15 @@ links:
     url: https://www.reddit.com/r/ISACA/
     type: community
 
+domains:
+  - name: Privacy Governance
+    weight: 20
+  - name: Privacy Risk Management and Compliance
+    weight: 18
+  - name: Data Life Cycle Management
+    weight: 23
+  - name: Privacy Engineering
+    weight: 39
+
 source_of_truth_url: https://www.isaca.org/credentialing/cdpse
 last_verified: "2026-04-01"

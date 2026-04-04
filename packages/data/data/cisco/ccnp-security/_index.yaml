@@ -50,5 +50,19 @@ links:
     url: https://www.reddit.com/r/ccnp/
     type: community
 
+domains:
+  - name: Security Concepts
+    weight: 25
+  - name: Network Security
+    weight: 20
+  - name: Securing the Cloud
+    weight: 15
+  - name: Content Security
+    weight: 15
+  - name: Endpoint Protection and Detection
+    weight: 10
+  - name: Secure Network Access, Visibility, and Enforcement
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccnp-security/index.html
 last_verified: "2026-04-01"

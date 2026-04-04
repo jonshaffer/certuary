@@ -33,5 +33,13 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/defensible-security-architecture-gdsa/
     type: official
+domains:
+  - name: Network Defense (NIDS, NIPS, NSM, Sandboxing, DDoS Protection)
+  - name: Secure Remote Access and Dual-Factor Authentication
+  - name: Zero Trust Architecture and Endpoint Security
+  - name: Data Protection (DLP, File Classification, Database Governance, MDM)
+  - name: Zero Trust Networking and Domain Isolation
+  - name: Credential Rotation and Insider Threat Response
+
 source_of_truth_url: https://www.giac.org/certifications/defensible-security-architecture-gdsa/
 last_verified: "2026-04-03"

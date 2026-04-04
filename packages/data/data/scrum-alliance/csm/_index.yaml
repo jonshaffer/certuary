@@ -34,5 +34,14 @@ links:
     url: https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster
     type: official
 
+domains:
+  - name: "Scrum Framework"
+  - name: "Scrum Theory and Principles"
+  - name: "Scrum Values"
+  - name: "Scrum Team"
+  - name: "Scrum Master Accountabilities"
+  - name: "Scrum Events"
+  - name: "Scrum Artifacts and Commitments"
+
 source_of_truth_url: https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster
 last_verified: "2026-04-03"

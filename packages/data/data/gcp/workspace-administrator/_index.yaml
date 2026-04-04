@@ -33,5 +33,17 @@ links:
     url: https://cloud.google.com/learn/certification/workspace-administrator
     type: source-of-truth
 
+domains:
+  - name: Managing objects
+    weight: 20
+  - name: Configuring services
+    weight: 18
+  - name: Troubleshooting
+    weight: 24
+  - name: Data access and authentication
+    weight: 24
+  - name: Supporting business initiatives
+    weight: 14
+
 source_of_truth_url: https://cloud.google.com/learn/certification/workspace-administrator
 last_verified: "2026-04-01"

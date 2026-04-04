@@ -47,5 +47,19 @@ links:
     url: https://www.reddit.com/r/ccnp/
     type: community
 
+domains:
+  - name: Infrastructure and Design
+    weight: 20
+  - name: Protocols, Codecs, and Endpoints
+    weight: 20
+  - name: Cisco IOS XE Gateway and Media Resources
+    weight: 15
+  - name: Call Control
+    weight: 25
+  - name: QoS
+    weight: 10
+  - name: Collaboration Applications
+    weight: 10
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/collaboration/ccnp-collaboration/index.html
 last_verified: "2026-04-01"

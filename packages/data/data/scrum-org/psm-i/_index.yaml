@@ -38,5 +38,21 @@ links:
     url: https://www.scrum.org/assessments/professional-scrum-master-i-certification
     type: official
 
+domains:
+  - name: "Understanding and Applying the Scrum Framework"
+    subdomains:
+      - name: Empiricism
+      - name: Scrum Values
+      - name: Scrum Team
+      - name: Events
+      - name: Artifacts
+      - name: Done
+  - name: "Developing People and Teams"
+    subdomains:
+      - name: Self-Managing Teams
+      - name: Facilitation
+      - name: Leadership Styles
+      - name: Coaching and Mentoring
+
 source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-master-i-certification
 last_verified: "2026-04-03"

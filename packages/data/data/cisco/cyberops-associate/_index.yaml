@@ -47,5 +47,17 @@ links:
     url: https://www.reddit.com/r/Cisco/
     type: community
 
+domains:
+  - name: Security Concepts
+    weight: 20
+  - name: Security Monitoring
+    weight: 25
+  - name: Host-Based Analysis
+    weight: 20
+  - name: Network Intrusion Analysis
+    weight: 20
+  - name: Security Policies and Procedures
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cyberops/cyberops-associate/index.html
 last_verified: "2026-04-01"

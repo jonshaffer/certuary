@@ -20,13 +20,39 @@ export type RawExamDomain = {
   name: string;
   weight?: number;
   subdomains?: RawExamDomain[];
+  categories?: string[];
 };
 
 export const RawExamDomainSchema: z.ZodType<RawExamDomain> = z.object({
   name: z.string(),
   weight: z.number().optional(),
   subdomains: z.lazy(() => z.array(RawExamDomainSchema)).optional(),
+  categories: z.array(z.string()).optional(),
 });
+
+// --- Category Taxonomy ---
+
+export const RawCategoryGroupSchema = z
+  .object({
+    slug: z.string(),
+    label: z.string(),
+  })
+  .strict();
+
+export const RawDomainCategorySchema = z
+  .object({
+    slug: z.string(),
+    label: z.string(),
+    group: z.string(),
+  })
+  .strict();
+
+export const RawCategoryTaxonomySchema = z
+  .object({
+    groups: z.array(RawCategoryGroupSchema),
+    categories: z.array(RawDomainCategorySchema),
+  })
+  .strict();
 
 // --- Certification ---
 
