@@ -39,6 +39,7 @@ related_certs:
   - gsec
   - gcih
   - gslc
+  - cciso
 
 versions: []
 

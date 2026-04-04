@@ -1,0 +1,49 @@
+name: Certified Application Security Engineer - Java
+short_name: CASE Java
+slug: case-java
+status: active
+cost: "$1,199 USD"
+
+description: >-
+  The Certified Application Security Engineer - Java (CASE Java) certification
+  validates skills in building secure Java applications. CASE Java covers
+  secure SDLC, input validation, authentication and authorization mechanisms,
+  cryptographic techniques, error handling, session management, and secure
+  deployment practices specific to the Java platform and ecosystem.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - application-security
+  - java
+  - secure-development
+  - ec-council
+
+prerequisites:
+  - Two years of Java development experience recommended
+
+related_certs:
+  - case-net
+  - ceh
+  - csslp
+
+exam_format:
+  - multiple-choice
+passing_score: 70
+duration_minutes: 120
+question_count:
+  min: 50
+  max: 50
+
+versions:
+  - version: v1
+    release_date: "2018-01-01"
+    notes: Initial version covering secure Java application development.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/
+last_verified: "2026-04-04"

@@ -1,0 +1,50 @@
+name: Certified Penetration Testing Professional
+short_name: CPENT
+slug: cpent
+status: active
+cost: "$1,199 USD"
+
+description: >-
+  The Certified Penetration Testing Professional (CPENT) certification
+  validates advanced penetration testing skills including attacking IoT
+  systems, OT/SCADA networks, cloud environments, databases, and
+  performing advanced binary analysis and exploit development. CPENT
+  uses a fully online, performance-based exam in a live cyber range.
+
+tags:
+  - cybersecurity
+  - advanced
+  - penetration-testing
+  - offensive-security
+  - ec-council
+
+prerequisites:
+  - CEH certification or equivalent experience recommended
+
+related_certs:
+  - ceh
+  - lpt
+  - gpen
+  - gxpn
+  - comptia-pentest-plus
+  - htb-cpts
+  - htb-cape
+
+exam_format: performance-based
+duration_minutes: 1440
+passing_score: 70
+
+versions:
+  - version: v1
+    release_date: "2020-01-01"
+    notes: >-
+      Performance-based exam conducted over a 24-hour period in a live
+      cyber range environment.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/
+last_verified: "2026-04-04"

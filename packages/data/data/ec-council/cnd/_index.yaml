@@ -1,0 +1,55 @@
+name: Certified Network Defender
+short_name: CND
+slug: cnd
+status: active
+cost: "$1,199 USD"
+
+description: >-
+  The Certified Network Defender (CND) certification validates skills in
+  network security defense, covering network security controls, protocols,
+  perimeter appliances, secure IDS/IPS/firewall configuration, VPN
+  security, and network traffic analysis. CND focuses on the protect,
+  detect, respond, and predict approach to network security.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - network-security
+  - cyber-defense
+  - dod-8570
+  - ec-council
+
+prerequisites:
+  - Basic understanding of network security concepts recommended
+
+related_certs:
+  - ceh
+  - ec-council-csa
+  - ecih
+  - comptia-security-plus
+  - comptia-network-plus
+  - gsec
+  - gced
+
+exam_format:
+  - multiple-choice
+passing_score: 70
+duration_minutes: 240
+question_count:
+  min: 100
+  max: 100
+
+versions:
+  - version: v3
+    release_date: "2023-01-01"
+    notes: >-
+      Current version with updated content on cloud security, IoT security,
+      and advanced threat protection.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/certified-network-defender-cnd/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/certified-network-defender-cnd/
+last_verified: "2026-04-04"

@@ -1,0 +1,49 @@
+name: Certified Threat Intelligence Analyst
+short_name: CTIA
+slug: ctia
+status: active
+cost: "$1,199 USD"
+
+description: >-
+  The Certified Threat Intelligence Analyst (CTIA) certification validates
+  skills in collecting, analyzing, and disseminating cyber threat
+  intelligence. CTIA covers threat intelligence lifecycle, data collection
+  methods, threat analysis techniques, intelligence reporting, and
+  integration of threat intelligence into security operations including
+  SIEM, SOAR, and incident response processes.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - threat-intelligence
+  - ec-council
+
+prerequisites:
+  - Two years of information security experience recommended
+
+related_certs:
+  - ceh
+  - ecih
+  - ec-council-csa
+  - gcti
+
+exam_format:
+  - multiple-choice
+passing_score: 70
+duration_minutes: 120
+question_count:
+  min: 50
+  max: 50
+
+versions:
+  - version: v1
+    release_date: "2018-01-01"
+    notes: Initial version covering the threat intelligence lifecycle.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/
+last_verified: "2026-04-04"

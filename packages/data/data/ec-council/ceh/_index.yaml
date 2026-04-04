@@ -1,0 +1,66 @@
+name: Certified Ethical Hacker
+short_name: CEH
+slug: ceh
+status: active
+cost: "$1,199 USD"
+
+description: >-
+  The Certified Ethical Hacker (CEH) certification validates skills in
+  understanding and identifying vulnerabilities in target systems using the
+  same knowledge and tools as a malicious hacker, but in a lawful and
+  legitimate manner. CEH covers footprinting, scanning, enumeration,
+  system hacking, malware threats, sniffing, social engineering, denial
+  of service, session hijacking, web server and application hacking,
+  SQL injection, wireless network hacking, cryptography, and cloud
+  computing security.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - ethical-hacking
+  - penetration-testing
+  - offensive-security
+  - dod-8570
+  - ec-council
+
+prerequisites:
+  - Two years of information security experience recommended
+  - Official EC-Council training or self-study with approval
+
+related_certs:
+  - cpent
+  - chfi
+  - cnd
+  - ecih
+  - ec-council-csa
+  - comptia-pentest-plus
+  - comptia-security-plus
+  - gpen
+  - htb-cpts
+
+exam_format:
+  - multiple-choice
+passing_score: 70
+duration_minutes: 240
+question_count:
+  min: 125
+  max: 125
+
+versions:
+  - version: v13
+    release_date: "2024-09-01"
+    notes: >-
+      Latest version incorporating AI-driven ethical hacking concepts and
+      updated attack techniques.
+  - version: v12
+    release_date: "2022-09-01"
+    retire_date: "2024-08-31"
+    notes: Previous version covering updated hacking methodologies.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/
+last_verified: "2026-04-04"

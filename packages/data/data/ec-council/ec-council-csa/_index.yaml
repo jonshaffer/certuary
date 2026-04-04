@@ -1,0 +1,52 @@
+name: Certified SOC Analyst
+short_name: CSA
+slug: ec-council-csa
+status: active
+cost: "$999 USD"
+
+description: >-
+  The Certified SOC Analyst (CSA) certification validates skills needed
+  for Tier I and Tier II SOC analyst roles. CSA covers SOC operations,
+  log management, SIEM deployment, advanced incident detection, and
+  incident response. It is designed as the first step for aspiring SOC
+  analysts to demonstrate competency in security monitoring and analysis.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - soc
+  - cyber-defense
+  - ec-council
+
+prerequisites:
+  - One year of IT or security experience recommended
+
+related_certs:
+  - ceh
+  - ecih
+  - ctia
+  - comptia-cysa-plus
+  - gcih
+  - gcia
+  - gmon
+
+exam_format:
+  - multiple-choice
+passing_score: 70
+duration_minutes: 180
+question_count:
+  min: 100
+  max: 100
+
+versions:
+  - version: v1
+    release_date: "2019-01-01"
+    notes: First version covering SOC Tier I and Tier II operations.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/
+last_verified: "2026-04-04"

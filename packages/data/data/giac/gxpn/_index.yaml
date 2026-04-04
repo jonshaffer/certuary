@@ -27,6 +27,8 @@ prerequisites: []
 related_certs:
   - gpen
   - gwapt
+  - cpent
+  - lpt
 versions: []
 links:
   - label: Official Certification Page

@@ -1,0 +1,47 @@
+name: Licensed Penetration Tester (Master)
+short_name: LPT (Master)
+slug: lpt
+status: active
+cost: "$899 USD"
+
+description: >-
+  The Licensed Penetration Tester (Master) designation is the pinnacle of
+  EC-Council's penetration testing track. Candidates who score 90% or above
+  on the CPENT exam automatically earn the LPT (Master) credential. It
+  validates expert-level skills in advanced penetration testing methodologies,
+  multi-layered network exploitation, and comprehensive security assessment.
+
+tags:
+  - cybersecurity
+  - expert
+  - penetration-testing
+  - offensive-security
+  - ec-council
+
+prerequisites:
+  - Must score 90% or above on the CPENT exam
+
+prerequisite_certs:
+  - cpent
+
+related_certs:
+  - cpent
+  - ceh
+  - gxpn
+  - htb-cape
+
+exam_format: performance-based
+
+versions:
+  - version: v1
+    release_date: "2020-01-01"
+    notes: >-
+      Awarded to candidates who achieve 90% or above on the CPENT exam.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/licensed-penetration-tester-lpt-master/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/licensed-penetration-tester-lpt-master/
+last_verified: "2026-04-04"
