@@ -1,5 +1,5 @@
-import type { Certification, Program, Provider } from "./types.js";
-import { certifications, programs, providers } from "./generated.js";
+import type { Certification, CategoryGroup, DomainCategory, Program, Provider } from "./types.js";
+import { certifications, categoryGroups, domainCategories, programs, providers } from "./generated.js";
 
 export function getAllCerts(): Certification[] {
   return certifications;
@@ -47,4 +47,16 @@ export function getCertsByProgram(programSlug: string): Certification[] {
 
 export function getCertsWithDomains(): Certification[] {
   return certifications.filter((c) => c.domains.length > 0);
+}
+
+export function getAllCategoryGroups(): CategoryGroup[] {
+  return categoryGroups;
+}
+
+export function getAllDomainCategories(): DomainCategory[] {
+  return domainCategories;
+}
+
+export function getDomainCategoriesByGroup(groupSlug: string): DomainCategory[] {
+  return domainCategories.filter((c) => c.group === groupSlug);
 }

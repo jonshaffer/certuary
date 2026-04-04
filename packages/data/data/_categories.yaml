@@ -1,0 +1,203 @@
+groups:
+  - slug: security
+    label: Security & Cybersecurity
+  - slug: cloud
+    label: Cloud & Infrastructure
+  - slug: devops
+    label: DevOps & Platform Engineering
+  - slug: networking
+    label: Networking
+  - slug: management
+    label: IT Management & Governance
+  - slug: privacy
+    label: Privacy & Data Protection
+  - slug: sysadmin
+    label: System Administration
+
+categories:
+  # Security & Cybersecurity
+  - slug: threat-modeling
+    label: Threat Modeling & Analysis
+    group: security
+  - slug: vulnerability-assessment
+    label: Vulnerability Assessment
+    group: security
+  - slug: penetration-testing
+    label: Penetration Testing
+    group: security
+  - slug: web-application-security
+    label: Web Application Security
+    group: security
+  - slug: network-security
+    label: Network Security
+    group: security
+  - slug: identity-and-access-management
+    label: Identity & Access Management
+    group: security
+  - slug: cryptography
+    label: Cryptography & PKI
+    group: security
+  - slug: incident-response
+    label: Incident Response & Handling
+    group: security
+  - slug: digital-forensics
+    label: Digital Forensics
+    group: security
+  - slug: security-monitoring
+    label: Security Monitoring & Detection
+    group: security
+  - slug: malware-analysis
+    label: Malware Analysis & Reverse Engineering
+    group: security
+  - slug: system-hardening
+    label: System Hardening
+    group: security
+  - slug: supply-chain-security
+    label: Supply Chain Security
+    group: security
+  - slug: security-governance
+    label: Security Governance & Strategy
+    group: security
+  - slug: security-architecture
+    label: Security Architecture & Design
+    group: security
+  - slug: risk-management
+    label: Risk Management
+    group: security
+  - slug: compliance-and-frameworks
+    label: Compliance & Security Frameworks
+    group: security
+  - slug: offensive-security-advanced
+    label: Advanced Exploitation & Red Team
+    group: security
+  - slug: ai-security
+    label: AI & ML Security
+    group: security
+
+  # Cloud & Infrastructure
+  - slug: cloud-architecture
+    label: Cloud Architecture & Design
+    group: cloud
+  - slug: compute-and-workloads
+    label: Compute & Workload Management
+    group: cloud
+  - slug: cloud-networking
+    label: Cloud & Container Networking
+    group: cloud
+  - slug: cloud-storage
+    label: Storage & Data Services
+    group: cloud
+  - slug: container-orchestration
+    label: Container Orchestration
+    group: cloud
+  - slug: container-security
+    label: Container & Runtime Security
+    group: cloud
+  - slug: serverless-and-managed
+    label: Serverless & Managed Services
+    group: cloud
+  - slug: cost-optimization
+    label: Cost Optimization & FinOps
+    group: cloud
+  - slug: cloud-identity
+    label: Cloud IAM & Access Control
+    group: cloud
+
+  # DevOps & Platform Engineering
+  - slug: ci-cd
+    label: CI/CD & Delivery Pipelines
+    group: devops
+  - slug: gitops
+    label: GitOps Practices
+    group: devops
+  - slug: observability
+    label: Observability & Monitoring
+    group: devops
+  - slug: platform-engineering
+    label: Platform Engineering & Developer Experience
+    group: devops
+  - slug: infrastructure-as-code
+    label: Infrastructure as Code
+    group: devops
+  - slug: service-mesh
+    label: Service Mesh
+    group: devops
+  - slug: automation
+    label: Automation & Programmability
+    group: devops
+
+  # Networking
+  - slug: network-fundamentals
+    label: Network Fundamentals
+    group: networking
+  - slug: routing-and-switching
+    label: Routing & Switching
+    group: networking
+  - slug: network-automation
+    label: Network Automation
+    group: networking
+
+  # IT Management & Governance
+  - slug: project-management
+    label: Project Management
+    group: management
+  - slug: agile-and-scrum
+    label: Agile & Scrum Practices
+    group: management
+  - slug: service-management
+    label: IT Service Management
+    group: management
+  - slug: it-governance
+    label: IT Governance & Strategy
+    group: management
+  - slug: business-continuity
+    label: Business Continuity & Disaster Recovery
+    group: management
+  - slug: change-management
+    label: Change & Release Management
+    group: management
+  - slug: program-management
+    label: Program & Portfolio Management
+    group: management
+
+  # Privacy & Data Protection
+  - slug: privacy-law-and-regulation
+    label: Privacy Law & Regulation
+    group: privacy
+  - slug: data-protection-operations
+    label: Data Protection Program Operations
+    group: privacy
+  - slug: privacy-engineering
+    label: Privacy Engineering & Technology
+    group: privacy
+  - slug: data-governance
+    label: Data Governance & Classification
+    group: privacy
+  - slug: ai-governance
+    label: AI Governance & Ethics
+    group: privacy
+
+  # System Administration
+  - slug: linux-administration
+    label: Linux System Administration
+    group: sysadmin
+  - slug: user-and-access-management
+    label: User & Access Management
+    group: sysadmin
+  - slug: storage-and-filesystems
+    label: Storage & File System Management
+    group: sysadmin
+  - slug: system-operations
+    label: System Operations & Troubleshooting
+    group: sysadmin
+
+  # Cross-Cutting
+  - slug: professional-communication
+    label: Professional Communication & Reporting
+    group: security
+  - slug: architecture-and-design
+    label: Architecture & Design Principles
+    group: cloud
+  - slug: troubleshooting
+    label: Troubleshooting & Problem Solving
+    group: sysadmin
