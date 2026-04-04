@@ -22,14 +22,14 @@ const basePath = process.env.BASE_PATH ?? "/";
 
 function writeJson(filePath: string, data: unknown) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf-8");
+  fs.writeFileSync(filePath, JSON.stringify(data), "utf-8");
 }
 
 const endpoints: string[] = [];
 
 function emit(relativePath: string, data: unknown) {
   writeJson(path.join(outDir, relativePath), data);
-  endpoints.push(`${basePath}api/${relativePath}`);
+  endpoints.push(path.posix.join(basePath, "api", relativePath));
 }
 
 // Collections
@@ -70,7 +70,6 @@ for (const program of getAllPrograms()) {
 
 // Manifest
 writeJson(path.join(outDir, "index.json"), {
-  generatedAt: new Date().toISOString(),
   endpoints,
 });
 
