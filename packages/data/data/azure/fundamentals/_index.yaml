@@ -43,5 +43,13 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900
     type: source-of-truth
 
+domains:
+  - name: Describe cloud concepts
+    weight: 28
+  - name: Describe Azure architecture and services
+    weight: 38
+  - name: Describe Azure management and governance
+    weight: 33
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/
 last_verified: "2026-04-03"

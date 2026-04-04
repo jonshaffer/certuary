@@ -45,5 +45,17 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104
     type: source-of-truth
 
+domains:
+  - name: Manage Azure identities and governance
+    weight: 23
+  - name: Implement and manage storage
+    weight: 18
+  - name: Deploy and manage Azure compute resources
+    weight: 23
+  - name: Implement and manage virtual networking
+    weight: 18
+  - name: Monitor and maintain Azure resources
+    weight: 13
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/
 last_verified: "2026-04-03"

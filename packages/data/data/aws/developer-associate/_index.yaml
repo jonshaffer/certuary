@@ -54,5 +54,15 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Development with AWS Services
+    weight: 32
+  - name: Security
+    weight: 26
+  - name: Deployment
+    weight: 24
+  - name: Troubleshooting and Optimization
+    weight: 18
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-developer-associate/
 last_verified: "2026-04-01"

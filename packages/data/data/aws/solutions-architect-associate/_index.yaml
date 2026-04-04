@@ -49,5 +49,15 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Design Secure Architectures
+    weight: 30
+  - name: Design Resilient Architectures
+    weight: 26
+  - name: Design High-Performing Architectures
+    weight: 24
+  - name: Design Cost-Optimized Architectures
+    weight: 20
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-solutions-architect-associate/
 last_verified: "2026-03-01"

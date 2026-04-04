@@ -60,5 +60,17 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: General Security Concepts
+    weight: 12
+  - name: Threats, Vulnerabilities, and Mitigations
+    weight: 22
+  - name: Security Architecture
+    weight: 18
+  - name: Security Operations
+    weight: 28
+  - name: Security Program Management and Oversight
+    weight: 20
+
 source_of_truth_url: https://www.comptia.org/certifications/security
 last_verified: "2026-03-01"

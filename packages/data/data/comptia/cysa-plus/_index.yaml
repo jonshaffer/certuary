@@ -60,5 +60,15 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: Security Operations
+    weight: 33
+  - name: Vulnerability Management
+    weight: 30
+  - name: Incident Response and Management
+    weight: 20
+  - name: Reporting and Communication
+    weight: 17
+
 source_of_truth_url: https://www.comptia.org/certifications/cybersecurity-analyst
 last_verified: "2026-04-01"

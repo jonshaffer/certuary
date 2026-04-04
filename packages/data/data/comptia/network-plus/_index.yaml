@@ -53,5 +53,17 @@ links:
     url: https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-training-course/
     type: course
 
+domains:
+  - name: Networking Concepts
+    weight: 23
+  - name: Network Implementation
+    weight: 19
+  - name: Network Operations
+    weight: 16
+  - name: Network Security
+    weight: 19
+  - name: Network Troubleshooting
+    weight: 23
+
 source_of_truth_url: https://www.comptia.org/certifications/network
 last_verified: "2026-04-01"

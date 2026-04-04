@@ -50,5 +50,15 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305
     type: source-of-truth
 
+domains:
+  - name: Design identity, governance, and monitoring solutions
+    weight: 28
+  - name: Design data storage solutions
+    weight: 28
+  - name: Design business continuity solutions
+    weight: 13
+  - name: Design infrastructure solutions
+    weight: 28
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/
 last_verified: "2026-04-03"

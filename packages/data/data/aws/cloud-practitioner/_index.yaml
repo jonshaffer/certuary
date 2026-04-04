@@ -52,5 +52,15 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Cloud Concepts
+    weight: 24
+  - name: Security and Compliance
+    weight: 30
+  - name: Cloud Technology and Services
+    weight: 34
+  - name: Billing, Pricing, and Support
+    weight: 12
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-cloud-practitioner/
 last_verified: "2026-04-01"
