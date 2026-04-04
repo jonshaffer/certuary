@@ -1,0 +1,50 @@
+slug: red-hat-certification-path
+name: Red Hat Certification Path
+description: >-
+  Red Hat's tiered certification framework progressing from foundational
+  system administration through engineering-level automation skills to
+  specialist expertise and ultimately the architect credential. All exams
+  are performance-based, testing hands-on skills in live environments.
+website: https://www.redhat.com/en/services/certifications
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - rhcsa
+  - name: Engineer
+    order: 2
+    certificate_slugs:
+      - rhce
+  - name: Specialist
+    order: 3
+    certificate_slugs:
+      - openshift-administration
+      - containers
+      - openshift-application-development
+      - security-linux
+      - linux-diagnostics-and-troubleshooting
+      - deployment-and-systems-management
+      - enterprise-application-server-administration
+      - api-management
+      - openshift-ai
+      - event-driven-application-development
+      - ceph-cloud-storage
+      - openshift-data-foundation
+      - virtualization
+      - services-management-and-automation
+      - high-availability-clustering
+      - linux-performance-tuning
+      - identity-management
+      - openshift-virtualization
+  - name: Architect
+    order: 4
+    certificate_slugs:
+      - rhca
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Red Hat recommends starting with RHCSA,
+    then progressing to RHCE. To earn the RHCA, candidates must hold an
+    active RHCE and pass five additional specialist exams.

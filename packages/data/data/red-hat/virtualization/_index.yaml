@@ -1,0 +1,46 @@
+name: Red Hat Certified Specialist in Virtualization
+short_name: EX316
+slug: virtualization
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 180
+
+description: >-
+  Validates the ability to create, manage, and troubleshoot virtual
+  machines using Red Hat Virtualization. The exam tests skills in
+  deploying virtual machines, configuring virtual networking and
+  storage, managing snapshots and templates, and migrating workloads
+  in a Red Hat Virtualization environment.
+
+tags:
+  - virtualization
+  - infrastructure
+  - intermediate
+  - performance-based
+  - red-hat
+
+prerequisites:
+  - RHCSA recommended
+  - Experience with virtualization technologies
+
+related_certs:
+  - rhcsa
+  - openshift-virtualization
+
+versions:
+  - version: "EX316V4"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering Red Hat Virtualization 4.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-virtualization
+    type: official
+  - label: EX316 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex316-red-hat-certified-specialist-virtualization-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex316-red-hat-certified-specialist-virtualization-exam
+last_verified: "2026-04-04"

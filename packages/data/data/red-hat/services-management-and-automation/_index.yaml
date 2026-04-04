@@ -1,0 +1,47 @@
+name: Red Hat Certified Specialist in Services Management and Automation
+short_name: EX358
+slug: services-management-and-automation
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 240
+
+description: >-
+  Validates the ability to manage and automate network services on
+  Red Hat Enterprise Linux using Ansible and related tools. The exam
+  tests skills in configuring and automating DNS, DHCP, email, database,
+  web server, and other network services using Ansible playbooks and
+  roles.
+
+tags:
+  - ansible
+  - automation
+  - services
+  - network-services
+  - advanced
+  - performance-based
+  - red-hat
+  - rhel
+
+prerequisites: []
+
+related_certs:
+  - rhce
+  - rhcsa
+
+versions:
+  - version: "EX358V9"
+    release_date: "2022-05-10"
+    notes: >-
+      Current version based on Red Hat Enterprise Linux 9.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-services-management-and-automation
+    type: official
+  - label: EX358 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex358-red-hat-certified-specialist-services-management-and-automation-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex358-red-hat-certified-specialist-services-management-and-automation-exam
+last_verified: "2026-04-04"

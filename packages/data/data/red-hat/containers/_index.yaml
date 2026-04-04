@@ -1,0 +1,44 @@
+name: Red Hat Certified Specialist in Containers
+short_name: EX188
+slug: containers
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 180
+
+description: >-
+  Validates the ability to find, customize, and run containerized services
+  using Podman, Buildah, and Skopeo. The exam tests skills in creating
+  custom container images, managing containers, and running multi-container
+  applications using container tools on Red Hat Enterprise Linux.
+
+tags:
+  - containers
+  - podman
+  - intermediate
+  - performance-based
+  - red-hat
+
+prerequisites: []
+
+related_certs:
+  - rhcsa
+  - ckad
+  - openshift-administration
+
+versions:
+  - version: "EX188V4"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering container technologies on RHEL 9.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers
+    type: official
+  - label: EX188 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam
+last_verified: "2026-04-04"

@@ -1,0 +1,50 @@
+name: Red Hat Certified Specialist in OpenShift Administration
+short_name: EX280
+slug: openshift-administration
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 180
+
+description: >-
+  Validates the ability to create, configure, and manage a Red Hat
+  OpenShift Container Platform cluster. The exam covers deploying
+  applications, managing cluster resources, configuring authentication
+  and authorization, networking, and persistent storage on OpenShift.
+
+tags:
+  - openshift
+  - containers
+  - kubernetes
+  - administration
+  - intermediate
+  - performance-based
+  - red-hat
+
+prerequisites:
+  - RHCSA recommended
+  - Experience with Red Hat OpenShift Container Platform
+
+related_certs:
+  - rhcsa
+  - cka
+  - ckad
+  - containers
+  - openshift-application-development
+
+versions:
+  - version: "EX280V4"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering OpenShift Container Platform 4.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-openshift-administration
+    type: official
+  - label: EX280 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex280-red-hat-certified-specialist-in-openshift-administration-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex280-red-hat-certified-specialist-in-openshift-administration-exam
+last_verified: "2026-04-04"

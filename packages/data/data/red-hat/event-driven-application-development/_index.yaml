@@ -1,0 +1,45 @@
+name: Red Hat Certified Specialist in Event-Driven Application Development
+short_name: EX378
+slug: event-driven-application-development
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 180
+
+description: >-
+  Validates the ability to develop event-driven applications using
+  Apache Kafka on Red Hat platforms. The exam tests skills in producing
+  and consuming messages, configuring Kafka clients, implementing event
+  streaming patterns, and deploying event-driven applications on
+  OpenShift using AMQ Streams.
+
+tags:
+  - kafka
+  - event-driven
+  - development
+  - middleware
+  - intermediate
+  - performance-based
+  - red-hat
+
+prerequisites: []
+
+related_certs:
+  - openshift-application-development
+
+versions:
+  - version: "EX378V1"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering event-driven development with AMQ Streams.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-event-driven-application-development
+    type: official
+  - label: EX378 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex378-red-hat-certified-specialist-event-driven-application-development-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex378-red-hat-certified-specialist-event-driven-application-development-exam
+last_verified: "2026-04-04"

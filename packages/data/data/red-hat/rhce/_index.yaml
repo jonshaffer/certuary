@@ -1,0 +1,56 @@
+name: Red Hat Certified Engineer (RHCE)
+short_name: RHCE
+slug: rhce
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 240
+
+description: >-
+  The RHCE validates advanced skills in Linux system administration and
+  Ansible automation. This performance-based exam tests the ability to
+  automate Linux system administration tasks using Ansible, manage
+  system roles, and create Ansible playbooks and roles for system
+  configuration and deployment.
+
+tags:
+  - linux
+  - system-administration
+  - ansible
+  - automation
+  - advanced
+  - performance-based
+  - red-hat
+  - rhel
+
+prerequisites: []
+
+prerequisite_certs:
+  - rhcsa
+
+related_certs:
+  - comptia-linux-plus
+  - lfcs
+  - rhcsa
+  - rhca
+
+versions:
+  - version: "EX294V9"
+    release_date: "2022-05-10"
+    notes: >-
+      Current version based on Red Hat Enterprise Linux 9 with focus
+      on Ansible automation.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/rhce
+    type: official
+  - label: EX294 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9
+    type: source-of-truth
+  - label: r/redhat
+    url: https://www.reddit.com/r/redhat/
+    type: community
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9
+last_verified: "2026-04-04"

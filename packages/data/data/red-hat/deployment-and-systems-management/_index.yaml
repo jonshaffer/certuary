@@ -1,0 +1,48 @@
+name: Red Hat Certified Specialist in Deployment and Systems Management
+short_name: EX403
+slug: deployment-and-systems-management
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 240
+
+description: >-
+  Validates the ability to deploy and manage Red Hat Enterprise Linux
+  systems at scale using Red Hat Satellite. The exam tests skills in
+  provisioning, patching, content management, subscription management,
+  and lifecycle management for large-scale RHEL deployments.
+
+tags:
+  - linux
+  - deployment
+  - satellite
+  - systems-management
+  - advanced
+  - performance-based
+  - red-hat
+  - rhel
+
+prerequisites:
+  - RHCSA recommended
+  - Experience with Red Hat Satellite
+
+related_certs:
+  - rhcsa
+  - rhce
+
+versions:
+  - version: "EX403V6"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering Red Hat Satellite 6.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-deployment-and-systems-management
+    type: official
+  - label: EX403 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex403-red-hat-certified-specialist-deployment-and-systems-management-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex403-red-hat-certified-specialist-deployment-and-systems-management-exam
+last_verified: "2026-04-04"

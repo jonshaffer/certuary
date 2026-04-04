@@ -1,0 +1,50 @@
+name: Red Hat Certified Specialist in Identity Management
+short_name: EX362
+slug: identity-management
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 240
+
+description: >-
+  Validates the ability to configure and manage Red Hat Identity
+  Management (IdM) and integrate it with Active Directory. The exam
+  tests skills in installing IdM, managing users and groups, configuring
+  Kerberos authentication, setting up certificate services, establishing
+  trust with Active Directory, and managing host-based access control.
+
+tags:
+  - identity
+  - authentication
+  - ldap
+  - kerberos
+  - advanced
+  - performance-based
+  - red-hat
+  - rhel
+
+prerequisites:
+  - RHCSA recommended
+  - Experience with identity management concepts
+
+related_certs:
+  - rhcsa
+  - rhce
+  - security-linux
+
+versions:
+  - version: "EX362V9"
+    release_date: "2022-05-10"
+    notes: >-
+      Current version based on Red Hat Enterprise Linux 9.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-identity-management
+    type: official
+  - label: EX362 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex362-red-hat-certified-specialist-identity-management-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex362-red-hat-certified-specialist-identity-management-exam
+last_verified: "2026-04-04"
