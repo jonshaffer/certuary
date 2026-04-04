@@ -1,0 +1,26 @@
+slug: crest-incident-response-path
+name: CREST Incident Response Certification Path
+description: >-
+  The recommended progression through CREST incident response certifications,
+  from registered intrusion analyst through certified intrusion analyst and
+  certified incident manager.
+website: https://www.crest-approved.org/certification-careers/crest-certifications/
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - cria
+  - name: Advanced
+    order: 2
+    certificate_slugs:
+      - ccia
+      - ccim
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. CREST recommends starting with the CRIA
+    before pursuing the advanced CCIA or CCIM certifications. The CCIA focuses
+    on technical intrusion analysis while the CCIM focuses on incident
+    management and coordination.

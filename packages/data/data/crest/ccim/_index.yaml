@@ -1,0 +1,30 @@
+name: CREST Certified Incident Manager
+short_name: CCIM
+slug: ccim
+status: active
+description: >-
+  The CCIM certification validates advanced skills in managing and coordinating
+  cyber security incident response operations. It covers incident management
+  frameworks, stakeholder communication, team coordination, evidence handling,
+  and the ability to lead an organization's response to complex security
+  incidents.
+tags:
+  - cybersecurity
+  - advanced
+  - incident-response
+  - management
+  - crest
+prerequisites:
+  - Significant experience in incident response management
+related_certs:
+  - cria
+  - ccia
+  - gcih
+  - cissp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/
+    type: official
+source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/
+last_verified: "2026-04-04"

@@ -1,0 +1,32 @@
+name: CREST Certified Simulated Attack Specialist
+short_name: CCSAS
+slug: ccsas
+status: active
+description: >-
+  The CCSAS is CREST's highest-level penetration testing certification,
+  validating expert-level skills in simulated attack operations and red team
+  engagements. It covers advanced adversary simulation, threat intelligence-led
+  testing, and the ability to plan and execute complex attack scenarios that
+  mimic real-world threat actors.
+tags:
+  - cybersecurity
+  - expert
+  - penetration-testing
+  - red-team
+  - crest
+prerequisites:
+  - CREST Certified Tester Infrastructure (CCT INF) or CREST Certified Tester Application (CCT APP) certification
+prerequisite_certs:
+  - cct-inf
+related_certs:
+  - cct-inf
+  - cct-app
+  - gxpn
+  - cissp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist/
+    type: official
+source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist/
+last_verified: "2026-04-04"

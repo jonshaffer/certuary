@@ -1,0 +1,34 @@
+name: CREST Certified Tester Application
+short_name: CCT APP
+slug: cct-app
+status: active
+description: >-
+  The CCT APP is an advanced certification validating deep expertise in web
+  application penetration testing. It covers advanced web application attack
+  techniques, authentication and authorization flaws, injection vulnerabilities,
+  and application logic testing. This is the application-focused advanced path
+  within CREST's penetration testing certification framework.
+tags:
+  - cybersecurity
+  - advanced
+  - penetration-testing
+  - application-security
+  - crest
+prerequisites:
+  - CREST Registered Penetration Tester (CRT) certification
+prerequisite_certs:
+  - crt
+related_certs:
+  - crt
+  - cct-inf
+  - ccsas
+  - gwapt
+  - gpen
+  - cissp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/
+    type: official
+source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/
+last_verified: "2026-04-04"

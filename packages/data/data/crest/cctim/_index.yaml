@@ -1,0 +1,31 @@
+name: CREST Certified Threat Intelligence Manager
+short_name: CCTIM
+slug: cctim
+status: active
+description: >-
+  The CCTIM is an advanced certification for experienced threat intelligence
+  professionals. It validates expertise in strategic and operational threat
+  intelligence management, intelligence program development, advanced analysis
+  techniques, and the ability to lead threat intelligence teams and integrate
+  intelligence into organizational security strategies.
+tags:
+  - cybersecurity
+  - advanced
+  - threat-intelligence
+  - management
+  - crest
+prerequisites:
+  - CREST Registered Threat Intelligence Analyst (CRTIA) certification or equivalent experience
+prerequisite_certs:
+  - crtia
+related_certs:
+  - crtia
+  - gcti
+  - cissp
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager/
+    type: official
+source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager/
+last_verified: "2026-04-04"
