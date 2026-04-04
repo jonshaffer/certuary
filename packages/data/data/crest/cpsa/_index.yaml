@@ -1,0 +1,27 @@
+name: CREST Practitioner Security Analyst
+short_name: CPSA
+slug: cpsa
+status: active
+description: >-
+  The CPSA is CREST's entry-level certification for aspiring penetration
+  testers. It validates foundational knowledge of networking, web technologies,
+  operating systems, and core security concepts needed to begin a career in
+  penetration testing and security assessment.
+tags:
+  - cybersecurity
+  - entry-level
+  - penetration-testing
+  - crest
+prerequisites: []
+related_certs:
+  - crt
+  - comptia-security-plus
+  - gsec
+  - ceh
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst/
+    type: official
+source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst/
+last_verified: "2026-04-04"

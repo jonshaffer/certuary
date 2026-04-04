@@ -1,0 +1,32 @@
+name: CREST Certified Intrusion Analyst
+short_name: CCIA
+slug: ccia
+status: active
+description: >-
+  The CCIA is an advanced certification for experienced intrusion analysts. It
+  validates deep expertise in advanced network forensics, malware analysis,
+  host-based investigation, and the ability to lead complex incident response
+  investigations and produce detailed analytical reports.
+tags:
+  - cybersecurity
+  - advanced
+  - incident-response
+  - forensics
+  - crest
+prerequisites:
+  - CREST Registered Intrusion Analyst (CRIA) certification or equivalent experience
+prerequisite_certs:
+  - cria
+related_certs:
+  - cria
+  - ccim
+  - gcfa
+  - gcih
+  - gcfe
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-intrusion-analyst/
+    type: official
+source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-intrusion-analyst/
+last_verified: "2026-04-04"

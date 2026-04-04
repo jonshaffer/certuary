@@ -1,0 +1,34 @@
+slug: crest-penetration-testing-path
+name: CREST Penetration Testing Certification Path
+description: >-
+  The recommended progression through CREST penetration testing certifications,
+  from foundational security analysis through registered tester to certified
+  tester and simulated attack specialist levels.
+website: https://www.crest-approved.org/certification-careers/crest-certifications/
+status: active
+required_certs: []
+phases:
+  - name: Entry
+    order: 1
+    certificate_slugs:
+      - cpsa
+  - name: Intermediate
+    order: 2
+    certificate_slugs:
+      - crt
+  - name: Advanced
+    order: 3
+    certificate_slugs:
+      - cct-inf
+      - cct-app
+  - name: Expert
+    order: 4
+    certificate_slugs:
+      - ccsas
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. CREST recommends starting with CPSA, then
+    progressing to CRT before pursuing the advanced CCT Infrastructure or
+    Application certifications. The CCSAS is the pinnacle certification for
+    simulated attack specialists.

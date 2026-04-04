@@ -1,0 +1,26 @@
+name: CREST Registered Threat Intelligence Analyst
+short_name: CRTIA
+slug: crtia
+status: active
+description: >-
+  The CRTIA certification validates intermediate-level skills in cyber threat
+  intelligence analysis. It covers intelligence collection, processing, and
+  analysis methodologies, as well as the ability to produce actionable threat
+  intelligence reports and support security operations with threat-informed
+  decision making.
+tags:
+  - cybersecurity
+  - intermediate
+  - threat-intelligence
+  - crest
+prerequisites: []
+related_certs:
+  - cctim
+  - gcti
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst/
+    type: official
+source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst/
+last_verified: "2026-04-04"

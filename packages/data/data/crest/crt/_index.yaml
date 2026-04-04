@@ -1,0 +1,32 @@
+name: CREST Registered Penetration Tester
+short_name: CRT
+slug: crt
+status: active
+description: >-
+  The CRT certification demonstrates that an individual has the technical
+  knowledge and skills to carry out basic penetration testing assignments and
+  vulnerability assessments. It covers infrastructure and web application
+  testing methodologies at an intermediate level.
+tags:
+  - cybersecurity
+  - intermediate
+  - penetration-testing
+  - crest
+prerequisites:
+  - CPSA certification or equivalent knowledge
+prerequisite_certs:
+  - cpsa
+related_certs:
+  - cpsa
+  - cct-inf
+  - cct-app
+  - gpen
+  - comptia-pentest-plus
+  - ceh
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-penetration-tester/
+    type: official
+source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-penetration-tester/
+last_verified: "2026-04-04"

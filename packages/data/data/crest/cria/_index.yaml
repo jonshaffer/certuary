@@ -1,0 +1,27 @@
+name: CREST Registered Intrusion Analyst
+short_name: CRIA
+slug: cria
+status: active
+description: >-
+  The CRIA certification validates intermediate-level skills in intrusion
+  analysis and incident response. It covers network traffic analysis, log
+  analysis, malware identification, and the ability to detect and investigate
+  security incidents using established methodologies.
+tags:
+  - cybersecurity
+  - intermediate
+  - incident-response
+  - crest
+prerequisites: []
+related_certs:
+  - ccia
+  - ccim
+  - gcih
+  - gcfa
+versions: []
+links:
+  - label: Official Certification Page
+    url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-intrusion-analyst/
+    type: official
+source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-intrusion-analyst/
+last_verified: "2026-04-04"

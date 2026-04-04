@@ -1,0 +1,24 @@
+slug: crest-threat-intelligence-path
+name: CREST Threat Intelligence Certification Path
+description: >-
+  The recommended progression through CREST threat intelligence certifications,
+  from registered threat intelligence analyst to certified threat intelligence
+  manager.
+website: https://www.crest-approved.org/certification-careers/crest-certifications/
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - crtia
+  - name: Advanced
+    order: 2
+    certificate_slugs:
+      - cctim
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. CREST recommends starting with the CRTIA
+    to build foundational threat intelligence skills before pursuing the
+    advanced CCTIM certification for threat intelligence management.
