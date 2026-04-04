@@ -27,8 +27,7 @@ related_certs:
   - ec-council-csa
   - gcti
 
-exam_format:
-  - multiple-choice
+exam_format: multiple-choice
 passing_score: 70
 duration_minutes: 120
 question_count:

@@ -34,8 +34,7 @@ related_certs:
   - gstrt
   - comptia-casp-plus
 
-exam_format:
-  - multiple-choice
+exam_format: multiple-choice
 passing_score: 72
 duration_minutes: 150
 question_count:

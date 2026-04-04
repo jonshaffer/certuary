@@ -29,8 +29,7 @@ related_certs:
   - gcih
   - comptia-cysa-plus
 
-exam_format:
-  - multiple-choice
+exam_format: multiple-choice
 passing_score: 70
 duration_minutes: 180
 question_count:
