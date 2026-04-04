@@ -1,0 +1,47 @@
+name: SABSA Chartered Security Architect - Master Certificate
+short_name: SCM
+slug: scm
+status: active
+
+description: >-
+  The SABSA Chartered Master (SCM) is the highest level of SABSA certification,
+  demonstrating advanced competencies and leadership in enterprise security
+  architecture. Candidates must hold the SCP designation, pass a second Advanced
+  module (A1-A5), and complete an original Master Thesis that demonstrates
+  advanced application of the SABSA methodology in practice. The thesis must
+  show original thinking and a significant contribution to the field.
+
+exam_format: essay
+
+tags:
+  - security-architecture
+  - enterprise
+  - expert
+  - master
+  - sabsa
+
+prerequisites:
+  - SABSA Chartered Practitioner (SCP) certification
+  - Completion of a second SABSA Advanced module (A1-A5)
+  - Submission and approval of an original SABSA Master Thesis
+
+prerequisite_certs:
+  - scp
+
+related_certs:
+  - scp
+  - scf
+  - cissp
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://sabsa.org/certification/
+    type: official
+  - label: Certification Programme
+    url: https://sabsa.org/certification/certification-programme/
+    type: source-of-truth
+
+source_of_truth_url: https://sabsa.org/certification/
+last_verified: "2026-04-04"

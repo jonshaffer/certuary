@@ -1,0 +1,30 @@
+slug: sabsa-certification-path
+name: SABSA Certification Path
+description: >-
+  The SABSA certification programme provides a structured path for enterprise
+  security architects, progressing from foundational knowledge of the SABSA
+  framework through applied practitioner competence to master-level expertise
+  demonstrated through an original thesis.
+website: https://sabsa.org/certification/
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - scf
+  - name: Practitioner
+    order: 2
+    certificate_slugs:
+      - scp
+  - name: Master
+    order: 3
+    certificate_slugs:
+      - scm
+completion_criteria:
+  required: 0
+  notes: >-
+    SABSA recommends progressing from Foundation (SCF) through Practitioner
+    (SCP) to Master (SCM). SCF is a prerequisite for SCP, and SCP plus a
+    second Advanced module pass is required for SCM. The Master level also
+    requires an original thesis.

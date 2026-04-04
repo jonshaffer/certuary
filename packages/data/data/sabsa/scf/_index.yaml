@@ -1,0 +1,63 @@
+name: SABSA Chartered Security Architect - Foundation Certificate
+short_name: SCF
+slug: scf
+status: active
+cost: "Included in training (approx. $3,760 USD)"
+exam_format: multiple-choice
+passing_score: 75
+duration_minutes: 120
+question_count:
+  min: 96
+
+description: >-
+  The SABSA Chartered Foundation (SCF) certification validates core knowledge
+  and understanding of the SABSA method, frameworks, concepts, models, and
+  techniques for enterprise security architecture. The exam consists of two
+  modules: F1 (Security Strategy & Planning) and F2 (Security Service
+  Management), each containing 48 multiple-choice questions distributed across
+  six knowledge domains aligned with the layers of the SABSA architecture
+  matrix.
+
+tags:
+  - security-architecture
+  - enterprise
+  - governance
+  - foundational
+  - sabsa
+
+prerequisites:
+  - Attendance at an official SABSA Foundation training course through a SABSA Accredited Education Provider (AEP)
+
+related_certs:
+  - scp
+  - scm
+  - cissp
+  - cism
+  - crisc
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://sabsa.org/certification/
+    type: official
+  - label: Certification Programme
+    url: https://sabsa.org/certification/certification-programme/
+    type: source-of-truth
+
+source_of_truth_url: https://sabsa.org/certification/
+last_verified: "2026-04-04"
+
+domains:
+  - name: Business Context
+    weight: 17
+  - name: Conceptual Architecture
+    weight: 17
+  - name: Logical Architecture
+    weight: 17
+  - name: Physical Architecture
+    weight: 17
+  - name: Component Architecture
+    weight: 16
+  - name: Operational Architecture
+    weight: 16
