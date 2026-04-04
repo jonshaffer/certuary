@@ -1,0 +1,43 @@
+name: Open Certified Architect
+short_name: Open CA
+slug: open-ca
+status: active
+
+description: >-
+  The Open Certified Architect (Open CA) is a globally recognized,
+  experience-based certification for IT architects. It is awarded at three
+  levels (Certified, Master, Distinguished) across disciplines including
+  Business Architecture, Digital Architecture, Enterprise Architecture, and
+  Solution Architecture. Candidates are assessed through portfolio review and
+  peer interviews rather than examinations. Certification is valid for three
+  years.
+
+tags:
+  - enterprise-architecture
+  - advanced
+  - experience-based
+
+prerequisites:
+  - Significant professional experience in IT architecture
+  - Portfolio demonstrating architecture work across multiple projects
+  - Level 3 (Distinguished) requires prior Level 2 (Master) certification
+
+related_certs:
+  - togaf-foundation
+  - togaf-certified
+  - archimate-foundation
+  - archimate-practitioner
+  - open-cts
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/certified-architect-open-ca
+    type: official
+  - label: Open CA Program Overview
+    url: https://www.opengroup.org/certifications/certified-architect-open-ca
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/certified-architect-open-ca
+last_verified: "2026-04-04"

@@ -1,0 +1,51 @@
+name: ArchiMate Practitioner
+short_name: ArchiMate P
+slug: archimate-practitioner
+status: active
+cost: "$330 USD"
+
+description: >-
+  The ArchiMate Practitioner certification demonstrates comprehensive knowledge
+  and the ability to apply ArchiMate in practice. It validates skills in using
+  the ArchiMate modeling language for enterprise architecture modeling, including
+  advanced viewpoints and cross-layer relationships.
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 90
+question_count:
+  min: 40
+
+tags:
+  - enterprise-architecture
+  - intermediate
+  - modeling
+
+prerequisites:
+  - ArchiMate Foundation certification required
+
+prerequisite_certs:
+  - archimate-foundation
+
+related_certs:
+  - archimate-foundation
+  - togaf-certified
+  - open-ca
+
+versions:
+  - version: ArchiMate 3.2
+    release_date: "2023-01-01"
+    notes: >-
+      Based on the ArchiMate 3.2 Specification with practical application
+      scenarios.
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/archimate
+    type: official
+  - label: ArchiMate Specification
+    url: https://www.opengroup.org/archimate-forum/archimate-overview
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/archimate
+last_verified: "2026-04-04"

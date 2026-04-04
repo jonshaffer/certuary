@@ -1,0 +1,47 @@
+name: DPBoK Foundation
+short_name: DPBoK F
+slug: dpbok-foundation
+status: active
+cost: "$330 USD"
+
+description: >-
+  The DPBoK Foundation certification validates knowledge of the Digital
+  Practitioner Body of Knowledge. It covers practices for digital organizations
+  of all sizes, including product management, work management, infrastructure,
+  application delivery, operational management, governance, and information
+  management.
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 60
+question_count:
+  min: 40
+
+tags:
+  - it-management
+  - foundational
+  - digital-transformation
+
+prerequisites: []
+
+related_certs:
+  - it4it-foundation
+  - togaf-foundation
+
+versions:
+  - version: DPBoK Standard, Version 2.1
+    release_date: "2023-01-01"
+    notes: >-
+      Based on the DPBoK Standard, covering the full lifecycle of digital
+      value delivery.
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/dpbok
+    type: official
+  - label: DPBoK Overview
+    url: https://www.opengroup.org/dpbok
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/dpbok
+last_verified: "2026-04-04"

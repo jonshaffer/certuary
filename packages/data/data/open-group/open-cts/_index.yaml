@@ -1,0 +1,41 @@
+name: Open Certified Technical Specialist
+short_name: Open CTS
+slug: open-cts
+status: active
+
+description: >-
+  The Open Certified Technical Specialist (Open CTS) is an experience-based
+  certification for IT professionals involved in the development,
+  implementation, and operation of IT solutions. It is awarded at three levels
+  (Certified, Master, Distinguished). Level 1 requires a minimum of 24 months
+  full-time experience, while Level 2 requires at least 5 years of IT work
+  experience. Candidates are assessed through portfolio review and peer
+  interviews rather than examinations.
+
+tags:
+  - it-management
+  - advanced
+  - experience-based
+
+prerequisites:
+  - Minimum 24 months full-time equivalent IT experience for Level 1
+  - Minimum 5 years IT work experience in the last 8 years for Level 2
+  - Level 3 (Distinguished) requires prior Level 2 certification
+
+related_certs:
+  - open-ca
+  - togaf-foundation
+  - it4it-foundation
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/certified-technical-specialist-open-cts
+    type: official
+  - label: Open CTS Program Overview
+    url: https://www.opengroup.org/certifications/certified-technical-specialist-open-cts
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/certified-technical-specialist-open-cts
+last_verified: "2026-04-04"

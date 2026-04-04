@@ -1,0 +1,52 @@
+name: TOGAF Certified
+short_name: TOGAF C
+slug: togaf-certified
+status: active
+cost: "$555 USD"
+
+description: >-
+  The TOGAF Certified credential demonstrates the ability to analyze and apply
+  TOGAF concepts to real-world enterprise architecture scenarios. The exam uses
+  complex scenario-based questions with gradient scoring, testing deeper
+  understanding of the Architecture Development Method and its application.
+
+exam_format: essay
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 8
+
+tags:
+  - enterprise-architecture
+  - intermediate
+  - it-management
+
+prerequisites:
+  - TOGAF Foundation certification required
+
+prerequisite_certs:
+  - togaf-foundation
+
+related_certs:
+  - togaf-foundation
+  - archimate-practitioner
+  - open-agile-architecture-practitioner
+  - open-ca
+
+versions:
+  - version: TOGAF Standard, 10th Edition
+    release_date: "2022-04-25"
+    notes: >-
+      Updated to align with the TOGAF Standard, 10th Edition. Scenario-based
+      questions with gradient scoring.
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/togaf-certification-portfolio
+    type: official
+  - label: TOGAF Standard Overview
+    url: https://www.opengroup.org/togaf
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/togaf-certification-portfolio
+last_verified: "2026-04-04"

@@ -1,0 +1,31 @@
+slug: open-group-knowledge-path
+name: Open Group Knowledge Certification Path
+description: >-
+  A recommended learning path through The Open Group's knowledge-based
+  certifications, starting with foundation-level credentials in enterprise
+  architecture, IT management, and risk analysis, then progressing to
+  advanced practitioner and certified levels.
+website: https://www.opengroup.org/certifications
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - togaf-foundation
+      - archimate-foundation
+      - it4it-foundation
+      - open-fair-foundation
+      - dpbok-foundation
+  - name: Advanced
+    order: 2
+    certificate_slugs:
+      - togaf-certified
+      - archimate-practitioner
+      - open-agile-architecture-practitioner
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Candidates typically start with TOGAF
+    Foundation and ArchiMate Foundation, then progress to advanced
+    certifications based on their role and specialization.

@@ -1,0 +1,46 @@
+name: IT4IT Foundation
+short_name: IT4IT F
+slug: it4it-foundation
+status: active
+cost: "$330 USD"
+
+description: >-
+  The IT4IT Foundation certification validates knowledge of the IT4IT Reference
+  Architecture, a standard for managing the business of IT. It covers the IT
+  value chain, the four value streams (Strategy to Portfolio, Requirement to
+  Deploy, Request to Fulfill, Detect to Correct), and supporting activities.
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 60
+question_count:
+  min: 40
+
+tags:
+  - it-management
+  - foundational
+  - it-service-management
+
+prerequisites: []
+
+related_certs:
+  - togaf-foundation
+  - dpbok-foundation
+
+versions:
+  - version: IT4IT Standard, Version 3.0
+    release_date: "2024-01-01"
+    notes: >-
+      Based on the IT4IT Standard Version 3.0, with updated value streams
+      and integration with modern IT practices.
+
+links:
+  - label: Official Certification Page
+    url: https://www.opengroup.org/certifications/it4it
+    type: official
+  - label: IT4IT Standard Overview
+    url: https://www.opengroup.org/it4it
+    type: source-of-truth
+
+source_of_truth_url: https://www.opengroup.org/certifications/it4it
+last_verified: "2026-04-04"
