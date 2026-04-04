@@ -37,5 +37,17 @@ links:
     url: https://www.isc2.org/certifications/issep/issep-certification-exam-outline
     type: source-of-truth
 
+domains:
+  - name: Systems Security Engineering Foundations
+    weight: 24
+  - name: Risk Management
+    weight: 20
+  - name: Security Planning and Engineering
+    weight: 22
+  - name: Systems Security Implementation, Verification, and Validation
+    weight: 20
+  - name: Secure Operations, Change Management, and Disposal
+    weight: 14
+
 source_of_truth_url: https://www.isc2.org/certifications/issep
 last_verified: "2026-04-01"

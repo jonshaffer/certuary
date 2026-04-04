@@ -37,5 +37,15 @@ links:
     url: https://www.isc2.org/certifications/issap/issap-certification-exam-outline
     type: source-of-truth
 
+domains:
+  - name: Governance, Risk, and Compliance
+    weight: 21
+  - name: Security Architecture Modeling
+    weight: 22
+  - name: Infrastructure and System Security
+    weight: 32
+  - name: Identity and Access Management Architecture
+    weight: 25
+
 source_of_truth_url: https://www.isc2.org/certifications/issap
 last_verified: "2026-04-01"

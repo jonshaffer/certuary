@@ -42,5 +42,17 @@ links:
     url: https://www.reddit.com/r/ISACA/
     type: community
 
+domains:
+  - name: Information System Auditing Process
+    weight: 18
+  - name: Governance and Management of IT
+    weight: 18
+  - name: Information Systems Acquisition, Development, and Implementation
+    weight: 12
+  - name: Information Systems Operations and Business Resilience
+    weight: 26
+  - name: Protection of Information Assets
+    weight: 26
+
 source_of_truth_url: https://www.isaca.org/credentialing/cisa
 last_verified: "2026-04-01"

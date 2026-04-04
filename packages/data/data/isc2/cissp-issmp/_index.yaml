@@ -37,5 +37,19 @@ links:
     url: https://www.isc2.org/certifications/issmp/issmp-certification-exam-outline
     type: source-of-truth
 
+domains:
+  - name: Leadership and Organizational Management
+    weight: 21
+  - name: Systems Lifecycle Management
+    weight: 15
+  - name: Risk Management
+    weight: 20
+  - name: Security Operations
+    weight: 18
+  - name: Contingency Management
+    weight: 12
+  - name: Law, Ethics, and Security Compliance Management
+    weight: 14
+
 source_of_truth_url: https://www.isc2.org/certifications/issmp
 last_verified: "2026-04-01"

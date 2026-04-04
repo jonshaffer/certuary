@@ -43,5 +43,15 @@ links:
     url: https://www.reddit.com/r/ISACA/
     type: community
 
+domains:
+  - name: Information Security Governance
+    weight: 17
+  - name: Information Security Risk Management
+    weight: 20
+  - name: Information Security Program
+    weight: 33
+  - name: Incident Management
+    weight: 30
+
 source_of_truth_url: https://www.isaca.org/credentialing/cism
 last_verified: "2026-04-01"

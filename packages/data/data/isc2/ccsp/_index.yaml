@@ -38,5 +38,19 @@ links:
     url: https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline
     type: source-of-truth
 
+domains:
+  - name: Cloud Concepts, Architecture, and Design
+    weight: 17
+  - name: Cloud Data Security
+    weight: 20
+  - name: Cloud Platform and Infrastructure Security
+    weight: 17
+  - name: Cloud Application Security
+    weight: 17
+  - name: Cloud Security Operations
+    weight: 16
+  - name: Legal, Risk, and Compliance
+    weight: 13
+
 source_of_truth_url: https://www.isc2.org/certifications/ccsp
 last_verified: "2026-04-01"

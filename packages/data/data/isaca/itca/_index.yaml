@@ -34,5 +34,12 @@ links:
     url: https://www.reddit.com/r/ISACA/
     type: community
 
+domains:
+  - name: Computing Fundamentals
+  - name: Networking and Infrastructure
+  - name: Cybersecurity Fundamentals
+  - name: Software Development Fundamentals
+  - name: Data Science Fundamentals
+
 source_of_truth_url: https://www.isaca.org/credentialing/itca
 last_verified: "2026-04-01"

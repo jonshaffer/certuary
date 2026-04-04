@@ -38,5 +38,21 @@ links:
     url: https://www.reddit.com/r/ISC2/
     type: community
 
+domains:
+  - name: Security Concepts and Practices
+    weight: 16
+  - name: Access Controls
+    weight: 15
+  - name: Risk Identification, Monitoring, and Analysis
+    weight: 15
+  - name: Incident Response and Recovery
+    weight: 14
+  - name: Cryptography
+    weight: 9
+  - name: Network and Communications Security
+    weight: 16
+  - name: Systems and Application Security
+    weight: 15
+
 source_of_truth_url: https://www.isc2.org/certifications/sscp
 last_verified: "2026-04-01"
