@@ -34,5 +34,13 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/exploit-researcher-advanced-penetration-tester-gxpn/
     type: official
+domains:
+  - name: Scripting and Exploit Development
+  - name: Fuzzing Techniques and Grammar Development
+  - name: Return-Oriented Programming (ROP)
+  - name: Windows Execution Processes and Protections
+  - name: Windows Exploitation Mechanisms (SEH)
+  - name: Cryptographic Implementation Exploitation
+
 source_of_truth_url: https://www.giac.org/certifications/exploit-researcher-advanced-penetration-tester-gxpn/
 last_verified: "2026-04-03"

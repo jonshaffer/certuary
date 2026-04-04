@@ -33,5 +33,17 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/cloud-security-gcld/
     type: official
+domains:
+  - name: Cloud Identity and Access Management
+  - name: Infrastructure as Code and Automation
+  - name: Cloud Logging and Monitoring
+  - name: Cloud Network Security
+  - name: Compute and Container Technologies
+  - name: Cloud Storage Security
+  - name: Data Security in Multi-Tenant Environments
+  - name: Third-Party Service Integration Security
+  - name: Application Security and CI/CD
+  - name: Network Flow Data and Packet Capture
+
 source_of_truth_url: https://www.giac.org/certifications/cloud-security-gcld/
 last_verified: "2026-04-03"

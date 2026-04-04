@@ -33,5 +33,12 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/defending-advanced-threats-gdat/
     type: official
+domains:
+  - name: Domain and Authentication Security
+  - name: Reconnaissance, Threat Hunting, and Incident Response
+  - name: Privilege Escalation and Least Privilege
+  - name: Adversary Emulation
+  - name: Application Security and Exploit Mitigation
+
 source_of_truth_url: https://www.giac.org/certifications/defending-advanced-threats-gdat/
 last_verified: "2026-04-03"

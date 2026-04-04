@@ -32,5 +32,12 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/certified-forensic-examiner-gcfe/
     type: official
+domains:
+  - name: Forensic Methodology and Windows Systems
+  - name: Cloud Storage Artifacts
+  - name: Email Communications Forensics
+  - name: Windows Event and Application Logs
+  - name: Program Execution and File Activity Artifacts
+
 source_of_truth_url: https://www.giac.org/certifications/certified-forensic-examiner-gcfe/
 last_verified: "2026-04-03"

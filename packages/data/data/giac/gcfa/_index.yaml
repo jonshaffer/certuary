@@ -37,5 +37,14 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/certified-forensic-analyst-gcfa/
     type: official
+domains:
+  - name: Threat Identification and Indicators of Compromise
+  - name: Normal and Abnormal System/User Activity Analysis
+  - name: Timeline Collection and Analysis
+  - name: Volatile Data Collection and Evidence Integrity
+  - name: Windows Memory Forensics
+  - name: Incident Response Process and Enterprise Investigations
+  - name: Windows Filesystem Time Artifacts
+
 source_of_truth_url: https://www.giac.org/certifications/certified-forensic-analyst-gcfa/
 last_verified: "2026-04-03"

@@ -34,5 +34,13 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/network-forensic-analyst-gnfa/
     type: official
+domains:
+  - name: Common Network Protocols and Security Controls
+  - name: Encryption and Encoding in Network Traffic
+  - name: NetFlow Analysis and Attack Visualization
+  - name: Network Design and Collection Technologies
+  - name: Network Protocol and Data Analysis Tools
+  - name: Security Proxies, Log Formats, and Network Architecture
+
 source_of_truth_url: https://www.giac.org/certifications/network-forensic-analyst-gnfa/
 last_verified: "2026-04-03"

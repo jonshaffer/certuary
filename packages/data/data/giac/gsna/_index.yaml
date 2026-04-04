@@ -33,5 +33,15 @@ links:
   - label: Official Certification Page
     url: https://www.giac.org/certifications/systems-network-auditor-gsna/
     type: official
+domains:
+  - name: Audit Fundamentals and Risk Assessment
+  - name: Network and Cloud Auditing Concepts
+  - name: Windows System Auditing
+  - name: UNIX and Linux System Auditing
+  - name: Web Application Auditing
+  - name: Web Application Access Control and Data Handling
+  - name: Windows Logging and Continuous Monitoring
+  - name: UNIX/Linux Logging and Continuous Monitoring
+
 source_of_truth_url: https://www.giac.org/certifications/systems-network-auditor-gsna/
 last_verified: "2026-04-03"
