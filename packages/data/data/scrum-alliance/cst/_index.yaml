@@ -21,6 +21,10 @@ prerequisites:
   - Demonstrated teaching and training experience in Scrum and agile practices
   - Application, references, and review process
 
+prerequisite_certs:
+  - scrum-alliance-csp-sm
+  - scrum-alliance-csp-po
+
 related_certs:
   - scrum-alliance-cec
   - scrum-alliance-ctc

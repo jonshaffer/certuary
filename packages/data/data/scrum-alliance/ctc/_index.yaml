@@ -21,10 +21,12 @@ prerequisites:
   - Demonstrated coaching experience at the team level
   - Application and review process
 
-related_certs:
-  - scrum-alliance-cec
+prerequisite_certs:
   - scrum-alliance-csp-sm
   - scrum-alliance-csp-po
+
+related_certs:
+  - scrum-alliance-cec
 
 links:
   - label: Official Certification Page

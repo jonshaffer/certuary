@@ -2,6 +2,7 @@ name: Certified Scrum Professional - ScrumMaster
 short_name: CSP-SM
 slug: scrum-alliance-csp-sm
 status: active
+cost: "$495 USD"
 
 description: >-
   The Certified Scrum Professional - ScrumMaster (CSP-SM) certification
@@ -27,7 +28,6 @@ prerequisite_certs:
 
 related_certs:
   - scrum-alliance-ctc
-  - scrum-alliance-a-csm
   - scrum-org-psm-iii
   - safe-advanced-scrum-master
 
