@@ -207,7 +207,7 @@ export function HeatmapPage() {
                         className={`px-0 py-0 border border-border/30 cursor-pointer transition-all ${
                           isSelected ? "ring-2 ring-primary" : ""
                         }`}
-                        title={`${cert.name} × ${cat.label}: ${weight > 0 ? `${weight}%` : "—"}`}
+                        title={`${cert.name} × ${cat.label}: ${weight > 0 ? `${weight}% coverage` : "no match"}`}
                         onClick={() => handleCellClick(cert.slug, cat.slug)}
                       >
                         <div

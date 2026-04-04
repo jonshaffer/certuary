@@ -1,10 +1,5 @@
-import type { Certification, DomainCategory, CategoryGroup, ExamDomain } from "@certuary/data";
-import {
-  getAllCerts,
-  getAllDomainCategories,
-  getAllCategoryGroups,
-  getAllProviders,
-} from "@certuary/data";
+import type { Certification, DomainCategory, ExamDomain } from "@certuary/data";
+import { getAllCerts } from "@certuary/data";
 
 export interface HeatmapCell {
   certSlug: string;
@@ -67,6 +62,18 @@ function jaccard(a: Set<string>, b: Set<string>): number {
   return union === 0 ? 0 : intersection / union;
 }
 
+// Module-level token cache to avoid recomputation across calls
+const tokenCacheMap = new Map<string, Set<string>>();
+
+function getCachedTokens(cert: Certification): Set<string> {
+  let cached = tokenCacheMap.get(cert.slug);
+  if (!cached) {
+    cached = domainTokens(cert.domains);
+    tokenCacheMap.set(cert.slug, cached);
+  }
+  return cached;
+}
+
 /**
  * Find certs most similar to a given cert based on domain name overlap.
  */
@@ -75,7 +82,7 @@ export function findSimilarCerts(
   limit = 10
 ): SimilarCert[] {
   const allCerts = getAllCerts();
-  const certTokens = domainTokens(cert.domains);
+  const certTokens = getCachedTokens(cert);
   const certDomainNames = flattenDomainNames(cert.domains);
 
   if (certTokens.size === 0) return [];
@@ -86,7 +93,7 @@ export function findSimilarCerts(
     if (other.slug === cert.slug) continue;
     if (other.domains.length === 0) continue;
 
-    const otherTokens = domainTokens(other.domains);
+    const otherTokens = getCachedTokens(other);
     const score = jaccard(certTokens, otherTokens);
 
     if (score > 0.05) {
@@ -112,8 +119,27 @@ export function findSimilarCerts(
 }
 
 /**
- * Build heatmap data: for each cert × category, compute a relevance weight
+ * Flatten all domains (including subdomains) with their weights.
+ */
+function flattenDomainsWithWeights(
+  domains: ExamDomain[],
+  parentWeight?: number
+): { name: string; weight: number }[] {
+  const result: { name: string; weight: number }[] = [];
+  for (const d of domains) {
+    const weight = d.weight ?? parentWeight ?? 10;
+    result.push({ name: d.name, weight });
+    if (d.subdomains) {
+      result.push(...flattenDomainsWithWeights(d.subdomains, weight));
+    }
+  }
+  return result;
+}
+
+/**
+ * Build heatmap data: for each cert × category, compute a relevance score
  * by matching domain name keywords against category labels.
+ * Includes subdomains in matching.
  */
 export function buildHeatmapData(
   certs: Certification[],
@@ -129,26 +155,37 @@ export function buildHeatmapData(
   for (const cert of certs) {
     if (cert.domains.length === 0) continue;
 
+    const allDomains = flattenDomainsWithWeights(cert.domains);
+    const totalCertWeight = cert.domains.reduce(
+      (sum, d) => sum + (d.weight ?? 10),
+      0
+    );
+
     for (const cat of categories) {
       const catTokens = categoryKeywords.get(cat.slug)!;
-      let totalWeight = 0;
+      let matchedWeight = 0;
 
-      for (const domain of cert.domains) {
+      for (const domain of allDomains) {
         const dTokens = tokenize(domain.name);
         let matches = 0;
         for (const t of dTokens) {
           if (catTokens.has(t)) matches++;
         }
         if (matches >= Math.min(2, catTokens.size)) {
-          totalWeight += domain.weight ?? 10;
+          matchedWeight += domain.weight;
         }
       }
 
-      if (totalWeight > 0) {
+      if (matchedWeight > 0) {
+        // Normalize to 0-100 as percentage of cert's total weight
+        const normalized = Math.min(
+          100,
+          Math.round((matchedWeight / totalCertWeight) * 100)
+        );
         cells.push({
           certSlug: cert.slug,
           categorySlug: cat.slug,
-          weight: totalWeight,
+          weight: normalized,
         });
       }
     }
@@ -210,17 +247,3 @@ export function buildNetworkGraph(
   return { nodes, edges };
 }
 
-/**
- * Get unique provider slugs from certs with display info.
- */
-export function getProviderOptions() {
-  const providers = getAllProviders();
-  return providers.map((p) => ({ slug: p.slug, name: p.name }));
-}
-
-/**
- * Get category group options.
- */
-export function getCategoryGroupOptions() {
-  return getAllCategoryGroups();
-}

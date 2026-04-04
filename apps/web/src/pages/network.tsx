@@ -34,12 +34,18 @@ function getProviderColor(slug: string): string {
   return PROVIDER_COLORS[slug] || "#888888";
 }
 
+function parseMinOverlap(value: string | null): number {
+  const defaultMinOverlap = 0.15;
+  const parsed = value === null ? defaultMinOverlap : parseFloat(value);
+  if (!Number.isFinite(parsed)) return defaultMinOverlap;
+  return Math.min(1, Math.max(0, parsed));
+}
+
 function useNetworkParams() {
   const [searchParams, setSearchParams] = useSearchParams();
 
   const provider = searchParams.get("provider") || "";
-  const minOverlap = parseFloat(searchParams.get("overlap") || "0.15");
-  const selectedNode = searchParams.get("node") || "";
+  const minOverlap = parseMinOverlap(searchParams.get("overlap"));
 
   const setParam = useCallback(
     (key: string, value: string) => {
@@ -56,7 +62,7 @@ function useNetworkParams() {
     [setSearchParams]
   );
 
-  return { provider, minOverlap, selectedNode, setParam };
+  return { provider, minOverlap, setParam };
 }
 
 const LINK_DISTANCE_FACTOR = 120;
@@ -67,7 +73,7 @@ const NODE_RADIUS_SCALE = 0.8;
 const GRAPH_HEIGHT = 600;
 
 export function NetworkPage() {
-  const { provider, minOverlap, selectedNode, setParam } = useNetworkParams();
+  const { provider, minOverlap, setParam } = useNetworkParams();
   const svgRef = useRef<SVGSVGElement>(null);
   const navigate = useNavigate();
 
