@@ -1,0 +1,41 @@
+name: Red Hat Certified Architect (RHCA)
+short_name: RHCA
+slug: rhca
+status: active
+cost: "$2,000 USD (five specialist exams at $400 each)"
+
+description: >-
+  The RHCA is Red Hat's highest level of certification, recognizing
+  senior IT professionals with extensive expertise across Red Hat
+  technologies. To earn the RHCA, candidates must hold an active RHCE
+  and pass five additional Red Hat Certified Specialist exams of their
+  choosing, demonstrating broad and deep knowledge across multiple
+  Red Hat product areas.
+
+tags:
+  - linux
+  - expert
+  - architecture
+  - performance-based
+  - red-hat
+
+prerequisites:
+  - Active Red Hat Certified Engineer (RHCE) credential
+  - Must pass five additional Red Hat Certified Specialist exams
+
+prerequisite_certs:
+  - rhce
+
+related_certs:
+  - rhce
+  - rhcsa
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/rhca
+    type: official
+
+source_of_truth_url: https://www.redhat.com/en/services/certification/rhca
+last_verified: "2026-04-04"

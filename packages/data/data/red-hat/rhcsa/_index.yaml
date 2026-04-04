@@ -1,0 +1,49 @@
+name: Red Hat Certified System Administrator (RHCSA)
+short_name: RHCSA
+slug: rhcsa
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 150
+
+description: >-
+  The RHCSA validates the ability to perform core Linux system administration
+  tasks on Red Hat Enterprise Linux. This performance-based exam tests
+  hands-on skills including managing users and groups, configuring file
+  systems, managing SELinux, configuring networking, and performing basic
+  container management.
+
+tags:
+  - linux
+  - system-administration
+  - entry-level
+  - performance-based
+  - red-hat
+  - rhel
+
+prerequisites: []
+
+related_certs:
+  - comptia-linux-plus
+  - lfcs
+  - rhce
+
+versions:
+  - version: "EX200V9"
+    release_date: "2022-05-10"
+    notes: >-
+      Current version based on Red Hat Enterprise Linux 9.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/rhcsa
+    type: official
+  - label: EX200 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam
+    type: source-of-truth
+  - label: r/redhat
+    url: https://www.reddit.com/r/redhat/
+    type: community
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam
+last_verified: "2026-04-04"

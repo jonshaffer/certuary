@@ -1,0 +1,50 @@
+name: "Red Hat Certified Specialist in Security: Linux"
+short_name: EX415
+slug: security-linux
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 240
+
+description: >-
+  Validates the ability to secure Red Hat Enterprise Linux systems.
+  The exam tests skills in implementing security technologies including
+  SELinux, OpenSCAP, AIDE, LUKS encryption, USBGuard, PAM, audit
+  logging, and firewall configurations to protect systems against
+  threats and meet compliance requirements.
+
+tags:
+  - security
+  - linux
+  - compliance
+  - advanced
+  - performance-based
+  - red-hat
+  - rhel
+
+prerequisites:
+  - RHCSA and RHCE recommended
+  - Experience with Linux security administration
+
+related_certs:
+  - rhcsa
+  - rhce
+  - comptia-security-plus
+  - comptia-linux-plus
+
+versions:
+  - version: "EX415V9"
+    release_date: "2022-05-10"
+    notes: >-
+      Current version based on Red Hat Enterprise Linux 9.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-security-linux
+    type: official
+  - label: EX415 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex415-red-hat-certified-specialist-security-linux-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex415-red-hat-certified-specialist-security-linux-exam
+last_verified: "2026-04-04"

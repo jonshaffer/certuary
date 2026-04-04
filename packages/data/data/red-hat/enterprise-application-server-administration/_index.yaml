@@ -1,0 +1,45 @@
+name: Red Hat Certified Specialist in Enterprise Application Server Administration
+short_name: EX248
+slug: enterprise-application-server-administration
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 240
+
+description: >-
+  Validates the ability to configure, manage, and monitor JBoss
+  Enterprise Application Platform (EAP) instances. The exam tests
+  skills in deploying Java EE applications, configuring data sources,
+  setting up messaging, managing clustering, and tuning JBoss EAP
+  for production environments.
+
+tags:
+  - jboss
+  - middleware
+  - java
+  - application-server
+  - advanced
+  - performance-based
+  - red-hat
+
+prerequisites: []
+
+related_certs:
+  - rhcsa
+
+versions:
+  - version: "EX248V7"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering JBoss Enterprise Application Platform 7.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-enterprise-application-server-administration
+    type: official
+  - label: EX248 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex248-red-hat-certified-specialist-enterprise-application-server-administration-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex248-red-hat-certified-specialist-enterprise-application-server-administration-exam
+last_verified: "2026-04-04"

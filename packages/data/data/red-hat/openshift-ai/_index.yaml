@@ -1,0 +1,45 @@
+name: Red Hat Certified Specialist in OpenShift AI
+short_name: EX267
+slug: openshift-ai
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 180
+
+description: >-
+  Validates the ability to deploy, configure, and manage AI/ML workloads
+  on Red Hat OpenShift AI (formerly OpenShift Data Science). The exam
+  tests skills in managing data science projects, deploying models,
+  configuring model serving, and integrating AI/ML workflows within
+  the OpenShift platform.
+
+tags:
+  - openshift
+  - ai
+  - machine-learning
+  - data-science
+  - intermediate
+  - performance-based
+  - red-hat
+
+prerequisites: []
+
+related_certs:
+  - openshift-administration
+
+versions:
+  - version: "EX267V1"
+    release_date: "2024-01-01"
+    notes: >-
+      First version covering Red Hat OpenShift AI.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-openshift-ai
+    type: official
+  - label: EX267 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex267-red-hat-certified-specialist-openshift-ai-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex267-red-hat-certified-specialist-openshift-ai-exam
+last_verified: "2026-04-04"

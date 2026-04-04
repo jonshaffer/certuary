@@ -1,0 +1,48 @@
+name: Red Hat Certified Specialist in Linux Performance Tuning
+short_name: EX442
+slug: linux-performance-tuning
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 240
+
+description: >-
+  Validates the ability to analyze and optimize the performance of
+  Red Hat Enterprise Linux systems. The exam tests skills in using
+  performance analysis tools, tuning kernel parameters, optimizing
+  CPU scheduling, memory management, I/O throughput, and network
+  performance for enterprise workloads.
+
+tags:
+  - linux
+  - performance
+  - tuning
+  - advanced
+  - performance-based
+  - red-hat
+  - rhel
+
+prerequisites:
+  - RHCSA and RHCE recommended
+  - Experience with Linux performance analysis
+
+related_certs:
+  - rhcsa
+  - rhce
+
+versions:
+  - version: "EX442V9"
+    release_date: "2022-05-10"
+    notes: >-
+      Current version based on Red Hat Enterprise Linux 9.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-linux-performance-tuning
+    type: official
+  - label: EX442 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex442-red-hat-certified-specialist-performance-tuning-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex442-red-hat-certified-specialist-performance-tuning-exam
+last_verified: "2026-04-04"

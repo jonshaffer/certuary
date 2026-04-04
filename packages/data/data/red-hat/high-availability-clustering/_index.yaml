@@ -1,0 +1,48 @@
+name: Red Hat Certified Specialist in High Availability Clustering
+short_name: EX436
+slug: high-availability-clustering
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 240
+
+description: >-
+  Validates the ability to configure and manage high availability
+  clusters using Red Hat Enterprise Linux High Availability Add-On.
+  The exam tests skills in deploying Pacemaker clusters, configuring
+  fencing, managing cluster resources, setting up GFS2 shared storage,
+  and implementing failover strategies.
+
+tags:
+  - high-availability
+  - clustering
+  - infrastructure
+  - advanced
+  - performance-based
+  - red-hat
+  - rhel
+
+prerequisites:
+  - RHCSA recommended
+  - Experience with cluster administration
+
+related_certs:
+  - rhcsa
+  - rhce
+
+versions:
+  - version: "EX436V9"
+    release_date: "2022-05-10"
+    notes: >-
+      Current version based on Red Hat Enterprise Linux 9.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-high-availability-clustering
+    type: official
+  - label: EX436 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex436-red-hat-certified-specialist-high-availability-clustering-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex436-red-hat-certified-specialist-high-availability-clustering-exam
+last_verified: "2026-04-04"

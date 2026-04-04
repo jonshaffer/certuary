@@ -1,0 +1,45 @@
+name: Red Hat Certified Specialist in OpenShift Virtualization
+short_name: EX380
+slug: openshift-virtualization
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 180
+
+description: >-
+  Validates the ability to create, manage, and troubleshoot virtual
+  machines running on Red Hat OpenShift using OpenShift Virtualization
+  (based on KubeVirt). The exam tests skills in deploying VMs alongside
+  containers on OpenShift, configuring virtual machine networking and
+  storage, managing VM templates, and migrating workloads.
+
+tags:
+  - openshift
+  - virtualization
+  - kubevirt
+  - intermediate
+  - performance-based
+  - red-hat
+
+prerequisites: []
+
+related_certs:
+  - openshift-administration
+  - virtualization
+
+versions:
+  - version: "EX380V4"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering OpenShift Virtualization on OpenShift 4.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-openshift-virtualization
+    type: official
+  - label: EX380 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex380-red-hat-certified-specialist-openshift-virtualization-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex380-red-hat-certified-specialist-openshift-virtualization-exam
+last_verified: "2026-04-04"

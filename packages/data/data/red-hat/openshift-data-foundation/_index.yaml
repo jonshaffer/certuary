@@ -1,0 +1,45 @@
+name: Red Hat Certified Specialist in OpenShift Data Foundation
+short_name: EX370
+slug: openshift-data-foundation
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 180
+
+description: >-
+  Validates the ability to deploy and manage persistent storage for
+  applications running on Red Hat OpenShift using OpenShift Data
+  Foundation (formerly OpenShift Container Storage). The exam tests
+  skills in deploying ODF, configuring storage classes, managing
+  persistent volumes, and troubleshooting storage issues.
+
+tags:
+  - openshift
+  - storage
+  - data-foundation
+  - intermediate
+  - performance-based
+  - red-hat
+
+prerequisites: []
+
+related_certs:
+  - openshift-administration
+  - ceph-cloud-storage
+
+versions:
+  - version: "EX370V4"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering OpenShift Data Foundation 4.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-openshift-data-foundation
+    type: official
+  - label: EX370 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex370-red-hat-certified-specialist-openshift-data-foundation-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex370-red-hat-certified-specialist-openshift-data-foundation-exam
+last_verified: "2026-04-04"

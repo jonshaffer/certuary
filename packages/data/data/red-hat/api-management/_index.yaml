@@ -1,0 +1,43 @@
+name: Red Hat Certified Specialist in API Management
+short_name: EX240
+slug: api-management
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 240
+
+description: >-
+  Validates the ability to configure and manage APIs using Red Hat
+  3scale API Management. The exam tests skills in creating and
+  publishing APIs, configuring access controls, setting rate limits,
+  managing developer portals, and implementing API analytics and
+  monetization strategies.
+
+tags:
+  - api
+  - middleware
+  - 3scale
+  - intermediate
+  - performance-based
+  - red-hat
+
+prerequisites: []
+
+related_certs: []
+
+versions:
+  - version: "EX240V2"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering Red Hat 3scale API Management.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-api-management
+    type: official
+  - label: EX240 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex240-red-hat-certified-specialist-api-management-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex240-red-hat-certified-specialist-api-management-exam
+last_verified: "2026-04-04"

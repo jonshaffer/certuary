@@ -1,0 +1,45 @@
+name: Red Hat Certified Specialist in OpenShift Application Development
+short_name: EX288
+slug: openshift-application-development
+status: active
+cost: "$400 USD"
+exam_format: performance-based
+duration_minutes: 180
+
+description: >-
+  Validates the ability to deploy existing applications in a Red Hat
+  OpenShift Container Platform environment. The exam covers building
+  and deploying applications from source code and container images,
+  customizing deployments, and implementing CI/CD pipelines on OpenShift.
+
+tags:
+  - openshift
+  - containers
+  - development
+  - intermediate
+  - performance-based
+  - red-hat
+
+prerequisites: []
+
+related_certs:
+  - openshift-administration
+  - containers
+  - ckad
+
+versions:
+  - version: "EX288V4"
+    release_date: "2023-01-01"
+    notes: >-
+      Current version covering application development on OpenShift 4.
+
+links:
+  - label: Official Certification Page
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-openshift-application-development
+    type: official
+  - label: EX288 Exam Objectives
+    url: https://www.redhat.com/en/services/training/ex288-red-hat-certified-specialist-openshift-application-development-exam
+    type: source-of-truth
+
+source_of_truth_url: https://www.redhat.com/en/services/training/ex288-red-hat-certified-specialist-openshift-application-development-exam
+last_verified: "2026-04-04"
