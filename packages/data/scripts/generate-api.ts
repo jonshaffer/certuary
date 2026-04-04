@@ -20,6 +20,9 @@ if (outDirIdx === -1 || !args[outDirIdx + 1]) {
 const outDir = path.resolve(args[outDirIdx + 1]);
 const basePath = process.env.BASE_PATH ?? "/";
 
+// Clean output directory to remove stale files from renamed/removed slugs
+fs.rmSync(outDir, { recursive: true, force: true });
+
 function writeJson(filePath: string, data: unknown) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(data), "utf-8");
