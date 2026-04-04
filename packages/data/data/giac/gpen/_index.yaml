@@ -29,6 +29,8 @@ related_certs:
   - gsec
   - comptia-pentest-plus
   - cissp
+  - ceh
+  - cpent
 versions: []
 links:
   - label: Official Certification Page

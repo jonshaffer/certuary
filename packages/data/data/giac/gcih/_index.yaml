@@ -31,6 +31,8 @@ related_certs:
   - comptia-security-plus
   - comptia-cysa-plus
   - cissp
+  - ecih
+  - ec-council-csa
 versions: []
 links:
   - label: Official Certification Page

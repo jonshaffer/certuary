@@ -1,0 +1,57 @@
+name: Certified Chief Information Security Officer
+short_name: CCISO
+slug: cciso
+status: active
+cost: "$1,199 USD"
+
+description: >-
+  The Certified Chief Information Security Officer (CCISO) certification
+  validates executive-level information security management skills. CCISO
+  covers governance and risk management, information security controls and
+  audit management, security program management and operations, information
+  security core competencies, strategic planning, finance, procurement,
+  and vendor management. It is designed for experienced security leaders
+  aspiring to or currently in CISO roles.
+
+tags:
+  - cybersecurity
+  - management
+  - expert
+  - governance
+  - dod-8570
+  - ec-council
+
+prerequisites:
+  - Five years of information security management experience in at least
+    three of the five CCISO domains
+
+related_certs:
+  - ceh
+  - cissp
+  - cism
+  - cisa
+  - gslc
+  - gstrt
+  - comptia-casp-plus
+
+exam_format: multiple-choice
+passing_score: 72
+duration_minutes: 150
+question_count:
+  min: 150
+  max: 150
+
+versions:
+  - version: v3
+    release_date: "2023-01-01"
+    notes: >-
+      Current version with updated content on cloud governance,
+      AI risk management, and modern security leadership.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/certified-chief-information-security-officer-cciso/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/certified-chief-information-security-officer-cciso/
+last_verified: "2026-04-04"

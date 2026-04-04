@@ -1,0 +1,47 @@
+slug: ec-council-certification-path
+name: EC-Council Certification Path
+description: >-
+  EC-Council's cybersecurity certification pathway progressing from network
+  defense and ethical hacking foundations through specialized areas including
+  penetration testing, digital forensics, incident handling, and security
+  management.
+website: https://www.eccouncil.org/train-certify/
+status: active
+required_certs: []
+phases:
+  - name: Foundation
+    order: 1
+    certificate_slugs:
+      - cnd
+  - name: Core Ethical Hacking
+    order: 2
+    certificate_slugs:
+      - ceh
+  - name: Security Operations
+    order: 3
+    certificate_slugs:
+      - ec-council-csa
+      - ecih
+      - ctia
+  - name: Specialized Offensive Security
+    order: 4
+    certificate_slugs:
+      - cpent
+      - lpt
+  - name: Specialized Forensics and Application Security
+    order: 5
+    certificate_slugs:
+      - chfi
+      - case-java
+      - case-net
+  - name: Executive Leadership
+    order: 6
+    certificate_slugs:
+      - cciso
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. EC-Council recommends starting with CND for
+    defensive fundamentals, then CEH as the core credential, before pursuing
+    specialized tracks in penetration testing, forensics, SOC operations,
+    or executive management.

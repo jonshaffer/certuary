@@ -22,6 +22,8 @@ prerequisites:
 
 related_certs:
   - cissp
+  - case-java
+  - case-net
 
 versions: []
 

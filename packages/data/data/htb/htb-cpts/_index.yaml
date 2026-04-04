@@ -28,6 +28,8 @@ related_certs:
   - gpen
   - comptia-pentest-plus
   - htb-cjca
+  - ceh
+  - cpent
 versions: []
 links:
   - label: Official Certification Page

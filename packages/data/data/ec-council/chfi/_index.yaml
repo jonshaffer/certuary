@@ -1,0 +1,55 @@
+name: Computer Hacking Forensic Investigator
+short_name: CHFI
+slug: chfi
+status: active
+cost: "$1,199 USD"
+
+description: >-
+  The Computer Hacking Forensic Investigator (CHFI) certification validates
+  skills in detecting cyber attacks, extracting digital evidence, and
+  conducting forensic investigations. CHFI covers forensic science, digital
+  evidence handling, hard disk and file system forensics, operating system
+  forensics, network forensics, web and database forensics, cloud and
+  mobile forensics, and malware forensics.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - digital-forensics
+  - incident-response
+  - dod-8570
+  - ec-council
+
+prerequisites:
+  - Two years of information security experience recommended
+  - CEH certification recommended
+
+related_certs:
+  - ceh
+  - ecih
+  - gcfa
+  - gcfe
+  - gnfa
+  - comptia-cysa-plus
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 240
+question_count:
+  min: 150
+  max: 150
+
+versions:
+  - version: v11
+    release_date: "2023-01-01"
+    notes: >-
+      Current version with updated content on cloud forensics, IoT forensics,
+      and advanced anti-forensics techniques.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/
+last_verified: "2026-04-04"

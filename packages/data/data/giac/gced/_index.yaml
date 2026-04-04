@@ -28,6 +28,7 @@ related_certs:
   - gcia
   - gdsa
   - cissp
+  - cnd
 versions: []
 links:
   - label: Official Certification Page

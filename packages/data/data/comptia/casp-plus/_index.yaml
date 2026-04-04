@@ -27,6 +27,7 @@ related_certs:
   - comptia-pentest-plus
   - cissp
   - cism
+  - cciso
 
 prerequisite_certs:
   - comptia-security-plus

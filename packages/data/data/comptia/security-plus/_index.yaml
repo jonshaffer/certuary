@@ -35,6 +35,8 @@ related_certs:
   - gsec
   - gcih
   - gfact
+  - ceh
+  - cnd
 
 versions:
   - version: SY0-701

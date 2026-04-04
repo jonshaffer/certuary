@@ -1,0 +1,52 @@
+name: EC-Council Certified Incident Handler
+short_name: ECIH
+slug: ecih
+status: active
+cost: "$1,199 USD"
+
+description: >-
+  The EC-Council Certified Incident Handler (ECIH) certification validates
+  skills in handling and responding to security incidents. ECIH covers
+  incident handling and response processes, forensic readiness, malware
+  incident handling, email security incidents, network security incidents,
+  web application security incidents, cloud security incidents, and
+  insider threat handling.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - incident-response
+  - dod-8570
+  - ec-council
+
+prerequisites:
+  - One year of information security experience recommended
+
+related_certs:
+  - ceh
+  - chfi
+  - ec-council-csa
+  - gcih
+  - comptia-cysa-plus
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 180
+question_count:
+  min: 100
+  max: 100
+
+versions:
+  - version: v3
+    release_date: "2022-01-01"
+    notes: >-
+      Current version with expanded coverage of cloud incident handling
+      and updated threat landscape.
+
+links:
+  - label: Official Certification Page
+    url: https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/
+    type: official
+
+source_of_truth_url: https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/
+last_verified: "2026-04-04"

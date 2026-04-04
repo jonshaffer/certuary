@@ -31,6 +31,9 @@ related_certs:
   - gcih
   - gcfa
   - gcda
+  - ec-council-csa
+  - ecih
+  - chfi
 
 prerequisite_certs:
   - comptia-security-plus
