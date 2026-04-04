@@ -22,5 +22,12 @@ links:
   - label: Official Certification Page
     url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst/
     type: official
+domains:
+  - name: "Key Concepts"
+  - name: "Direction and Review"
+  - name: "Data Collection"
+  - name: "Data Analysis"
+  - name: "Product Dissemination"
+
 source_of_truth_url: https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst/
 last_verified: "2026-04-04"
