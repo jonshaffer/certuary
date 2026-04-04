@@ -13,6 +13,8 @@ groups:
     label: Privacy & Data Protection
   - slug: sysadmin
     label: System Administration
+  - slug: data-ai
+    label: Data & AI
 
 categories:
   # Security & Cybersecurity
@@ -72,6 +74,21 @@ categories:
     group: security
   - slug: ai-security
     label: AI & ML Security
+    group: security
+  - slug: threat-intelligence
+    label: Threat Intelligence
+    group: security
+  - slug: cloud-security
+    label: Cloud Security Operations
+    group: security
+  - slug: wireless-and-mobile-security
+    label: Wireless & Mobile Security
+    group: security
+  - slug: ics-ot-security
+    label: ICS/OT Security
+    group: security
+  - slug: secure-software-development
+    label: Secure Software Development & SDLC
     group: security
 
   # Cloud & Infrastructure
@@ -159,6 +176,15 @@ categories:
   - slug: program-management
     label: Program & Portfolio Management
     group: management
+  - slug: enterprise-architecture
+    label: Enterprise Architecture Frameworks
+    group: management
+  - slug: product-management
+    label: Product Management
+    group: management
+  - slug: scaled-agile
+    label: Scaled Agile & Lean Portfolio
+    group: management
 
   # Privacy & Data Protection
   - slug: privacy-law-and-regulation
@@ -190,6 +216,14 @@ categories:
   - slug: system-operations
     label: System Operations & Troubleshooting
     group: sysadmin
+
+  # Data & AI
+  - slug: data-engineering
+    label: Data Engineering & Analytics
+    group: data-ai
+  - slug: ml-engineering
+    label: Machine Learning Engineering & MLOps
+    group: data-ai
 
   # Cross-Cutting
   - slug: professional-communication
