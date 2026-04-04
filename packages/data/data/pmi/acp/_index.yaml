@@ -31,6 +31,8 @@ related_certs:
   - scrum-org-pspo-i
   - safe-agilist
   - safe-scrum-master
+  - scrum-alliance-csm
+  - scrum-alliance-cspo
 
 versions: []
 
@@ -46,4 +48,4 @@ links:
     type: community
 
 source_of_truth_url: https://www.pmi.org/certifications/agile-acp
-last_verified: "2026-04-01"
+last_verified: "2026-04-03"

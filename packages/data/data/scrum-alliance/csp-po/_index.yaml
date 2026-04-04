@@ -1,0 +1,39 @@
+name: Certified Scrum Professional - Product Owner
+short_name: CSP-PO
+slug: scrum-alliance-csp-po
+status: active
+cost: "$495 USD"
+
+description: >-
+  The Certified Scrum Professional - Product Owner (CSP-PO) certification
+  represents a professional level of mastery of Scrum and the Product Owner
+  role. CSP-POs have demonstrated sustained practical experience and deep
+  understanding of product ownership, value optimization, and stakeholder
+  engagement within the Scrum framework.
+
+tags:
+  - scrum
+  - agile
+  - professional
+  - product-owner
+  - course-based
+
+prerequisites:
+  - Hold an active A-CSPO certification
+  - 24 months of work experience specific to the role of Product Owner within the last 5 years
+  - Attend a CSP-PO course taught by a Certified Scrum Trainer (CST)
+
+prerequisite_certs:
+  - scrum-alliance-a-cspo
+
+related_certs:
+  - scrum-alliance-ctc
+  - scrum-org-pspo-iii
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-professional-product-owner
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-professional-product-owner
+last_verified: "2026-04-03"

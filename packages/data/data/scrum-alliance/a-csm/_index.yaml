@@ -1,0 +1,39 @@
+name: Advanced Certified ScrumMaster
+short_name: A-CSM
+slug: scrum-alliance-a-csm
+status: active
+cost: "$495 USD"
+
+description: >-
+  The Advanced Certified ScrumMaster (A-CSM) certification builds on the
+  foundational CSM and validates deeper knowledge of Scrum facilitation,
+  coaching, and servant leadership. A-CSMs demonstrate the ability to
+  address more complex team and organizational challenges.
+
+tags:
+  - scrum
+  - agile
+  - advanced
+  - scrum-master
+  - course-based
+
+prerequisites:
+  - Hold an active CSM certification
+  - 12 months of work experience specific to the role of Scrum Master
+  - Attend an A-CSM course taught by a Certified Scrum Trainer (CST)
+
+prerequisite_certs:
+  - scrum-alliance-csm
+
+related_certs:
+  - scrum-alliance-csp-sm
+  - scrum-org-psm-ii
+  - safe-advanced-scrum-master
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/scrum-master-track/advanced-certified-scrummaster
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/scrum-master-track/advanced-certified-scrummaster
+last_verified: "2026-04-03"

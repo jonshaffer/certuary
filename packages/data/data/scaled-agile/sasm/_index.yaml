@@ -35,6 +35,7 @@ related_certs:
   - scrum-org-psm-ii
   - scrum-org-psm-iii
   - pmi-acp
+  - scrum-alliance-a-csm
 
 versions:
   - version: "6.0"

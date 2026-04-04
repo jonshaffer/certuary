@@ -1,0 +1,37 @@
+name: Certified Team Coach
+short_name: CTC
+slug: scrum-alliance-ctc
+status: active
+
+description: >-
+  The Certified Team Coach (CTC) is a guide-level certification recognizing
+  experienced agile practitioners who have demonstrated deep coaching skills
+  at the team level. CTCs are skilled in facilitating team growth, resolving
+  impediments, and fostering high-performing agile teams. This certification
+  is application-based and requires demonstrated coaching experience.
+
+tags:
+  - scrum
+  - agile
+  - expert
+  - coaching
+
+prerequisites:
+  - Hold an active CSP-SM or CSP-PO certification
+  - Demonstrated coaching experience at the team level
+  - Application and review process
+
+prerequisite_certs:
+  - scrum-alliance-csp-sm
+  - scrum-alliance-csp-po
+
+related_certs:
+  - scrum-alliance-cec
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/coaching-track/certified-team-coach
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/coaching-track/certified-team-coach
+last_verified: "2026-04-03"

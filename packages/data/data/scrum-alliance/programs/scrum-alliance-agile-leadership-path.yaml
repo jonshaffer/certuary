@@ -1,0 +1,25 @@
+slug: scrum-alliance-agile-leadership-path
+name: Scrum Alliance Agile Leadership Path
+description: >-
+  Scrum Alliance's Certified Agile Leadership program develops agile
+  leadership capabilities across three dimensions: Essentials, Teams,
+  and Organizations.
+website: https://www.scrumalliance.org/get-certified/agile-leadership-track
+status: active
+required_certs: []
+phases:
+  - name: Essentials
+    order: 1
+    certificate_slugs:
+      - scrum-alliance-cal-e
+  - name: Specialization
+    order: 2
+    certificate_slugs:
+      - scrum-alliance-cal-t
+      - scrum-alliance-cal-o
+completion_criteria:
+  required: 0
+  notes: >-
+    CAL-E provides the foundational agile leadership essentials. CAL-T
+    and CAL-O are independent specializations that can be pursued in
+    either order after or alongside CAL-E.

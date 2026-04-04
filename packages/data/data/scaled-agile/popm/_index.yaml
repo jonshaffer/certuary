@@ -33,6 +33,7 @@ related_certs:
   - scrum-org-pspo-i
   - scrum-org-pspo-ii
   - pmi-acp
+  - scrum-alliance-cspo
 
 versions:
   - version: "6.0"

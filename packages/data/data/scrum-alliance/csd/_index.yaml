@@ -1,0 +1,34 @@
+name: Certified Scrum Developer
+short_name: CSD
+slug: scrum-alliance-csd
+status: active
+cost: "$495 USD"
+
+description: >-
+  The Certified Scrum Developer (CSD) certification validates knowledge of
+  Scrum principles and agile engineering practices. CSDs understand how to
+  apply Scrum in a development context, including technical practices that
+  support agile development. This is a course-based certification requiring
+  attendance of a CSD course taught by a Certified Scrum Trainer.
+
+tags:
+  - scrum
+  - agile
+  - entry-level
+  - developer
+  - course-based
+
+prerequisites:
+  - Attend a CSD course taught by a Certified Scrum Trainer (CST)
+
+related_certs:
+  - scrum-alliance-csm
+  - scrum-org-psd-i
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer
+last_verified: "2026-04-03"

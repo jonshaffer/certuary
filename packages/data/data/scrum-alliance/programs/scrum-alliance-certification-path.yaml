@@ -1,0 +1,41 @@
+slug: scrum-alliance-certification-path
+name: Scrum Alliance Certification Path
+description: >-
+  Scrum Alliance's certification pathway progresses from foundational
+  course-based certifications in Scrum Master, Product Owner, and Developer
+  roles through advanced and professional levels to expert-level coaching
+  and training credentials.
+website: https://www.scrumalliance.org/get-certified
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - scrum-alliance-csm
+      - scrum-alliance-cspo
+      - scrum-alliance-csd
+  - name: Advanced
+    order: 2
+    certificate_slugs:
+      - scrum-alliance-a-csm
+      - scrum-alliance-a-cspo
+  - name: Professional
+    order: 3
+    certificate_slugs:
+      - scrum-alliance-csp-sm
+      - scrum-alliance-csp-po
+  - name: Guide / Expert
+    order: 4
+    certificate_slugs:
+      - scrum-alliance-ctc
+      - scrum-alliance-cec
+      - scrum-alliance-cst
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Practitioners typically start with a
+    foundational certification (CSM, CSPO, or CSD) and progress through
+    the Advanced and Professional tiers within their chosen track (Scrum
+    Master or Product Owner). Guide-level certifications (CTC, CEC, CST)
+    are application-based and require extensive experience.

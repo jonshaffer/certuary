@@ -1,0 +1,38 @@
+name: Certified Scrum Trainer
+short_name: CST
+slug: scrum-alliance-cst
+status: active
+
+description: >-
+  The Certified Scrum Trainer (CST) is a guide-level certification
+  recognizing individuals authorized to teach Scrum Alliance certification
+  courses. CSTs have demonstrated deep expertise in Scrum and the ability
+  to effectively teach and mentor others. This certification is
+  application-based and requires demonstrated teaching experience.
+
+tags:
+  - scrum
+  - agile
+  - expert
+  - training
+
+prerequisites:
+  - Hold an active CSP-level or higher certification
+  - Demonstrated teaching and training experience in Scrum and agile practices
+  - Application, references, and review process
+
+prerequisite_certs:
+  - scrum-alliance-csp-sm
+  - scrum-alliance-csp-po
+
+related_certs:
+  - scrum-alliance-cec
+  - scrum-alliance-ctc
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/trainer-track/certified-scrum-trainer
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/trainer-track/certified-scrum-trainer
+last_verified: "2026-04-03"
