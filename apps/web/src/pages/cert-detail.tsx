@@ -1,9 +1,11 @@
+import { useMemo } from "react";
 import { useParams, Link } from "react-router";
 import { getCertBySlug, getProviderBySlug } from "@certuary/data";
 import type { CertLink } from "@certuary/data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { findSimilarCerts } from "../lib/domain-analysis";
 
 function linkTypeLabel(type: CertLink["type"]): string {
   switch (type) {
@@ -37,6 +39,10 @@ export function CertDetailPage() {
 
   const provider = getProviderBySlug(cert.providerSlug);
   const currentVersion = cert.versions[0];
+  const similarCerts = useMemo(
+    () => (cert ? findSimilarCerts(cert, 8) : []),
+    [cert]
+  );
 
   return (
     <div>
@@ -194,6 +200,51 @@ export function CertDetailPage() {
                   {v.notes && (
                     <p className="mt-1 text-sm text-muted-foreground">{v.notes}</p>
                   )}
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {similarCerts.length > 0 && (
+        <Card className="mt-6">
+          <CardHeader>
+            <CardTitle className="text-lg">Similar Certifications</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-sm text-muted-foreground mb-4">
+              Based on domain topic overlap analysis.
+            </p>
+            <div className="space-y-3">
+              {similarCerts.map(({ cert: similar, score }) => (
+                <div
+                  key={similar.slug}
+                  className="flex items-center justify-between gap-4"
+                >
+                  <div className="min-w-0">
+                    <Link
+                      to={`/cert/${similar.slug}`}
+                      className="text-sm font-medium text-primary hover:underline"
+                    >
+                      {similar.name}
+                    </Link>
+                    <p className="text-xs text-muted-foreground truncate">
+                      {getProviderBySlug(similar.providerSlug)?.name ??
+                        similar.providerSlug}
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 shrink-0">
+                    <div className="w-24 h-2 rounded-full bg-muted overflow-hidden">
+                      <div
+                        className="h-full rounded-full bg-primary"
+                        style={{ width: `${Math.round(score * 100)}%` }}
+                      />
+                    </div>
+                    <span className="text-xs text-muted-foreground w-8 text-right">
+                      {Math.round(score * 100)}%
+                    </span>
+                  </div>
                 </div>
               ))}
             </div>

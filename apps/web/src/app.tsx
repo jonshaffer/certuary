@@ -7,6 +7,8 @@ import { ProgramDetailPage } from "./pages/program-detail";
 import { PathBuilderPage } from "./pages/path-builder";
 import { DomainsPage } from "./pages/domains";
 import { GraphPage } from "./pages/graph";
+import { HeatmapPage } from "./pages/heatmap";
+import { NetworkPage } from "./pages/network";
 
 export function App() {
   return (
@@ -19,6 +21,8 @@ export function App() {
         <Route path="/path-builder" element={<PathBuilderPage />} />
         <Route path="/domains" element={<DomainsPage />} />
         <Route path="/graph" element={<GraphPage />} />
+        <Route path="/heatmap" element={<HeatmapPage />} />
+        <Route path="/network" element={<NetworkPage />} />
       </Route>
     </Routes>
   );
