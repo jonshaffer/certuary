@@ -1,0 +1,57 @@
+name: SABSA Chartered Security Architect - Practitioner Certificate
+short_name: SCP
+slug: scp
+status: active
+cost: "Included in training (approx. $3,760 USD per Advanced module)"
+
+description: >-
+  The SABSA Chartered Practitioner (SCP) certification demonstrates applied
+  competence in enterprise security architecture. Candidates earn SCP by
+  completing any one of five Advanced modules (A1-A5) and passing an
+  assignment-based examination. The exam presents five questions from which
+  candidates choose two to answer, using real-world or case-study examples to
+  assess issues, evaluate solution approaches, and apply the SABSA method to
+  create appropriate work-products. Answers must be submitted within four weeks
+  of the examination date.
+
+exam_format: essay
+
+tags:
+  - security-architecture
+  - enterprise
+  - advanced
+  - practitioner
+  - sabsa
+
+prerequisites:
+  - SABSA Chartered Foundation (SCF) certification
+  - Attendance at an official SABSA Advanced training course through a SABSA Accredited Education Provider (AEP)
+
+prerequisite_certs:
+  - scf
+
+related_certs:
+  - scf
+  - scm
+  - cissp
+  - cism
+
+versions: []
+
+links:
+  - label: Official Certification Page
+    url: https://sabsa.org/certification/
+    type: official
+  - label: Certification Programme
+    url: https://sabsa.org/certification/certification-programme/
+    type: source-of-truth
+
+source_of_truth_url: https://sabsa.org/certification/
+last_verified: "2026-04-04"
+
+domains:
+  - name: "Advanced Risk, Assurance & Governance (A1)"
+  - name: "Advanced Architecture Program Management (A2)"
+  - name: "Advanced Architectural Design & Development (A3)"
+  - name: "Advanced Incident, Monitoring & Investigations Architecture (A4)"
+  - name: "Advanced Business Continuity & Crisis Management (A5)"
