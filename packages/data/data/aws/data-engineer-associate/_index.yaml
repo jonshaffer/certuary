@@ -51,5 +51,15 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Data Ingestion and Transformation
+    weight: 34
+  - name: Data Store Management
+    weight: 26
+  - name: Data Operations and Support
+    weight: 22
+  - name: Data Security and Governance
+    weight: 18
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-data-engineer-associate/
 last_verified: "2026-04-01"

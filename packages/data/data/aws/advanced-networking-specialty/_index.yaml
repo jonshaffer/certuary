@@ -52,5 +52,15 @@ links:
     url: https://www.reddit.com/r/AWSCertifications/
     type: community
 
+domains:
+  - name: Network Design
+    weight: 30
+  - name: Network Implementation
+    weight: 26
+  - name: Network Management and Operation
+    weight: 20
+  - name: Network Security, Compliance, and Governance
+    weight: 24
+
 source_of_truth_url: https://aws.amazon.com/certification/certified-advanced-networking-specialty/
 last_verified: "2026-04-01"
