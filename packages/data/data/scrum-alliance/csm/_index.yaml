@@ -1,0 +1,38 @@
+name: Certified ScrumMaster
+short_name: CSM
+slug: scrum-alliance-csm
+status: active
+cost: "$495 USD"
+
+description: >-
+  The Certified ScrumMaster (CSM) certification validates foundational
+  knowledge of Scrum principles and practices. CSMs understand the Scrum
+  framework and can support a Scrum team in adopting and using Scrum
+  effectively. This is a course-based certification requiring attendance
+  of a CSM course taught by a Certified Scrum Trainer.
+
+tags:
+  - scrum
+  - agile
+  - entry-level
+  - scrum-master
+  - course-based
+
+prerequisites:
+  - Attend a CSM course taught by a Certified Scrum Trainer (CST)
+
+related_certs:
+  - scrum-alliance-a-csm
+  - scrum-alliance-cspo
+  - scrum-alliance-csd
+  - scrum-org-psm-i
+  - safe-scrum-master
+  - pmi-acp
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster
+last_verified: "2026-04-03"

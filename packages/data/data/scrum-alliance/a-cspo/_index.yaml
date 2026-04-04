@@ -1,0 +1,40 @@
+name: Advanced Certified Scrum Product Owner
+short_name: A-CSPO
+slug: scrum-alliance-a-cspo
+status: active
+cost: "$495 USD"
+
+description: >-
+  The Advanced Certified Scrum Product Owner (A-CSPO) certification builds
+  on the foundational CSPO and validates deeper expertise in product
+  ownership, stakeholder management, and value maximization within the
+  Scrum framework.
+
+tags:
+  - scrum
+  - agile
+  - advanced
+  - product-owner
+  - course-based
+
+prerequisites:
+  - Hold an active CSPO certification
+  - 12 months of work experience specific to the role of Product Owner
+  - Attend an A-CSPO course taught by a Certified Scrum Trainer (CST)
+
+prerequisite_certs:
+  - scrum-alliance-cspo
+
+related_certs:
+  - scrum-alliance-csp-po
+  - scrum-alliance-cspo
+  - scrum-org-pspo-ii
+  - safe-popm
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/product-owner-track/advanced-certified-scrum-product-owner
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/product-owner-track/advanced-certified-scrum-product-owner
+last_verified: "2026-04-03"

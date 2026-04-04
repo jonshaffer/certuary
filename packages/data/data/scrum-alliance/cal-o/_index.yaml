@@ -1,0 +1,34 @@
+name: Certified Agile Leadership for Organizations
+short_name: CAL-O
+slug: scrum-alliance-cal-o
+status: active
+
+description: >-
+  Certified Agile Leadership for Organizations (CAL-O) focuses on
+  developing leadership skills for driving agile adoption and
+  transformation at the organizational level. This certification addresses
+  organizational design, culture change, and strategic agility.
+
+tags:
+  - scrum
+  - agile
+  - leadership
+  - intermediate
+  - course-based
+
+prerequisites:
+  - Attend a CAL-O course
+
+related_certs:
+  - scrum-alliance-cal-e
+  - scrum-alliance-cal-t
+  - scrum-org-pal-i
+  - scrum-org-pal-ebm
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-for-organizations
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-for-organizations
+last_verified: "2026-04-03"

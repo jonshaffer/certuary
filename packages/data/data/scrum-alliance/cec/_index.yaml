@@ -1,0 +1,39 @@
+name: Certified Enterprise Coach
+short_name: CEC
+slug: scrum-alliance-cec
+status: active
+
+description: >-
+  The Certified Enterprise Coach (CEC) is a guide-level certification
+  recognizing experienced agile practitioners who have demonstrated the
+  ability to coach and transform organizations at the enterprise level.
+  CECs work across multiple teams and organizational layers to drive
+  large-scale agile adoption. This certification is application-based
+  and requires extensive enterprise coaching experience.
+
+tags:
+  - scrum
+  - agile
+  - expert
+  - coaching
+  - enterprise
+
+prerequisites:
+  - Hold an active CTC certification or equivalent
+  - Extensive enterprise-level agile coaching experience
+  - Application, references, and review process
+
+prerequisite_certs:
+  - scrum-alliance-ctc
+
+related_certs:
+  - scrum-alliance-ctc
+  - scrum-alliance-cst
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/coaching-track/certified-enterprise-coach
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/coaching-track/certified-enterprise-coach
+last_verified: "2026-04-03"

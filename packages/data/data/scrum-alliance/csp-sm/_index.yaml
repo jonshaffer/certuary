@@ -1,0 +1,40 @@
+name: Certified Scrum Professional - ScrumMaster
+short_name: CSP-SM
+slug: scrum-alliance-csp-sm
+status: active
+
+description: >-
+  The Certified Scrum Professional - ScrumMaster (CSP-SM) certification
+  represents a professional level of mastery of Scrum and the Scrum Master
+  role. CSP-SMs have demonstrated sustained practical experience and deep
+  understanding of Scrum principles, enabling them to guide teams and
+  organizations through complex agile transformations.
+
+tags:
+  - scrum
+  - agile
+  - professional
+  - scrum-master
+  - course-based
+
+prerequisites:
+  - Hold an active A-CSM certification
+  - 24 months of work experience specific to the role of Scrum Master within the last 5 years
+  - Attend a CSP-SM course taught by a Certified Scrum Trainer (CST)
+
+prerequisite_certs:
+  - scrum-alliance-a-csm
+
+related_certs:
+  - scrum-alliance-ctc
+  - scrum-alliance-a-csm
+  - scrum-org-psm-iii
+  - safe-advanced-scrum-master
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrum-professional-scrummaster
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrum-professional-scrummaster
+last_verified: "2026-04-03"

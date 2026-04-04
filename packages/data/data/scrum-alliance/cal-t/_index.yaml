@@ -1,0 +1,33 @@
+name: Certified Agile Leadership for Teams
+short_name: CAL-T
+slug: scrum-alliance-cal-t
+status: active
+
+description: >-
+  Certified Agile Leadership for Teams (CAL-T) focuses on developing
+  leadership skills specific to leading and empowering agile teams. This
+  certification builds on agile leadership fundamentals to address team
+  dynamics, collaboration, and high-performance team development.
+
+tags:
+  - scrum
+  - agile
+  - leadership
+  - intermediate
+  - course-based
+
+prerequisites:
+  - Attend a CAL-T course
+
+related_certs:
+  - scrum-alliance-cal-e
+  - scrum-alliance-cal-o
+  - scrum-org-pal-i
+
+links:
+  - label: Official Certification Page
+    url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-for-teams
+    type: official
+
+source_of_truth_url: https://www.scrumalliance.org/get-certified/agile-leadership-track/certified-agile-leadership-for-teams
+last_verified: "2026-04-03"
