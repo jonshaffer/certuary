@@ -6,7 +6,7 @@
   "scripts": {
     "generate": "pnpm --filter @certuary/data generate",
     "dev": "pnpm generate && pnpm --filter @certuary/web dev",
-    "build": "pnpm generate && pnpm --filter @certuary/web build",
+    "build": "pnpm generate && pnpm --filter @certuary/web build && pnpm --filter @certuary/data generate:api -- --out-dir ../../apps/web/dist/api",
     "typecheck": "pnpm generate && pnpm -r typecheck",
     "preview": "pnpm --filter @certuary/web preview"
   }

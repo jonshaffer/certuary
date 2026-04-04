@@ -7,6 +7,7 @@
   },
   "scripts": {
     "generate": "tsx scripts/generate.ts",
+    "generate:api": "pnpm generate && tsx scripts/generate-api.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
