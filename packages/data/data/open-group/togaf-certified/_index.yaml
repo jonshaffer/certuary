@@ -10,7 +10,7 @@ description: >-
   complex scenario-based questions with gradient scoring, testing deeper
   understanding of the Architecture Development Method and its application.
 
-exam_format: essay
+exam_format: multiple-choice
 passing_score: 60
 duration_minutes: 90
 question_count:

@@ -12,6 +12,7 @@ description: >-
   architecture.
 
 exam_format: multiple-choice
+passing_score: 60
 duration_minutes: 60
 question_count:
   min: 40
