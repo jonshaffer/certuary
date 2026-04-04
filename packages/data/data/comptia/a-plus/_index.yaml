@@ -50,24 +50,24 @@ links:
     type: course
 
 domains:
-  - name: "Core 1: Mobile Devices, Laptops, and Hardware"
-    weight: 25
+  - name: "Core 1: Mobile Devices"
+    weight: 15
   - name: "Core 1: Networking"
     weight: 20
-  - name: "Core 1: Hardware and Network Troubleshooting"
-    weight: 27
-  - name: "Core 1: Virtualization and Cloud Computing"
-    weight: 12
   - name: "Core 1: Hardware"
-    weight: 16
-  - name: "Core 2: Operating Systems"
+    weight: 25
+  - name: "Core 1: Virtualization and Cloud Computing"
+    weight: 11
+  - name: "Core 1: Hardware and Network Troubleshooting"
     weight: 29
+  - name: "Core 2: Operating Systems"
+    weight: 31
   - name: "Core 2: Security"
     weight: 25
   - name: "Core 2: Software Troubleshooting"
     weight: 22
   - name: "Core 2: Operational Procedures"
-    weight: 24
+    weight: 22
 
 source_of_truth_url: https://www.comptia.org/certifications/a
 last_verified: "2026-03-01"

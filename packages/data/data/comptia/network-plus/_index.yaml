@@ -57,13 +57,13 @@ domains:
   - name: Networking Concepts
     weight: 23
   - name: Network Implementation
-    weight: 19
+    weight: 20
   - name: Network Operations
-    weight: 16
-  - name: Network Security
     weight: 19
+  - name: Network Security
+    weight: 14
   - name: Network Troubleshooting
-    weight: 23
+    weight: 24
 
 source_of_truth_url: https://www.comptia.org/certifications/network
 last_verified: "2026-04-01"
