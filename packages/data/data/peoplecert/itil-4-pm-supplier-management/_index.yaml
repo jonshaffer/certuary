@@ -40,5 +40,11 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Key Concepts, Challenges and Value"
+  - name: "Processes, Key Activities and Value Stream Integration"
+  - name: "Roles and Organizational Positioning"
+  - name: "Practice Success Factors, Metrics and Capability Development"
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-practice-manager-supplier-management
 last_verified: "2026-04-03"

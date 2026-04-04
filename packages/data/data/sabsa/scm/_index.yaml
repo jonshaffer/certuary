@@ -44,5 +44,13 @@ links:
     url: https://sabsa.org/certification/certification-programme/
     type: source-of-truth
 
+domains:
+  - name: "Advanced Risk, Assurance & Governance (A1)"
+  - name: "Advanced Architecture Program Management (A2)"
+  - name: "Advanced Architectural Design & Development (A3)"
+  - name: "Advanced Incident, Monitoring & Investigations Architecture (A4)"
+  - name: "Advanced Business Continuity & Crisis Management (A5)"
+  - name: "Master Thesis"
+
 source_of_truth_url: https://sabsa.org/certification/
 last_verified: "2026-04-04"
