@@ -16,8 +16,6 @@ tags:
   - crest
 prerequisites:
   - CREST Certified Tester Infrastructure (CCT INF) or CREST Certified Tester Application (CCT APP) certification
-prerequisite_certs:
-  - cct-inf
 related_certs:
   - cct-inf
   - cct-app
