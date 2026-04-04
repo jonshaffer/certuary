@@ -30,7 +30,8 @@ related_certs:
   - gxpn
   - htb-cape
 
-exam_format: performance-based
+exam_format:
+  - performance-based
 
 versions:
   - version: v1

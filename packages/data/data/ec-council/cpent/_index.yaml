@@ -30,9 +30,10 @@ related_certs:
   - htb-cpts
   - htb-cape
 
-exam_format: performance-based
-duration_minutes: 1440
+exam_format:
+  - performance-based
 passing_score: 70
+duration_minutes: 1440
 
 versions:
   - version: v1
