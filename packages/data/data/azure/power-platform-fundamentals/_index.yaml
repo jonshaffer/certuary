@@ -43,5 +43,19 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-900
     type: source-of-truth
 
+domains:
+  - name: Describe the business value and core components of Microsoft Power Platform
+    weight: 23
+  - name: Describe the capabilities of Microsoft Dataverse
+    weight: 18
+  - name: Describe the capabilities of Microsoft Power Apps
+    weight: 23
+  - name: Describe the capabilities of Microsoft Power Automate
+    weight: 18
+  - name: Describe the capabilities of Microsoft Power BI
+    weight: 8
+  - name: Describe the capabilities of Microsoft Copilot Studio and Power Pages
+    weight: 8
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/
 last_verified: "2026-04-03"

@@ -48,5 +48,19 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102
     type: source-of-truth
 
+domains:
+  - name: Plan and manage an Azure AI solution
+    weight: 18
+  - name: Implement decision-support solutions
+    weight: 13
+  - name: Implement Azure AI vision solutions
+    weight: 18
+  - name: Implement natural language processing solutions
+    weight: 33
+  - name: Implement knowledge mining and document intelligence solutions
+    weight: 13
+  - name: Implement generative AI solutions
+    weight: 13
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/
 last_verified: "2026-04-03"

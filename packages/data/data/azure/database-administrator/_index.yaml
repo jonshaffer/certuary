@@ -46,5 +46,17 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300
     type: source-of-truth
 
+domains:
+  - name: Plan and implement data platform resources
+    weight: 23
+  - name: Implement a secure environment
+    weight: 18
+  - name: Monitor, configure, and optimize database resources
+    weight: 23
+  - name: Configure and manage automation of tasks
+    weight: 18
+  - name: Plan and configure a high availability and disaster recovery (HADR) environment
+    weight: 23
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/
 last_verified: "2026-04-03"

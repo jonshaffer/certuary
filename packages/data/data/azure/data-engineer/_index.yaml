@@ -47,5 +47,13 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-203
     type: source-of-truth
 
+domains:
+  - name: Design and implement data storage
+    weight: 18
+  - name: Develop data processing
+    weight: 43
+  - name: Secure, monitor, and optimize data storage and data processing
+    weight: 33
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/
 last_verified: "2026-04-03"

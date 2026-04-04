@@ -45,5 +45,17 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-700
     type: source-of-truth
 
+domains:
+  - name: Design and implement core networking infrastructure
+    weight: 28
+  - name: Design, implement, and manage connectivity services
+    weight: 23
+  - name: Design and implement application delivery services
+    weight: 18
+  - name: Design and implement private access to Azure services
+    weight: 13
+  - name: Design and implement Azure network security services
+    weight: 18
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/azure-network-engineer-associate/
 last_verified: "2026-04-03"

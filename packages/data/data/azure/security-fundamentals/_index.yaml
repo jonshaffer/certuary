@@ -45,5 +45,15 @@ links:
     url: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900
     type: source-of-truth
 
+domains:
+  - name: Describe the concepts of security, compliance, and identity
+    weight: 13
+  - name: Describe the capabilities of Microsoft Entra
+    weight: 28
+  - name: Describe the capabilities of Microsoft security solutions
+    weight: 38
+  - name: Describe the capabilities of Microsoft compliance solutions
+    weight: 23
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/
 last_verified: "2026-04-03"
