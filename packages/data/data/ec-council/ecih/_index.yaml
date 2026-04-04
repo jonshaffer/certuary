@@ -48,5 +48,25 @@ links:
     url: https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/
     type: official
 
+domains:
+  - name: Incident Handling and Response Process
+    weight: 11
+  - name: First Response
+    weight: 8
+  - name: Handling and Responding to Malware Incidents
+    weight: 12
+  - name: Handling and Responding to Email Security Incidents
+    weight: 12
+  - name: Handling and Responding to Network Security Incidents
+    weight: 14
+  - name: Handling and Responding to Web Application Security Incidents
+    weight: 12
+  - name: Handling and Responding to Cloud Security Incidents
+    weight: 10
+  - name: Handling and Responding to Insider Threats
+    weight: 10
+  - name: Handling and Responding to Endpoint Security Incidents
+    weight: 11
+
 source_of_truth_url: https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/
 last_verified: "2026-04-04"
