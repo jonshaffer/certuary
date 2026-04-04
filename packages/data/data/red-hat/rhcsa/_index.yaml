@@ -45,5 +45,17 @@ links:
     url: https://www.reddit.com/r/redhat/
     type: community
 
+domains:
+  - name: "Understand and use essential tools"
+  - name: "Create simple shell scripts"
+  - name: "Operate running systems"
+  - name: "Configure local storage"
+  - name: "Create and configure file systems"
+  - name: "Deploy, configure, and maintain systems"
+  - name: "Manage basic networking"
+  - name: "Manage users and groups"
+  - name: "Manage security"
+  - name: "Manage containers"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam
 last_verified: "2026-04-04"

@@ -41,5 +41,16 @@ links:
     url: https://www.redhat.com/en/services/training/ex378-red-hat-certified-specialist-event-driven-application-development-exam
     type: source-of-truth
 
+domains:
+  - name: "Create, configure, and manage Kafka topics"
+  - name: "Develop Kafka producers and consumers"
+  - name: "Work with Kafka Streams APIs"
+  - name: "Configure Kafka SerDes for records"
+  - name: "Perform stateful operations including joins, aggregations, and windowed operations"
+  - name: "Configure Kafka client authentication and authorization"
+  - name: "Use Red Hat Service Registry for schema management"
+  - name: "Troubleshoot common event-driven application problems"
+  - name: "Implement Streams test cases"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex378-red-hat-certified-specialist-event-driven-application-development-exam
 last_verified: "2026-04-04"

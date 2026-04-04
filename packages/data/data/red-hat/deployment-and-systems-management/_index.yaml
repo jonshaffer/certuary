@@ -44,5 +44,19 @@ links:
     url: https://www.redhat.com/en/services/training/ex403-red-hat-certified-specialist-deployment-and-systems-management-exam
     type: source-of-truth
 
+domains:
+  - name: "Install Red Hat Satellite Server"
+  - name: "Install Red Hat Satellite Capsule Server"
+  - name: "Create and configure organizations and locations"
+  - name: "Create and configure Red Hat Satellite users and roles"
+  - name: "Create and configure development life cycle environments"
+  - name: "Configure Red Hat Satellite subscriptions, content, and content views"
+  - name: "Create a Red Hat Satellite activation key"
+  - name: "Create a Red Hat Satellite host group"
+  - name: "Register clients to a Red Hat Satellite server"
+  - name: "Apply errata to clients"
+  - name: "Configure bare-metal deployment on Red Hat Satellite"
+  - name: "Build a custom RPM from a source tarball"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex403-red-hat-certified-specialist-deployment-and-systems-management-exam
 last_verified: "2026-04-04"

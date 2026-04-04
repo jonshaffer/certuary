@@ -48,5 +48,19 @@ links:
     url: https://www.reddit.com/r/ccie/
     type: community
 
+domains:
+  - name: Radio Frequency and Standards
+    weight: 15
+  - name: Enterprise Wired Campus
+    weight: 10
+  - name: Enterprise Wireless Network
+    weight: 25
+  - name: Wireless Security and Identity Management
+    weight: 20
+  - name: Wireless Business Applications and Services
+    weight: 20
+  - name: Automation, Analytics, and Assurance
+    weight: 10
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccie-enterprise-wireless/index.html
 last_verified: "2026-04-01"

@@ -34,5 +34,17 @@ links:
     url: https://training.cloudsecurityalliance.org/trusted-ai-safety-expert-exam-bundle
     type: course
 
+domains:
+  - name: "AI Fundamentals"
+  - name: "Generative AI Architecture and Deployment"
+  - name: "AI Use Cases"
+  - name: "Ethics, Transparency, and Explainability"
+  - name: "AI Model Lifecycle and Security"
+  - name: "Governance, Risk Management, and Compliance"
+  - name: "AI Safety vs. AI Security"
+  - name: "Cloud Security and AI"
+  - name: "Data Privacy"
+  - name: "Continuous Learning and Monitoring"
+
 source_of_truth_url: https://cloudsecurityalliance.org/education/taise
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

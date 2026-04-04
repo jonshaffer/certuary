@@ -46,5 +46,10 @@ links:
     url: https://scaledagile.com/training/lean-portfolio-management/
     type: official
 
+domains:
+  - name: "Strategy and Investment Funding"
+  - name: "Agile Portfolio Operations"
+  - name: "Lean Governance"
+
 source_of_truth_url: https://scaledagile.com/training/lean-portfolio-management/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

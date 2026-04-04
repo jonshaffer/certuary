@@ -50,5 +50,15 @@ links:
     url: https://docs.github.com/en/actions
     type: source-of-truth
 
+domains:
+  - name: "Author and Maintain Workflows"
+    weight: 40
+  - name: "Consume Workflows"
+    weight: 20
+  - name: "Author and Maintain Actions"
+    weight: 25
+  - name: "Manage GitHub Actions for the Enterprise"
+    weight: 15
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-actions/
 last_verified: "2026-04-03"

@@ -45,5 +45,23 @@ links:
     url: https://scaledagile.com/training/safe-release-train-engineer/
     type: official
 
+domains:
+  - name: "Exploring the RTE Role"
+    weight: 16
+  - name: "Applying SAFe Principles"
+    weight: 7
+  - name: "Organizing the ART"
+    weight: 7
+  - name: "Planning a PI"
+    weight: 20
+  - name: "Executing a PI"
+    weight: 27
+  - name: "Fostering Relentless Improvement"
+    weight: 8
+  - name: "Serving the ART"
+    weight: 10
+  - name: "Continuing the Learning Journey"
+    weight: 5
+
 source_of_truth_url: https://scaledagile.com/training/safe-release-train-engineer/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

@@ -52,5 +52,16 @@ links:
     url: https://www.reddit.com/r/redhat/
     type: community
 
+domains:
+  - name: "Be able to perform all tasks expected of a Red Hat Certified System Administrator"
+  - name: "Understand core components of Ansible"
+  - name: "Install and configure an Ansible control node"
+  - name: "Configure Ansible managed nodes"
+  - name: "Run playbooks with Automation content navigator"
+  - name: "Create Ansible plays and playbooks"
+  - name: "Automate standard RHCSA tasks using Ansible modules that work with standard RHCSA tasks"
+  - name: "Manage content"
+  - name: "Use roles and Ansible Content Collections"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9
 last_verified: "2026-04-04"

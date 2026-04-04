@@ -33,5 +33,23 @@ links:
     url: https://www.scrum.org/assessments/professional-scrum-developer-certification
     type: official
 
+domains:
+  - name: "Understanding and Applying the Scrum Framework"
+    subdomains:
+      - name: Empiricism
+      - name: Scrum Values
+      - name: Scrum Team
+      - name: Events
+      - name: Artifacts
+      - name: Done
+  - name: "Developing and Delivering Products Professionally"
+    subdomains:
+      - name: Emergent Software Development
+      - name: Managing Technical Risk
+      - name: Continuous Quality
+      - name: Continuous Integration
+      - name: Continuous Delivery
+      - name: Optimizing Flow
+
 source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-developer-certification
 last_verified: "2026-04-03"

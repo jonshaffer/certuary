@@ -46,5 +46,13 @@ links:
     url: https://www.redhat.com/en/services/training/ex280-red-hat-certified-specialist-in-openshift-administration-exam
     type: source-of-truth
 
+domains:
+  - name: "Manage OpenShift Container Platform"
+  - name: "Manage users and policies"
+  - name: "Control access to resources"
+  - name: "Configure networking components"
+  - name: "Configure pod scheduling"
+  - name: "Configure cluster scaling"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex280-red-hat-certified-specialist-in-openshift-administration-exam
 last_verified: "2026-04-04"

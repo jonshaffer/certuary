@@ -50,5 +50,15 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: "System Management"
+    weight: 32
+  - name: "Security"
+    weight: 21
+  - name: "Scripting, Containers, and Automation"
+    weight: 19
+  - name: "Troubleshooting"
+    weight: 28
+
 source_of_truth_url: https://www.comptia.org/certifications/linux
 last_verified: "2026-04-01"

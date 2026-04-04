@@ -37,5 +37,9 @@ links:
     url: https://www.redhat.com/en/services/certification/rhca
     type: official
 
+domains:
+  - name: "Hold active RHCE certification"
+  - name: "Pass any five Red Hat Certified Specialist exams"
+
 source_of_truth_url: https://www.redhat.com/en/services/certification/rhca
 last_verified: "2026-04-04"

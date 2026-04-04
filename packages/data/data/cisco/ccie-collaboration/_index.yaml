@@ -48,5 +48,21 @@ links:
     url: https://www.reddit.com/r/ccie/
     type: community
 
+domains:
+  - name: Protocols and APIs
+    weight: 10
+  - name: Infrastructure and Quality of Services
+    weight: 10
+  - name: Call Control and Dial Plan
+    weight: 20
+  - name: Endpoints and User Management
+    weight: 10
+  - name: Edge Services
+    weight: 20
+  - name: Media Resources and Meetings
+    weight: 15
+  - name: Collaboration Applications and Services
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/collaboration/ccie-collaboration/index.html
 last_verified: "2026-04-01"

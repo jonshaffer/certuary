@@ -50,5 +50,15 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: "Server Hardware Installation and Management"
+    weight: 18
+  - name: "Server Administration"
+    weight: 30
+  - name: "Security and Disaster Recovery"
+    weight: 24
+  - name: "Troubleshooting"
+    weight: 28
+
 source_of_truth_url: https://www.comptia.org/certifications/server
 last_verified: "2026-04-01"

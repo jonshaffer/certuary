@@ -34,5 +34,12 @@ links:
     url: https://training.cloudsecurityalliance.org/certificate-of-competence-in-zero-trust-cczt
     type: course
 
+domains:
+  - name: "Introduction to Zero Trust Architecture"
+  - name: "Introduction to Software-Defined Perimeter"
+  - name: "Zero Trust Strategy"
+  - name: "Zero Trust Planning"
+  - name: "Zero Trust Implementation"
+
 source_of_truth_url: https://cloudsecurityalliance.org/education/cczt
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

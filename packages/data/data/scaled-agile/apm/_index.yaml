@@ -46,5 +46,23 @@ links:
     url: https://scaledagile.com/training/agile-product-management/
     type: official
 
+domains:
+  - name: "Product Manager Role in the Lean Enterprise"
+    weight: 12
+  - name: "Continuously Exploring Markets and Users"
+    weight: 13
+  - name: "Driving Strategy with Market Segmentation"
+    weight: 12
+  - name: "Empathy-Driven Design"
+    weight: 9
+  - name: "Defining Product Strategy and Vision"
+    weight: 13
+  - name: "Creating Roadmaps to Build Solutions"
+    weight: 12
+  - name: "Delivering Value"
+    weight: 16
+  - name: "Creating Innovation in the Value Stream"
+    weight: 13
+
 source_of_truth_url: https://scaledagile.com/training/agile-product-management/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

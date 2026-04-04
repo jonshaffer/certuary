@@ -36,5 +36,17 @@ links:
     url: https://www.scrum.org/assessments/professional-agile-leadership-evidence-based-management-certification
     type: official
 
+domains:
+  - name: "Evidence-Based Management"
+    subdomains:
+      - name: Current Value
+      - name: Unrealized Value
+      - name: Ability to Innovate
+      - name: Time to Market
+  - name: "Stakeholders and Customers"
+  - name: "Portfolio Planning"
+  - name: "Forming and Evaluating Hypotheses"
+  - name: "Setting, Inspecting, and Adapting Goals"
+
 source_of_truth_url: https://www.scrum.org/assessments/professional-agile-leadership-evidence-based-management-certification
 last_verified: "2026-04-03"

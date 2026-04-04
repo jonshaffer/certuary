@@ -45,5 +45,17 @@ links:
     url: https://scaledagile.com/training/leading-safe/
     type: official
 
+domains:
+  - name: "Thriving in the Digital Age with Business Agility"
+    weight: 14
+  - name: "Becoming a Lean-Agile Leader"
+    weight: 31
+  - name: "Establishing Team and Technical Agility"
+    weight: 7
+  - name: "Building Solutions with Agile Product Delivery"
+    weight: 34
+  - name: "Exploring Lean Portfolio Management"
+    weight: 14
+
 source_of_truth_url: https://scaledagile.com/training/leading-safe/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

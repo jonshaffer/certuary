@@ -47,5 +47,14 @@ links:
     url: https://scaledagile.com/training/safe-advanced-scrum-master/
     type: official
 
+domains:
+  - name: "Exploring the Scrum Master Role in SAFe"
+  - name: "Applying SAFe Principles"
+  - name: "Exploring Agile and Scrum Anti-Patterns"
+  - name: "Facilitating Program Execution"
+  - name: "Improving Flow with Kanban and XP"
+  - name: "Building High-Performing Teams"
+  - name: "Improving Program Performance"
+
 source_of_truth_url: https://scaledagile.com/training/safe-advanced-scrum-master/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

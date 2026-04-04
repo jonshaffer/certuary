@@ -42,5 +42,19 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: "IT Concepts and Terminology"
+    weight: 13
+  - name: "Infrastructure"
+    weight: 24
+  - name: "Applications and Software"
+    weight: 18
+  - name: "Software Development Concepts"
+    weight: 13
+  - name: "Data and Database Fundamentals"
+    weight: 13
+  - name: "Security"
+    weight: 19
+
 source_of_truth_url: https://www.comptia.org/certifications/tech
 last_verified: "2026-04-01"

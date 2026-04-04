@@ -39,5 +39,14 @@ links:
     url: https://www.redhat.com/en/services/training/ex240-red-hat-certified-specialist-api-management-exam
     type: source-of-truth
 
+domains:
+  - name: "Create and manage APIs using Red Hat 3scale API Management"
+  - name: "Establish and configure API subscription plans"
+  - name: "Configure and test API management integration"
+  - name: "Configure rate limits for APIs"
+  - name: "Create and configure developer portals"
+  - name: "Configure monitoring and analytics for APIs"
+  - name: "Monetize APIs by configuring billing plans and pricing rules"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex240-red-hat-certified-specialist-api-management-exam
 last_verified: "2026-04-04"

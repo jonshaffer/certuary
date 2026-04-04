@@ -51,5 +51,19 @@ links:
     url: https://www.reddit.com/r/ccnp/
     type: community
 
+domains:
+  - name: Architecture
+    weight: 15
+  - name: Virtualization
+    weight: 10
+  - name: Infrastructure
+    weight: 30
+  - name: Network Assurance
+    weight: 10
+  - name: Security
+    weight: 20
+  - name: Automation
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html
 last_verified: "2026-04-01"

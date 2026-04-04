@@ -38,5 +38,19 @@ links:
     url: https://www.reddit.com/r/ITIL/
     type: community
 
+domains:
+  - name: "Key Concepts of Service Management"
+    weight: 13
+  - name: "The ITIL Guiding Principles"
+    weight: 15
+  - name: "The Four Dimensions of Service Management"
+    weight: 5
+  - name: "The ITIL Service Value System"
+    weight: 2
+  - name: "The ITIL Service Value Chain"
+    weight: 23
+  - name: "ITIL Management Practices"
+    weight: 42
+
 source_of_truth_url: https://www.peoplecert.org/itil-4-foundation-2
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

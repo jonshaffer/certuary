@@ -41,5 +41,14 @@ links:
     url: https://www.redhat.com/en/services/training/ex267-red-hat-certified-specialist-openshift-ai-exam
     type: source-of-truth
 
+domains:
+  - name: "Install Red Hat OpenShift AI (RHOAI)"
+  - name: "Configure and manage RHOAI"
+  - name: "Work with data science projects"
+  - name: "Use data science workbenches"
+  - name: "Use Git to manage Jupyter notebooks collaboratively"
+  - name: "Work with machine learning models"
+  - name: "Create data science pipelines"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex267-red-hat-certified-specialist-openshift-ai-exam
 last_verified: "2026-04-04"

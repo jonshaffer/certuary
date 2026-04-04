@@ -47,5 +47,15 @@ links:
     url: https://www.reddit.com/r/pmp/
     type: community
 
+domains:
+  - name: "Agile Mindset"
+    weight: 28
+  - name: "Value-Driven Delivery"
+    weight: 28
+  - name: "Stakeholder Engagement"
+    weight: 25
+  - name: "Team Performance"
+    weight: 19
+
 source_of_truth_url: https://www.pmi.org/certifications/agile-acp
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

@@ -41,5 +41,17 @@ links:
     url: https://www.reddit.com/r/pmp/
     type: community
 
+domains:
+  - name: "Needs Assessment"
+    weight: 18
+  - name: "Planning"
+    weight: 22
+  - name: "Analysis"
+    weight: 35
+  - name: "Traceability and Monitoring"
+    weight: 15
+  - name: "Evaluation"
+    weight: 10
+
 source_of_truth_url: https://www.pmi.org/certifications/business-analysis-pba
-last_verified: "2026-04-01"
+last_verified: "2026-04-04"

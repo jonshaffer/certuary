@@ -44,5 +44,23 @@ links:
     url: https://scaledagile.com/training/safe-for-government/
     type: official
 
+domains:
+  - name: "Advance Lean-Agile in Government"
+    weight: 11
+  - name: "Embrace a Lean-Agile Mindset"
+    weight: 7
+  - name: "Apply SAFe Principles"
+    weight: 18
+  - name: "Create High-Performing Teams and Programs"
+    weight: 9
+  - name: "Plan with Cadence and Synchronization"
+    weight: 11
+  - name: "Support Program Execution"
+    weight: 7
+  - name: "Map the Path to Agency and Program Agility"
+    weight: 31
+  - name: "Lead Successful Change"
+    weight: 6
+
 source_of_truth_url: https://scaledagile.com/training/safe-for-government/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

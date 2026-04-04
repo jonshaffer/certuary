@@ -43,5 +43,13 @@ links:
     url: https://scaledagile.com/training/safe-for-architects/
     type: official
 
+domains:
+  - name: "Exemplifying Agile Architecture"
+  - name: "Architecting for DevOps and Release on Demand"
+  - name: "Aligning Architecture with Business Value"
+  - name: "Developing Solution Vision, Solution Intent, and Roadmaps"
+  - name: "Preparing for and Coordinating PI Planning"
+  - name: "Supporting Continuous Delivery and Leading Change"
+
 source_of_truth_url: https://scaledagile.com/training/safe-for-architects/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

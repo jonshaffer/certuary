@@ -54,5 +54,15 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: "Security Architecture"
+    weight: 29
+  - name: "Security Operations"
+    weight: 30
+  - name: "Security Engineering and Cryptography"
+    weight: 26
+  - name: "Governance, Risk, and Compliance"
+    weight: 15
+
 source_of_truth_url: https://www.comptia.org/certifications/comptia-advanced-security-practitioner
 last_verified: "2026-04-01"

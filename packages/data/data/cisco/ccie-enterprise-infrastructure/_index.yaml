@@ -50,5 +50,17 @@ links:
     url: https://www.reddit.com/r/ccie/
     type: community
 
+domains:
+  - name: Network Infrastructure
+    weight: 30
+  - name: Software-Defined Infrastructure
+    weight: 25
+  - name: Transport Technologies and Solutions
+    weight: 15
+  - name: Infrastructure Security and Services
+    weight: 15
+  - name: Infrastructure Automation and Programmability
+    weight: 15
+
 source_of_truth_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccie-enterprise-infrastructure/index.html
 last_verified: "2026-04-01"

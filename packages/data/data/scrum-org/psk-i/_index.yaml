@@ -33,5 +33,27 @@ links:
     url: https://www.scrum.org/assessments/professional-scrum-with-kanban-certification
     type: official
 
+domains:
+  - name: "Understanding and Applying the Scrum Framework"
+    subdomains:
+      - name: Empiricism
+      - name: Scrum Values
+      - name: Scrum Team
+      - name: Events
+      - name: Artifacts
+      - name: Done
+  - name: "Kanban Practices within Scrum"
+    subdomains:
+      - name: Workflow Visualization
+      - name: Limiting Work in Progress
+      - name: Active Management of Work Items
+      - name: Inspecting and Adapting the Workflow
+  - name: "Flow-Based Metrics"
+    subdomains:
+      - name: Cycle Time
+      - name: Throughput
+      - name: Work Item Age
+      - name: Work in Progress
+
 source_of_truth_url: https://www.scrum.org/assessments/professional-scrum-with-kanban-certification
 last_verified: "2026-04-03"

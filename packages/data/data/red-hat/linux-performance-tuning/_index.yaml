@@ -44,5 +44,18 @@ links:
     url: https://www.redhat.com/en/services/training/ex442-red-hat-certified-specialist-performance-tuning-exam
     type: source-of-truth
 
+domains:
+  - name: "Use utilities such as vmstat, iostat, mpstat, sar, and top to analyze and report system and application behavior"
+  - name: "Configure systems to provide performance metrics using Performance Co-Pilot (PCP)"
+  - name: "Use PAM to implement restrictions on critical system resources"
+  - name: "Use /proc/sys, sysctl, and /sys to examine and set kernel run-time parameters"
+  - name: "Use utilities such as dmesg, dmidecode, and sosreport to profile system hardware configurations"
+  - name: "Analyze system and application behavior using tools such as ps, strace, top, and Valgrind"
+  - name: "Configure disk subsystems for optimal performance"
+  - name: "Configure kernel behavior by altering module parameters"
+  - name: "Calculate and set network buffer sizes"
+  - name: "Use eBPF tools to diagnose system and application behavior"
+  - name: "Select and configure tuned profiles"
+
 source_of_truth_url: https://www.redhat.com/en/services/training/ex442-red-hat-certified-specialist-performance-tuning-exam
 last_verified: "2026-04-04"

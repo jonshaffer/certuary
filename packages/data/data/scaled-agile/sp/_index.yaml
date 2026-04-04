@@ -41,5 +41,21 @@ links:
     url: https://scaledagile.com/training/safe-for-teams/
     type: official
 
+domains:
+  - name: "Introducing SAFe"
+    weight: 9
+  - name: "Forming Agile Teams as Trains"
+    weight: 18
+  - name: "Connect to the Customer"
+    weight: 11
+  - name: "Plan the Work"
+    weight: 23
+  - name: "Deliver Value"
+    weight: 15
+  - name: "Get Feedback"
+    weight: 9
+  - name: "Improve Relentlessly"
+    weight: 15
+
 source_of_truth_url: https://scaledagile.com/training/safe-for-teams/
-last_verified: "2026-04-03"
+last_verified: "2026-04-04"

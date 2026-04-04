@@ -34,5 +34,18 @@ links:
     url: https://www.scrum.org/assessments/scaled-professional-scrum-certification
     type: official
 
+domains:
+  - name: "Understanding and Applying the Scrum Framework"
+  - name: "Scaling Scrum with Nexus"
+    subdomains:
+      - name: Nexus Framework
+      - name: Nexus Integration Team
+      - name: Cross-Team Coordination
+      - name: Dependencies and Integration
+  - name: "Developing and Delivering Products Professionally"
+    subdomains:
+      - name: Continuous Integration
+      - name: Continuous Delivery
+
 source_of_truth_url: https://www.scrum.org/assessments/scaled-professional-scrum-certification
 last_verified: "2026-04-03"

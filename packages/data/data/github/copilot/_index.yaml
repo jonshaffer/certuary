@@ -49,5 +49,21 @@ links:
     url: https://docs.github.com/en/copilot
     type: source-of-truth
 
+domains:
+  - name: "Responsible AI"
+    weight: 7
+  - name: "GitHub Copilot Plans and Features"
+    weight: 31
+  - name: "How GitHub Copilot Works and Handles Data"
+    weight: 15
+  - name: "Prompt Crafting and Prompt Engineering"
+    weight: 9
+  - name: "Developer Use Cases for AI"
+    weight: 14
+  - name: "Testing with GitHub Copilot"
+    weight: 9
+  - name: "Privacy Fundamentals and Context Exclusions"
+    weight: 15
+
 source_of_truth_url: https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/
 last_verified: "2026-04-03"

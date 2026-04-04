@@ -40,5 +40,17 @@ links:
     url: https://www.reddit.com/r/CompTIA/
     type: community
 
+domains:
+  - name: "Data Concepts and Environments"
+    weight: 15
+  - name: "Data Mining"
+    weight: 25
+  - name: "Data Analysis"
+    weight: 23
+  - name: "Visualization"
+    weight: 23
+  - name: "Data Governance, Quality, and Controls"
+    weight: 14
+
 source_of_truth_url: https://www.comptia.org/certifications/data
 last_verified: "2026-04-01"
