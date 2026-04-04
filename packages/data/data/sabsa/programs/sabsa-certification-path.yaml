@@ -22,7 +22,7 @@ phases:
     certificate_slugs:
       - scm
 completion_criteria:
-  required: 0
+  required: 3
   notes: >-
     SABSA recommends progressing from Foundation (SCF) through Practitioner
     (SCP) to Master (SCM). SCF is a prerequisite for SCP, and SCP plus a
