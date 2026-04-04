@@ -59,6 +59,13 @@ function useNetworkParams() {
   return { provider, minOverlap, selectedNode, setParam };
 }
 
+const LINK_DISTANCE_FACTOR = 120;
+const CHARGE_STRENGTH = -200;
+const COLLISION_RADIUS = 25;
+const NODE_BASE_RADIUS = 5;
+const NODE_RADIUS_SCALE = 0.8;
+const GRAPH_HEIGHT = 600;
+
 export function NetworkPage() {
   const { provider, minOverlap, selectedNode, setParam } = useNetworkParams();
   const svgRef = useRef<SVGSVGElement>(null);
@@ -101,7 +108,7 @@ export function NetworkPage() {
     svg.selectAll("*").remove();
 
     const width = svgRef.current.clientWidth;
-    const height = 600;
+    const height = GRAPH_HEIGHT;
 
     svg.attr("viewBox", `0 0 ${width} ${height}`);
 
@@ -130,15 +137,11 @@ export function NetworkPage() {
     };
 
     const simNodes: SimNode[] = filteredNodes.map((n) => ({ ...n }));
-    const simEdges: SimEdge[] = graph.edges
-      .filter(
-        (e) => connectedNodeIds.has(e.source) && connectedNodeIds.has(e.target)
-      )
-      .map((e) => ({
-        source: e.source,
-        target: e.target,
-        weight: e.weight,
-      }));
+    const simEdges: SimEdge[] = graph.edges.map((e) => ({
+      source: e.source,
+      target: e.target,
+      weight: e.weight,
+    }));
 
     const simulation = d3
       .forceSimulation<SimNode>(simNodes)
@@ -147,12 +150,12 @@ export function NetworkPage() {
         d3
           .forceLink<SimNode, SimEdge>(simEdges)
           .id((d) => d.id)
-          .distance((d) => 120 * (1 - d.weight))
+          .distance((d) => LINK_DISTANCE_FACTOR * (1 - d.weight))
           .strength((d) => d.weight)
       )
-      .force("charge", d3.forceManyBody().strength(-200))
+      .force("charge", d3.forceManyBody().strength(CHARGE_STRENGTH))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide(25));
+      .force("collision", d3.forceCollide(COLLISION_RADIUS));
 
     const link = g
       .append("g")
@@ -168,7 +171,7 @@ export function NetworkPage() {
       .selectAll<SVGCircleElement, SimNode>("circle")
       .data(simNodes)
       .join("circle")
-      .attr("r", (d) => 5 + d.domainCount * 0.8)
+      .attr("r", (d) => NODE_BASE_RADIUS + d.domainCount * NODE_RADIUS_SCALE)
       .attr("fill", (d) => getProviderColor(d.providerSlug))
       .attr("stroke", "#fff")
       .attr("stroke-width", 1.5)
@@ -237,7 +240,7 @@ export function NetworkPage() {
       <div className="flex items-baseline justify-between">
         <h1 className="text-3xl font-bold">Certification Network</h1>
         <p className="text-sm text-muted-foreground">
-          {filteredNodes.length} certs, {graph.edges.filter((e) => connectedNodeIds.has(e.source) && connectedNodeIds.has(e.target)).length} connections
+          {filteredNodes.length} certs, {graph.edges.length} connections
         </p>
       </div>
 
@@ -287,7 +290,7 @@ export function NetworkPage() {
           <svg
             ref={svgRef}
             className="w-full text-foreground"
-            style={{ height: 600 }}
+            style={{ height: GRAPH_HEIGHT }}
           />
         )}
       </div>

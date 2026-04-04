@@ -70,6 +70,40 @@ export function CertDetailPage() {
 
       <p className="mb-6 text-muted-foreground">{cert.description}</p>
 
+      {cert.domains.length > 0 && (
+        <Card className="mb-6">
+          <CardHeader>
+            <CardTitle className="text-lg">Exam Domains</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-2">
+              {cert.domains.map((domain) => (
+                <div key={domain.name} className="flex items-center gap-3">
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-baseline justify-between gap-2 mb-1">
+                      <span className="text-sm truncate">{domain.name}</span>
+                      {domain.weight != null && (
+                        <span className="text-xs text-muted-foreground shrink-0">
+                          {domain.weight}%
+                        </span>
+                      )}
+                    </div>
+                    {domain.weight != null && (
+                      <div className="h-2 rounded-full bg-muted overflow-hidden">
+                        <div
+                          className="h-full rounded-full bg-primary transition-all"
+                          style={{ width: `${domain.weight}%` }}
+                        />
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
       <div className="grid gap-6 md:grid-cols-2">
         <Card>
           <CardHeader>

@@ -29,7 +29,15 @@ export function DomainsPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold">Exam Domains</h1>
+      <div className="flex items-baseline justify-between">
+        <h1 className="text-3xl font-bold">Exam Domains</h1>
+        <Link
+          to="/heatmap"
+          className="text-sm text-primary hover:underline"
+        >
+          View as heatmap &rarr;
+        </Link>
+      </div>
       {certs.length === 0 ? (
         <p className="text-muted-foreground">
           No certifications with domain data yet. Check back soon.
