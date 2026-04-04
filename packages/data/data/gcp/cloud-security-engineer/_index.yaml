@@ -34,5 +34,17 @@ links:
     url: https://cloud.google.com/learn/certification/cloud-security-engineer
     type: source-of-truth
 
+domains:
+  - name: Configuring access
+    weight: 25
+  - name: Securing communications and establishing boundary protection
+    weight: 22
+  - name: Ensuring data protection
+    weight: 23
+  - name: Managing operations
+    weight: 19
+  - name: Supporting compliance requirements
+    weight: 11
+
 source_of_truth_url: https://cloud.google.com/learn/certification/cloud-security-engineer
 last_verified: "2026-04-01"

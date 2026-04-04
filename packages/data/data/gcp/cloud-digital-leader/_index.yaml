@@ -31,5 +31,19 @@ links:
     url: https://cloud.google.com/learn/certification/cloud-digital-leader
     type: source-of-truth
 
+domains:
+  - name: Digital Transformation with Google Cloud
+    weight: 17
+  - name: Exploring Data Transformation with Google Cloud
+    weight: 16
+  - name: Innovating with Google Cloud Artificial Intelligence
+    weight: 16
+  - name: Modernize Infrastructure and Applications with Google Cloud
+    weight: 17
+  - name: Trust and Security with Google Cloud
+    weight: 17
+  - name: Scaling with Google Cloud Operations
+    weight: 17
+
 source_of_truth_url: https://cloud.google.com/learn/certification/cloud-digital-leader
 last_verified: "2026-04-01"

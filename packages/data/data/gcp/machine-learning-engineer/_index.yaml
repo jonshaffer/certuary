@@ -33,5 +33,19 @@ links:
     url: https://cloud.google.com/learn/certification/machine-learning-engineer
     type: source-of-truth
 
+domains:
+  - name: Architect low-code AI solutions
+    weight: 13
+  - name: Collaborate within and across teams to manage data and models
+    weight: 14
+  - name: Scale prototypes into ML models
+    weight: 18
+  - name: Serve and scale models
+    weight: 19
+  - name: Automate and orchestrate ML pipelines
+    weight: 22
+  - name: Monitor AI solutions
+    weight: 14
+
 source_of_truth_url: https://cloud.google.com/learn/certification/machine-learning-engineer
 last_verified: "2026-04-01"

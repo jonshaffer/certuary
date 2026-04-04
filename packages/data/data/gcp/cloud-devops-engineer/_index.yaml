@@ -35,5 +35,17 @@ links:
     url: https://cloud.google.com/learn/certification/cloud-devops-engineer
     type: source-of-truth
 
+domains:
+  - name: Bootstrapping a Google Cloud organization
+    weight: 15
+  - name: Building and implementing CI/CD pipelines for a service
+    weight: 27
+  - name: Applying site reliability engineering practices to a service
+    weight: 23
+  - name: Implementing service monitoring strategies
+    weight: 25
+  - name: Optimizing service performance
+    weight: 10
+
 source_of_truth_url: https://cloud.google.com/learn/certification/cloud-devops-engineer
 last_verified: "2026-04-01"
