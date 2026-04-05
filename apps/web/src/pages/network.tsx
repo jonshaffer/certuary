@@ -2,7 +2,7 @@ import { useEffect, useRef, useMemo, useCallback } from "react";
 import { useSearchParams, useNavigate } from "react-router";
 import { getAllCerts, getAllProviders } from "@certuary/data";
 import type { CertStatus } from "@certuary/data";
-import { buildNetworkGraph } from "../lib/domain-analysis";
+import { buildNetworkGraph, findClusters } from "../lib/domain-analysis";
 import { getProviderColor } from "@/lib/provider-colors";
 import { getCertLabel } from "@/lib/cert-label";
 import * as d3 from "d3";
@@ -63,6 +63,11 @@ export function NetworkPage() {
   const graph = useMemo(
     () => buildNetworkGraph(certs, minOverlap),
     [certs, minOverlap]
+  );
+
+  const clusters = useMemo(
+    () => findClusters(graph.nodes, graph.edges, certs),
+    [graph.nodes, graph.edges, certs]
   );
 
   // Only show nodes that have at least one edge
@@ -223,6 +228,30 @@ export function NetworkPage() {
         tooltip.style("opacity", "0");
       });
 
+    // Cluster topic labels — positioned at cluster centroids
+    const nodeById = new Map(simNodes.map((n) => [n.id, n]));
+    const clusterData = clusters
+      .filter((c) => c.nodeIds.some((id) => connectedNodeIds.has(id)))
+      .map((c) => ({
+        ...c,
+        nodes: c.nodeIds
+          .map((id) => nodeById.get(id))
+          .filter((n): n is SimNode => n != null),
+      }));
+
+    const clusterLabel = g
+      .append("g")
+      .selectAll("text")
+      .data(clusterData)
+      .join("text")
+      .text((d) => d.label)
+      .attr("font-size", "13px")
+      .attr("font-weight", "600")
+      .attr("fill", "currentColor")
+      .attr("opacity", 0.35)
+      .attr("text-anchor", "middle")
+      .attr("pointer-events", "none");
+
     simulation.on("tick", () => {
       link
         .attr("x1", (d) => (d.source as SimNode).x!)
@@ -232,13 +261,24 @@ export function NetworkPage() {
 
       node.attr("cx", (d) => d.x!).attr("cy", (d) => d.y!);
       label.attr("x", (d) => d.x!).attr("y", (d) => d.y!);
+
+      // Update cluster labels at centroids
+      clusterLabel
+        .attr("x", (d) => {
+          const xs = d.nodes.map((n) => n.x ?? 0);
+          return xs.reduce((a, b) => a + b, 0) / xs.length;
+        })
+        .attr("y", (d) => {
+          const ys = d.nodes.map((n) => n.y ?? 0);
+          return ys.reduce((a, b) => a + b, 0) / ys.length - 20;
+        });
     });
 
     return () => {
       simulation.stop();
       tooltip.remove();
     };
-  }, [filteredNodes, graph.edges, connectedNodeIds, navigate]);
+  }, [filteredNodes, graph.edges, connectedNodeIds, clusters, navigate]);
 
   // Build provider legend from visible nodes
   const visibleProviders = useMemo(() => {
