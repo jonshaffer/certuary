@@ -1,4 +1,4 @@
-import type { Certification, DomainCategory, ExamDomain } from "@certuary/data";
+import type { Certification, CertStatus, DomainCategory, ExamDomain } from "@certuary/data";
 import { getAllCerts } from "@certuary/data";
 
 export interface HeatmapCell {
@@ -203,6 +203,7 @@ export interface GraphNode {
   shortName?: string;
   providerSlug: string;
   domainCount: number;
+  status: CertStatus;
 }
 
 export interface GraphEdge {
@@ -228,6 +229,7 @@ export function buildNetworkGraph(
     shortName: c.shortName,
     providerSlug: c.providerSlug,
     domainCount: c.domains.length,
+    status: c.status,
   }));
 
   const edges: GraphEdge[] = [];

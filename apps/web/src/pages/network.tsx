@@ -1,38 +1,11 @@
 import { useEffect, useRef, useMemo, useCallback } from "react";
 import { useSearchParams, useNavigate } from "react-router";
 import { getAllCerts, getAllProviders } from "@certuary/data";
+import type { CertStatus } from "@certuary/data";
 import { buildNetworkGraph } from "../lib/domain-analysis";
+import { getProviderColor } from "@/lib/provider-colors";
+import { getCertLabel } from "@/lib/cert-label";
 import * as d3 from "d3";
-
-const PROVIDER_COLORS: Record<string, string> = {
-  aws: "#FF9900",
-  azure: "#0078D4",
-  gcp: "#4285F4",
-  comptia: "#C8202F",
-  cisco: "#1BA0D7",
-  isc2: "#00843D",
-  isaca: "#003F72",
-  "ec-council": "#D4213D",
-  giac: "#5C2D91",
-  "linux-foundation": "#003366",
-  "red-hat": "#EE0000",
-  pmi: "#1E3A5F",
-  peoplecert: "#00A5E3",
-  "scaled-agile": "#FF6900",
-  "scrum-org": "#009FDA",
-  "scrum-alliance": "#F5A623",
-  github: "#333333",
-  htb: "#9FEF00",
-  iapp: "#004C97",
-  crest: "#1B3A4B",
-  csa: "#2196F3",
-  "open-group": "#6D6E71",
-  sabsa: "#8B0000",
-};
-
-function getProviderColor(slug: string): string {
-  return PROVIDER_COLORS[slug] || "#888888";
-}
 
 function parseMinOverlap(value: string | null): number {
   const defaultMinOverlap = 0.15;
@@ -136,6 +109,7 @@ export function NetworkPage() {
       shortName?: string;
       providerSlug: string;
       domainCount: number;
+      status: CertStatus;
     };
 
     type SimEdge = d3.SimulationLinkDatum<SimNode> & {
@@ -181,6 +155,8 @@ export function NetworkPage() {
       .attr("fill", (d) => getProviderColor(d.providerSlug))
       .attr("stroke", "#fff")
       .attr("stroke-width", 1.5)
+      .attr("stroke-dasharray", (d) => d.status === "retiring" ? "3,2" : null)
+      .attr("opacity", (d) => d.status === "retired" ? 0.4 : 1)
       .attr("cursor", "pointer")
       .on("click", (_event, d) => {
         navigate(`/cert/${d.id}`);
@@ -209,15 +185,43 @@ export function NetworkPage() {
       .selectAll("text")
       .data(simNodes)
       .join("text")
-      .text((d) => d.shortName || d.id.split("-").pop()!.toUpperCase())
-      .attr("font-size", "9px")
+      .text((d) => getCertLabel({ shortName: d.shortName, slug: d.id }))
+      .attr("font-size", "11px")
       .attr("dx", 10)
       .attr("dy", 3)
       .attr("fill", "currentColor")
       .attr("pointer-events", "none");
 
-    // Hover tooltip
-    node.append("title").text((d) => d.name);
+    // Styled HTML tooltip
+    const tooltip = d3
+      .select(svgRef.current.parentElement!)
+      .append("div")
+      .attr(
+        "class",
+        "absolute pointer-events-none z-50 rounded-md border bg-popover px-3 py-2 text-sm text-popover-foreground shadow-md opacity-0 transition-opacity"
+      )
+      .style("position", "absolute");
+
+    node
+      .on("mouseover", (event, d) => {
+        const statusLabel =
+          d.status === "retiring"
+            ? " · retiring"
+            : d.status === "retired"
+              ? " · retired"
+              : "";
+        tooltip
+          .html(
+            `<div class="font-medium">${d.name}</div>` +
+              `<div class="text-xs text-muted-foreground">${d.providerSlug}${statusLabel} · ${d.domainCount} domains</div>`
+          )
+          .style("left", `${event.offsetX + 12}px`)
+          .style("top", `${event.offsetY - 10}px`)
+          .style("opacity", "1");
+      })
+      .on("mouseout", () => {
+        tooltip.style("opacity", "0");
+      });
 
     simulation.on("tick", () => {
       link
@@ -232,6 +236,7 @@ export function NetworkPage() {
 
     return () => {
       simulation.stop();
+      tooltip.remove();
     };
   }, [filteredNodes, graph.edges, connectedNodeIds, navigate]);
 
@@ -286,7 +291,7 @@ export function NetworkPage() {
       </div>
 
       {/* Graph */}
-      <div className="rounded border border-border bg-card overflow-hidden">
+      <div className="relative rounded border border-border bg-card overflow-hidden">
         {filteredNodes.length === 0 ? (
           <p className="text-muted-foreground py-16 text-center">
             No connections found at this overlap threshold. Try lowering the
@@ -318,8 +323,9 @@ export function NetworkPage() {
 
       <p className="text-xs text-muted-foreground">
         Nodes are certifications colored by provider. Edges connect certs with
-        overlapping exam domains. Node size reflects domain count. Drag nodes to
-        rearrange. Click a node to view cert details. Scroll to zoom.
+        overlapping exam domains. Node size reflects domain count. Dashed
+        outlines indicate retiring certs; dimmed nodes are retired. Drag nodes
+        to rearrange. Click a node to view cert details. Scroll to zoom.
       </p>
     </div>
   );
