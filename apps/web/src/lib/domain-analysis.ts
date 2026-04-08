@@ -1,4 +1,4 @@
-import type { Certification, CertStatus, DomainCategory, ExamDomain } from "@certuary/data";
+import type { Certification, CertStatus, CategoryGroup, DomainCategory, ExamDomain } from "@certuary/data";
 import { getAllCerts } from "@certuary/data";
 
 export interface HeatmapCell {
@@ -354,5 +354,53 @@ export function buildNetworkGraph(
   }
 
   return { nodes, edges };
+}
+
+/**
+ * Determine which category groups a set of certs map to.
+ * Returns a Map from certSlug to an array of group slugs (ordered by weight).
+ * Computes all mappings in one pass for efficiency.
+ */
+export function buildCertCategoryGroupMap(
+  certs: Certification[],
+  categories: DomainCategory[],
+  categoryGroups: CategoryGroup[]
+): Map<string, string[]> {
+  const cells = buildHeatmapData(certs, categories);
+
+  // Map category slug → group slug
+  const catToGroup = new Map<string, string>();
+  for (const cat of categories) {
+    catToGroup.set(cat.slug, cat.group);
+  }
+
+  // Accumulate weight per (certSlug, groupSlug)
+  const certGroupWeights = new Map<string, Map<string, number>>();
+  for (const cell of cells) {
+    const groupSlug = catToGroup.get(cell.categorySlug);
+    if (!groupSlug) continue;
+
+    let groupMap = certGroupWeights.get(cell.certSlug);
+    if (!groupMap) {
+      groupMap = new Map();
+      certGroupWeights.set(cell.certSlug, groupMap);
+    }
+    groupMap.set(groupSlug, (groupMap.get(groupSlug) ?? 0) + cell.weight);
+  }
+
+  // Convert to sorted arrays (highest weight first)
+  const validGroups = new Set(categoryGroups.map((g) => g.slug));
+  const result = new Map<string, string[]>();
+  for (const [certSlug, groupMap] of certGroupWeights) {
+    const sorted = [...groupMap.entries()]
+      .filter(([slug]) => validGroups.has(slug))
+      .sort((a, b) => b[1] - a[1])
+      .map(([slug]) => slug);
+    if (sorted.length > 0) {
+      result.set(certSlug, sorted);
+    }
+  }
+
+  return result;
 }
 

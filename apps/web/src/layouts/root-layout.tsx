@@ -30,6 +30,12 @@ export function RootLayout() {
             <Link to="/graph" className="hover:text-foreground transition-colors">
               Similarity Map
             </Link>
+            <Link to="/roadmap" className="hover:text-foreground transition-colors">
+              Roadmap
+            </Link>
+            <Link to="/compare" className="hover:text-foreground transition-colors">
+              Compare
+            </Link>
           </nav>
         </div>
       </header>
