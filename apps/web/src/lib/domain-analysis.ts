@@ -42,7 +42,7 @@ function tokenize(text: string): Set<string> {
   );
 }
 
-function domainTokens(domains: ExamDomain[]): Set<string> {
+export function domainTokens(domains: ExamDomain[]): Set<string> {
   const tokens = new Set<string>();
   for (const name of flattenDomainNames(domains)) {
     for (const t of tokenize(name)) {
@@ -52,7 +52,7 @@ function domainTokens(domains: ExamDomain[]): Set<string> {
   return tokens;
 }
 
-function jaccard(a: Set<string>, b: Set<string>): number {
+export function jaccard(a: Set<string>, b: Set<string>): number {
   if (a.size === 0 && b.size === 0) return 0;
   let intersection = 0;
   for (const item of a) {
@@ -65,7 +65,7 @@ function jaccard(a: Set<string>, b: Set<string>): number {
 // Module-level token cache to avoid recomputation across calls
 const tokenCacheMap = new Map<string, Set<string>>();
 
-function getCachedTokens(cert: Certification): Set<string> {
+export function getCachedTokens(cert: Certification): Set<string> {
   let cached = tokenCacheMap.get(cert.slug);
   if (!cached) {
     cached = domainTokens(cert.domains);
