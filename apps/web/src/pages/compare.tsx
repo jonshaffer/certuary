@@ -32,10 +32,11 @@ function useCompareParams() {
 
   const certSlugs = useMemo(() => {
     const raw = searchParams.get("certs") || "";
-    return raw
+    const slugs = raw
       .split(",")
       .map((s) => s.trim())
       .filter(Boolean);
+    return [...new Set(slugs)].slice(0, MAX_CERTS);
   }, [searchParams]);
 
   const setCertSlugs = useCallback(

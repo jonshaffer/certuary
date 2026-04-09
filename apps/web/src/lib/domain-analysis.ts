@@ -241,6 +241,13 @@ export interface ClusterLabel {
   nodeIds: string[];
 }
 
+// Generic tokens that don't help identify a cluster topic
+const STOP_TOKENS = new Set([
+  "and", "the", "for", "with", "management", "fundamentals",
+  "concepts", "principles", "practices", "operations", "services",
+  "using", "based", "advanced", "introduction",
+]);
+
 /**
  * Find connected components in the graph and label each cluster by its
  * most frequent domain tokens (excluding very common stop-words).
@@ -267,8 +274,9 @@ export function findClusters(
     const queue = [n.id];
     const component: string[] = [];
     visited.add(n.id);
-    while (queue.length > 0) {
-      const current = queue.shift()!;
+    let head = 0;
+    while (head < queue.length) {
+      const current = queue[head++]!;
       component.push(current);
       for (const neighbor of adj.get(current) ?? []) {
         if (!visited.has(neighbor)) {
@@ -279,13 +287,6 @@ export function findClusters(
     }
     components.push(component);
   }
-
-  // Generic tokens that don't help identify a cluster topic
-  const stopTokens = new Set([
-    "and", "the", "for", "with", "management", "fundamentals",
-    "concepts", "principles", "practices", "operations", "services",
-    "using", "based", "advanced", "introduction",
-  ]);
 
   const certMap = new Map(certs.map((c) => [c.slug, c]));
 
@@ -299,7 +300,7 @@ export function findClusters(
         if (!cert) continue;
         const tokens = getCachedTokens(cert);
         for (const t of tokens) {
-          if (!stopTokens.has(t)) {
+          if (!STOP_TOKENS.has(t)) {
             tokenCounts.set(t, (tokenCounts.get(t) ?? 0) + 1);
           }
         }
