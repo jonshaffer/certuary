@@ -35,7 +35,8 @@ completion_criteria:
   required: 0
   notes: >-
     No fixed completion criteria. Juniper recommends starting with JNCIA-Junos
-    as the foundation, then choosing a specialist track (Enterprise, Service
-    Provider, Security, or Mist AI) based on your career focus. Each track
-    follows a linear progression: Associate, Specialist, Professional, Expert.
-    JNCIA-Junos is a prerequisite for all specialist certifications.
+    as the foundation for the Enterprise, Service Provider, and Security tracks,
+    or JNCIA-MistAI for the Mist AI track. The Enterprise, Service Provider,
+    and Security tracks progress through four tiers (Associate, Specialist,
+    Professional, Expert). The Mist AI track currently covers Associate and
+    Specialist levels.
