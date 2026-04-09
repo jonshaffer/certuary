@@ -1,0 +1,64 @@
+name: "SnowPro Advanced: Data Scientist"
+short_name: SnowPro Adv. Data Scientist
+slug: snowpro-advanced-data-scientist
+status: active
+cost: "$375 USD"
+
+description: >-
+  The SnowPro Advanced Data Scientist certification validates advanced
+  skills in implementing data science principles, processes, and
+  solutions using the Snowflake platform including Snowpark for Python,
+  machine learning model development, feature engineering, and
+  deploying ML workflows on Snowflake.
+
+tags:
+  - data-science
+  - machine-learning
+  - cloud
+  - snowflake
+  - advanced
+  - python
+
+prerequisites:
+  - SnowPro Core Certification required
+
+prerequisite_certs:
+  - snowpro-core
+
+related_certs:
+  - snowpro-core
+  - snowpro-advanced-data-engineer
+  - machine-learning-associate
+
+exam_format: multiple-choice
+duration_minutes: 115
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: DSC-C01
+    release_date: "2024-06-01"
+    notes: >-
+      Covers Snowpark for Python, ML model development, and
+      data science workflows on Snowflake.
+
+links:
+  - label: Official Certification Page
+    url: https://learn.snowflake.com/en/certifications/
+    type: official
+
+domains:
+  - name: Data Science Concepts on Snowflake
+    weight: 20
+  - name: Data Preparation and Feature Engineering
+    weight: 25
+  - name: Model Development and Training
+    weight: 25
+  - name: Model Deployment and MLOps
+    weight: 15
+  - name: Snowpark for Data Science
+    weight: 15
+
+source_of_truth_url: https://learn.snowflake.com/en/certifications/
+last_verified: "2026-04-09"

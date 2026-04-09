@@ -29,7 +29,7 @@ prerequisite_certs:
 related_certs:
   - nse-4
   - nse-8
-  - pcnse
+  - ngfw-engineer
   - ccnp-security
   - ccie-security
 

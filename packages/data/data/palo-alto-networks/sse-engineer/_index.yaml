@@ -1,0 +1,55 @@
+name: Palo Alto Networks Certified SSE Engineer
+short_name: SSE Engineer
+slug: sse-engineer
+status: active
+cost: "$250 USD"
+
+description: >-
+  The Security Service Edge (SSE) Engineer certification validates skills
+  in deploying, configuring, managing, and troubleshooting Palo Alto
+  Networks SSE/SASE environments. It covers Prisma Access, secure web
+  gateway, ZTNA, CASB, and cloud-delivered security services.
+
+tags:
+  - cybersecurity
+  - network-security
+  - sase
+  - palo-alto-networks
+  - advanced
+  - cloud-security
+
+prerequisites:
+  - Network Security Professional certification recommended
+
+related_certs:
+  - network-security-professional
+  - ngfw-engineer
+  - sd-wan-engineer
+  - cloud-security-professional
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based framework.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: SSE/SASE Architecture
+    weight: 20
+  - name: Prisma Access Deployment
+    weight: 25
+  - name: ZTNA and Access Control
+    weight: 25
+  - name: Monitoring and Troubleshooting
+    weight: 30
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

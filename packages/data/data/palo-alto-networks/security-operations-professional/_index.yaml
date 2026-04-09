@@ -1,0 +1,56 @@
+name: Palo Alto Networks Certified Security Operations Professional
+short_name: Security Operations Professional
+slug: security-operations-professional
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Security Operations Professional certification validates
+  knowledge of security operations principles and Palo Alto Networks
+  SOC technologies including Cortex XDR and XSIAM. It serves as the
+  gateway to Specialist certifications in the Security Operations track.
+
+tags:
+  - cybersecurity
+  - security-operations
+  - palo-alto-networks
+  - intermediate
+
+prerequisites: []
+
+related_certs:
+  - cybersecurity-practitioner
+  - xdr-analyst
+  - xdr-engineer
+  - xsiam-analyst
+  - xsiam-engineer
+  - xsoar-engineer
+  - comptia-security-plus
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based certification
+      framework.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Security Operations Fundamentals
+    weight: 25
+  - name: Threat Detection and Analysis
+    weight: 25
+  - name: Incident Response
+    weight: 25
+  - name: SOC Tools and Automation
+    weight: 25
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

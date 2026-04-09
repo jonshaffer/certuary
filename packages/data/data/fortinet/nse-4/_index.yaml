@@ -25,7 +25,7 @@ related_certs:
   - nse-3
   - nse-5-fortimanager
   - nse-5-fortianalyzer
-  - pcnsa
+  - network-security-analyst
   - ccna
   - comptia-security-plus
 

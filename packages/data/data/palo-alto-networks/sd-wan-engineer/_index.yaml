@@ -1,0 +1,54 @@
+name: Palo Alto Networks Certified SD-WAN Engineer
+short_name: SD-WAN Engineer
+slug: sd-wan-engineer
+status: active
+cost: "$250 USD"
+
+description: >-
+  The SD-WAN Engineer certification validates skills in planning,
+  deploying, configuring, operating, monitoring, and troubleshooting
+  Palo Alto Networks SD-WAN environments. It covers SD-WAN architecture,
+  traffic steering, path quality monitoring, and integration with
+  Palo Alto Networks security services.
+
+tags:
+  - cybersecurity
+  - network-security
+  - sd-wan
+  - palo-alto-networks
+  - advanced
+
+prerequisites:
+  - Network Security Professional certification recommended
+
+related_certs:
+  - network-security-professional
+  - ngfw-engineer
+  - sse-engineer
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based framework.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: SD-WAN Architecture and Planning
+    weight: 20
+  - name: Deployment and Configuration
+    weight: 25
+  - name: Traffic Steering and Path Quality
+    weight: 25
+  - name: Monitoring and Troubleshooting
+    weight: 30
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

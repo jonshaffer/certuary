@@ -26,7 +26,7 @@ prerequisites:
 related_certs:
   - nse-7-enterprise-firewall
   - ccie-security
-  - pcnse
+  - ngfw-engineer
   - cissp
 
 exam_format:

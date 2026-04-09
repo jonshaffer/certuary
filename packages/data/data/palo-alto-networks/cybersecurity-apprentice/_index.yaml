@@ -1,0 +1,50 @@
+name: Palo Alto Networks Certified Cybersecurity Apprentice
+short_name: Cybersecurity Apprentice
+slug: cybersecurity-apprentice
+status: active
+cost: "$150 USD"
+
+description: >-
+  The Cybersecurity Apprentice certification validates foundational
+  understanding of cybersecurity concepts, threat landscapes, and
+  basic security principles. It is designed for individuals beginning
+  their cybersecurity career with no prior experience required.
+
+tags:
+  - cybersecurity
+  - entry-level
+  - palo-alto-networks
+
+prerequisites: []
+
+related_certs:
+  - cybersecurity-practitioner
+  - comptia-security-plus
+
+exam_format: multiple-choice
+duration_minutes: 90
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based certification
+      framework replacing the legacy PCCET certification.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Cybersecurity Fundamentals
+    weight: 35
+  - name: Network Security Concepts
+    weight: 25
+  - name: Cloud Security Concepts
+    weight: 20
+  - name: Security Operations Concepts
+    weight: 20
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

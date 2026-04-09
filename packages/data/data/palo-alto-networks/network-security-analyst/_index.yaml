@@ -1,0 +1,54 @@
+name: Palo Alto Networks Certified Network Security Analyst
+short_name: Network Security Analyst
+slug: network-security-analyst
+status: active
+cost: "$250 USD"
+
+description: >-
+  The Network Security Analyst certification validates skills in object
+  configuration, security policy creation, and centralized management
+  using Strata Cloud Manager (SCM). It is designed for analysts who
+  configure and manage Palo Alto Networks security infrastructure.
+
+tags:
+  - cybersecurity
+  - network-security
+  - palo-alto-networks
+  - intermediate
+
+prerequisites:
+  - Network Security Professional certification recommended
+
+related_certs:
+  - network-security-professional
+  - ngfw-engineer
+  - nse-4
+  - ccna
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based framework.
+      Closest successor to the retired PCNSA certification.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Object Configuration
+    weight: 25
+  - name: Security Policy Creation
+    weight: 30
+  - name: Strata Cloud Manager
+    weight: 25
+  - name: Monitoring and Reporting
+    weight: 20
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

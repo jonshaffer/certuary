@@ -34,10 +34,16 @@ question_count:
   max: 100
 
 versions:
+  - version: COF-C03
+    release_date: "2026-02-16"
+    notes: >-
+      Latest version with updated coverage of Snowflake AI Data Cloud
+      features, Snowpark, and modern platform capabilities.
   - version: COF-C02
     release_date: "2023-09-01"
+    retire_date: "2026-05-16"
     notes: >-
-      Updated to cover Snowpark, Snowflake Marketplace, and modern
+      Previous version covering Snowpark, Snowflake Marketplace, and
       data sharing features.
 
 links:

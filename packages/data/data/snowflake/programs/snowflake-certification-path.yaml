@@ -3,8 +3,8 @@ name: Snowflake SnowPro Certification Path
 description: >-
   Snowflake's SnowPro certification framework progressing from the
   foundational Core certification to Advanced specializations in data
-  engineering, architecture, administration, and data analysis on the
-  Snowflake Data Cloud.
+  engineering, architecture, administration, data analysis, and data
+  science on the Snowflake Data Cloud.
 website: https://www.snowflake.com/certifications/
 status: active
 required_certs: []
@@ -20,6 +20,7 @@ phases:
       - snowpro-advanced-architect
       - snowpro-advanced-administrator
       - snowpro-advanced-data-analyst
+      - snowpro-advanced-data-scientist
 completion_criteria:
   required: 0
   notes: >-

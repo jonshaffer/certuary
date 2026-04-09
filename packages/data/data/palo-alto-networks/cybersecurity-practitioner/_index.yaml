@@ -1,0 +1,53 @@
+name: Palo Alto Networks Certified Cybersecurity Practitioner
+short_name: Cybersecurity Practitioner
+slug: cybersecurity-practitioner
+status: active
+cost: "$150 USD"
+
+description: >-
+  The Cybersecurity Practitioner certification validates practical
+  foundational skills in cybersecurity including security operations
+  basics, network defense fundamentals, and an understanding of
+  modern security architectures. It serves as a stepping stone to
+  Professional-level certifications.
+
+tags:
+  - cybersecurity
+  - entry-level
+  - palo-alto-networks
+
+prerequisites: []
+
+related_certs:
+  - cybersecurity-apprentice
+  - network-security-professional
+  - security-operations-professional
+  - comptia-security-plus
+
+exam_format: multiple-choice
+duration_minutes: 90
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based certification
+      framework.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Security Fundamentals
+    weight: 25
+  - name: Network Defense
+    weight: 25
+  - name: Security Operations Basics
+    weight: 25
+  - name: Cloud and Modern Architectures
+    weight: 25
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"
