@@ -1,0 +1,65 @@
+name: ServiceNow Certified Implementation Specialist - Risk and Compliance
+short_name: ServiceNow CIS-RC
+slug: servicenow-cis-rc
+status: active
+cost: "$450 USD"
+
+description: >-
+  Validates expertise in implementing and configuring ServiceNow Governance,
+  Risk, and Compliance solutions. Covers policy and compliance management,
+  risk assessment and response, audit management, and regulatory alignment
+  on the Now Platform.
+
+tags:
+  - grc
+  - risk
+  - compliance
+  - intermediate
+  - servicenow
+  - implementation
+
+prerequisites:
+  - ServiceNow Certified System Administrator (CSA) certification required
+  - Experience with GRC concepts and ServiceNow Risk and Compliance applications recommended
+
+related_certs:
+  - servicenow-csa
+  - servicenow-cis-sir
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Zurich"
+    release_date: "2026-03-01"
+    notes: Updated to align with the Zurich release of the Now Platform.
+  - version: "Xanadu"
+    release_date: "2024-09-01"
+    notes: Previous mainline version aligned with the Xanadu release.
+
+links:
+  - label: Official Certification Page
+    url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified
+    type: official
+  - label: CIS-RC Mainline Exam Blueprint
+    url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-risk-and-compliance?id=kb_article_view&sysparm_article=KB0011655
+    type: source-of-truth
+
+domains:
+  - name: Risk Management
+    weight: 35
+  - name: Policy and Compliance Management
+    weight: 25
+  - name: Audit Management
+    weight: 20
+  - name: Entity and Scoping Configuration
+    weight: 10
+  - name: Reporting and Dashboards
+    weight: 10
+
+source_of_truth_url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-risk-and-compliance?id=kb_article_view&sysparm_article=KB0011655
+last_verified: "2026-04-09"

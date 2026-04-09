@@ -1,0 +1,64 @@
+name: ServiceNow Certified Implementation Specialist - Human Resources
+short_name: ServiceNow CIS-HR
+slug: servicenow-cis-hr
+status: active
+cost: "$450 USD"
+
+description: >-
+  Validates expertise in implementing and configuring ServiceNow HR Service
+  Delivery solutions. Covers HR system architecture, lifecycle events,
+  employee center configuration, case management, and platform security
+  for human resources workflows on the Now Platform.
+
+tags:
+  - hr
+  - hrsd
+  - intermediate
+  - servicenow
+  - implementation
+
+prerequisites:
+  - ServiceNow Certified System Administrator (CSA) certification required
+  - HR Service Delivery Fundamentals course or equivalent experience recommended
+
+related_certs:
+  - servicenow-csa
+  - servicenow-cis-csm
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Zurich"
+    release_date: "2026-03-01"
+    notes: Updated to align with the Zurich release of the Now Platform.
+  - version: "Xanadu"
+    release_date: "2024-09-01"
+    notes: Previous mainline version aligned with the Xanadu release.
+
+links:
+  - label: Official Certification Page
+    url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified
+    type: official
+  - label: CIS-HR Mainline Exam Blueprint
+    url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-human-resources-mainline?id=kb_article_view&sysparm_article=KB0011654
+    type: source-of-truth
+
+domains:
+  - name: HR System Architecture
+    weight: 30
+  - name: Core HR Applications and Employee Center
+    weight: 25
+  - name: Lifecycle Events and Journeys
+    weight: 20
+  - name: Platform, Role, and Contextual Security
+    weight: 20
+  - name: HR Integrations
+    weight: 5
+
+source_of_truth_url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-human-resources-mainline?id=kb_article_view&sysparm_article=KB0011654
+last_verified: "2026-04-09"

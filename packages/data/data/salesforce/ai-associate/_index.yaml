@@ -1,0 +1,52 @@
+name: Salesforce Certified AI Associate
+short_name: SF AI Associate
+slug: salesforce-ai-associate
+status: active
+cost: "$75 USD"
+
+description: >-
+  Validates foundational knowledge of AI concepts, including machine learning,
+  natural language processing, and how AI is applied within the Salesforce
+  platform through Einstein and Agentforce.
+
+tags:
+  - crm
+  - salesforce
+  - ai
+  - entry-level
+
+prerequisites:
+  - No formal prerequisites; familiarity with AI concepts recommended
+
+related_certs:
+  - salesforce-ai-specialist
+  - salesforce-associate
+  - salesforce-administrator
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 70
+question_count:
+  min: 40
+  max: 40
+
+versions:
+  - version: "AI Associate"
+    release_date: "2023-09-01"
+    notes: Initial release covering foundational AI concepts on Salesforce.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/ai-associate
+    type: official
+
+domains:
+  - name: AI Fundamentals
+    weight: 39
+  - name: AI Capabilities in Salesforce
+    weight: 33
+  - name: Ethical Considerations of AI
+    weight: 28
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/ai-associate
+last_verified: "2026-04-09"

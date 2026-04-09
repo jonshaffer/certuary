@@ -1,0 +1,64 @@
+name: Salesforce Certified Service Cloud Consultant
+short_name: SF Service Consultant
+slug: salesforce-service-cloud-consultant
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates the ability to design and implement Service Cloud solutions
+  including case management, service console configuration, knowledge
+  management, interaction channels, and contact center analytics. Covers
+  consulting practices and integration strategies for customer service.
+
+tags:
+  - crm
+  - consulting
+  - salesforce
+  - intermediate
+  - service
+
+prerequisites:
+  - Salesforce Certified Administrator credential required
+
+related_certs:
+  - salesforce-administrator
+  - salesforce-sales-cloud-consultant
+  - salesforce-data-cloud-consultant
+
+exam_format: multiple-choice
+passing_score: 67
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Service Cloud Consultant (Summer 2024)"
+    release_date: "2024-06-01"
+    notes: Updated with revised domains and interaction channel focus.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/servicecloudconsultant
+    type: official
+
+domains:
+  - name: Service Cloud Solution Design
+    weight: 16
+  - name: Case Management
+    weight: 15
+  - name: Service Console
+    weight: 15
+  - name: Implementation Strategies
+    weight: 15
+  - name: Interaction Channels
+    weight: 15
+  - name: Industry Knowledge
+    weight: 10
+  - name: Knowledge Management
+    weight: 9
+  - name: Contact Center Analytics
+    weight: 5
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/servicecloudconsultant
+last_verified: "2026-04-09"

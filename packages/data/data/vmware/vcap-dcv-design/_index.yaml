@@ -1,0 +1,65 @@
+name: VMware Certified Advanced Professional - Data Center Virtualization Design (VCAP-DCV Design)
+short_name: VCAP-DCV Design
+slug: vmware-vcap-dcv-design
+status: active
+cost: "$450 USD"
+exam_format: multiple-choice
+passing_score: 300
+duration_minutes: 145
+question_count:
+  min: 60
+  max: 60
+
+description: >-
+  The VCAP-DCV Design validates advanced skills in designing VMware
+  vSphere 8.x solutions. It tests the ability to apply design principles
+  to develop conceptual, logical, and physical designs given customer
+  requirements and constraints. This is an advanced-level certification
+  for solution architects and design consultants.
+
+tags:
+  - virtualization
+  - data-center
+  - vmware
+  - vsphere
+  - design
+  - advanced
+
+prerequisites:
+  - VCP-DCV certification or equivalent
+  - Significant hands-on experience designing vSphere-based solutions
+
+prerequisite_certs:
+  - vmware-vcp-dcv
+
+related_certs:
+  - vmware-vcp-dcv
+  - vmware-vcap-dcv-deploy
+  - vmware-vcdx-dcv
+
+versions:
+  - version: "3V0-21.23"
+    release_date: "2024-01-01"
+    notes: >-
+      VCAP-DCV Design 2024 exam covering vSphere 8.x advanced design
+      methodology including conceptual, logical, and physical design.
+
+links:
+  - label: Official Certification Page
+    url: https://www.broadcom.com/support/education/vmware/certification/vcap-dcv-design
+    type: official
+
+domains:
+  - name: IT Architectures, Technologies, and Standards
+    weight: 15
+  - name: VMware Solution
+    weight: 20
+  - name: Plan and Design the VMware Solution
+    weight: 35
+  - name: Install, Configure, Administrate the VMware Solution
+    weight: 15
+  - name: Troubleshoot and Optimize the VMware Solution
+    weight: 15
+
+source_of_truth_url: https://www.broadcom.com/support/education/vmware/certification/vcap-dcv-design
+last_verified: "2026-04-09"

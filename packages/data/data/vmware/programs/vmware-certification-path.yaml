@@ -1,0 +1,37 @@
+slug: vmware-certification-path
+name: VMware Certification Path
+description: >-
+  VMware by Broadcom offers a tiered certification framework progressing
+  from professional-level foundational skills through advanced professional
+  specialization to the distinguished expert level. Tracks cover data center
+  virtualization, network virtualization, VMware Cloud Foundation, desktop
+  management, and application development.
+website: https://www.broadcom.com/support/education/vmware/certification
+status: active
+required_certs: []
+phases:
+  - name: Professional
+    order: 1
+    certificate_slugs:
+      - vmware-vcp-dcv
+      - vmware-vcp-nv
+      - vmware-vcp-vcf-administrator
+      - vmware-vcp-vcf-architect
+      - vmware-vcp-dtm
+      - vmware-spring-certified-professional
+  - name: Advanced Professional
+    order: 2
+    certificate_slugs:
+      - vmware-vcap-dcv-design
+      - vmware-vcap-dcv-deploy
+  - name: Expert
+    order: 3
+    certificate_slugs:
+      - vmware-vcdx-dcv
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. VMware recommends progressing from
+    Professional to Advanced Professional to Expert within the data center
+    virtualization track. The VCF and specialty tracks currently offer
+    professional-level certifications.

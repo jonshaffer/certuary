@@ -1,0 +1,60 @@
+name: Oracle Database Administration I
+short_name: Oracle DBA I
+slug: oracle-database-administration
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates knowledge and skills in Oracle Database administration including
+  architecture, instance management, storage, user administration, backup and
+  recovery, performance tuning, and security. Covers Oracle Database 19c
+  features and administration tasks.
+
+tags:
+  - database
+  - administration
+  - professional
+  - oracle
+  - dba
+
+prerequisites:
+  - Experience with Oracle Database technology recommended
+  - Understanding of SQL fundamentals recommended
+
+related_certs:
+  - oracle-database-sql-associate
+  - oracle-autonomous-database-professional
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 120
+question_count:
+  min: 72
+  max: 72
+
+versions:
+  - version: "1Z0-082"
+    release_date: "2019-08-01"
+    notes: Current version covering Oracle Database 19c administration.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/oracle-database-administration-i/pexam_1Z0-082
+    type: official
+
+domains:
+  - name: Database Architecture
+    weight: 20
+  - name: Instance Management
+    weight: 15
+  - name: Storage Management
+    weight: 15
+  - name: User Administration and Security
+    weight: 15
+  - name: Backup and Recovery
+    weight: 20
+  - name: Performance Tuning
+    weight: 15
+
+source_of_truth_url: https://education.oracle.com/oracle-database-administration-i/pexam_1Z0-082
+last_verified: "2026-04-09"

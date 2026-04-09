@@ -1,0 +1,60 @@
+name: Oracle MySQL 8.0 Database Administrator
+short_name: MySQL DBA
+slug: oracle-mysql-database-administrator
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates expertise in MySQL 8.0 database administration including
+  architecture, installation, configuration, security, backup and recovery,
+  performance optimization, replication, and high availability. Covers
+  MySQL Server, Group Replication, InnoDB Cluster, and MySQL Enterprise
+  tools.
+
+tags:
+  - database
+  - mysql
+  - administration
+  - professional
+  - oracle
+
+prerequisites:
+  - Hands-on experience with MySQL database administration recommended
+
+related_certs:
+  - oracle-database-sql-associate
+  - oracle-database-administration
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 120
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "1Z0-908"
+    release_date: "2020-06-01"
+    notes: Current version covering MySQL 8.0 features and administration.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/mysql-80-database-administrator/pexam_1Z0-908
+    type: official
+
+domains:
+  - name: MySQL Architecture and Installation
+    weight: 15
+  - name: Configuration and Monitoring
+    weight: 15
+  - name: Security and User Management
+    weight: 20
+  - name: Backup and Recovery
+    weight: 20
+  - name: Performance Optimization
+    weight: 15
+  - name: High Availability and Replication
+    weight: 15
+
+source_of_truth_url: https://education.oracle.com/mysql-80-database-administrator/pexam_1Z0-908
+last_verified: "2026-04-09"

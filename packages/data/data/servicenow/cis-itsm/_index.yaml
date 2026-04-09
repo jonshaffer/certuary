@@ -1,0 +1,67 @@
+name: ServiceNow Certified Implementation Specialist - IT Service Management
+short_name: ServiceNow CIS-ITSM
+slug: servicenow-cis-itsm
+status: active
+cost: "$450 USD"
+
+description: >-
+  Validates expertise in implementing and configuring ServiceNow IT Service
+  Management applications, including incident, problem, change, and request
+  management. Demonstrates the ability to design and deploy ITSM solutions
+  aligned with ITIL best practices on the Now Platform.
+
+tags:
+  - itsm
+  - itil
+  - intermediate
+  - servicenow
+  - implementation
+
+prerequisites:
+  - ServiceNow Certified System Administrator (CSA) certification required
+  - Six months or more of hands-on experience with ServiceNow ITSM recommended
+
+related_certs:
+  - servicenow-csa
+  - servicenow-cis-itom
+  - servicenow-cad
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Zurich"
+    release_date: "2026-03-01"
+    notes: Updated to align with the Zurich release of the Now Platform.
+  - version: "Xanadu"
+    release_date: "2024-09-01"
+    notes: Previous mainline version aligned with the Xanadu release.
+
+links:
+  - label: Official Certification Page
+    url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=6c8e1d77dbc27f40de3cdb85ca961970
+    type: official
+  - label: CIS-ITSM Mainline Exam Blueprint
+    url: https://nowlearning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-it-service-management-mainline?id=kb_article_view&sysparm_article=KB0011555
+    type: source-of-truth
+
+domains:
+  - name: Incident Management
+    weight: 25
+  - name: Change Management
+    weight: 25
+  - name: Problem Management
+    weight: 15
+  - name: Service Catalog and Request Management
+    weight: 25
+  - name: Service Portfolio Management
+    weight: 5
+  - name: Configuration Management Database
+    weight: 5
+
+source_of_truth_url: https://nowlearning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-it-service-management-mainline?id=kb_article_view&sysparm_article=KB0011555
+last_verified: "2026-04-09"

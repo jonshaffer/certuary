@@ -1,0 +1,57 @@
+name: Salesforce Certified Platform App Builder
+short_name: SF App Builder
+slug: salesforce-platform-app-builder
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates the ability to design, build, and deploy custom applications on the
+  Salesforce platform using declarative tools. Covers data modeling, user
+  interface design, business logic automation, and app deployment.
+
+tags:
+  - crm
+  - development
+  - salesforce
+  - intermediate
+  - app-builder
+
+prerequisites:
+  - Experience building applications on the Salesforce platform recommended
+
+related_certs:
+  - salesforce-administrator
+  - salesforce-platform-developer-i
+  - salesforce-application-architect
+
+exam_format: multiple-choice
+passing_score: 63
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Platform App Builder (Current)"
+    release_date: "2023-06-01"
+    notes: Current version with emphasis on Lightning Experience.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/platformappbuilder
+    type: official
+
+domains:
+  - name: Business Logic and Process Automation
+    weight: 28
+  - name: Salesforce Fundamentals
+    weight: 23
+  - name: Data Modeling and Management
+    weight: 22
+  - name: User Interface
+    weight: 17
+  - name: App Deployment
+    weight: 10
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/platformappbuilder
+last_verified: "2026-04-09"

@@ -1,0 +1,53 @@
+name: Salesforce Certified Associate
+short_name: SF Associate
+slug: salesforce-associate
+status: active
+cost: "$75 USD"
+
+description: >-
+  The entry-level Salesforce credential that validates foundational knowledge
+  of the Salesforce ecosystem, CRM concepts, navigation, and data management.
+  Designed for individuals starting their Salesforce career.
+
+tags:
+  - crm
+  - salesforce
+  - entry-level
+  - foundational
+
+prerequisites:
+  - No formal prerequisites; basic understanding of CRM concepts recommended
+
+related_certs:
+  - salesforce-administrator
+  - salesforce-platform-app-builder
+
+exam_format: multiple-choice
+passing_score: 62
+duration_minutes: 105
+question_count:
+  min: 40
+  max: 40
+
+versions:
+  - version: "Salesforce Certified Associate"
+    release_date: "2023-03-01"
+    notes: Initial release of the entry-level credential.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/associate
+    type: official
+
+domains:
+  - name: Salesforce Ecosystem
+    weight: 32
+  - name: Navigation
+    weight: 28
+  - name: Data Model
+    weight: 25
+  - name: Reports and Dashboards
+    weight: 15
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/associate
+last_verified: "2026-04-09"

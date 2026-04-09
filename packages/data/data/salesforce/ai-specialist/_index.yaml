@@ -1,0 +1,56 @@
+name: Salesforce Certified AI Specialist
+short_name: SF AI Specialist
+slug: salesforce-ai-specialist
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates the ability to build and implement AI-powered solutions on the
+  Salesforce platform using Einstein and Agentforce, including prompt
+  engineering, AI agents, and generative AI capabilities.
+
+tags:
+  - crm
+  - salesforce
+  - ai
+  - intermediate
+  - generative-ai
+
+prerequisites:
+  - Familiarity with Salesforce platform and AI concepts
+  - Salesforce AI Associate recommended
+
+related_certs:
+  - salesforce-ai-associate
+  - salesforce-administrator
+  - salesforce-platform-developer-i
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "AI Specialist"
+    release_date: "2024-09-01"
+    notes: Initial release focusing on Agentforce and Einstein AI capabilities.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/ai-specialist
+    type: official
+
+domains:
+  - name: Einstein AI Capabilities
+    weight: 30
+  - name: Agentforce and Agents
+    weight: 28
+  - name: Prompt Engineering
+    weight: 22
+  - name: Model Management
+    weight: 20
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/ai-specialist
+last_verified: "2026-04-09"

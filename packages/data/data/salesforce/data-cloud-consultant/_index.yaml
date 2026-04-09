@@ -1,0 +1,58 @@
+name: Salesforce Certified Data Cloud Consultant
+short_name: SF Data Cloud
+slug: salesforce-data-cloud-consultant
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates expertise in designing and implementing Salesforce Data Cloud
+  solutions, including data ingestion, identity resolution, segmentation,
+  activation, and cross-cloud data integration.
+
+tags:
+  - crm
+  - salesforce
+  - data
+  - consulting
+  - advanced
+
+prerequisites:
+  - Salesforce Administrator certification recommended
+  - Experience with data integration and management
+
+related_certs:
+  - salesforce-administrator
+  - salesforce-sales-cloud-consultant
+  - salesforce-service-cloud-consultant
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Data Cloud Consultant"
+    release_date: "2024-01-01"
+    notes: Initial release covering Data Cloud capabilities.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/data-cloud-consultant
+    type: official
+
+domains:
+  - name: Data Cloud Setup
+    weight: 18
+  - name: Data Ingestion
+    weight: 22
+  - name: Identity Resolution and Modeling
+    weight: 20
+  - name: Segmentation and Insights
+    weight: 22
+  - name: Data Activation
+    weight: 18
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/data-cloud-consultant
+last_verified: "2026-04-09"

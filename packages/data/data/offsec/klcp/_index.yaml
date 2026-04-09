@@ -1,0 +1,64 @@
+name: Kali Linux Certified Professional
+short_name: KLCP
+slug: klcp
+status: active
+cost: "$499 USD"
+
+description: >-
+  The KLCP (KL-101) validates a candidate's knowledge and proficiency with the
+  Kali Linux operating system. The certification covers Kali Linux installation,
+  configuration, package management, system administration, networking, and
+  security tool usage. Unlike other OffSec certifications, the KLCP is a
+  knowledge-based exam that tests conceptual understanding of the Kali Linux
+  distribution and its underlying Debian foundation.
+
+tags:
+  - cybersecurity
+  - foundational
+  - offsec
+  - linux
+  - kali-linux
+  - system-administration
+
+prerequisites:
+  - Basic familiarity with Linux operating systems
+  - Understanding of command-line operations
+  - Completion of KL-101 course materials recommended
+
+related_certs:
+  - oscp
+  - oswp
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "KL-101 v1"
+    release_date: "2019-01-01"
+    notes: Current version covering Kali Linux fundamentals and administration.
+
+links:
+  - label: Official Certification Page
+    url: https://www.offsec.com/courses/kl-101/
+    type: official
+
+domains:
+  - name: Kali Linux Installation and Configuration
+    weight: 20
+  - name: Linux Fundamentals and Command Line
+    weight: 20
+  - name: Package Management and Repositories
+    weight: 15
+  - name: Networking Configuration and Services
+    weight: 15
+  - name: System Administration and Security
+    weight: 15
+  - name: Security Tools and Usage
+    weight: 15
+
+source_of_truth_url: https://www.offsec.com/courses/kl-101/
+last_verified: "2026-04-09"

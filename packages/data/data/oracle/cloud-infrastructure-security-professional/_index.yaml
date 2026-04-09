@@ -1,0 +1,66 @@
+name: Oracle Cloud Infrastructure Security Professional
+short_name: OCI Security Professional
+slug: oracle-cloud-infrastructure-security-professional
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates the ability to secure and manage Oracle Cloud Infrastructure
+  environments. Covers OCI security fundamentals, identity and access
+  management, infrastructure and network security, data protection, and
+  security monitoring using services such as Cloud Guard, Security Zones,
+  and Data Safe.
+
+tags:
+  - cloud
+  - security
+  - professional
+  - oracle
+  - oci
+
+prerequisites:
+  - 2+ years of experience designing and implementing security solutions recommended
+  - 6+ months of hands-on experience securing workloads on OCI recommended
+
+related_certs:
+  - oracle-cloud-infrastructure-architect-professional
+  - oracle-cloud-infrastructure-architect-associate
+  - aws-security-specialty
+
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 90
+question_count:
+  min: 55
+  max: 55
+
+versions:
+  - version: "1Z0-1104-25"
+    release_date: "2025-01-15"
+    notes: Updated for OCI 2025 security services and features.
+  - version: "1Z0-1104-24"
+    release_date: "2024-01-15"
+    notes: Previous version covering OCI 2024 security services.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/oracle-cloud-infrastructure-2025-security-professional/pexam_1Z0-1104-25
+    type: official
+  - label: Certification Track
+    url: https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-security-professional/trackp_OCIS2025CP
+    type: official
+
+domains:
+  - name: OCI Security Fundamentals
+    weight: 15
+  - name: Identity and Access Management
+    weight: 25
+  - name: Infrastructure and Network Security
+    weight: 25
+  - name: Data Protection and Encryption
+    weight: 20
+  - name: Security Monitoring and Compliance
+    weight: 15
+
+source_of_truth_url: https://education.oracle.com/oracle-cloud-infrastructure-2025-security-professional/pexam_1Z0-1104-25
+last_verified: "2026-04-09"

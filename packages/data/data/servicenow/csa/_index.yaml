@@ -1,0 +1,67 @@
+name: ServiceNow Certified System Administrator
+short_name: ServiceNow CSA
+slug: servicenow-csa
+status: active
+cost: "$300 USD"
+
+description: >-
+  Validates foundational knowledge of the ServiceNow platform, including
+  instance configuration, database administration, user interface
+  customization, workflow automation, and self-service capabilities. The CSA
+  is the prerequisite for all other ServiceNow certifications and is ideal
+  for administrators responsible for managing and configuring ServiceNow
+  instances.
+
+tags:
+  - itsm
+  - platform
+  - entry-level
+  - servicenow
+  - administration
+
+prerequisites:
+  - ServiceNow Fundamentals on-demand course or equivalent experience recommended
+
+related_certs:
+  - servicenow-cad
+  - servicenow-cis-itsm
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Zurich"
+    release_date: "2026-03-01"
+    notes: Updated to align with the Zurich release of the Now Platform.
+  - version: "Xanadu"
+    release_date: "2024-09-01"
+    notes: Previous mainline version aligned with the Xanadu release.
+
+links:
+  - label: Official Certification Page
+    url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=d08e1d77dbc27f40de3cdb85ca96191f
+    type: official
+  - label: CSA Mainline Exam Blueprint
+    url: https://nowlearning.servicenow.com/lxp/en/credentials/certified-system-administrator-mainline-exam-blueprint?id=kb_article_view&sysparm_article=KB0011554
+    type: source-of-truth
+
+domains:
+  - name: Platform Overview and Navigation
+    weight: 7
+  - name: Instance Configuration
+    weight: 11
+  - name: Configuring Applications for Collaboration
+    weight: 20
+  - name: Self-Service and Automation
+    weight: 20
+  - name: Database Administration
+    weight: 27
+  - name: Data Migration and Integration
+    weight: 15
+
+source_of_truth_url: https://nowlearning.servicenow.com/lxp/en/credentials/certified-system-administrator-mainline-exam-blueprint?id=kb_article_view&sysparm_article=KB0011554
+last_verified: "2026-04-09"

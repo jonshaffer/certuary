@@ -1,0 +1,65 @@
+name: ServiceNow Certified Implementation Specialist - IT Operations Management
+short_name: ServiceNow CIS-ITOM
+slug: servicenow-cis-itom
+status: active
+cost: "$450 USD"
+
+description: >-
+  Validates expertise in implementing and configuring ServiceNow IT Operations
+  Management solutions, including Discovery, Service Mapping, and Event
+  Management. Demonstrates the ability to automate IT operations, map business
+  services, and manage infrastructure visibility on the Now Platform.
+
+tags:
+  - itom
+  - operations
+  - intermediate
+  - servicenow
+  - implementation
+
+prerequisites:
+  - ServiceNow Certified System Administrator (CSA) certification required
+  - CIS-Data Foundations (CMDB and CSDM) certification required
+  - Hands-on experience with ServiceNow ITOM modules recommended
+
+related_certs:
+  - servicenow-csa
+  - servicenow-cis-itsm
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Zurich"
+    release_date: "2026-03-01"
+    notes: Updated to align with the Zurich release of the Now Platform.
+  - version: "Xanadu"
+    release_date: "2024-09-01"
+    notes: Previous mainline version aligned with the Xanadu release.
+
+links:
+  - label: Official Certification Page
+    url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified
+    type: official
+  - label: ITOM Learning Path
+    url: https://learning.servicenow.com/lxp/en/it-operations-management/it-operations-management-itom-discovery?id=learning_path_prev&path_id=06eaebecdbda7300de3cdb85ca961957
+    type: source-of-truth
+
+domains:
+  - name: Discovery Configuration
+    weight: 25
+  - name: Service Mapping
+    weight: 25
+  - name: Event Management
+    weight: 20
+  - name: CMDB and Data Quality
+    weight: 15
+  - name: Operational Intelligence
+    weight: 15
+
+source_of_truth_url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified
+last_verified: "2026-04-09"

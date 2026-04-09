@@ -1,0 +1,66 @@
+name: Salesforce Certified Platform Administrator
+short_name: SF Admin
+slug: salesforce-administrator
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates the ability to configure and manage the Salesforce platform,
+  including user setup, security, data management, reporting, automation, and
+  the new Agentforce AI capabilities. One of the most widely held Salesforce
+  certifications and the foundation for many advanced credentials.
+
+tags:
+  - crm
+  - administration
+  - salesforce
+  - intermediate
+
+prerequisites:
+  - Six or more months of Salesforce administration experience recommended
+
+related_certs:
+  - salesforce-associate
+  - salesforce-platform-app-builder
+  - salesforce-sales-cloud-consultant
+  - salesforce-service-cloud-consultant
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Platform Administrator (December 2025)"
+    release_date: "2025-12-15"
+    notes: >-
+      Updated to include Agentforce AI domain. Renamed from Salesforce
+      Administrator to Salesforce Certified Platform Administrator.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/administrator
+    type: official
+
+domains:
+  - name: Data and Analytics Management
+    weight: 17
+  - name: Configuration and Setup
+    weight: 15
+  - name: Object Manager and Lightning App Builder
+    weight: 15
+  - name: Automation
+    weight: 15
+  - name: Sales and Marketing Applications
+    weight: 10
+  - name: Service and Support Applications
+    weight: 10
+  - name: Productivity and Collaboration
+    weight: 10
+  - name: Agentforce AI
+    weight: 8
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/administrator
+last_verified: "2026-04-09"

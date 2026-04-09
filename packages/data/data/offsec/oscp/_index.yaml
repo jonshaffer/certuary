@@ -1,0 +1,81 @@
+name: Offensive Security Certified Professional
+short_name: OSCP
+slug: oscp
+status: active
+cost: "$1,749 USD"
+
+description: >-
+  The OSCP (PEN-200) is the gold standard certification for penetration testing
+  professionals. It validates a candidate's ability to identify vulnerabilities,
+  execute exploits, and escalate privileges across diverse target systems in a
+  controlled lab environment. The exam requires hands-on exploitation of
+  multiple machines within a strict time limit and submission of a professional
+  penetration testing report. OSCP holders demonstrate practical offensive
+  security skills that are highly valued across the cybersecurity industry.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - offsec
+  - penetration-testing
+  - offensive-security
+  - active-directory
+
+prerequisites:
+  - Solid understanding of TCP/IP networking
+  - Familiarity with Linux and Windows operating systems
+  - Scripting and programming experience (Python, Bash)
+  - Completion of PEN-200 course materials recommended
+
+related_certs:
+  - comptia-pentest-plus
+  - ceh
+  - gpen
+  - htb-cpts
+  - osep
+  - oswe
+  - oswp
+
+exam_format: performance-based
+passing_score: 70
+duration_minutes: 1425
+question_count:
+  min: 3
+  max: 5
+  approximate: true
+
+versions:
+  - version: "OSCP+"
+    release_date: "2025-01-01"
+    notes: >-
+      Current version aligned with PEN-200 (2023) course update, featuring
+      Active Directory attack chains and updated exam objectives.
+  - version: "OSCP (2023)"
+    release_date: "2023-03-01"
+    notes: >-
+      Major course update introducing Active Directory exploitation as a
+      dedicated exam component.
+
+links:
+  - label: Official Certification Page
+    url: https://www.offsec.com/courses/pen-200/
+    type: official
+
+domains:
+  - name: Report Writing
+    weight: 10
+  - name: Information Gathering and Enumeration
+    weight: 15
+  - name: Vulnerability Discovery
+    weight: 15
+  - name: Exploit Development and Execution
+    weight: 20
+  - name: Active Directory Attacks
+    weight: 20
+  - name: Privilege Escalation
+    weight: 10
+  - name: Tunneling and Pivoting
+    weight: 10
+
+source_of_truth_url: https://www.offsec.com/courses/pen-200/
+last_verified: "2026-04-09"

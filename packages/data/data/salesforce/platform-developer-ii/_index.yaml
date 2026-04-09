@@ -1,0 +1,59 @@
+name: Salesforce Certified Platform Developer II
+short_name: SF PD2
+slug: salesforce-platform-developer-ii
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates advanced skills in designing and developing complex business logic
+  and integrations on the Salesforce platform. Covers advanced Apex, process
+  automation, Lightning Web Components, testing, performance optimization,
+  and integration patterns.
+
+tags:
+  - crm
+  - development
+  - salesforce
+  - advanced
+  - apex
+  - integration
+
+prerequisites:
+  - Salesforce Certified Platform Developer I credential required
+
+related_certs:
+  - salesforce-platform-developer-i
+  - salesforce-application-architect
+  - salesforce-system-architect
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 120
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Platform Developer II (Current)"
+    release_date: "2023-01-01"
+    notes: Current version. Superbadges replaced the previous programming assignment.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/platformdeveloperii
+    type: official
+
+domains:
+  - name: Process Automation, Logic, and Integration
+    weight: 24
+  - name: Advanced Apex and Asynchronous Development
+    weight: 22
+  - name: User Interface Development
+    weight: 20
+  - name: Testing and Debugging
+    weight: 18
+  - name: Performance Optimization
+    weight: 16
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/platformdeveloperii
+last_verified: "2026-04-09"

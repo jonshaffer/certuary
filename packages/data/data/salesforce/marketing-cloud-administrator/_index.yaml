@@ -1,0 +1,58 @@
+name: Salesforce Certified Marketing Cloud Engagement Administrator
+short_name: SF MC Admin
+slug: salesforce-marketing-cloud-administrator
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates the ability to administer and configure Marketing Cloud Engagement
+  (formerly Marketing Cloud). Covers setup, subscriber data management,
+  channel management, maintenance, and digital marketing proficiency including
+  governance, compliance, and security best practices.
+
+tags:
+  - crm
+  - marketing
+  - salesforce
+  - intermediate
+  - administration
+
+prerequisites:
+  - Experience administering Marketing Cloud Engagement recommended
+
+related_certs:
+  - salesforce-marketing-cloud-developer
+  - salesforce-administrator
+  - salesforce-data-cloud-consultant
+
+exam_format: multiple-choice
+passing_score: 67
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Marketing Cloud Engagement Administrator (Current)"
+    release_date: "2023-01-01"
+    notes: Current version with updated Marketing Cloud Engagement branding.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/marketingcloudadministrator
+    type: official
+
+domains:
+  - name: Setup
+    weight: 38
+  - name: Channel Management
+    weight: 24
+  - name: Subscriber Data Management
+    weight: 18
+  - name: Maintenance
+    weight: 7
+  - name: Digital Marketing Proficiency
+    weight: 13
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/marketingcloudadministrator
+last_verified: "2026-04-09"

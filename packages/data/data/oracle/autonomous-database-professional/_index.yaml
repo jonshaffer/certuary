@@ -1,0 +1,65 @@
+name: Oracle Autonomous Database Cloud Professional
+short_name: Oracle ADB Professional
+slug: oracle-autonomous-database-professional
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates expertise in provisioning, managing, monitoring, and migrating
+  workloads to Oracle Autonomous Database on both shared and dedicated Exadata
+  infrastructure. Covers Autonomous Database tools, development, performance
+  management, and migration strategies.
+
+tags:
+  - database
+  - cloud
+  - autonomous
+  - professional
+  - oracle
+  - oci
+
+prerequisites:
+  - Experience with Oracle Database and OCI recommended
+  - Familiarity with Autonomous Database services recommended
+
+related_certs:
+  - oracle-database-administration
+  - oracle-database-sql-associate
+  - oracle-cloud-infrastructure-architect-associate
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "1Z0-931-25"
+    release_date: "2025-01-15"
+    notes: Updated for 2025 Autonomous Database features including AI capabilities.
+  - version: "1Z0-931-24"
+    release_date: "2024-01-15"
+    notes: Previous version covering 2024 Autonomous Database services.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/oracle-autonomous-database-cloud-2025-professional/pexam_1Z0-931-25
+    type: official
+
+domains:
+  - name: Getting Started with Autonomous Database
+    weight: 15
+  - name: Autonomous Database Shared
+    weight: 20
+  - name: Autonomous Database Dedicated
+    weight: 15
+  - name: Managing and Maintaining Autonomous Database
+    weight: 20
+  - name: Autonomous Database Tools and Development
+    weight: 15
+  - name: Migrating to Autonomous Database
+    weight: 15
+
+source_of_truth_url: https://education.oracle.com/oracle-autonomous-database-cloud-2025-professional/pexam_1Z0-931-25
+last_verified: "2026-04-09"

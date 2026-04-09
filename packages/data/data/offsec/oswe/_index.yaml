@@ -1,0 +1,64 @@
+name: Offensive Security Web Expert
+short_name: OSWE
+slug: oswe
+status: active
+cost: "$1,749 USD"
+
+description: >-
+  The OSWE (WEB-300) validates advanced web application security skills through
+  white-box testing and source code analysis. Candidates must identify and
+  exploit complex vulnerabilities in web applications by analyzing source code,
+  developing custom exploits, and chaining multiple vulnerabilities together.
+  The exam requires candidates to compromise web applications by discovering
+  authentication bypasses, injection flaws, and insecure deserialization
+  vulnerabilities through manual source code review.
+
+tags:
+  - cybersecurity
+  - advanced
+  - offsec
+  - web-security
+  - offensive-security
+  - source-code-analysis
+
+prerequisites:
+  - OSCP certification or equivalent experience recommended
+  - Strong web application security fundamentals
+  - Proficiency in at least one programming language (JavaScript, Python, Java, C#)
+  - Completion of WEB-300 course materials recommended
+
+related_certs:
+  - htb-cwee
+  - oscp
+  - oswa
+
+exam_format: performance-based
+passing_score: 70
+duration_minutes: 2880
+
+versions:
+  - version: "WEB-300 v1"
+    release_date: "2019-05-01"
+    notes: Current version covering advanced web application exploitation via source code review.
+
+links:
+  - label: Official Certification Page
+    url: https://www.offsec.com/courses/web-300/
+    type: official
+
+domains:
+  - name: Source Code Analysis
+    weight: 25
+  - name: Authentication Bypass
+    weight: 20
+  - name: SQL Injection and Data Exfiltration
+    weight: 15
+  - name: Insecure Deserialization
+    weight: 15
+  - name: Cross-Site Scripting and Session Hijacking
+    weight: 10
+  - name: Custom Exploit Development
+    weight: 15
+
+source_of_truth_url: https://www.offsec.com/courses/web-300/
+last_verified: "2026-04-09"
