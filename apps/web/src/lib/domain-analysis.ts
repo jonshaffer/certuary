@@ -120,13 +120,14 @@ export function findSimilarCerts(
 
 /**
  * Recursively collect all category slugs matched by a domain or any of its
- * subdomains. Uses explicit categories when present, falling back to keyword
- * matching. Returns a deduplicated set so each category is counted at most once
- * per top-level domain.
+ * subdomains. Uses explicit categories when present — including categories
+ * inherited from a parent domain — falling back to keyword matching only when
+ * no explicit or inherited categories exist. Returns a deduplicated set so
+ * each category is counted at most once per top-level domain.
  */
 function collectDomainCategories(
   domain: ExamDomain,
-  categorySlugs: Set<string>,
+  validCategorySlugs: Set<string>,
   categoryKeywords: Map<string, Set<string>>,
   categories: DomainCategory[],
   parentCategories?: string[]
@@ -136,7 +137,7 @@ function collectDomainCategories(
 
   if (domainCats?.length) {
     for (const catSlug of domainCats) {
-      if (categorySlugs.has(catSlug)) matched.add(catSlug);
+      if (validCategorySlugs.has(catSlug)) matched.add(catSlug);
     }
   } else {
     // Fall back to keyword matching
@@ -157,7 +158,7 @@ function collectDomainCategories(
   if (domain.subdomains) {
     for (const sub of domain.subdomains) {
       const subMatched = collectDomainCategories(
-        sub, categorySlugs, categoryKeywords, categories, domainCats
+        sub, validCategorySlugs, categoryKeywords, categories, domainCats
       );
       for (const slug of subMatched) matched.add(slug);
     }
