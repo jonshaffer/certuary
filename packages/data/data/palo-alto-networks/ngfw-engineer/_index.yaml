@@ -1,0 +1,58 @@
+name: Palo Alto Networks Certified NGFW Engineer
+short_name: NGFW Engineer
+slug: ngfw-engineer
+status: active
+cost: "$250 USD"
+
+description: >-
+  The NGFW Engineer certification validates advanced skills in deploying,
+  configuring, managing, and troubleshooting Palo Alto Networks
+  next-generation firewalls. It covers networking, device settings,
+  integration, automation, and centralized management via Panorama.
+
+tags:
+  - cybersecurity
+  - network-security
+  - firewall
+  - palo-alto-networks
+  - advanced
+
+prerequisites:
+  - Network Security Professional certification recommended
+
+related_certs:
+  - network-security-professional
+  - network-security-analyst
+  - sd-wan-engineer
+  - nse-7-enterprise-firewall
+  - ccnp-security
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based framework.
+      Closest successor to the retired PCNSE certification.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Deployment and Networking
+    weight: 25
+  - name: Device Configuration and Management
+    weight: 25
+  - name: Panorama Centralized Management
+    weight: 20
+  - name: Integration and Automation
+    weight: 15
+  - name: Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

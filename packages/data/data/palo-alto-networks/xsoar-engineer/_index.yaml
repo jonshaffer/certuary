@@ -1,0 +1,56 @@
+name: Palo Alto Networks Certified XSOAR Engineer
+short_name: XSOAR Engineer
+slug: xsoar-engineer
+status: active
+cost: "$250 USD"
+
+description: >-
+  The XSOAR Engineer certification validates hands-on skills in
+  administering, deploying, troubleshooting, and automating security
+  operations using Cortex XSOAR. It covers playbook development,
+  integration configuration, incident lifecycle management, and
+  content pack creation.
+
+tags:
+  - cybersecurity
+  - security-operations
+  - automation
+  - soar
+  - palo-alto-networks
+  - advanced
+
+prerequisites:
+  - Security Operations Professional certification recommended
+
+related_certs:
+  - security-operations-professional
+  - xdr-engineer
+  - xsiam-engineer
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based framework.
+      Successor to the retired PCSAE certification.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Administration and Deployment
+    weight: 20
+  - name: Playbook Development
+    weight: 30
+  - name: Integration and Content Packs
+    weight: 25
+  - name: Troubleshooting and Maintenance
+    weight: 25
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

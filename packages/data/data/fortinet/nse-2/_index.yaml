@@ -1,0 +1,49 @@
+name: "Fortinet NSE 2: The Evolution of Cybersecurity"
+short_name: NSE 2
+slug: nse-2
+status: active
+cost: "Free"
+
+description: >-
+  The NSE 2 certification validates understanding of the evolution of
+  cybersecurity and the types of security products and technologies
+  available to combat modern threats. It covers firewall, sandboxing,
+  endpoint security, SIEM, SOAR, and other security solution categories
+  at an introductory level.
+
+tags:
+  - cybersecurity
+  - entry-level
+  - fortinet
+  - awareness
+
+prerequisites: []
+
+related_certs:
+  - nse-1
+  - nse-3
+
+exam_format: multiple-choice
+
+versions:
+  - version: NSE 2
+    release_date: "2020-01-01"
+    notes: >-
+      Covers security product evolution and modern cybersecurity
+      solution categories.
+
+links:
+  - label: Official Certification Page
+    url: https://www.fortinet.com/training/certification
+    type: official
+
+domains:
+  - name: Firewall Evolution
+  - name: Sandboxing
+  - name: Endpoint Security
+  - name: SIEM and SOAR
+  - name: Network Access Control
+  - name: Secure SD-WAN
+
+source_of_truth_url: https://www.fortinet.com/training/certification
+last_verified: "2026-04-09"

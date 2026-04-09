@@ -1,0 +1,49 @@
+name: "Fortinet NSE 3: Fortinet Product Awareness"
+short_name: NSE 3
+slug: nse-3
+status: active
+cost: "Free"
+
+description: >-
+  The NSE 3 certification validates awareness of the Fortinet Security
+  Fabric and its product portfolio including FortiGate, FortiManager,
+  FortiAnalyzer, FortiClient, FortiWeb, FortiMail, and other Fortinet
+  security solutions. It is designed to provide a technical overview of
+  how Fortinet products integrate to provide comprehensive security.
+
+tags:
+  - cybersecurity
+  - entry-level
+  - fortinet
+  - awareness
+
+prerequisites: []
+
+related_certs:
+  - nse-2
+  - nse-4
+
+exam_format: multiple-choice
+
+versions:
+  - version: NSE 3
+    release_date: "2020-01-01"
+    notes: >-
+      Covers the Fortinet Security Fabric, product portfolio,
+      and integration concepts.
+
+links:
+  - label: Official Certification Page
+    url: https://www.fortinet.com/training/certification
+    type: official
+
+domains:
+  - name: Fortinet Security Fabric
+  - name: FortiGate Overview
+  - name: FortiManager and FortiAnalyzer
+  - name: FortiClient and Endpoint Security
+  - name: FortiWeb and Application Security
+  - name: FortiMail and Email Security
+
+source_of_truth_url: https://www.fortinet.com/training/certification
+last_verified: "2026-04-09"

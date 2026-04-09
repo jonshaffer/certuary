@@ -1,0 +1,64 @@
+name: "HashiCorp Certified: Terraform Authoring and Operations Professional"
+short_name: Terraform Authoring & Operations Professional
+slug: terraform-authoring-operations-professional
+status: active
+cost: "$71 USD"
+
+description: >-
+  The Terraform Authoring and Operations Professional certification
+  validates advanced skills in authoring Terraform configuration,
+  collaborating on infrastructure as code using Terraform Cloud or
+  Terraform Enterprise, and operationalizing Terraform workflows
+  in production. It is a lab-based exam requiring hands-on
+  demonstration of Terraform expertise.
+
+tags:
+  - devops
+  - infrastructure-as-code
+  - cloud
+  - hashicorp
+  - advanced
+  - terraform
+  - performance-based
+
+prerequisites:
+  - HashiCorp Certified Terraform Associate required
+
+prerequisite_certs:
+  - terraform-associate
+
+related_certs:
+  - terraform-associate
+  - vault-associate
+  - vault-operations-professional
+  - consul-associate
+
+exam_format: performance-based
+duration_minutes: 60
+
+versions:
+  - version: "001"
+    release_date: "2024-06-01"
+    notes: >-
+      Lab-based exam testing hands-on Terraform authoring and
+      operations skills in realistic scenarios.
+
+links:
+  - label: Official Certification Page
+    url: https://www.hashicorp.com/certifications/terraform-authoring-and-operations-professional
+    type: official
+
+domains:
+  - name: Manage Infrastructure as Code
+    weight: 20
+  - name: Collaborate on Infrastructure
+    weight: 20
+  - name: Author Terraform Configuration
+    weight: 25
+  - name: Terraform Workflows and Operations
+    weight: 20
+  - name: Manage State and Backends
+    weight: 15
+
+source_of_truth_url: https://www.hashicorp.com/certifications/terraform-authoring-and-operations-professional
+last_verified: "2026-04-09"

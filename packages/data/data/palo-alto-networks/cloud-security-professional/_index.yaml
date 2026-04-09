@@ -1,0 +1,55 @@
+name: Palo Alto Networks Certified Cloud Security Professional
+short_name: Cloud Security Professional
+slug: cloud-security-professional
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Cloud Security Professional certification validates knowledge
+  and skills for securing cloud environments using Palo Alto Networks
+  Prisma Cloud platform. It covers cloud security posture management,
+  cloud runtime security, application security, and SOC integration
+  across multi-cloud environments.
+
+tags:
+  - cybersecurity
+  - cloud-security
+  - palo-alto-networks
+  - intermediate
+  - cloud
+
+prerequisites: []
+
+related_certs:
+  - cybersecurity-practitioner
+  - network-security-professional
+  - aws-cloud-practitioner
+  - azure-administrator
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-03-30"
+    notes: >-
+      Launched March 2025. Renamed from Cloud Security Generalist to
+      Cloud Security Professional effective May 30, 2025.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Cloud Security Posture Management
+    weight: 25
+  - name: Cloud Runtime Security
+    weight: 25
+  - name: Application Security
+    weight: 25
+  - name: SOC Integration
+    weight: 25
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

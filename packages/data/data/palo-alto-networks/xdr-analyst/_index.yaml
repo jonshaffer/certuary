@@ -1,0 +1,55 @@
+name: Palo Alto Networks Certified XDR Analyst
+short_name: XDR Analyst
+slug: xdr-analyst
+status: active
+cost: "$250 USD"
+
+description: >-
+  The XDR Analyst certification validates skills in using Cortex XDR
+  for threat detection, alert triage, investigation, and incident
+  analysis. It is designed for SOC analysts who use Cortex XDR to
+  identify and analyze security incidents.
+
+tags:
+  - cybersecurity
+  - security-operations
+  - xdr
+  - palo-alto-networks
+  - intermediate
+
+prerequisites:
+  - Security Operations Professional certification recommended
+
+related_certs:
+  - security-operations-professional
+  - xdr-engineer
+  - xsiam-analyst
+  - comptia-security-plus
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based framework.
+      Partial successor to the retired PCDRA certification.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Alert Triage and Analysis
+    weight: 30
+  - name: Threat Investigation
+    weight: 30
+  - name: Incident Management
+    weight: 20
+  - name: Cortex XDR Platform
+    weight: 20
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

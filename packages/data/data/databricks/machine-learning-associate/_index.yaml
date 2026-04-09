@@ -1,0 +1,59 @@
+name: Databricks Certified Machine Learning Associate
+short_name: ML Associate
+slug: machine-learning-associate
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Databricks Certified Machine Learning Associate validates
+  foundational skills in machine learning on the Databricks Lakehouse
+  Platform including data preparation for ML, feature engineering,
+  model training and evaluation, model deployment, and experiment
+  tracking with MLflow.
+
+tags:
+  - machine-learning
+  - data-engineering
+  - cloud
+  - databricks
+  - intermediate
+
+prerequisites: []
+
+related_certs:
+  - machine-learning-professional
+  - data-engineer-associate
+  - generative-ai-engineer-associate
+
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 45
+  max: 45
+
+versions:
+  - version: v1
+    release_date: "2023-06-01"
+    notes: >-
+      Initial release covering ML fundamentals on Databricks including
+      MLflow, AutoML, and Feature Store.
+
+links:
+  - label: Official Certification Page
+    url: https://www.databricks.com/learn/certification/machine-learning-associate
+    type: official
+
+domains:
+  - name: Databricks Machine Learning
+    weight: 22
+  - name: ML Workflows
+    weight: 20
+  - name: Feature Engineering
+    weight: 18
+  - name: Model Training and Evaluation
+    weight: 22
+  - name: Model Deployment and Management
+    weight: 18
+
+source_of_truth_url: https://www.databricks.com/learn/certification/machine-learning-associate
+last_verified: "2026-04-09"

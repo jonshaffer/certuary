@@ -1,0 +1,62 @@
+name: "SnowPro Advanced: Architect"
+short_name: SnowPro Adv. Architect
+slug: snowpro-advanced-architect
+status: active
+cost: "$375 USD"
+
+description: >-
+  The SnowPro Advanced Architect certification validates advanced skills
+  in designing Snowflake architectures including account strategy, security
+  architecture, data modeling, performance optimization, and integration
+  patterns for enterprise-scale Snowflake deployments.
+
+tags:
+  - architecture
+  - cloud
+  - snowflake
+  - advanced
+  - data-warehousing
+
+prerequisites:
+  - SnowPro Core Certification required
+
+prerequisite_certs:
+  - snowpro-core
+
+related_certs:
+  - snowpro-core
+  - snowpro-advanced-data-engineer
+  - snowpro-advanced-administrator
+
+exam_format: multiple-choice
+duration_minutes: 115
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: ARA-C01
+    release_date: "2023-03-01"
+    notes: >-
+      Covers Snowflake account architecture, security design,
+      data sharing, and integration patterns.
+
+links:
+  - label: Official Certification Page
+    url: https://www.snowflake.com/certifications/snowpro-advanced-architect/
+    type: official
+
+domains:
+  - name: Accounts and Security
+    weight: 25
+  - name: Snowflake Architecture
+    weight: 30
+  - name: Data Engineering
+    weight: 15
+  - name: Performance Optimization
+    weight: 15
+  - name: Cloud and Data Integration
+    weight: 15
+
+source_of_truth_url: https://www.snowflake.com/certifications/snowpro-advanced-architect/
+last_verified: "2026-04-09"

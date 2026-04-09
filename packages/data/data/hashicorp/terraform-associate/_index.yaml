@@ -1,0 +1,71 @@
+name: "HashiCorp Certified: Terraform Associate"
+short_name: Terraform Associate
+slug: terraform-associate
+status: active
+cost: "$71 USD"
+
+description: >-
+  The Terraform Associate certification validates foundational knowledge
+  of HashiCorp Terraform including infrastructure as code concepts,
+  Terraform workflow, state management, modules, and the core configuration
+  language (HCL). It is aimed at cloud engineers and DevOps professionals
+  who use Terraform to provision and manage infrastructure.
+
+tags:
+  - devops
+  - infrastructure-as-code
+  - cloud
+  - hashicorp
+  - intermediate
+  - terraform
+
+prerequisites: []
+
+related_certs:
+  - vault-associate
+  - consul-associate
+  - aws-cloud-practitioner
+  - azure-administrator
+  - cka
+
+exam_format: multiple-choice
+duration_minutes: 60
+question_count:
+  min: 57
+  max: 57
+
+versions:
+  - version: "003"
+    release_date: "2023-10-01"
+    notes: >-
+      Updated to cover Terraform 1.x features including moved blocks,
+      import blocks, and updated provider ecosystem.
+
+links:
+  - label: Official Certification Page
+    url: https://www.hashicorp.com/certifications/terraform-associate
+    type: official
+  - label: Exam Review Guide
+    url: https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-review-003
+    type: source-of-truth
+
+domains:
+  - name: Understand Infrastructure as Code Concepts
+    weight: 8
+  - name: Understand the Purpose of Terraform
+    weight: 10
+  - name: Understand Terraform Basics
+    weight: 17
+  - name: Use Terraform Outside the Core Workflow
+    weight: 13
+  - name: Interact with Terraform Modules
+    weight: 13
+  - name: Use the Core Terraform Workflow
+    weight: 9
+  - name: Implement and Maintain State
+    weight: 16
+  - name: Read, Generate, and Modify Configuration
+    weight: 14
+
+source_of_truth_url: https://www.hashicorp.com/certifications/terraform-associate
+last_verified: "2026-04-09"

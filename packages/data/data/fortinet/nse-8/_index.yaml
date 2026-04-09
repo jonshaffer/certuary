@@ -1,0 +1,63 @@
+name: "Fortinet NSE 8: Network Security Expert"
+short_name: NSE 8
+slug: nse-8
+status: active
+cost: "$1,599 USD"
+
+description: >-
+  The NSE 8 is Fortinet's highest-level certification, validating expert
+  skills in designing, configuring, and troubleshooting complex network
+  security solutions using the entire Fortinet product portfolio. The
+  certification requires passing both a written exam and a hands-on
+  practical lab exam covering enterprise-scale Fortinet deployments.
+
+tags:
+  - cybersecurity
+  - network-security
+  - firewall
+  - fortinet
+  - expert
+  - performance-based
+
+prerequisites:
+  - NSE 4 and NSE 7 certifications recommended
+  - Extensive hands-on Fortinet deployment experience
+
+related_certs:
+  - nse-7-enterprise-firewall
+  - ccie-security
+  - ngfw-engineer
+  - cissp
+
+exam_format:
+  - multiple-choice
+  - performance-based
+
+versions:
+  - version: NSE 8 v2
+    release_date: "2024-01-01"
+    notes: >-
+      Two-part exam consisting of a written multiple-choice exam and a
+      hands-on practical lab covering the Fortinet Security Fabric.
+
+links:
+  - label: Official Certification Page
+    url: https://www.fortinet.com/training/certification
+    type: official
+
+domains:
+  - name: FortiGate Advanced Configuration
+    weight: 25
+  - name: Fortinet Security Fabric Integration
+    weight: 20
+  - name: Advanced VPN and Routing
+    weight: 15
+  - name: High Availability and Scalability
+    weight: 15
+  - name: Troubleshooting and Diagnostics
+    weight: 15
+  - name: Multi-Product Deployment
+    weight: 10
+
+source_of_truth_url: https://www.fortinet.com/training/certification
+last_verified: "2026-04-09"

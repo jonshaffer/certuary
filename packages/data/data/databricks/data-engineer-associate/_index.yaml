@@ -1,0 +1,61 @@
+name: Databricks Certified Data Engineer Associate
+short_name: Data Engineer Associate
+slug: data-engineer-associate
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Databricks Certified Data Engineer Associate validates the ability
+  to use the Databricks Lakehouse Platform to complete introductory data
+  engineering tasks including designing and implementing data pipelines
+  using Apache Spark, Delta Lake, and Databricks SQL, as well as managing
+  data workflows with Delta Live Tables and Databricks Workflows.
+
+tags:
+  - data-engineering
+  - cloud
+  - databricks
+  - spark
+  - intermediate
+  - sql
+
+prerequisites: []
+
+related_certs:
+  - data-engineer-professional
+  - data-analyst-associate
+  - snowpro-core
+  - machine-learning-associate
+
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 45
+  max: 45
+
+versions:
+  - version: v3
+    release_date: "2023-09-01"
+    notes: >-
+      Updated to cover Unity Catalog, Delta Live Tables, and
+      Databricks Workflows.
+
+links:
+  - label: Official Certification Page
+    url: https://www.databricks.com/learn/certification/data-engineer-associate
+    type: official
+
+domains:
+  - name: Databricks Lakehouse Platform
+    weight: 24
+  - name: ELT with Spark SQL and Python
+    weight: 29
+  - name: Incremental Data Processing
+    weight: 18
+  - name: Production Pipelines
+    weight: 16
+  - name: Data Governance
+    weight: 13
+
+source_of_truth_url: https://www.databricks.com/learn/certification/data-engineer-associate
+last_verified: "2026-04-09"

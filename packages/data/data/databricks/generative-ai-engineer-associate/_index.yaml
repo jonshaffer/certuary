@@ -1,0 +1,60 @@
+name: Databricks Certified Generative AI Engineer Associate
+short_name: GenAI Engineer Associate
+slug: generative-ai-engineer-associate
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Databricks Certified Generative AI Engineer Associate validates
+  skills in building generative AI applications on the Databricks
+  platform including designing RAG (Retrieval-Augmented Generation)
+  systems, working with large language models, prompt engineering,
+  vector search, and deploying GenAI solutions using Databricks
+  Model Serving and Foundation Model APIs.
+
+tags:
+  - generative-ai
+  - machine-learning
+  - cloud
+  - databricks
+  - intermediate
+
+prerequisites: []
+
+related_certs:
+  - machine-learning-associate
+  - machine-learning-professional
+  - data-engineer-associate
+
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 45
+  max: 45
+
+versions:
+  - version: v1
+    release_date: "2024-03-01"
+    notes: >-
+      Initial release covering RAG applications, LLM integration,
+      vector databases, and GenAI deployment on Databricks.
+
+links:
+  - label: Official Certification Page
+    url: https://www.databricks.com/learn/certification/generative-ai-engineer-associate
+    type: official
+
+domains:
+  - name: Design RAG Applications
+    weight: 30
+  - name: Data Preparation for GenAI
+    weight: 20
+  - name: Application Development with LLMs
+    weight: 20
+  - name: Assembling and Deploying GenAI Applications
+    weight: 18
+  - name: Governance for GenAI
+    weight: 12
+
+source_of_truth_url: https://www.databricks.com/learn/certification/generative-ai-engineer-associate
+last_verified: "2026-04-09"

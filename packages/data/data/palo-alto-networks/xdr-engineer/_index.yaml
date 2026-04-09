@@ -1,0 +1,54 @@
+name: Palo Alto Networks Certified XDR Engineer
+short_name: XDR Engineer
+slug: xdr-engineer
+status: active
+cost: "$250 USD"
+
+description: >-
+  The XDR Engineer certification validates advanced skills in deploying,
+  configuring, and managing Cortex XDR environments. It covers endpoint
+  protection configuration, detection rule tuning, integration with
+  third-party data sources, and advanced threat response automation.
+
+tags:
+  - cybersecurity
+  - security-operations
+  - xdr
+  - palo-alto-networks
+  - advanced
+
+prerequisites:
+  - Security Operations Professional certification recommended
+
+related_certs:
+  - security-operations-professional
+  - xdr-analyst
+  - xsiam-engineer
+  - xsoar-engineer
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release as part of the new role-based framework.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Deployment and Configuration
+    weight: 25
+  - name: Detection and Prevention
+    weight: 25
+  - name: Integration and Data Sources
+    weight: 25
+  - name: Response and Automation
+    weight: 25
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

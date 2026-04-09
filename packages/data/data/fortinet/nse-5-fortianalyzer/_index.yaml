@@ -1,0 +1,63 @@
+name: "Fortinet NSE 5: FortiAnalyzer"
+short_name: NSE 5 FortiAnalyzer
+slug: nse-5-fortianalyzer
+status: active
+cost: "$400 USD"
+
+description: >-
+  The NSE 5 FortiAnalyzer certification validates skills in centralized
+  logging, analysis, and reporting using FortiAnalyzer. It covers log
+  collection and management, report generation, event correlation,
+  SOC integration, incident detection, and FortiView analytics for
+  Fortinet security infrastructure.
+
+tags:
+  - cybersecurity
+  - network-security
+  - fortinet
+  - intermediate
+  - analytics
+
+prerequisites:
+  - NSE 4 certification recommended
+
+prerequisite_certs:
+  - nse-4
+
+related_certs:
+  - nse-4
+  - nse-5-fortimanager
+  - nse-6-fortiweb
+
+exam_format: multiple-choice
+duration_minutes: 60
+question_count:
+  min: 30
+  max: 30
+
+versions:
+  - version: FortiAnalyzer 7.4
+    release_date: "2024-03-01"
+    notes: >-
+      Updated to cover FortiAnalyzer 7.4 features including
+      enhanced SOC views and automated incident handling.
+
+links:
+  - label: Official Certification Page
+    url: https://www.fortinet.com/training/certification
+    type: official
+
+domains:
+  - name: Administration and System Settings
+    weight: 20
+  - name: Log Management
+    weight: 25
+  - name: Reports and Datasets
+    weight: 20
+  - name: FortiView and Event Management
+    weight: 20
+  - name: Diagnostics and Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.fortinet.com/training/certification
+last_verified: "2026-04-09"

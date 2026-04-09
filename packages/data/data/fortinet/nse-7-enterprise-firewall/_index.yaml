@@ -1,0 +1,69 @@
+name: "Fortinet NSE 7: Enterprise Firewall"
+short_name: NSE 7 Enterprise Firewall
+slug: nse-7-enterprise-firewall
+status: active
+cost: "$400 USD"
+
+description: >-
+  The NSE 7 Enterprise Firewall certification validates advanced skills
+  in designing and deploying complex FortiGate enterprise firewall
+  solutions. It covers advanced routing, high availability, VDOM
+  configuration, SD-WAN optimization, ZTNA, advanced IPsec VPN
+  topologies, and enterprise-scale security architecture using
+  FortiGate and the Fortinet Security Fabric.
+
+tags:
+  - cybersecurity
+  - network-security
+  - firewall
+  - fortinet
+  - advanced
+
+prerequisites:
+  - NSE 4 certification required
+  - NSE 5 and NSE 6 certifications recommended
+
+prerequisite_certs:
+  - nse-4
+
+related_certs:
+  - nse-4
+  - nse-8
+  - ngfw-engineer
+  - ccnp-security
+  - ccie-security
+
+exam_format: multiple-choice
+duration_minutes: 60
+question_count:
+  min: 35
+  max: 35
+
+versions:
+  - version: FortiOS 7.4
+    release_date: "2024-06-01"
+    notes: >-
+      Updated to cover advanced FortiOS 7.4 enterprise deployment
+      scenarios including ZTNA and SD-WAN.
+
+links:
+  - label: Official Certification Page
+    url: https://www.fortinet.com/training/certification
+    type: official
+
+domains:
+  - name: FortiGate HA and VDOMs
+    weight: 20
+  - name: Advanced Routing
+    weight: 15
+  - name: IPsec VPN Advanced
+    weight: 15
+  - name: SD-WAN
+    weight: 20
+  - name: ZTNA
+    weight: 15
+  - name: Diagnostics and Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.fortinet.com/training/certification
+last_verified: "2026-04-09"

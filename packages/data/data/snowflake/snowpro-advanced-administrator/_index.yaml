@@ -1,0 +1,61 @@
+name: "SnowPro Advanced: Administrator"
+short_name: SnowPro Adv. Administrator
+slug: snowpro-advanced-administrator
+status: active
+cost: "$375 USD"
+
+description: >-
+  The SnowPro Advanced Administrator certification validates advanced
+  skills in managing Snowflake accounts including security configuration,
+  resource monitoring, cost management, data protection, account
+  administration, and troubleshooting production Snowflake environments.
+
+tags:
+  - administration
+  - cloud
+  - snowflake
+  - advanced
+  - data-warehousing
+
+prerequisites:
+  - SnowPro Core Certification required
+
+prerequisite_certs:
+  - snowpro-core
+
+related_certs:
+  - snowpro-core
+  - snowpro-advanced-architect
+
+exam_format: multiple-choice
+duration_minutes: 115
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: ADA-C01
+    release_date: "2023-03-01"
+    notes: >-
+      Covers account management, security, resource monitoring,
+      and advanced administration.
+
+links:
+  - label: Official Certification Page
+    url: https://www.snowflake.com/certifications/snowpro-advanced-administrator/
+    type: official
+
+domains:
+  - name: Account and Resource Management
+    weight: 25
+  - name: Security
+    weight: 25
+  - name: Performance and Tuning
+    weight: 20
+  - name: Data Governance and Protection
+    weight: 15
+  - name: Monitoring and Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.snowflake.com/certifications/snowpro-advanced-administrator/
+last_verified: "2026-04-09"

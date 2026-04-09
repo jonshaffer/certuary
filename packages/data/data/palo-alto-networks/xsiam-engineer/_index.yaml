@@ -1,0 +1,56 @@
+name: Palo Alto Networks Certified XSIAM Engineer
+short_name: XSIAM Engineer
+slug: xsiam-engineer
+status: active
+cost: "$250 USD"
+
+description: >-
+  The XSIAM Engineer certification validates advanced skills in
+  designing, deploying, and optimizing the Cortex XSIAM platform
+  in production SOC environments. It covers platform architecture,
+  data onboarding, correlation rule configuration, automation
+  playbooks, and performance tuning.
+
+tags:
+  - cybersecurity
+  - security-operations
+  - xsiam
+  - palo-alto-networks
+  - advanced
+  - ai
+
+prerequisites:
+  - Security Operations Professional certification recommended
+
+related_certs:
+  - security-operations-professional
+  - xsiam-analyst
+  - xdr-engineer
+  - xsoar-engineer
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-06-01"
+    notes: >-
+      Initial release validating XSIAM platform engineering skills.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Platform Architecture and Deployment
+    weight: 25
+  - name: Data Onboarding and Integration
+    weight: 25
+  - name: Correlation Rules and Detection
+    weight: 25
+  - name: Automation and Optimization
+    weight: 25
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

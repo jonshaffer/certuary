@@ -1,0 +1,57 @@
+name: Palo Alto Networks Certified Network Security Professional
+short_name: Network Security Professional
+slug: network-security-professional
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Network Security Professional certification validates broad
+  knowledge of network security principles and Palo Alto Networks
+  technologies including next-generation firewalls, security policy
+  management, and network threat prevention. It serves as the
+  gateway to Specialist certifications in the Network Security track.
+
+tags:
+  - cybersecurity
+  - network-security
+  - palo-alto-networks
+  - intermediate
+
+prerequisites: []
+
+related_certs:
+  - cybersecurity-practitioner
+  - network-security-analyst
+  - ngfw-engineer
+  - sd-wan-engineer
+  - sse-engineer
+  - nse-4
+  - ccna
+
+exam_format: multiple-choice
+duration_minutes: 80
+
+versions:
+  - version: "1.0"
+    release_date: "2025-01-01"
+    notes: >-
+      Initial release replacing the retired PCNSA certification
+      as part of the new role-based framework.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Network Security Fundamentals
+    weight: 25
+  - name: Security Policy and Objects
+    weight: 25
+  - name: Threat Prevention
+    weight: 25
+  - name: Networking and Connectivity
+    weight: 25
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

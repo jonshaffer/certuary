@@ -1,0 +1,63 @@
+name: "SnowPro Advanced: Data Analyst"
+short_name: SnowPro Adv. Data Analyst
+slug: snowpro-advanced-data-analyst
+status: active
+cost: "$375 USD"
+
+description: >-
+  The SnowPro Advanced Data Analyst certification validates advanced
+  skills in using Snowflake for data analysis including complex SQL
+  queries, data visualization integration, Snowsight dashboards,
+  analytical functions, and deriving business insights from data
+  stored in the Snowflake Data Cloud.
+
+tags:
+  - data-analytics
+  - cloud
+  - snowflake
+  - sql
+  - advanced
+  - data-warehousing
+
+prerequisites:
+  - SnowPro Core Certification required
+
+prerequisite_certs:
+  - snowpro-core
+
+related_certs:
+  - snowpro-core
+  - data-analyst-associate
+
+exam_format: multiple-choice
+duration_minutes: 115
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: DAN-C01
+    release_date: "2024-01-01"
+    notes: >-
+      Covers advanced SQL analytics, Snowsight, and data analysis
+      patterns on Snowflake.
+
+links:
+  - label: Official Certification Page
+    url: https://www.snowflake.com/certifications/snowpro-advanced-data-analyst/
+    type: official
+
+domains:
+  - name: Snowflake Data Analysis Concepts
+    weight: 20
+  - name: Data Retrieval and Transformation
+    weight: 25
+  - name: Data Presentation and Visualization
+    weight: 20
+  - name: Data Governance for Analytics
+    weight: 15
+  - name: Performance Considerations for Analytics
+    weight: 20
+
+source_of_truth_url: https://www.snowflake.com/certifications/snowpro-advanced-data-analyst/
+last_verified: "2026-04-09"

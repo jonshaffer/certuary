@@ -1,0 +1,57 @@
+name: Palo Alto Networks Certified XSIAM Analyst
+short_name: XSIAM Analyst
+slug: xsiam-analyst
+status: active
+cost: "$250 USD"
+
+description: >-
+  The XSIAM Analyst certification validates skills in using Cortex
+  XSIAM — Palo Alto Networks' AI-driven Security Operations Platform —
+  for threat detection, automated triage, investigation, and incident
+  response within modern SOC workflows.
+
+tags:
+  - cybersecurity
+  - security-operations
+  - xsiam
+  - palo-alto-networks
+  - intermediate
+  - ai
+
+prerequisites:
+  - Security Operations Professional certification recommended
+
+related_certs:
+  - security-operations-professional
+  - xsiam-engineer
+  - xdr-analyst
+
+exam_format: multiple-choice
+duration_minutes: 80
+question_count:
+  min: 50
+  max: 50
+
+versions:
+  - version: "1.0"
+    release_date: "2025-06-01"
+    notes: >-
+      Initial release validating XSIAM platform analysis skills.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: XSIAM Platform Fundamentals
+    weight: 20
+  - name: Threat Detection and Triage
+    weight: 30
+  - name: Investigation and Response
+    weight: 30
+  - name: Automation and AI-Driven Analysis
+    weight: 20
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"
