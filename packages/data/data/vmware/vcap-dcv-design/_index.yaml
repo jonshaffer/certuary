@@ -4,7 +4,6 @@ slug: vmware-vcap-dcv-design
 status: active
 cost: "$450 USD"
 exam_format: multiple-choice
-passing_score: 300
 duration_minutes: 145
 question_count:
   min: 60

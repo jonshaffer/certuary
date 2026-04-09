@@ -4,7 +4,6 @@ slug: vmware-vcp-nv
 status: active
 cost: "$250 USD"
 exam_format: multiple-choice
-passing_score: 300
 duration_minutes: 135
 question_count:
   min: 55

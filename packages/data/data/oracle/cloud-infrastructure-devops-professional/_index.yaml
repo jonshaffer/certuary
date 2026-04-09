@@ -44,7 +44,7 @@ versions:
 
 links:
   - label: Official Certification Page
-    url: https://education.oracle.com/ouexam-pexam_1z0-1109-25/pexam_1Z0-1109-25
+    url: https://education.oracle.com/oracle-cloud-infrastructure-2025-devops-professional/pexam_1Z0-1109-25
     type: official
 
 domains:
@@ -59,5 +59,5 @@ domains:
   - name: Monitoring and Observability
     weight: 15
 
-source_of_truth_url: https://education.oracle.com/ouexam-pexam_1z0-1109-25/pexam_1Z0-1109-25
+source_of_truth_url: https://education.oracle.com/oracle-cloud-infrastructure-2025-devops-professional/pexam_1Z0-1109-25
 last_verified: "2026-04-09"

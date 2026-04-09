@@ -4,7 +4,6 @@ slug: vmware-vcp-dcv
 status: active
 cost: "$250 USD"
 exam_format: multiple-choice
-passing_score: 300
 duration_minutes: 130
 question_count:
   min: 70

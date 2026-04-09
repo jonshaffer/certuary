@@ -26,7 +26,6 @@ related_certs:
   - vmware-vcp-vcf-administrator
 
 exam_format: multiple-choice
-passing_score: 300
 duration_minutes: 130
 question_count:
   min: 70

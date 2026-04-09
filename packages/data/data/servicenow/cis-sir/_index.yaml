@@ -46,7 +46,7 @@ links:
     url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=908e1d77dbc27f40de3cdb85ca961929
     type: official
   - label: CIS-SIR Mainline Exam Blueprint
-    url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-security-incidence-response?id=kb_article_view&sysparm_article=KB0011559
+    url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-security-incident-response?id=kb_article_view&sysparm_article=KB0011559
     type: source-of-truth
 
 domains:
@@ -61,5 +61,5 @@ domains:
   - name: Reporting and Analytics
     weight: 15
 
-source_of_truth_url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-security-incidence-response?id=kb_article_view&sysparm_article=KB0011559
+source_of_truth_url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-security-incident-response?id=kb_article_view&sysparm_article=KB0011559
 last_verified: "2026-04-09"

@@ -2,7 +2,7 @@ name: VMware Certified Design Expert - Data Center Virtualization (VCDX-DCV)
 short_name: VCDX-DCV
 slug: vmware-vcdx-dcv
 status: active
-cost: "$995 USD (application) + $995-$3,000 USD (defense)"
+cost: "$995 USD"
 
 description: >-
   The VCDX-DCV is the highest level of VMware certification, validating

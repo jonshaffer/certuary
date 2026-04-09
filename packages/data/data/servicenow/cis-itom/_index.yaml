@@ -19,7 +19,7 @@ tags:
 
 prerequisites:
   - ServiceNow Certified System Administrator (CSA) certification required
-  - CIS-Data Foundations (CMDB and CSDM) certification required
+  - CIS-Data Foundations (CMDB and CSDM) certification required (external prerequisite, not tracked in this project)
   - Hands-on experience with ServiceNow ITOM modules recommended
 
 related_certs:
