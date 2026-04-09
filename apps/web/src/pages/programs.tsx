@@ -60,11 +60,11 @@ export function ProgramsPage() {
                   <CardContent>
                     <div className="flex flex-wrap gap-1">
                       <Badge variant="outline">
-                        {program.type === "provider"
-                          ? "Provider Program"
-                          : program.type === "community"
-                            ? "Community"
-                            : "Certuary Path"}
+                        {{
+                          provider: "Provider Program",
+                          community: "Community",
+                          certuary: "Certuary Path",
+                        }[program.type]}
                       </Badge>
                       {program.designation && (
                         <Badge variant="default">{program.designation}</Badge>

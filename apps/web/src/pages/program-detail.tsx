@@ -54,11 +54,11 @@ export function ProgramDetailPage() {
         <div className="mt-1 flex items-center gap-3">
           <h1 className="text-3xl font-bold">{program.name}</h1>
           <Badge variant="outline">
-            {program.type === "provider"
-              ? "Provider Program"
-              : program.type === "community"
-                ? "Community"
-                : "Certuary Path"}
+            {{
+              provider: "Provider Program",
+              community: "Community",
+              certuary: "Certuary Path",
+            }[program.type]}
           </Badge>
           <Badge
             variant={program.status === "active" ? "default" : "destructive"}
@@ -67,9 +67,9 @@ export function ProgramDetailPage() {
           </Badge>
         </div>
         {program.designation && (
-          <p className="mt-1 text-sm font-medium text-primary">
-            Designation: {program.designation}
-          </p>
+          <div className="mt-2">
+            <Badge variant="default">{program.designation}</Badge>
+          </div>
         )}
         <p className="mt-2 text-muted-foreground">{program.description}</p>
         {program.type === "certuary" && (
