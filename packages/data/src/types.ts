@@ -73,6 +73,8 @@ export interface Certification {
   sourceOfTruthUrl?: string;
 }
 
+export type ProgramType = "provider" | "certuary" | "community";
+
 export type ProgramStatus = "active" | "retired";
 
 export interface ProgramPhase {
@@ -95,11 +97,13 @@ export interface ProgramCompletionCriteria {
 
 export interface Program {
   slug: string;
+  type: ProgramType;
   name: string;
   providerSlug: string;
   description: string;
   website: string;
   status: ProgramStatus;
+  designation?: string;
   requiredCerts: string[];
   phases: ProgramPhase[];
   orderingStrategies?: OrderingStrategy[];

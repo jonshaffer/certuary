@@ -1,4 +1,5 @@
 slug: htb-certification-path
+type: certuary
 name: HTB Certification Path
 description: >-
   A recommended progression through Hack The Box certifications, starting with

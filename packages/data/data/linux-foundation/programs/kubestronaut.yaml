@@ -1,4 +1,6 @@
 slug: kubestronaut
+type: provider
+designation: "Kubestronaut"
 name: Kubestronaut
 description: >-
   Earn all five core CNCF Kubernetes certifications to become a Kubestronaut and

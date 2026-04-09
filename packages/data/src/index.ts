@@ -12,6 +12,7 @@ export type {
   ProgramCompletionCriteria,
   ProgramPhase,
   ProgramStatus,
+  ProgramType,
   Provider,
   QuestionCount,
 } from "./types.js";

@@ -53,13 +53,31 @@ export function ProgramDetailPage() {
         </span>
         <div className="mt-1 flex items-center gap-3">
           <h1 className="text-3xl font-bold">{program.name}</h1>
+          <Badge variant="outline">
+            {program.type === "provider"
+              ? "Provider Program"
+              : program.type === "community"
+                ? "Community"
+                : "Certuary Path"}
+          </Badge>
           <Badge
             variant={program.status === "active" ? "default" : "destructive"}
           >
             {program.status}
           </Badge>
         </div>
+        {program.designation && (
+          <p className="mt-1 text-sm font-medium text-primary">
+            Designation: {program.designation}
+          </p>
+        )}
         <p className="mt-2 text-muted-foreground">{program.description}</p>
+        {program.type === "certuary" && (
+          <p className="mt-1 text-xs text-muted-foreground italic">
+            This certification path is curated by the Certuary community and is
+            not an official program from the provider.
+          </p>
+        )}
         <a
           href={program.website}
           target="_blank"

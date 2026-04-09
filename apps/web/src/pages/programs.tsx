@@ -59,6 +59,16 @@ export function ProgramsPage() {
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-wrap gap-1">
+                      <Badge variant="outline">
+                        {program.type === "provider"
+                          ? "Provider Program"
+                          : program.type === "community"
+                            ? "Community"
+                            : "Certuary Path"}
+                      </Badge>
+                      {program.designation && (
+                        <Badge variant="default">{program.designation}</Badge>
+                      )}
                       <Badge variant="secondary">
                         {program.phases.length} phase
                         {program.phases.length !== 1 && "s"}
