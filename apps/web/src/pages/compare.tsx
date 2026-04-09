@@ -251,13 +251,13 @@ export function ComparePage() {
               label="AWS SA-A vs Azure AZ-104 vs GCP ACE"
               slugs={[
                 "aws-solutions-architect-associate",
-                "azure-administrator-associate",
-                "gcp-cloud-engineer-associate",
+                "azure-administrator",
+                "gcp-associate-cloud-engineer",
               ]}
             />
             <QuickCompareLink
               label="CISSP vs CISM vs CISA"
-              slugs={["isc2-cissp", "isaca-cism", "isaca-cisa"]}
+              slugs={["cissp", "cism", "cisa"]}
             />
             <QuickCompareLink
               label="CompTIA Security+ vs CySA+ vs CASP+"
