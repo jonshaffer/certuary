@@ -1,0 +1,60 @@
+name: SAP Certified Associate - SAP S/4HANA System Administration
+short_name: SAP C_TADM
+slug: sap-s4hana-system-admin
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates technical administration skills for SAP S/4HANA systems, including
+  system installation, configuration, monitoring, transport management, and
+  database administration. Covers both on-premise and hybrid deployment
+  scenarios. Designed for Basis administrators responsible for maintaining
+  SAP system landscapes.
+
+tags:
+  - administration
+  - sap
+  - s4hana
+  - infrastructure
+  - basis
+
+prerequisites:
+  - SAP S/4HANA system administration training or equivalent hands-on experience recommended
+
+related_certs:
+  - sap-s4hana-cloud
+  - sap-btp-administrator
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 180
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover SAP S/4HANA 2023 on-premise administration features.
+
+links:
+  - label: Official Certification Page
+    url: https://learning.sap.com/certifications/sap-certified-associate-sap-s-4hana-system-administration
+    type: official
+
+domains:
+  - name: System Architecture and Installation
+    weight: 15
+  - name: System Configuration and Operations
+    weight: 20
+  - name: Transport Management
+    weight: 15
+  - name: User Administration and Authorization
+    weight: 15
+  - name: Database Administration
+    weight: 15
+  - name: System Monitoring and Troubleshooting
+    weight: 20
+
+source_of_truth_url: https://learning.sap.com/certifications/sap-certified-associate-sap-s-4hana-system-administration
+last_verified: "2026-04-09"

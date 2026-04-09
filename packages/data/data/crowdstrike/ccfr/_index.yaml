@@ -1,0 +1,64 @@
+name: CrowdStrike Certified Falcon Responder
+short_name: CCFR
+slug: crowdstrike-ccfr
+status: active
+cost: "$300 USD"
+
+description: >-
+  Validates skills in using the CrowdStrike Falcon platform for incident
+  response and investigation. Covers detection triage, real-time response,
+  host containment, IOC management, forensic data collection, and
+  investigation workflows within the Falcon console. Designed for SOC
+  analysts and incident responders.
+
+tags:
+  - endpoint-security
+  - incident-response
+  - intermediate
+  - crowdstrike
+  - falcon
+
+prerequisites:
+  - CCFA certification recommended
+  - CrowdStrike Falcon Responder training or SOC experience recommended
+
+prerequisite_certs:
+  - crowdstrike-ccfa
+
+related_certs:
+  - crowdstrike-ccfa
+  - crowdstrike-ccfh
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover latest Falcon incident response capabilities.
+
+links:
+  - label: Official Certification Page
+    url: https://www.crowdstrike.com/en-us/services/training/certifications/
+    type: official
+
+domains:
+  - name: Detection Triage and Analysis
+    weight: 20
+  - name: Real-Time Response
+    weight: 20
+  - name: Host Containment and Remediation
+    weight: 15
+  - name: IOC Management
+    weight: 15
+  - name: Investigation Workflows
+    weight: 15
+  - name: Reporting and Documentation
+    weight: 15
+
+source_of_truth_url: https://www.crowdstrike.com/en-us/services/training/certifications/
+last_verified: "2026-04-09"

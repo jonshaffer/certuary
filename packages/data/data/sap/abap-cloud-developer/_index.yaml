@@ -1,0 +1,61 @@
+name: SAP Certified Associate - Back-End Developer - ABAP Cloud
+short_name: SAP C_ABAPD
+slug: sap-abap-cloud-developer
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates development skills in ABAP Cloud, SAP's modern cloud-ready
+  application programming model. Covers the ABAP RESTful Application
+  Programming Model (RAP), Core Data Services (CDS), ABAP for Cloud
+  development restrictions, and integration with SAP BTP. Designed for
+  developers building clean-core extensions on SAP S/4HANA Cloud.
+
+tags:
+  - development
+  - sap
+  - abap
+  - cloud
+  - programming
+
+prerequisites:
+  - ABAP programming experience recommended
+  - SAP BTP or S/4HANA Cloud development training recommended
+
+related_certs:
+  - sap-btp-administrator
+  - sap-s4hana-cloud
+
+exam_format: multiple-choice
+passing_score: 67
+duration_minutes: 180
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover latest ABAP Cloud and RAP development features.
+
+links:
+  - label: Official Certification Page
+    url: https://learning.sap.com/certifications/sap-certified-associate-back-end-developer-abap-cloud
+    type: official
+
+domains:
+  - name: ABAP Cloud Fundamentals
+    weight: 15
+  - name: Core Data Services (CDS)
+    weight: 20
+  - name: ABAP RESTful Application Programming Model
+    weight: 25
+  - name: ABAP for Cloud Development
+    weight: 15
+  - name: Testing and Troubleshooting
+    weight: 10
+  - name: Integration and APIs
+    weight: 15
+
+source_of_truth_url: https://learning.sap.com/certifications/sap-certified-associate-back-end-developer-abap-cloud
+last_verified: "2026-04-09"

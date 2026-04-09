@@ -1,0 +1,60 @@
+name: SAP Certified Associate - SAP Fiori System Administration
+short_name: SAP C_FIORD
+slug: sap-fiori-system-admin
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates administration skills for SAP Fiori, the modern user experience
+  platform for SAP applications. Covers Fiori launchpad configuration,
+  app activation, role-based access management, SAP Gateway setup, theme
+  customization, and troubleshooting of Fiori apps across on-premise and
+  cloud environments.
+
+tags:
+  - fiori
+  - sap
+  - administration
+  - ux
+  - frontend
+
+prerequisites:
+  - SAP Fiori system administration training or equivalent experience recommended
+
+related_certs:
+  - sap-s4hana-cloud
+  - sap-s4hana-system-admin
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 180
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to reflect latest SAP Fiori administration features.
+
+links:
+  - label: Official Certification Page
+    url: https://learning.sap.com/certifications/sap-certified-associate-sap-fiori-system-administration
+    type: official
+
+domains:
+  - name: SAP Fiori Architecture and Concepts
+    weight: 15
+  - name: Fiori Launchpad Configuration
+    weight: 20
+  - name: App Activation and Management
+    weight: 20
+  - name: SAP Gateway Administration
+    weight: 15
+  - name: Security and Role Management
+    weight: 15
+  - name: Troubleshooting and Performance
+    weight: 15
+
+source_of_truth_url: https://learning.sap.com/certifications/sap-certified-associate-sap-fiori-system-administration
+last_verified: "2026-04-09"

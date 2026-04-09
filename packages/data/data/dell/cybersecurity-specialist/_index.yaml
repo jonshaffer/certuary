@@ -1,0 +1,64 @@
+name: Dell Technologies Certified Specialist - Cyber Recovery
+short_name: Dell DCS-CR
+slug: dell-cybersecurity-specialist
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates advanced knowledge of implementing cybersecurity solutions with
+  Dell Technologies. Covers advanced Cyber Recovery vault deployment,
+  infrastructure security hardening, incident response with Dell tools,
+  and designing resilient data protection architectures against
+  ransomware and advanced threats.
+
+tags:
+  - cybersecurity
+  - infrastructure
+  - intermediate
+  - dell
+  - data-protection
+
+prerequisites:
+  - Dell Cybersecurity Associate certification recommended
+  - Hands-on experience with Dell security solutions
+
+prerequisite_certs:
+  - dell-cybersecurity-associate
+
+related_certs:
+  - dell-cybersecurity-associate
+  - dell-data-storage-specialist
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover advanced Dell cybersecurity and resilience solutions.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: Advanced Cyber Recovery
+    weight: 20
+  - name: Infrastructure Security Hardening
+    weight: 20
+  - name: Incident Response and Forensics
+    weight: 15
+  - name: Ransomware Protection Strategies
+    weight: 15
+  - name: Security Architecture Design
+    weight: 15
+  - name: Compliance and Audit Readiness
+    weight: 15
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

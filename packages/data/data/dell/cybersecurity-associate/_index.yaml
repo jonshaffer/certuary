@@ -1,0 +1,60 @@
+name: Dell Technologies Certified Associate - Cybersecurity
+short_name: Dell DCA-Cybersecurity
+slug: dell-cybersecurity-associate
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates foundational knowledge of cybersecurity principles applied to
+  Dell Technologies infrastructure. Covers security fundamentals, Dell
+  PowerProtect Cyber Recovery, data protection security, zero trust
+  architecture concepts, and security best practices for Dell enterprise
+  environments.
+
+tags:
+  - cybersecurity
+  - infrastructure
+  - entry-level
+  - dell
+  - data-protection
+
+prerequisites:
+  - Basic cybersecurity and IT infrastructure knowledge recommended
+
+related_certs:
+  - dell-cybersecurity-specialist
+  - dell-data-storage-associate
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover Dell cybersecurity and cyber recovery solutions.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: Cybersecurity Fundamentals
+    weight: 20
+  - name: Dell PowerProtect Cyber Recovery
+    weight: 20
+  - name: Data Protection Security
+    weight: 15
+  - name: Zero Trust Architecture
+    weight: 15
+  - name: Threat Detection and Response
+    weight: 15
+  - name: Compliance and Governance
+    weight: 15
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

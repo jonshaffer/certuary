@@ -1,0 +1,60 @@
+name: CrowdStrike Certified Falcon Administrator
+short_name: CCFA
+slug: crowdstrike-ccfa
+status: active
+cost: "$300 USD"
+
+description: >-
+  Validates skills in deploying, configuring, and managing the CrowdStrike
+  Falcon platform. Covers sensor deployment, prevention policies, detection
+  and response configuration, Falcon console navigation, user management,
+  and integration with security workflows. The foundational certification
+  for all CrowdStrike credentials.
+
+tags:
+  - endpoint-security
+  - administration
+  - entry-level
+  - crowdstrike
+  - falcon
+
+prerequisites:
+  - CrowdStrike Falcon platform experience or Falcon Administrator training recommended
+
+related_certs:
+  - crowdstrike-ccfr
+  - crowdstrike-ccfh
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated for the latest CrowdStrike Falcon platform features.
+
+links:
+  - label: Official Certification Page
+    url: https://www.crowdstrike.com/en-us/services/training/certifications/
+    type: official
+
+domains:
+  - name: Falcon Platform Overview
+    weight: 15
+  - name: Sensor Deployment and Management
+    weight: 20
+  - name: Prevention Policies
+    weight: 20
+  - name: Detection and Visibility
+    weight: 15
+  - name: Response and Remediation
+    weight: 15
+  - name: Platform Administration
+    weight: 15
+
+source_of_truth_url: https://www.crowdstrike.com/en-us/services/training/certifications/
+last_verified: "2026-04-09"

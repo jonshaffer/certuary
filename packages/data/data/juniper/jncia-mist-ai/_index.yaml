@@ -1,0 +1,62 @@
+name: Juniper Networks Certified Associate - Mist AI
+short_name: JNCIA-MistAI
+slug: juniper-jncia-mist-ai
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates foundational knowledge of Juniper Mist AI-driven networking,
+  including Mist Cloud architecture, wireless LAN configuration, wired
+  assurance, WAN assurance, and Marvis Virtual Network Assistant. Covers
+  the AI-driven operations model that differentiates Juniper's approach
+  to network management.
+
+tags:
+  - networking
+  - ai
+  - wireless
+  - entry-level
+  - juniper
+  - mist
+
+prerequisites:
+  - Basic networking and wireless knowledge recommended
+  - Juniper Mist AI Fundamentals course recommended
+
+related_certs:
+  - juniper-jncia-junos
+  - juniper-jncis-mist-ai
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: "JN0-115"
+    release_date: "2023-01-01"
+    notes: Current exam version covering Mist AI-driven networking fundamentals.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/mist-ai/jncia-mistai.html
+    type: official
+
+domains:
+  - name: Mist AI Overview and Architecture
+    weight: 20
+  - name: Wireless LAN Configuration
+    weight: 25
+  - name: Wired Assurance
+    weight: 15
+  - name: WAN Assurance
+    weight: 15
+  - name: Marvis Virtual Network Assistant
+    weight: 15
+  - name: Mist Cloud Management
+    weight: 10
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/mist-ai/jncia-mistai.html
+last_verified: "2026-04-09"

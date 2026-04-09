@@ -1,0 +1,59 @@
+name: SAP Certified Associate - SAP Analytics Cloud
+short_name: SAP C_SAC
+slug: sap-analytics-cloud
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates proficiency in SAP Analytics Cloud for business intelligence,
+  planning, and predictive analytics. Covers story and dashboard creation,
+  data modeling, live and import data connections, planning workflows, and
+  smart features including smart predict and smart insights.
+
+tags:
+  - analytics
+  - cloud
+  - sap
+  - business-intelligence
+  - planning
+
+prerequisites:
+  - SAP Analytics Cloud training or equivalent hands-on experience recommended
+
+related_certs:
+  - sap-s4hana-cloud
+  - sap-successfactors-employee-central
+
+exam_format: multiple-choice
+passing_score: 67
+duration_minutes: 180
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to reflect latest SAP Analytics Cloud feature releases.
+
+links:
+  - label: Official Certification Page
+    url: https://learning.sap.com/certifications/sap-certified-associate-sap-analytics-cloud
+    type: official
+
+domains:
+  - name: SAP Analytics Cloud Overview
+    weight: 15
+  - name: Stories and Dashboards
+    weight: 20
+  - name: Data Modeling and Connections
+    weight: 20
+  - name: Planning and Budgeting
+    weight: 20
+  - name: Smart Features and Predictive Analytics
+    weight: 10
+  - name: Administration and Security
+    weight: 15
+
+source_of_truth_url: https://learning.sap.com/certifications/sap-certified-associate-sap-analytics-cloud
+last_verified: "2026-04-09"

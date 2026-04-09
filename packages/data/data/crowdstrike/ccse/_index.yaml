@@ -1,0 +1,61 @@
+name: CrowdStrike Certified Falcon LogScale Engineer
+short_name: CCSE
+slug: crowdstrike-ccse
+status: active
+cost: "$300 USD"
+
+description: >-
+  Validates expertise in CrowdStrike Falcon LogScale (formerly Humio),
+  the high-performance log management and observability platform. Covers
+  LogScale architecture, data ingestion and parsing, LogScale Query Language
+  (LQL), dashboards, alerts, repositories, and integration with the
+  broader Falcon platform for centralized security analytics.
+
+tags:
+  - log-management
+  - analytics
+  - advanced
+  - crowdstrike
+  - logscale
+
+prerequisites:
+  - CCFA certification recommended
+  - CrowdStrike Falcon LogScale training or equivalent experience recommended
+
+related_certs:
+  - crowdstrike-ccfa
+  - crowdstrike-ccfh
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Initial version covering Falcon LogScale platform capabilities.
+
+links:
+  - label: Official Certification Page
+    url: https://www.crowdstrike.com/en-us/services/training/certifications/
+    type: official
+
+domains:
+  - name: LogScale Architecture and Concepts
+    weight: 15
+  - name: Data Ingestion and Parsing
+    weight: 20
+  - name: LogScale Query Language
+    weight: 25
+  - name: Dashboards and Visualizations
+    weight: 15
+  - name: Alerts and Actions
+    weight: 10
+  - name: Administration and Integration
+    weight: 15
+
+source_of_truth_url: https://www.crowdstrike.com/en-us/services/training/certifications/
+last_verified: "2026-04-09"

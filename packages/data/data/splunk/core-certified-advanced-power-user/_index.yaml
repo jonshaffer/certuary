@@ -1,0 +1,63 @@
+name: Splunk Core Certified Advanced Power User
+short_name: Splunk CCAPU
+slug: splunk-core-certified-advanced-power-user
+status: active
+cost: "$130 USD"
+
+description: >-
+  Validates advanced-level skills in Splunk search and analytics, including
+  advanced SPL commands, statistical and charting functions, advanced data
+  model acceleration, complex correlation searches, and optimizing search
+  performance. The highest level in the Splunk power user track.
+
+tags:
+  - siem
+  - analytics
+  - advanced
+  - splunk
+  - search
+
+prerequisites:
+  - Splunk Core Certified Power User certification recommended
+  - Splunk Search Expert course or equivalent experience
+
+prerequisite_certs:
+  - splunk-core-certified-power-user
+
+related_certs:
+  - splunk-core-certified-power-user
+  - splunk-enterprise-security-certified-admin
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 60
+question_count:
+  min: 56
+  max: 56
+
+versions:
+  - version: "2.0"
+    release_date: "2024-01-01"
+    notes: Updated to cover advanced search optimization features in Splunk 9.x.
+
+links:
+  - label: Official Certification Page
+    url: https://www.splunk.com/en_us/training/certification/splunk-core-certified-advanced-power-user.html
+    type: official
+
+domains:
+  - name: Advanced Search Commands
+    weight: 20
+  - name: Advanced Statistics and Charting
+    weight: 20
+  - name: Advanced Data Model Usage
+    weight: 15
+  - name: Complex Correlation Searches
+    weight: 15
+  - name: Search Optimization
+    weight: 15
+  - name: Advanced Visualizations
+    weight: 15
+
+source_of_truth_url: https://www.splunk.com/en_us/training/certification/splunk-core-certified-advanced-power-user.html
+last_verified: "2026-04-09"

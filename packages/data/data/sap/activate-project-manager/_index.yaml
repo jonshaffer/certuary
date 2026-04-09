@@ -1,0 +1,60 @@
+name: SAP Certified Associate - SAP Activate Project Manager
+short_name: SAP C_ACT
+slug: sap-activate-project-manager
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates knowledge of the SAP Activate methodology for managing SAP
+  implementation projects, including project planning, workstream management,
+  fit-to-standard workshops, data migration strategy, testing, and cutover
+  planning. Covers agile and hybrid project delivery approaches within the
+  SAP ecosystem.
+
+tags:
+  - project-management
+  - sap
+  - methodology
+  - consulting
+
+prerequisites:
+  - Project management experience with SAP implementations recommended
+  - Familiarity with SAP Activate methodology
+
+related_certs:
+  - sap-s4hana-cloud
+  - sap-btp-administrator
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 180
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to reflect latest SAP Activate methodology practices.
+
+links:
+  - label: Official Certification Page
+    url: https://learning.sap.com/certifications/sap-certified-associate-sap-activate-project-manager
+    type: official
+
+domains:
+  - name: SAP Activate Methodology Overview
+    weight: 20
+  - name: Project Planning and Governance
+    weight: 20
+  - name: Fit-to-Standard and Configuration
+    weight: 15
+  - name: Data Migration Strategy
+    weight: 15
+  - name: Testing and Quality Management
+    weight: 15
+  - name: Cutover and Go-Live
+    weight: 15
+
+source_of_truth_url: https://learning.sap.com/certifications/sap-certified-associate-sap-activate-project-manager
+last_verified: "2026-04-09"

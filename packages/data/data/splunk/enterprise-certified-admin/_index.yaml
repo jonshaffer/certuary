@@ -1,0 +1,68 @@
+name: Splunk Enterprise Certified Admin
+short_name: Splunk ECA
+slug: splunk-enterprise-certified-admin
+status: active
+cost: "$130 USD"
+
+description: >-
+  Validates skills in installing, configuring, and managing Splunk Enterprise
+  environments. Covers license management, indexer and forwarder configuration,
+  user authentication, data input management, index management, clustering,
+  and Splunk app deployment. Designed for platform administrators.
+
+tags:
+  - siem
+  - administration
+  - splunk
+  - infrastructure
+  - intermediate
+
+prerequisites:
+  - Splunk Core Certified User certification recommended
+  - Splunk System Administration and Data Administration courses recommended
+
+prerequisite_certs:
+  - splunk-core-certified-user
+
+related_certs:
+  - splunk-core-certified-user
+  - splunk-cloud-certified-admin
+  - splunk-enterprise-security-certified-admin
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 57
+question_count:
+  min: 61
+  max: 61
+
+versions:
+  - version: "4.0"
+    release_date: "2024-01-01"
+    notes: Updated to align with Splunk Enterprise 9.x administration features.
+
+links:
+  - label: Official Certification Page
+    url: https://www.splunk.com/en_us/training/certification/splunk-enterprise-certified-admin.html
+    type: official
+
+domains:
+  - name: Splunk Installation and Infrastructure
+    weight: 10
+  - name: License Management
+    weight: 5
+  - name: User Authentication and Authorization
+    weight: 10
+  - name: Forwarder Management
+    weight: 15
+  - name: Data Inputs and Parsing
+    weight: 15
+  - name: Index Management
+    weight: 15
+  - name: Clustering
+    weight: 15
+  - name: Configuration Files and Apps
+    weight: 15
+
+source_of_truth_url: https://www.splunk.com/en_us/training/certification/splunk-enterprise-certified-admin.html
+last_verified: "2026-04-09"

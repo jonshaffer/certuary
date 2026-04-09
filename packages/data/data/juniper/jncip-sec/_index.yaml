@@ -1,0 +1,64 @@
+name: Juniper Networks Certified Professional - Security
+short_name: JNCIP-SEC
+slug: juniper-jncip-sec
+status: active
+cost: "$400 USD"
+
+description: >-
+  Validates advanced knowledge of Juniper security technologies, including
+  advanced firewall policies, advanced NAT, advanced IPsec VPNs, Juniper
+  ATP Cloud, Security Director, policy enforcement groups, and complex
+  security architectures. Designed for senior security engineers and
+  architects.
+
+tags:
+  - security
+  - firewall
+  - networking
+  - advanced
+  - juniper
+
+prerequisites:
+  - JNCIS-SEC certification required
+  - Advanced Juniper Security courses recommended
+
+prerequisite_certs:
+  - juniper-jncis-sec
+
+related_certs:
+  - juniper-jncis-sec
+  - juniper-jncie-ent
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: "JN0-336"
+    release_date: "2023-01-01"
+    notes: Current exam version for security professional.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/security/jncip-sec.html
+    type: official
+
+domains:
+  - name: Advanced Firewall Policies
+    weight: 15
+  - name: Advanced NAT
+    weight: 15
+  - name: Advanced IPsec VPNs
+    weight: 20
+  - name: Juniper ATP Cloud
+    weight: 15
+  - name: Security Director
+    weight: 15
+  - name: Complex Security Architectures
+    weight: 20
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/security/jncip-sec.html
+last_verified: "2026-04-09"

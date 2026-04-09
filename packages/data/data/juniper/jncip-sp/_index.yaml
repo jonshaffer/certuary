@@ -1,0 +1,63 @@
+name: Juniper Networks Certified Professional - Service Provider Routing and Switching
+short_name: JNCIP-SP
+slug: juniper-jncip-sp
+status: active
+cost: "$400 USD"
+
+description: >-
+  Validates advanced knowledge of service provider routing and switching,
+  including advanced MPLS, advanced BGP, VPN scaling, multicast VPNs,
+  segment routing, and EVPN-VXLAN. Designed for senior engineers building
+  and maintaining large-scale carrier and data center networks.
+
+tags:
+  - networking
+  - service-provider
+  - mpls
+  - advanced
+  - juniper
+
+prerequisites:
+  - JNCIS-SP certification required
+  - Advanced Juniper Service Provider courses recommended
+
+prerequisite_certs:
+  - juniper-jncis-sp
+
+related_certs:
+  - juniper-jncis-sp
+  - juniper-jncie-ent
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: "JN0-363"
+    release_date: "2023-01-01"
+    notes: Current exam version for service provider professional.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/service-provider/jncip-sp.html
+    type: official
+
+domains:
+  - name: Advanced BGP
+    weight: 20
+  - name: Advanced MPLS
+    weight: 20
+  - name: VPN Scaling and Advanced VPNs
+    weight: 15
+  - name: Multicast VPNs
+    weight: 15
+  - name: Segment Routing
+    weight: 15
+  - name: EVPN-VXLAN
+    weight: 15
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/service-provider/jncip-sp.html
+last_verified: "2026-04-09"

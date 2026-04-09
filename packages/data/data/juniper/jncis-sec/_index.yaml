@@ -1,0 +1,64 @@
+name: Juniper Networks Certified Specialist - Security
+short_name: JNCIS-SEC
+slug: juniper-jncis-sec
+status: active
+cost: "$400 USD"
+
+description: >-
+  Validates intermediate knowledge of Juniper security technologies,
+  including SRX Series firewall configuration, security zones, security
+  policies, NAT, IPsec VPNs, UTM, IDP, and advanced threat prevention.
+  Designed for security engineers deploying and managing Juniper
+  security infrastructure.
+
+tags:
+  - security
+  - firewall
+  - networking
+  - intermediate
+  - juniper
+
+prerequisites:
+  - JNCIA-Junos certification required
+  - Juniper Security courses recommended
+
+prerequisite_certs:
+  - juniper-jncia-junos
+
+related_certs:
+  - juniper-jncia-junos
+  - juniper-jncip-sec
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: "JN0-335"
+    release_date: "2023-01-01"
+    notes: Current exam version for security specialist.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/security/jncis-sec.html
+    type: official
+
+domains:
+  - name: Security Zones and Policies
+    weight: 20
+  - name: Firewall Filters and Security Screening
+    weight: 15
+  - name: Network Address Translation
+    weight: 15
+  - name: IPsec VPNs
+    weight: 20
+  - name: Unified Threat Management
+    weight: 15
+  - name: Intrusion Detection and Prevention
+    weight: 15
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/security/jncis-sec.html
+last_verified: "2026-04-09"

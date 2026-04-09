@@ -1,0 +1,38 @@
+slug: sap-certification-path
+name: SAP Certification Path
+description: >-
+  A recommended learning path through SAP certifications, from foundational
+  cloud and platform credentials through functional module expertise to
+  technical development and project management certifications across the
+  SAP ecosystem.
+website: https://learning.sap.com/certifications
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - sap-s4hana-cloud
+      - sap-btp-administrator
+  - name: Functional
+    order: 2
+    certificate_slugs:
+      - sap-successfactors-employee-central
+      - sap-analytics-cloud
+      - sap-fiori-system-admin
+  - name: Technical
+    order: 3
+    certificate_slugs:
+      - sap-s4hana-system-admin
+      - sap-abap-cloud-developer
+  - name: Project Management
+    order: 4
+    certificate_slugs:
+      - sap-activate-project-manager
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. SAP recommends starting with S/4HANA Cloud
+    or BTP certifications, then pursuing functional or technical tracks based
+    on your role. Certifications are valid for one year and must be maintained
+    through stay-current assessments.

@@ -1,0 +1,67 @@
+name: Splunk Enterprise Security Certified Admin
+short_name: Splunk ESCA
+slug: splunk-enterprise-security-certified-admin
+status: active
+cost: "$130 USD"
+
+description: >-
+  Validates expertise in deploying, configuring, and managing Splunk
+  Enterprise Security (ES), the premium SIEM solution. Covers notable
+  event management, security domain dashboards, correlation search
+  configuration, threat intelligence framework, risk-based alerting,
+  and incident investigation workflows.
+
+tags:
+  - siem
+  - security
+  - splunk
+  - advanced
+  - enterprise-security
+
+prerequisites:
+  - Splunk Enterprise Certified Admin recommended
+  - Splunk Core Certified Power User recommended
+  - Administering Splunk Enterprise Security course recommended
+
+prerequisite_certs:
+  - splunk-enterprise-certified-admin
+
+related_certs:
+  - splunk-enterprise-certified-admin
+  - splunk-soar-certified-automation-developer
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 57
+question_count:
+  min: 64
+  max: 64
+
+versions:
+  - version: "3.0"
+    release_date: "2024-01-01"
+    notes: Updated for Splunk Enterprise Security 7.x features.
+
+links:
+  - label: Official Certification Page
+    url: https://www.splunk.com/en_us/training/certification/splunk-enterprise-security-certified-admin.html
+    type: official
+
+domains:
+  - name: Enterprise Security Overview
+    weight: 10
+  - name: Security Monitoring and Incident Review
+    weight: 15
+  - name: Notable Events and Investigations
+    weight: 15
+  - name: Correlation Searches
+    weight: 20
+  - name: Threat Intelligence Framework
+    weight: 15
+  - name: Risk-Based Alerting
+    weight: 15
+  - name: Asset and Identity Management
+    weight: 10
+
+source_of_truth_url: https://www.splunk.com/en_us/training/certification/splunk-enterprise-security-certified-admin.html
+last_verified: "2026-04-09"

@@ -1,0 +1,66 @@
+name: Juniper Networks Certified Specialist - Enterprise Routing and Switching
+short_name: JNCIS-ENT
+slug: juniper-jncis-ent
+status: active
+cost: "$400 USD"
+
+description: >-
+  Validates intermediate knowledge of enterprise routing and switching
+  technologies on Junos OS, including OSPF, IS-IS, BGP, layer 2 switching,
+  VLANs, spanning tree protocols, and IP tunneling. Designed for network
+  engineers managing enterprise-class Juniper network infrastructure.
+
+tags:
+  - networking
+  - enterprise
+  - routing
+  - switching
+  - intermediate
+  - juniper
+
+prerequisites:
+  - JNCIA-Junos certification required
+  - Juniper Enterprise Routing and Switching courses recommended
+
+prerequisite_certs:
+  - juniper-jncia-junos
+
+related_certs:
+  - juniper-jncia-junos
+  - juniper-jncip-ent
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: "JN0-351"
+    release_date: "2023-01-01"
+    notes: Current exam version for enterprise routing and switching specialist.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/enterprise/jncis-ent.html
+    type: official
+
+domains:
+  - name: Layer 2 Switching and VLANs
+    weight: 15
+  - name: Spanning Tree Protocols
+    weight: 10
+  - name: OSPF
+    weight: 20
+  - name: IS-IS
+    weight: 15
+  - name: BGP
+    weight: 20
+  - name: IP Tunneling
+    weight: 10
+  - name: Routing Policy and Firewall Filters
+    weight: 10
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/enterprise/jncis-ent.html
+last_verified: "2026-04-09"

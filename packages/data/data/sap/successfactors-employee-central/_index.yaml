@@ -1,0 +1,59 @@
+name: SAP Certified Associate - SAP SuccessFactors Employee Central
+short_name: SAP C_THR81
+slug: sap-successfactors-employee-central
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates expertise in configuring and managing SAP SuccessFactors Employee
+  Central, the cloud-based core HR solution. Covers organizational structure
+  management, employee data administration, position management, workflow
+  configuration, and integration with payroll and time management modules.
+
+tags:
+  - hcm
+  - cloud
+  - sap
+  - hr
+  - successfactors
+
+prerequisites:
+  - SAP SuccessFactors Employee Central training or project experience recommended
+
+related_certs:
+  - sap-s4hana-cloud
+  - sap-analytics-cloud
+
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 180
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "2H/2025"
+    release_date: "2025-06-01"
+    notes: Updated to align with SuccessFactors 2H/2025 release cycle.
+
+links:
+  - label: Official Certification Page
+    url: https://learning.sap.com/certifications/sap-certified-associate-sap-successfactors-employee-central
+    type: official
+
+domains:
+  - name: Employee Central Fundamentals
+    weight: 20
+  - name: Organizational Structures
+    weight: 15
+  - name: Employee Data and Employment Information
+    weight: 20
+  - name: Position Management
+    weight: 15
+  - name: Workflows and Business Rules
+    weight: 15
+  - name: Integration and Data Replication
+    weight: 15
+
+source_of_truth_url: https://learning.sap.com/certifications/sap-certified-associate-sap-successfactors-employee-central
+last_verified: "2026-04-09"

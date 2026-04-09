@@ -1,0 +1,35 @@
+slug: crowdstrike-certification-path
+name: CrowdStrike Certification Path
+description: >-
+  A recommended learning path through CrowdStrike certifications, from
+  foundational Falcon platform administration through incident response
+  and threat hunting to advanced log management and analytics with
+  Falcon LogScale.
+website: https://www.crowdstrike.com/en-us/services/training/certifications/
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - crowdstrike-ccfa
+  - name: Incident Response
+    order: 2
+    certificate_slugs:
+      - crowdstrike-ccfr
+  - name: Threat Hunting
+    order: 3
+    certificate_slugs:
+      - crowdstrike-ccfh
+  - name: Advanced
+    order: 4
+    certificate_slugs:
+      - crowdstrike-ccse
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. CrowdStrike recommends starting with CCFA
+    for Falcon platform fundamentals, then pursuing CCFR for incident response
+    or CCFH for threat hunting based on your security role. CCSE covers
+    advanced Falcon LogScale analytics and is suitable for engineers focused
+    on log management and SIEM capabilities.

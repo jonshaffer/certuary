@@ -1,0 +1,61 @@
+name: Splunk SOAR Certified Automation Developer
+short_name: Splunk SCAD
+slug: splunk-soar-certified-automation-developer
+status: active
+cost: "$130 USD"
+
+description: >-
+  Validates skills in building and managing automated security workflows
+  using Splunk SOAR (Security Orchestration, Automation and Response).
+  Covers playbook development, app integration, custom function creation,
+  visual playbook editor usage, and case management automation for
+  security operations centers.
+
+tags:
+  - soar
+  - automation
+  - splunk
+  - security
+  - advanced
+
+prerequisites:
+  - Splunk Core Certified User or equivalent Splunk experience recommended
+  - Automating Security Operations with Splunk SOAR course recommended
+
+related_certs:
+  - splunk-enterprise-security-certified-admin
+  - splunk-enterprise-certified-admin
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 57
+question_count:
+  min: 55
+  max: 55
+
+versions:
+  - version: "1.0"
+    release_date: "2024-01-01"
+    notes: Initial release covering Splunk SOAR automation and playbook development.
+
+links:
+  - label: Official Certification Page
+    url: https://www.splunk.com/en_us/training/certification/splunk-soar-certified-automation-developer.html
+    type: official
+
+domains:
+  - name: SOAR Platform Overview
+    weight: 10
+  - name: Playbook Development
+    weight: 25
+  - name: App Integration and Configuration
+    weight: 20
+  - name: Custom Functions and Code
+    weight: 15
+  - name: Case Management and Collaboration
+    weight: 15
+  - name: Administration and Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.splunk.com/en_us/training/certification/splunk-soar-certified-automation-developer.html
+last_verified: "2026-04-09"

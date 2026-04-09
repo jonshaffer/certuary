@@ -1,0 +1,60 @@
+name: Dell Technologies Certified Associate - AI Infrastructure and Operations
+short_name: Dell DCA-AIO
+slug: dell-ai-associate
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates foundational knowledge of AI and machine learning infrastructure
+  using Dell Technologies solutions. Covers AI/ML concepts, Dell PowerEdge
+  servers with GPU acceleration, Dell AI Factory components, data pipeline
+  fundamentals, and infrastructure requirements for training and inference
+  workloads.
+
+tags:
+  - ai
+  - infrastructure
+  - entry-level
+  - dell
+  - machine-learning
+
+prerequisites:
+  - Basic IT infrastructure and AI/ML concepts recommended
+
+related_certs:
+  - dell-ai-specialist
+  - dell-cloud-associate
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Initial version covering Dell AI infrastructure solutions.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: AI and ML Fundamentals
+    weight: 20
+  - name: Dell PowerEdge for AI Workloads
+    weight: 20
+  - name: Dell AI Factory Components
+    weight: 15
+  - name: GPU Acceleration and Compute
+    weight: 15
+  - name: Data Pipeline Infrastructure
+    weight: 15
+  - name: AI Infrastructure Management
+    weight: 15
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

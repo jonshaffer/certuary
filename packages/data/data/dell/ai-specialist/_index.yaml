@@ -1,0 +1,64 @@
+name: Dell Technologies Certified Specialist - AI Infrastructure
+short_name: Dell DCS-AIF
+slug: dell-ai-specialist
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates advanced knowledge of designing and deploying AI infrastructure
+  with Dell Technologies. Covers advanced GPU cluster design, distributed
+  training architectures, Dell AI Factory with NVIDIA integration,
+  inference optimization, and managing large-scale AI/ML environments
+  on Dell PowerEdge and storage platforms.
+
+tags:
+  - ai
+  - infrastructure
+  - intermediate
+  - dell
+  - machine-learning
+
+prerequisites:
+  - Dell AI Infrastructure Associate certification recommended
+  - Hands-on experience with AI/ML infrastructure
+
+prerequisite_certs:
+  - dell-ai-associate
+
+related_certs:
+  - dell-ai-associate
+  - dell-cloud-specialist
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Initial version covering advanced Dell AI infrastructure deployment.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: Advanced AI Architecture Design
+    weight: 20
+  - name: GPU Cluster and Distributed Training
+    weight: 20
+  - name: Dell AI Factory with NVIDIA
+    weight: 15
+  - name: Inference Optimization
+    weight: 15
+  - name: Storage for AI Workloads
+    weight: 15
+  - name: Performance Monitoring and Scaling
+    weight: 15
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

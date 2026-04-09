@@ -1,0 +1,64 @@
+name: Splunk Cloud Certified Admin
+short_name: Splunk CCA
+slug: splunk-cloud-certified-admin
+status: active
+cost: "$130 USD"
+
+description: >-
+  Validates skills in administering Splunk Cloud Platform, including cloud
+  architecture understanding, data onboarding, user management, index
+  configuration, app management, and working with Splunk support for
+  cloud-specific operations. Covers differences between Splunk Cloud
+  and on-premise Enterprise deployments.
+
+tags:
+  - cloud
+  - administration
+  - splunk
+  - intermediate
+  - siem
+
+prerequisites:
+  - Splunk Core Certified User certification recommended
+  - Splunk Cloud Administration course recommended
+
+prerequisite_certs:
+  - splunk-core-certified-user
+
+related_certs:
+  - splunk-enterprise-certified-admin
+  - splunk-core-certified-user
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 57
+question_count:
+  min: 58
+  max: 58
+
+versions:
+  - version: "2.0"
+    release_date: "2024-01-01"
+    notes: Updated for Splunk Cloud Platform Victoria Experience features.
+
+links:
+  - label: Official Certification Page
+    url: https://www.splunk.com/en_us/training/certification/splunk-cloud-certified-admin.html
+    type: official
+
+domains:
+  - name: Splunk Cloud Architecture
+    weight: 15
+  - name: Data Onboarding and Management
+    weight: 20
+  - name: Index and Storage Management
+    weight: 15
+  - name: User and Role Management
+    weight: 15
+  - name: App Management and Deployment
+    weight: 15
+  - name: Cloud-Specific Administration
+    weight: 20
+
+source_of_truth_url: https://www.splunk.com/en_us/training/certification/splunk-cloud-certified-admin.html
+last_verified: "2026-04-09"

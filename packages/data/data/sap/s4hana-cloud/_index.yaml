@@ -1,0 +1,60 @@
+name: SAP Certified Associate - SAP S/4HANA Cloud Public Edition
+short_name: SAP C_S4CDK
+slug: sap-s4hana-cloud
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates foundational knowledge of SAP S/4HANA Cloud Public Edition,
+  including core business processes in finance, procurement, sales, and
+  manufacturing. Covers system configuration, data migration, and integration
+  scenarios specific to the cloud deployment model. Ideal for consultants and
+  administrators working with SAP's flagship cloud ERP solution.
+
+tags:
+  - erp
+  - cloud
+  - entry-level
+  - sap
+  - s4hana
+
+prerequisites:
+  - SAP Learning Journey for S/4HANA Cloud or equivalent project experience recommended
+
+related_certs:
+  - sap-btp-administrator
+  - sap-s4hana-system-admin
+
+exam_format: multiple-choice
+passing_score: 67
+duration_minutes: 180
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to reflect SAP S/4HANA Cloud 2408 release features.
+
+links:
+  - label: Official Certification Page
+    url: https://learning.sap.com/certifications/sap-certified-associate-sap-s-4hana-cloud-public-edition
+    type: official
+
+domains:
+  - name: SAP S/4HANA Cloud Overview and Configuration
+    weight: 15
+  - name: Finance and Asset Management
+    weight: 20
+  - name: Procurement and Inventory Management
+    weight: 18
+  - name: Sales and Distribution
+    weight: 17
+  - name: Manufacturing and Production Planning
+    weight: 15
+  - name: Data Migration and Integration
+    weight: 15
+
+source_of_truth_url: https://learning.sap.com/certifications/sap-certified-associate-sap-s-4hana-cloud-public-edition
+last_verified: "2026-04-09"

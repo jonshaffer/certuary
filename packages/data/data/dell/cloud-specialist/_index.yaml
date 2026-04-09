@@ -1,0 +1,63 @@
+name: Dell Technologies Certified Specialist - Cloud Architect
+short_name: Dell DCS-CA
+slug: dell-cloud-specialist
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates advanced knowledge of designing and managing cloud infrastructure
+  with Dell Technologies. Covers advanced VxRail deployment, VMware Cloud
+  Foundation on Dell, multi-cloud architectures, infrastructure automation,
+  and cloud-native application support on Dell platforms.
+
+tags:
+  - cloud
+  - infrastructure
+  - intermediate
+  - dell
+  - vxrail
+
+prerequisites:
+  - Dell Cloud Infrastructure Associate certification recommended
+  - Hands-on experience with Dell cloud solutions
+
+prerequisite_certs:
+  - dell-cloud-associate
+
+related_certs:
+  - dell-cloud-associate
+  - dell-data-storage-specialist
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover VxRail and VMware Cloud Foundation on Dell.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: Advanced Cloud Architecture
+    weight: 20
+  - name: VxRail Advanced Deployment
+    weight: 20
+  - name: VMware Cloud Foundation on Dell
+    weight: 15
+  - name: Multi-Cloud Integration
+    weight: 15
+  - name: Infrastructure Automation
+    weight: 15
+  - name: Performance and Optimization
+    weight: 15
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

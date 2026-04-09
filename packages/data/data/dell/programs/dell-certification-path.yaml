@@ -1,0 +1,31 @@
+slug: dell-certification-path
+name: Dell Technologies Proven Professional Path
+description: >-
+  A recommended learning path through Dell Technologies Proven Professional
+  certifications, from foundational associate-level credentials across cloud,
+  storage, cybersecurity, and AI to specialist-level expertise in each domain.
+website: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+status: active
+required_certs: []
+phases:
+  - name: Associate
+    order: 1
+    certificate_slugs:
+      - dell-cloud-associate
+      - dell-data-storage-associate
+      - dell-cybersecurity-associate
+      - dell-ai-associate
+  - name: Specialist
+    order: 2
+    certificate_slugs:
+      - dell-cloud-specialist
+      - dell-data-storage-specialist
+      - dell-cybersecurity-specialist
+      - dell-ai-specialist
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Dell Technologies recommends starting with
+    an Associate certification in your area of focus, then progressing to
+    Specialist level. Each domain (Cloud, Data Storage, Cybersecurity, AI)
+    has its own independent track.
