@@ -198,7 +198,10 @@ export function buildHeatmapData(
       }
     }
 
+    if (totalCertWeight <= 0) continue;
+
     for (const [catSlug, matchedWeight] of catWeights) {
+      if (matchedWeight <= 0) continue;
       const normalized = Math.min(
         100,
         Math.round((matchedWeight / totalCertWeight) * 100)

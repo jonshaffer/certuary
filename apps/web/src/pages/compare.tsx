@@ -1,4 +1,4 @@
-import { useMemo, useCallback, useState } from "react";
+import { useMemo, useCallback, useState, type ReactNode } from "react";
 import { Link, useSearchParams } from "react-router";
 import {
   getAllCerts,
@@ -125,7 +125,7 @@ function AttributeRow({
 }: {
   label: string;
   certs: Certification[];
-  render: (cert: Certification, isBest: boolean) => React.ReactNode;
+  render: (cert: Certification, isBest: boolean) => ReactNode;
   highlightBest?: (cert: Certification) => number | null;
 }) {
   const bestIndex = useMemo(() => {
