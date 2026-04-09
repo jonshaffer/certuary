@@ -29,6 +29,10 @@ export function ProgramsPage() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {programs.map((program) => {
             const provider = getProviderBySlug(program.providerSlug);
+            const totalCerts = program.phases.reduce(
+              (sum, phase) => sum + phase.certificateSlugs.length,
+              0
+            );
             return (
               <Link
                 key={program.slug}
@@ -71,8 +75,8 @@ export function ProgramsPage() {
                         {program.phases.length !== 1 && "s"}
                       </Badge>
                       <Badge variant="secondary">
-                        {program.requiredCerts.length} cert
-                        {program.requiredCerts.length !== 1 && "s"}
+                        {totalCerts} cert
+                        {totalCerts !== 1 && "s"}
                       </Badge>
                     </div>
                   </CardContent>
