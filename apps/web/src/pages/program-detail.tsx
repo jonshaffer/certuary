@@ -16,6 +16,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { parseCost } from "@/lib/costs";
+import { programTypeLabels } from "@/lib/program-labels";
 
 export function ProgramDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -54,11 +55,7 @@ export function ProgramDetailPage() {
         <div className="mt-1 flex items-center gap-3">
           <h1 className="text-3xl font-bold">{program.name}</h1>
           <Badge variant="outline">
-            {{
-              provider: "Provider Program",
-              community: "Community",
-              certuary: "Certuary Path",
-            }[program.type]}
+            {programTypeLabels[program.type]}
           </Badge>
           <Badge
             variant={program.status === "active" ? "default" : "destructive"}

@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { programTypeLabels } from "@/lib/program-labels";
 
 export function ProgramsPage() {
   const programs = getAllPrograms();
@@ -60,11 +61,7 @@ export function ProgramsPage() {
                   <CardContent>
                     <div className="flex flex-wrap gap-1">
                       <Badge variant="outline">
-                        {{
-                          provider: "Provider Program",
-                          community: "Community",
-                          certuary: "Certuary Path",
-                        }[program.type]}
+                        {programTypeLabels[program.type]}
                       </Badge>
                       {program.designation && (
                         <Badge variant="default">{program.designation}</Badge>
