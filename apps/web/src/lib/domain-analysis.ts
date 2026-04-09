@@ -119,23 +119,52 @@ export function findSimilarCerts(
 }
 
 /**
- * Flatten all domains (including subdomains) with their weights and categories.
+ * Recursively collect all category slugs matched by a domain or any of its
+ * subdomains. Uses explicit categories when present — including categories
+ * inherited from a parent domain — falling back to keyword matching only when
+ * no explicit or inherited categories exist. Returns a deduplicated set so
+ * each category is counted at most once per top-level domain.
  */
-function flattenDomainsWithWeights(
-  domains: ExamDomain[],
-  parentWeight?: number,
+function collectDomainCategories(
+  domain: ExamDomain,
+  validCategorySlugs: Set<string>,
+  categoryKeywords: Map<string, Set<string>>,
+  categories: DomainCategory[],
   parentCategories?: string[]
-): { name: string; weight: number; categories?: string[] }[] {
-  const result: { name: string; weight: number; categories?: string[] }[] = [];
-  for (const d of domains) {
-    const weight = d.weight ?? parentWeight ?? 10;
-    const categories = d.categories?.length ? d.categories : parentCategories;
-    result.push({ name: d.name, weight, categories });
-    if (d.subdomains) {
-      result.push(...flattenDomainsWithWeights(d.subdomains, weight, categories));
+): Set<string> {
+  const matched = new Set<string>();
+  const domainCats = domain.categories?.length ? domain.categories : parentCategories;
+
+  if (domainCats?.length) {
+    for (const catSlug of domainCats) {
+      if (validCategorySlugs.has(catSlug)) matched.add(catSlug);
+    }
+  } else {
+    // Fall back to keyword matching
+    const dTokens = tokenize(domain.name);
+    for (const cat of categories) {
+      const catTokens = categoryKeywords.get(cat.slug)!;
+      let matches = 0;
+      for (const t of dTokens) {
+        if (catTokens.has(t)) matches++;
+      }
+      if (matches >= Math.min(2, catTokens.size)) {
+        matched.add(cat.slug);
+      }
     }
   }
-  return result;
+
+  // Recurse into subdomains
+  if (domain.subdomains) {
+    for (const sub of domain.subdomains) {
+      const subMatched = collectDomainCategories(
+        sub, validCategorySlugs, categoryKeywords, categories, domainCats
+      );
+      for (const slug of subMatched) matched.add(slug);
+    }
+  }
+
+  return matched;
 }
 
 /**
@@ -158,43 +187,22 @@ export function buildHeatmapData(
   for (const cert of certs) {
     if (cert.domains.length === 0) continue;
 
-    const allDomains = flattenDomainsWithWeights(cert.domains);
     const totalCertWeight = cert.domains.reduce(
       (sum, d) => sum + (d.weight ?? 10),
       0
     );
 
-    // Accumulate matched weight per category
+    // Accumulate matched weight per category, counting each top-level
+    // domain's weight at most once per category (even if subdomains also match).
     const catWeights = new Map<string, number>();
 
-    for (const domain of allDomains) {
-      // Prefer explicit category assignments when present
-      if (domain.categories?.length) {
-        for (const catSlug of domain.categories) {
-          if (categorySlugs.has(catSlug)) {
-            catWeights.set(
-              catSlug,
-              (catWeights.get(catSlug) ?? 0) + domain.weight
-            );
-          }
-        }
-        continue;
-      }
-
-      // Fall back to keyword matching
-      const dTokens = tokenize(domain.name);
-      for (const cat of categories) {
-        const catTokens = categoryKeywords.get(cat.slug)!;
-        let matches = 0;
-        for (const t of dTokens) {
-          if (catTokens.has(t)) matches++;
-        }
-        if (matches >= Math.min(2, catTokens.size)) {
-          catWeights.set(
-            cat.slug,
-            (catWeights.get(cat.slug) ?? 0) + domain.weight
-          );
-        }
+    for (const domain of cert.domains) {
+      const weight = domain.weight ?? 10;
+      const matched = collectDomainCategories(
+        domain, categorySlugs, categoryKeywords, categories
+      );
+      for (const catSlug of matched) {
+        catWeights.set(catSlug, (catWeights.get(catSlug) ?? 0) + weight);
       }
     }
 
