@@ -19,7 +19,6 @@ tags:
   - juniper
 
 prerequisites:
-  - JNCIA-Junos certification required
   - Juniper Enterprise Routing and Switching courses recommended
 
 prerequisite_certs:

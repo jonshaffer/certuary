@@ -1,25 +1,24 @@
-name: Dell Technologies Certified Specialist - AI Infrastructure
-short_name: Dell DCS-AIF
+name: Dell Technologies Generative AI Foundations
+short_name: Dell D-GAI-F
 slug: dell-ai-specialist
 status: active
 cost: "$230 USD"
 
 description: >-
-  Validates advanced knowledge of designing and deploying AI infrastructure
-  with Dell Technologies. Covers advanced GPU cluster design, distributed
-  training architectures, Dell AI Factory with NVIDIA integration,
-  inference optimization, and managing large-scale AI/ML environments
-  on Dell PowerEdge and storage platforms.
+  Validates knowledge of generative AI concepts and their application using
+  Dell Technologies solutions. Covers large language models, retrieval
+  augmented generation (RAG), prompt engineering, model fine-tuning,
+  AI ethics and governance, and Dell AI Factory solutions for enterprise
+  generative AI deployments.
 
 tags:
   - ai
-  - infrastructure
+  - generative-ai
   - intermediate
   - dell
   - machine-learning
 
 prerequisites:
-  - Dell AI Infrastructure Associate certification recommended
   - Hands-on experience with AI/ML infrastructure
 
 prerequisite_certs:
@@ -47,17 +46,17 @@ links:
     type: official
 
 domains:
-  - name: Advanced AI Architecture Design
+  - name: Generative AI Concepts
     weight: 20
-  - name: GPU Cluster and Distributed Training
+  - name: Large Language Models
     weight: 20
-  - name: Dell AI Factory with NVIDIA
+  - name: RAG and Prompt Engineering
     weight: 15
-  - name: Inference Optimization
+  - name: Model Fine-Tuning
     weight: 15
-  - name: Storage for AI Workloads
+  - name: AI Ethics and Governance
     weight: 15
-  - name: Performance Monitoring and Scaling
+  - name: Dell AI Factory Solutions
     weight: 15
 
 source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html

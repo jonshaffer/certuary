@@ -19,8 +19,6 @@ tags:
   - enterprise-security
 
 prerequisites:
-  - Splunk Enterprise Certified Admin recommended
-  - Splunk Core Certified Power User recommended
   - Administering Splunk Enterprise Security course recommended
 
 prerequisite_certs:

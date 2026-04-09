@@ -19,7 +19,6 @@ tags:
   - falcon
 
 prerequisites:
-  - CCFA certification recommended
   - CrowdStrike Falcon Responder training or SOC experience recommended
 
 prerequisite_certs:

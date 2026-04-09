@@ -18,7 +18,6 @@ tags:
   - intermediate
 
 prerequisites:
-  - Splunk Core Certified User certification recommended
   - Splunk System Administration and Data Administration courses recommended
 
 prerequisite_certs:

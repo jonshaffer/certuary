@@ -20,7 +20,6 @@ tags:
   - juniper
 
 prerequisites:
-  - JNCIP-ENT certification required
   - Extensive hands-on experience with Juniper enterprise networks
 
 prerequisite_certs:

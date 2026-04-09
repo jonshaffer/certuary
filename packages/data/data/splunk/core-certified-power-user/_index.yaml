@@ -18,7 +18,6 @@ tags:
   - search
 
 prerequisites:
-  - Splunk Core Certified User certification recommended
   - Splunk Fundamentals 2 course or equivalent experience
 
 prerequisite_certs:

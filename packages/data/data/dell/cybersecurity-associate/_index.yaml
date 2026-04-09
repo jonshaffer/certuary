@@ -1,15 +1,15 @@
-name: Dell Technologies Certified Associate - Cybersecurity
-short_name: Dell DCA-Cybersecurity
+name: Dell Technologies Security Foundations
+short_name: Dell D-SF
 slug: dell-cybersecurity-associate
 status: active
 cost: "$230 USD"
 
 description: >-
-  Validates foundational knowledge of cybersecurity principles applied to
-  Dell Technologies infrastructure. Covers security fundamentals, Dell
-  PowerProtect Cyber Recovery, data protection security, zero trust
-  architecture concepts, and security best practices for Dell enterprise
-  environments.
+  Validates foundational knowledge of cybersecurity principles including
+  threat landscape awareness, security frameworks, identity and access
+  management, network security, data protection, and security operations.
+  Provides a security foundation for professionals working with Dell
+  Technologies enterprise infrastructure.
 
 tags:
   - cybersecurity
@@ -43,17 +43,17 @@ links:
     type: official
 
 domains:
-  - name: Cybersecurity Fundamentals
+  - name: Threat Landscape and Security Concepts
     weight: 20
-  - name: Dell PowerProtect Cyber Recovery
+  - name: Security Frameworks and Standards
+    weight: 15
+  - name: Identity and Access Management
+    weight: 15
+  - name: Network and Endpoint Security
     weight: 20
-  - name: Data Protection Security
+  - name: Data Protection and Privacy
     weight: 15
-  - name: Zero Trust Architecture
-    weight: 15
-  - name: Threat Detection and Response
-    weight: 15
-  - name: Compliance and Governance
+  - name: Security Operations
     weight: 15
 
 source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html

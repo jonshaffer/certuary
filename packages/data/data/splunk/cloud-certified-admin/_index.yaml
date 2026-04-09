@@ -19,7 +19,6 @@ tags:
   - siem
 
 prerequisites:
-  - Splunk Core Certified User certification recommended
   - Splunk Cloud Administration course recommended
 
 prerequisite_certs:

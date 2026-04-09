@@ -19,7 +19,6 @@ tags:
   - falcon
 
 prerequisites:
-  - CCFR certification recommended
   - CrowdStrike Falcon Hunter training or threat hunting experience recommended
 
 prerequisite_certs:

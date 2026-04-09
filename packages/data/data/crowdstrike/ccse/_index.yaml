@@ -1,26 +1,26 @@
-name: CrowdStrike Certified Falcon LogScale Engineer
+name: CrowdStrike Certified SIEM Engineer
 short_name: CCSE
 slug: crowdstrike-ccse
 status: active
 cost: "$300 USD"
 
 description: >-
-  Validates expertise in CrowdStrike Falcon LogScale (formerly Humio),
-  the high-performance log management and observability platform. Covers
-  LogScale architecture, data ingestion and parsing, LogScale Query Language
-  (LQL), dashboards, alerts, repositories, and integration with the
-  broader Falcon platform for centralized security analytics.
+  Validates expertise in deploying and managing SIEM capabilities within
+  the CrowdStrike Falcon platform, including Falcon Next-Gen SIEM,
+  log management, data ingestion and parsing, query development,
+  dashboards, alerts, and correlation rules for centralized security
+  analytics and threat detection.
 
 tags:
-  - log-management
+  - siem
   - analytics
   - advanced
   - crowdstrike
-  - logscale
+  - log-management
 
 prerequisites:
   - CCFA certification recommended
-  - CrowdStrike Falcon LogScale training or equivalent experience recommended
+  - CrowdStrike Falcon Next-Gen SIEM training or equivalent experience recommended
 
 related_certs:
   - crowdstrike-ccfa
@@ -44,15 +44,15 @@ links:
     type: official
 
 domains:
-  - name: LogScale Architecture and Concepts
+  - name: SIEM Architecture and Concepts
     weight: 15
   - name: Data Ingestion and Parsing
     weight: 20
-  - name: LogScale Query Language
+  - name: Query Development and Search
     weight: 25
   - name: Dashboards and Visualizations
     weight: 15
-  - name: Alerts and Actions
+  - name: Alerts and Correlation Rules
     weight: 10
   - name: Administration and Integration
     weight: 15
