@@ -1,4 +1,4 @@
-import { useMemo, useCallback, useState } from "react";
+import { useMemo, useCallback } from "react";
 import { Link, useSearchParams } from "react-router";
 import {
   getAllCerts,
@@ -11,7 +11,6 @@ import { buildCertCategoryGroupMap } from "../lib/domain-analysis";
 import {
   EXPERIENCE_LEVELS,
   getCertLevel,
-  type ExperienceLevel,
 } from "../lib/experience-levels";
 import { getProviderColor } from "@/lib/provider-colors";
 import { getCertLabel } from "@/lib/cert-label";

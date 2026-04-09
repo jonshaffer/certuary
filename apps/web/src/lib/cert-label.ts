@@ -4,9 +4,12 @@ const GENERIC_LEVELS = new Set([
   "EXPERT",
   "SPECIALTY",
   "FOUNDATIONAL",
+  "FOUNDATION",
   "PRACTITIONER",
   "MASTER",
   "ADVANCED",
+  "PLUS",
+  "ESSENTIALS",
 ]);
 
 /**

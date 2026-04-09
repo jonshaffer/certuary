@@ -134,7 +134,7 @@ function AttributeRow({
     let bestVal = Infinity;
     for (let i = 0; i < certs.length; i++) {
       const val = highlightBest(certs[i]);
-      if (val !== null && val > 0 && val < bestVal) {
+      if (val !== null && val >= 0 && val < bestVal) {
         bestVal = val;
         best = i;
       }

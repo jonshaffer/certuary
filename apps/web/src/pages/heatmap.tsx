@@ -251,13 +251,13 @@ export function HeatmapPage() {
                 key={intensity}
                 className="w-6 h-4"
                 style={{
-                  backgroundColor: `oklch(0.55 0.15 265 / ${intensity})`,
+                  backgroundColor: `oklch(0.55 0 0 / ${intensity})`,
                 }}
               />
             ))}
           </div>
           <span>High</span>
-          <span className="ml-4">Domain weight coverage · Cell color varies by provider</span>
+          <span className="ml-4">Domain weight coverage · Cell hue varies by provider</span>
         </div>
         <p className="text-[10px] text-muted-foreground">
           <span className="text-amber-500">*</span> retiring

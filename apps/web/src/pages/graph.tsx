@@ -300,11 +300,16 @@ export function GraphPage() {
             : d.status === "retired"
               ? " · retired"
               : "";
+        tooltip.selectAll("*").remove();
         tooltip
-          .html(
-            `<div class="font-medium">${d.name}</div>` +
-              `<div class="text-xs text-muted-foreground">${d.providerSlug}${statusLabel} · ${d.domainCount} domains</div>`
-          )
+          .append("div")
+          .attr("class", "font-medium")
+          .text(d.name);
+        tooltip
+          .append("div")
+          .attr("class", "text-xs text-muted-foreground")
+          .text(`${d.providerSlug}${statusLabel} · ${d.domainCount} domains`);
+        tooltip
           .style("left", `${event.offsetX + 12}px`)
           .style("top", `${event.offsetY - 10}px`)
           .style("opacity", "1");

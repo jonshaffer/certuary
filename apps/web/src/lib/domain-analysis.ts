@@ -182,9 +182,9 @@ export function buildHeatmapData(
       }
 
       // Fall back to keyword matching
+      const dTokens = tokenize(domain.name);
       for (const cat of categories) {
         const catTokens = categoryKeywords.get(cat.slug)!;
-        const dTokens = tokenize(domain.name);
         let matches = 0;
         for (const t of dTokens) {
           if (catTokens.has(t)) matches++;
@@ -294,7 +294,7 @@ export function findClusters(
       for (const slug of comp) {
         const cert = certMap.get(slug);
         if (!cert) continue;
-        const tokens = domainTokens(cert.domains);
+        const tokens = getCachedTokens(cert);
         for (const t of tokens) {
           if (!stopTokens.has(t)) {
             tokenCounts.set(t, (tokenCounts.get(t) ?? 0) + 1);
