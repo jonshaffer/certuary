@@ -1,0 +1,64 @@
+name: Splunk Core Certified Power User
+short_name: Splunk CCPU
+slug: splunk-core-certified-power-user
+status: active
+cost: "$130 USD"
+
+description: >-
+  Validates intermediate-level skills in Splunk, including advanced search
+  commands, data models, Common Information Model (CIM), creating advanced
+  visualizations, and using Splunk knowledge objects such as event types,
+  tags, macros, and workflow actions. Builds on Core Certified User skills.
+
+tags:
+  - siem
+  - analytics
+  - intermediate
+  - splunk
+  - search
+
+prerequisites:
+  - Splunk Fundamentals 2 course or equivalent experience
+
+prerequisite_certs:
+  - splunk-core-certified-user
+
+related_certs:
+  - splunk-core-certified-user
+  - splunk-core-certified-advanced-power-user
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 57
+question_count:
+  min: 63
+  max: 63
+
+versions:
+  - version: "4.0"
+    release_date: "2024-01-01"
+    notes: Updated to align with Splunk Enterprise 9.x features.
+
+links:
+  - label: Official Certification Page
+    url: https://www.splunk.com/en_us/training/certification/splunk-core-certified-power-user.html
+    type: official
+
+domains:
+  - name: Using Transforming Commands for Visualizations
+    weight: 15
+  - name: Filtering and Formatting Results
+    weight: 15
+  - name: Correlating Events
+    weight: 10
+  - name: Using Knowledge Objects
+    weight: 20
+  - name: Creating and Managing Data Models
+    weight: 15
+  - name: Using the Common Information Model
+    weight: 10
+  - name: Creating and Using Macros
+    weight: 15
+
+source_of_truth_url: https://www.splunk.com/en_us/training/certification/splunk-core-certified-power-user.html
+last_verified: "2026-04-09"

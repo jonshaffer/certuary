@@ -1,0 +1,62 @@
+name: Dell Technologies Certified Specialist - Implementation Engineer, PowerStore
+short_name: Dell DCS-IE
+slug: dell-data-storage-specialist
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates advanced knowledge of implementing and managing Dell storage
+  solutions. Covers advanced PowerStore configuration, PowerProtect data
+  protection implementation, storage replication, performance tuning,
+  and migration strategies across Dell's enterprise storage portfolio.
+
+tags:
+  - storage
+  - infrastructure
+  - intermediate
+  - dell
+  - data-protection
+
+prerequisites:
+  - Hands-on experience with Dell storage solutions
+
+prerequisite_certs:
+  - dell-data-storage-associate
+
+related_certs:
+  - dell-data-storage-associate
+  - dell-cloud-specialist
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover advanced Dell storage and data protection solutions.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: Advanced PowerStore Management
+    weight: 20
+  - name: Dell PowerProtect Implementation
+    weight: 20
+  - name: Storage Replication and DR
+    weight: 15
+  - name: Performance Tuning
+    weight: 15
+  - name: Data Migration Strategies
+    weight: 15
+  - name: Troubleshooting and Best Practices
+    weight: 15
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

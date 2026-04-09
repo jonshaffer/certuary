@@ -1,0 +1,63 @@
+name: Juniper Networks Certified Professional - Enterprise Routing and Switching
+short_name: JNCIP-ENT
+slug: juniper-jncip-ent
+status: active
+cost: "$400 USD"
+
+description: >-
+  Validates advanced knowledge of enterprise routing and switching
+  technologies, including advanced OSPF, advanced BGP, MPLS, layer 2
+  and layer 3 VPNs, multicast, and high availability features on Junos
+  platforms. Designed for senior network engineers architecting complex
+  enterprise networks.
+
+tags:
+  - networking
+  - enterprise
+  - routing
+  - advanced
+  - juniper
+
+prerequisites:
+  - Advanced Juniper Enterprise Routing and Switching courses recommended
+
+prerequisite_certs:
+  - juniper-jncis-ent
+
+related_certs:
+  - juniper-jncis-ent
+  - juniper-jncie-ent
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: "JN0-352"
+    release_date: "2023-01-01"
+    notes: Current exam version for enterprise professional.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/enterprise/jncip-ent.html
+    type: official
+
+domains:
+  - name: Advanced OSPF
+    weight: 15
+  - name: Advanced BGP
+    weight: 20
+  - name: MPLS and Traffic Engineering
+    weight: 20
+  - name: Layer 2 and Layer 3 VPNs
+    weight: 15
+  - name: Multicast
+    weight: 15
+  - name: High Availability
+    weight: 15
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/enterprise/jncip-ent.html
+last_verified: "2026-04-09"

@@ -1,0 +1,61 @@
+name: CrowdStrike Certified SIEM Engineer
+short_name: CCSE
+slug: crowdstrike-ccse
+status: active
+cost: "$300 USD"
+
+description: >-
+  Validates expertise in deploying and managing SIEM capabilities within
+  the CrowdStrike Falcon platform, including Falcon Next-Gen SIEM,
+  log management, data ingestion and parsing, query development,
+  dashboards, alerts, and correlation rules for centralized security
+  analytics and threat detection.
+
+tags:
+  - siem
+  - analytics
+  - advanced
+  - crowdstrike
+  - log-management
+
+prerequisites:
+  - CCFA certification recommended
+  - CrowdStrike Falcon Next-Gen SIEM training or equivalent experience recommended
+
+related_certs:
+  - crowdstrike-ccfa
+  - crowdstrike-ccfh
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Initial version covering Falcon LogScale platform capabilities.
+
+links:
+  - label: Official Certification Page
+    url: https://www.crowdstrike.com/en-us/services/training/certifications/
+    type: official
+
+domains:
+  - name: SIEM Architecture and Concepts
+    weight: 15
+  - name: Data Ingestion and Parsing
+    weight: 20
+  - name: Query Development and Search
+    weight: 25
+  - name: Dashboards and Visualizations
+    weight: 15
+  - name: Alerts and Correlation Rules
+    weight: 10
+  - name: Administration and Integration
+    weight: 15
+
+source_of_truth_url: https://www.crowdstrike.com/en-us/services/training/certifications/
+last_verified: "2026-04-09"

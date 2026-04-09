@@ -1,0 +1,63 @@
+name: Dell Technologies Generative AI Foundations
+short_name: Dell D-GAI-F
+slug: dell-ai-specialist
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates knowledge of generative AI concepts and their application using
+  Dell Technologies solutions. Covers large language models, retrieval
+  augmented generation (RAG), prompt engineering, model fine-tuning,
+  AI ethics and governance, and Dell AI Factory solutions for enterprise
+  generative AI deployments.
+
+tags:
+  - ai
+  - generative-ai
+  - intermediate
+  - dell
+  - machine-learning
+
+prerequisites:
+  - Hands-on experience with AI/ML infrastructure
+
+prerequisite_certs:
+  - dell-ai-associate
+
+related_certs:
+  - dell-ai-associate
+  - dell-cloud-specialist
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Initial version covering advanced Dell AI infrastructure deployment.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: Generative AI Concepts
+    weight: 20
+  - name: Large Language Models
+    weight: 20
+  - name: RAG and Prompt Engineering
+    weight: 15
+  - name: Model Fine-Tuning
+    weight: 15
+  - name: AI Ethics and Governance
+    weight: 15
+  - name: Dell AI Factory Solutions
+    weight: 15
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

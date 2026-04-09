@@ -1,0 +1,62 @@
+name: Juniper Networks Certified Associate - Junos
+short_name: JNCIA-Junos
+slug: juniper-jncia-junos
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates foundational knowledge of Junos OS and networking fundamentals,
+  including routing and switching concepts, Junos device configuration,
+  operational monitoring, and basic network troubleshooting. This is the
+  entry-level certification and prerequisite for all Juniper specialist
+  and professional tracks.
+
+tags:
+  - networking
+  - entry-level
+  - juniper
+  - junos
+  - routing
+
+prerequisites:
+  - Basic networking knowledge (TCP/IP, OSI model) recommended
+  - Junos OS Fundamentals course recommended
+
+related_certs:
+  - juniper-jncis-ent
+  - juniper-jncis-sp
+  - juniper-jncis-sec
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: "JN0-105"
+    release_date: "2023-01-01"
+    notes: Current exam version covering Junos OS fundamentals.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html
+    type: official
+
+domains:
+  - name: Networking Fundamentals
+    weight: 20
+  - name: Junos OS Fundamentals
+    weight: 25
+  - name: Routing Fundamentals
+    weight: 20
+  - name: Switching Fundamentals
+    weight: 15
+  - name: User Interfaces
+    weight: 10
+  - name: Configuration Basics
+    weight: 10
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html
+last_verified: "2026-04-09"

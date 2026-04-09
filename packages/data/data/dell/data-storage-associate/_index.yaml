@@ -1,0 +1,59 @@
+name: Dell Technologies Certified Associate - Information Storage and Management
+short_name: Dell DCA-ISM
+slug: dell-data-storage-associate
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates foundational knowledge of data storage technologies and Dell
+  storage solutions. Covers storage architectures, Dell PowerStore,
+  PowerScale, PowerFlex, data protection concepts, and storage networking
+  fundamentals. Entry point for the data storage certification track.
+
+tags:
+  - storage
+  - infrastructure
+  - entry-level
+  - dell
+  - data-protection
+
+prerequisites:
+  - Basic IT infrastructure and storage knowledge recommended
+
+related_certs:
+  - dell-data-storage-specialist
+  - dell-cloud-associate
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover latest Dell storage portfolio.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: Storage Architecture Fundamentals
+    weight: 20
+  - name: Dell PowerStore
+    weight: 20
+  - name: Dell PowerScale and Unstructured Data
+    weight: 15
+  - name: Dell PowerFlex
+    weight: 15
+  - name: Data Protection Concepts
+    weight: 15
+  - name: Storage Networking
+    weight: 15
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

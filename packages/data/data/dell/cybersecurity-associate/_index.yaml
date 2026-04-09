@@ -1,0 +1,60 @@
+name: Dell Technologies Security Foundations
+short_name: Dell D-SF
+slug: dell-cybersecurity-associate
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates foundational knowledge of cybersecurity principles including
+  threat landscape awareness, security frameworks, identity and access
+  management, network security, data protection, and security operations.
+  Provides a security foundation for professionals working with Dell
+  Technologies enterprise infrastructure.
+
+tags:
+  - cybersecurity
+  - infrastructure
+  - entry-level
+  - dell
+  - data-protection
+
+prerequisites:
+  - Basic cybersecurity and IT infrastructure knowledge recommended
+
+related_certs:
+  - dell-cybersecurity-specialist
+  - dell-data-storage-associate
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover Dell cybersecurity and cyber recovery solutions.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: Threat Landscape and Security Concepts
+    weight: 20
+  - name: Security Frameworks and Standards
+    weight: 15
+  - name: Identity and Access Management
+    weight: 15
+  - name: Network and Endpoint Security
+    weight: 20
+  - name: Data Protection and Privacy
+    weight: 15
+  - name: Security Operations
+    weight: 15
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

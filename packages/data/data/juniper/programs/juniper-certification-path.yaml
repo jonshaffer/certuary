@@ -1,0 +1,42 @@
+slug: juniper-certification-path
+name: Juniper Networks Certification Path
+description: >-
+  A recommended learning path through Juniper Networks certifications, from
+  foundational associate-level Junos credentials through specialist and
+  professional tracks to the elite expert-level JNCIE certification across
+  enterprise, service provider, and security domains.
+website: https://www.juniper.net/us/en/training/certification.html
+status: active
+required_certs: []
+phases:
+  - name: Associate
+    order: 1
+    certificate_slugs:
+      - juniper-jncia-junos
+      - juniper-jncia-mist-ai
+  - name: Specialist
+    order: 2
+    certificate_slugs:
+      - juniper-jncis-ent
+      - juniper-jncis-sp
+      - juniper-jncis-sec
+      - juniper-jncis-mist-ai
+  - name: Professional
+    order: 3
+    certificate_slugs:
+      - juniper-jncip-ent
+      - juniper-jncip-sp
+      - juniper-jncip-sec
+  - name: Expert
+    order: 4
+    certificate_slugs:
+      - juniper-jncie-ent
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Juniper recommends starting with JNCIA-Junos
+    as the foundation for the Enterprise, Service Provider, and Security tracks,
+    or JNCIA-MistAI for the Mist AI track. The Enterprise, Service Provider,
+    and Security tracks progress through four tiers (Associate, Specialist,
+    Professional, Expert). The Mist AI track currently covers Associate and
+    Specialist levels.

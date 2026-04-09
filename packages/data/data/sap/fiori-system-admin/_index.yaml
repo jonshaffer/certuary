@@ -1,0 +1,60 @@
+name: SAP Certified Associate - SAP Fiori Application Developer
+short_name: SAP C_FIORD
+slug: sap-fiori-system-admin
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates development skills for SAP Fiori, the modern user experience
+  platform for SAP applications. Covers Fiori application architecture,
+  SAPUI5 development, SAP Business Application Studio, OData services,
+  Fiori elements, and deployment of Fiori apps across on-premise and
+  cloud environments.
+
+tags:
+  - fiori
+  - sap
+  - development
+  - ux
+  - frontend
+
+prerequisites:
+  - SAP Fiori application development training or equivalent experience recommended
+
+related_certs:
+  - sap-s4hana-cloud
+  - sap-s4hana-system-admin
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 180
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to reflect latest SAP Fiori administration features.
+
+links:
+  - label: Official Certification Page
+    url: https://learning.sap.com/certifications/sap-certified-associate-sap-fiori-system-administration
+    type: official
+
+domains:
+  - name: SAP Fiori Architecture and Concepts
+    weight: 15
+  - name: SAPUI5 Development
+    weight: 20
+  - name: SAP Business Application Studio
+    weight: 15
+  - name: OData Services and Data Binding
+    weight: 20
+  - name: Fiori Elements and Floorplans
+    weight: 15
+  - name: Deployment and Testing
+    weight: 15
+
+source_of_truth_url: https://learning.sap.com/certifications/sap-certified-associate-sap-fiori-system-administration
+last_verified: "2026-04-09"

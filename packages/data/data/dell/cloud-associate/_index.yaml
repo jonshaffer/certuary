@@ -1,0 +1,60 @@
+name: Dell Technologies Certified Associate - Cloud Infrastructure and Services
+short_name: Dell DCA-CIS
+slug: dell-cloud-associate
+status: active
+cost: "$230 USD"
+
+description: >-
+  Validates foundational knowledge of cloud infrastructure concepts using
+  Dell Technologies solutions. Covers cloud models, virtualization, VxRail
+  hyperconverged infrastructure, cloud deployment architectures, and basic
+  administration of Dell cloud solutions. Entry point for the cloud
+  infrastructure certification track.
+
+tags:
+  - cloud
+  - infrastructure
+  - entry-level
+  - dell
+  - vxrail
+
+prerequisites:
+  - Basic IT infrastructure and cloud computing knowledge recommended
+
+related_certs:
+  - dell-cloud-specialist
+  - dell-data-storage-associate
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover latest Dell cloud infrastructure solutions.
+
+links:
+  - label: Official Certification Page
+    url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+    type: official
+
+domains:
+  - name: Cloud Computing Concepts
+    weight: 20
+  - name: Virtualization and Infrastructure
+    weight: 20
+  - name: Dell VxRail and HCI
+    weight: 20
+  - name: Cloud Deployment Models
+    weight: 15
+  - name: Cloud Management and Operations
+    weight: 15
+  - name: Cloud Security Fundamentals
+    weight: 10
+
+source_of_truth_url: https://education.dell.com/content/dell/en-us/home/certification-overview.html
+last_verified: "2026-04-09"

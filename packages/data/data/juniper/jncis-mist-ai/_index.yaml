@@ -1,0 +1,63 @@
+name: Juniper Networks Certified Specialist - Mist AI
+short_name: JNCIS-MistAI
+slug: juniper-jncis-mist-ai
+status: active
+cost: "$400 USD"
+
+description: >-
+  Validates intermediate skills in deploying and managing Juniper Mist
+  AI-driven networks, including advanced wireless design, wired and WAN
+  assurance configuration, location services, Marvis integration, and
+  API-driven automation. Builds on JNCIA-MistAI foundational knowledge.
+
+tags:
+  - networking
+  - ai
+  - wireless
+  - intermediate
+  - juniper
+  - mist
+
+prerequisites:
+  - Juniper Mist AI specialist courses recommended
+
+prerequisite_certs:
+  - juniper-jncia-mist-ai
+
+related_certs:
+  - juniper-jncia-mist-ai
+  - juniper-jncis-ent
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: "JN0-252"
+    release_date: "2023-01-01"
+    notes: Current exam version for Mist AI specialist.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/mist-ai/jncis-mistai.html
+    type: official
+
+domains:
+  - name: Advanced Wireless Design
+    weight: 20
+  - name: Wired Assurance Advanced Features
+    weight: 15
+  - name: WAN Assurance Advanced Features
+    weight: 15
+  - name: Location Services
+    weight: 15
+  - name: Marvis Advanced Operations
+    weight: 15
+  - name: API and Automation
+    weight: 20
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/mist-ai/jncis-mistai.html
+last_verified: "2026-04-09"

@@ -1,0 +1,60 @@
+name: SAP Certified Associate - SAP BTP Administrator
+short_name: SAP C_BTP
+slug: sap-btp-administrator
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates skills in administering the SAP Business Technology Platform,
+  including account management, entitlement configuration, identity and
+  access management, connectivity setup, and service provisioning. Covers
+  Cloud Foundry and Kyma runtime environments as well as integration with
+  SAP and third-party solutions.
+
+tags:
+  - cloud
+  - platform
+  - sap
+  - btp
+  - administration
+
+prerequisites:
+  - SAP BTP administration training or hands-on experience recommended
+
+related_certs:
+  - sap-s4hana-cloud
+  - sap-abap-cloud-developer
+
+exam_format: multiple-choice
+passing_score: 67
+duration_minutes: 180
+question_count:
+  min: 80
+  max: 80
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover latest SAP BTP services and administration capabilities.
+
+links:
+  - label: Official Certification Page
+    url: https://learning.sap.com/certifications/sap-certified-associate-sap-btp-administrator
+    type: official
+
+domains:
+  - name: Account Model and Entitlements
+    weight: 20
+  - name: Identity and Access Management
+    weight: 20
+  - name: Connectivity and Integration
+    weight: 15
+  - name: Runtime Environments
+    weight: 15
+  - name: Service Management and Provisioning
+    weight: 15
+  - name: Monitoring and Security
+    weight: 15
+
+source_of_truth_url: https://learning.sap.com/certifications/sap-certified-associate-sap-btp-administrator
+last_verified: "2026-04-09"

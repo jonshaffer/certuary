@@ -1,0 +1,34 @@
+slug: splunk-certification-path
+name: Splunk Certification Path
+description: >-
+  A recommended learning path through Splunk certifications, from foundational
+  search and reporting skills through platform administration to advanced
+  security operations and automation on the Splunk platform.
+website: https://www.splunk.com/en_us/training/certification.html
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - splunk-core-certified-user
+  - name: Intermediate
+    order: 2
+    certificate_slugs:
+      - splunk-core-certified-power-user
+      - splunk-enterprise-certified-admin
+      - splunk-cloud-certified-admin
+  - name: Advanced
+    order: 3
+    certificate_slugs:
+      - splunk-core-certified-advanced-power-user
+      - splunk-enterprise-security-certified-admin
+      - splunk-soar-certified-automation-developer
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Splunk recommends starting with Core
+    Certified User, then branching into either the power user track (CCPU,
+    CCAPU) for search expertise or the admin track (ECA, CCA) for platform
+    management. Security professionals should pursue ESCA and SCAD after
+    completing the core track.

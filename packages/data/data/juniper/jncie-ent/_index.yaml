@@ -1,0 +1,61 @@
+name: Juniper Networks Certified Expert - Enterprise Routing and Switching
+short_name: JNCIE-ENT
+slug: juniper-jncie-ent
+status: active
+cost: "$1,600 USD"
+
+description: >-
+  The pinnacle of the Juniper enterprise certification track, validating
+  expert-level skills through a hands-on, practical lab exam. Candidates
+  must configure and troubleshoot complex enterprise network scenarios
+  involving OSPF, BGP, MPLS, switching, high availability, and security
+  features in real time. The JNCIE is considered one of the most elite
+  and challenging networking certifications in the industry.
+
+tags:
+  - networking
+  - enterprise
+  - expert
+  - lab
+  - juniper
+
+prerequisites:
+  - Extensive hands-on experience with Juniper enterprise networks
+
+prerequisite_certs:
+  - juniper-jncip-ent
+
+related_certs:
+  - juniper-jncip-ent
+  - juniper-jncip-sp
+
+exam_format: performance-based
+passing_score: 60
+duration_minutes: 480
+
+versions:
+  - version: "JN0-JNCIE-ENT"
+    release_date: "2023-01-01"
+    notes: Hands-on lab exam covering enterprise routing and switching scenarios.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/enterprise/jncie-ent.html
+    type: official
+
+domains:
+  - name: Enterprise Routing
+    weight: 25
+  - name: Enterprise Switching
+    weight: 20
+  - name: MPLS and VPNs
+    weight: 20
+  - name: Network Security
+    weight: 15
+  - name: High Availability
+    weight: 10
+  - name: Network Troubleshooting
+    weight: 10
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/enterprise/jncie-ent.html
+last_verified: "2026-04-09"

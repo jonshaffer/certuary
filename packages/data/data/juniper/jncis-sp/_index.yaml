@@ -1,0 +1,62 @@
+name: Juniper Networks Certified Specialist - Service Provider Routing and Switching
+short_name: JNCIS-SP
+slug: juniper-jncis-sp
+status: active
+cost: "$400 USD"
+
+description: >-
+  Validates intermediate knowledge of service provider routing and switching
+  technologies, including MPLS, BGP, OSPF, IS-IS, layer 2 and layer 3 VPNs,
+  and multicast. Designed for network engineers working in carrier and
+  service provider environments using Juniper MX and PTX series platforms.
+
+tags:
+  - networking
+  - service-provider
+  - mpls
+  - intermediate
+  - juniper
+
+prerequisites:
+  - Juniper Service Provider Routing and Switching courses recommended
+
+prerequisite_certs:
+  - juniper-jncia-junos
+
+related_certs:
+  - juniper-jncia-junos
+  - juniper-jncip-sp
+
+exam_format: multiple-choice
+passing_score: 60
+duration_minutes: 90
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: "JN0-362"
+    release_date: "2023-01-01"
+    notes: Current exam version for service provider routing and switching specialist.
+
+links:
+  - label: Official Certification Page
+    url: https://www.juniper.net/us/en/training/certification/tracks/service-provider/jncis-sp.html
+    type: official
+
+domains:
+  - name: OSPF and IS-IS
+    weight: 15
+  - name: BGP
+    weight: 20
+  - name: MPLS Fundamentals
+    weight: 20
+  - name: Layer 2 VPNs
+    weight: 10
+  - name: Layer 3 VPNs
+    weight: 20
+  - name: Multicast
+    weight: 15
+
+source_of_truth_url: https://www.juniper.net/us/en/training/certification/tracks/service-provider/jncis-sp.html
+last_verified: "2026-04-09"

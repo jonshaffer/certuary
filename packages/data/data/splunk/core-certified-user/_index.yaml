@@ -1,0 +1,62 @@
+name: Splunk Core Certified User
+short_name: Splunk CCU
+slug: splunk-core-certified-user
+status: active
+cost: "$130 USD"
+
+description: >-
+  Validates foundational skills in using Splunk for searching, filtering,
+  and visualizing data. Covers the Search Processing Language (SPL),
+  creating reports and dashboards, using lookups and fields, and
+  understanding basic Splunk architecture. This is the entry-level
+  certification for all Splunk certification tracks.
+
+tags:
+  - siem
+  - analytics
+  - entry-level
+  - splunk
+  - search
+
+prerequisites:
+  - Splunk Fundamentals 1 course or equivalent experience recommended
+
+related_certs:
+  - splunk-core-certified-power-user
+  - splunk-enterprise-certified-admin
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 57
+question_count:
+  min: 58
+  max: 58
+
+versions:
+  - version: "4.0"
+    release_date: "2024-01-01"
+    notes: Updated to align with Splunk Enterprise 9.x features.
+
+links:
+  - label: Official Certification Page
+    url: https://www.splunk.com/en_us/training/certification/splunk-core-certified-user.html
+    type: official
+
+domains:
+  - name: Splunk Basics
+    weight: 15
+  - name: Basic Searching
+    weight: 20
+  - name: Using Fields in Searches
+    weight: 15
+  - name: Search Language Fundamentals
+    weight: 20
+  - name: Using Transforming Commands
+    weight: 10
+  - name: Creating Reports and Dashboards
+    weight: 10
+  - name: Creating and Using Lookups
+    weight: 10
+
+source_of_truth_url: https://www.splunk.com/en_us/training/certification/splunk-core-certified-user.html
+last_verified: "2026-04-09"

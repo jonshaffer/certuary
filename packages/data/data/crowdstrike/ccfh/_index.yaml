@@ -1,0 +1,63 @@
+name: CrowdStrike Certified Falcon Hunter
+short_name: CCFH
+slug: crowdstrike-ccfh
+status: active
+cost: "$300 USD"
+
+description: >-
+  Validates advanced skills in proactive threat hunting using the CrowdStrike
+  Falcon platform. Covers Event Search, host and user investigation,
+  Falcon Query Language (FQL), hunting methodologies, behavioral pattern
+  analysis, and using Falcon telemetry to identify advanced persistent
+  threats and fileless attacks.
+
+tags:
+  - endpoint-security
+  - threat-hunting
+  - advanced
+  - crowdstrike
+  - falcon
+
+prerequisites:
+  - CrowdStrike Falcon Hunter training or threat hunting experience recommended
+
+prerequisite_certs:
+  - crowdstrike-ccfr
+
+related_certs:
+  - crowdstrike-ccfr
+  - crowdstrike-ccse
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "2025"
+    release_date: "2025-01-01"
+    notes: Updated to cover latest Falcon threat hunting capabilities and FQL.
+
+links:
+  - label: Official Certification Page
+    url: https://www.crowdstrike.com/en-us/services/training/certifications/
+    type: official
+
+domains:
+  - name: Threat Hunting Methodologies
+    weight: 15
+  - name: Falcon Query Language (FQL)
+    weight: 20
+  - name: Event Search and Investigation
+    weight: 20
+  - name: Behavioral Pattern Analysis
+    weight: 15
+  - name: Advanced Threat Identification
+    weight: 15
+  - name: Hunting Workflow and Reporting
+    weight: 15
+
+source_of_truth_url: https://www.crowdstrike.com/en-us/services/training/certifications/
+last_verified: "2026-04-09"
