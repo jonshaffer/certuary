@@ -1,0 +1,63 @@
+name: IBM Certified Professional – AI Engineer
+short_name: IBM AI Engineer
+slug: ibm-ai-engineer-professional
+status: active
+cost: "$300 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates professional-level skills in designing, building, and deploying
+  AI solutions using IBM Watson and IBM Cloud Pak for Data. Covers advanced
+  machine learning model development, natural language processing pipelines,
+  and operationalizing AI workloads at enterprise scale.
+
+tags:
+  - ai
+  - professional
+  - ibm
+  - watson
+  - machine-learning
+  - deep-learning
+
+prerequisites:
+  - Experience with IBM Watson services and IBM Cloud Pak for Data
+  - Knowledge of machine learning frameworks and model lifecycle management
+
+related_certs:
+  - ibm-ai-foundations
+  - ibm-cloud-architect-professional
+  - aws-machine-learning-engineer-associate
+  - azure-ai-engineer
+  - gcp-machine-learning-engineer
+
+versions:
+  - version: C1000-177
+    notes: >-
+      Current version covering advanced Watson AI development, Cloud Pak
+      for Data, and enterprise AI deployment patterns.
+
+prerequisite_certs: []
+
+links:
+  - label: IBM Training and Credentials
+    url: https://www.ibm.com/training/credentials
+    type: official
+
+domains:
+  - name: AI Solution Architecture
+    weight: 20
+  - name: Data Preparation and Feature Engineering
+    weight: 20
+  - name: Model Development and Training
+    weight: 25
+  - name: Model Deployment and Operations
+    weight: 20
+  - name: Watson AI Services Integration
+    weight: 15
+
+source_of_truth_url: https://www.ibm.com/training/credentials
+last_verified: "2026-04-09"

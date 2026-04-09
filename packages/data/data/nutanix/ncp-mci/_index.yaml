@@ -1,0 +1,63 @@
+name: Nutanix Certified Professional – Multicloud Infrastructure
+short_name: NCP-MCI
+slug: nutanix-ncp-mci
+status: active
+cost: "$199 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 75
+  approximate: true
+
+description: >-
+  Validates the ability to deploy, administer, and troubleshoot Nutanix AOS
+  and AHV environments. Covers cluster management, virtual machine lifecycle,
+  networking, storage configuration, data protection, and monitoring in
+  Nutanix hyperconverged infrastructure.
+
+tags:
+  - infrastructure
+  - hyperconverged
+  - nutanix
+  - intermediate
+  - virtualization
+
+prerequisites:
+  - Experience administering Nutanix AOS and AHV environments recommended
+
+related_certs:
+  - nutanix-ncm-mci
+  - nutanix-ncp-db
+  - nutanix-ncp-us
+  - vmware-vcp-dcv
+  - vmware-vcp-vcf-administrator
+
+versions:
+  - version: "6.5"
+    notes: >-
+      Current version aligned with AOS 6.5, covering updated cluster
+      management and AHV networking features.
+
+prerequisite_certs: []
+
+links:
+  - label: Nutanix Training and Certification
+    url: https://www.nutanix.com/support-services/training-certification
+    type: official
+
+domains:
+  - name: Cluster Deployment and Configuration
+    weight: 20
+  - name: Virtual Machine Management
+    weight: 20
+  - name: Networking
+    weight: 15
+  - name: Storage Management
+    weight: 15
+  - name: Data Protection and Disaster Recovery
+    weight: 15
+  - name: Monitoring and Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.nutanix.com/support-services/training-certification
+last_verified: "2026-04-09"

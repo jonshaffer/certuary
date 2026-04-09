@@ -1,0 +1,59 @@
+name: Atlassian Certified Professional – Confluence Administrator
+short_name: ACP Confluence Admin
+slug: atlassian-acp-confluence-admin
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 70
+  approximate: true
+
+description: >-
+  Validates the ability to configure, manage, and optimize Confluence
+  for enterprise knowledge management. Covers space administration,
+  permission management, template configuration, macro usage, content
+  lifecycle management, and integration with other Atlassian products.
+
+tags:
+  - knowledge-management
+  - atlassian
+  - confluence
+  - administration
+  - intermediate
+
+prerequisites:
+  - Experience administering Confluence spaces and permissions recommended
+
+related_certs:
+  - atlassian-acp-jira-admin
+  - atlassian-acp-jira-pm
+  - atlassian-acp-cloud-admin
+
+versions:
+  - version: ACP-630
+    notes: >-
+      Current version covering Confluence Cloud and Data Center
+      administration, content management, and integration features.
+
+prerequisite_certs: []
+
+links:
+  - label: Atlassian University
+    url: https://university.atlassian.com/
+    type: official
+
+domains:
+  - name: Space Configuration and Management
+    weight: 25
+  - name: Permissions and Security
+    weight: 20
+  - name: Templates, Macros, and Content Management
+    weight: 25
+  - name: Integration with Atlassian Products
+    weight: 15
+  - name: Administration and Maintenance
+    weight: 15
+
+source_of_truth_url: https://university.atlassian.com/
+last_verified: "2026-04-09"

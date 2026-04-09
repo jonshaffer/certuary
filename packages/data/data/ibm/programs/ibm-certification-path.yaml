@@ -1,0 +1,31 @@
+slug: ibm-certification-path
+name: IBM Certification Path
+description: >-
+  A recommended learning path through IBM certifications, from foundational
+  AI and cloud knowledge through professional-level architecture and
+  engineering to specialist security and mainframe credentials.
+website: https://www.ibm.com/training/credentials
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - ibm-ai-foundations
+      - ibm-cloud-advocate
+  - name: Professional
+    order: 2
+    certificate_slugs:
+      - ibm-ai-engineer-professional
+      - ibm-cloud-architect-professional
+  - name: Specialist
+    order: 3
+    certificate_slugs:
+      - ibm-qradar-siem-analyst
+      - ibm-zos-system-programmer
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. IBM recommends starting with foundational
+    certifications and progressing to professional or specialist credentials
+    based on your role and technology focus.

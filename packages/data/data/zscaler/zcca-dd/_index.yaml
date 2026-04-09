@@ -1,0 +1,61 @@
+name: Zscaler Certified Cloud Administrator – Digital Experience
+short_name: ZCCA-DD
+slug: zscaler-zcca-dd
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates the ability to configure and administer Zscaler Digital
+  Experience (ZDX), a monitoring solution for end-to-end user experience
+  visibility. Covers probes configuration, application monitoring, device
+  and network path analysis, and troubleshooting user experience issues
+  across cloud applications.
+
+tags:
+  - cybersecurity
+  - monitoring
+  - zscaler
+  - cloud-security
+  - intermediate
+
+prerequisites:
+  - Familiarity with network monitoring and diagnostics concepts
+  - Experience with Zscaler Digital Experience (ZDX) recommended
+
+related_certs:
+  - zscaler-zcca-ia
+  - zscaler-zcca-pa
+  - zscaler-zccp-ia
+
+versions:
+  - version: ZCCA-DD
+    notes: >-
+      Current version covering ZDX configuration, probe management,
+      and digital experience monitoring.
+
+prerequisite_certs: []
+
+links:
+  - label: Zscaler Training and Certification
+    url: https://www.zscaler.com/resources/training-certification
+    type: official
+
+domains:
+  - name: ZDX Architecture and Deployment
+    weight: 20
+  - name: Probe Configuration and Management
+    weight: 25
+  - name: Application and User Monitoring
+    weight: 25
+  - name: Network Path and Device Analysis
+    weight: 15
+  - name: Dashboards and Reporting
+    weight: 15
+
+source_of_truth_url: https://www.zscaler.com/resources/training-certification
+last_verified: "2026-04-09"

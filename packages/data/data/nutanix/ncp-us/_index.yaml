@@ -1,0 +1,57 @@
+name: Nutanix Certified Professional – Unified Storage
+short_name: NCP-US
+slug: nutanix-ncp-us
+status: active
+cost: "$199 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 75
+  approximate: true
+
+description: >-
+  Validates skills in deploying and managing Nutanix unified storage
+  solutions including Nutanix Files, Objects, and Volumes. Covers storage
+  provisioning, access management, data tiering, analytics, and
+  troubleshooting across file, object, and block storage services.
+
+tags:
+  - storage
+  - infrastructure
+  - nutanix
+  - intermediate
+
+prerequisites:
+  - Experience with Nutanix Files, Objects, and Volumes recommended
+
+related_certs:
+  - nutanix-ncp-mci
+  - nutanix-ncp-db
+
+versions:
+  - version: "4.0"
+    notes: >-
+      Current version covering Nutanix Files, Objects, and Volumes
+      storage services and unified management.
+
+prerequisite_certs: []
+
+links:
+  - label: Nutanix Training and Certification
+    url: https://www.nutanix.com/support-services/training-certification
+    type: official
+
+domains:
+  - name: Nutanix Files Deployment and Management
+    weight: 30
+  - name: Nutanix Objects Configuration
+    weight: 25
+  - name: Nutanix Volumes and Block Storage
+    weight: 20
+  - name: Data Protection and Tiering
+    weight: 15
+  - name: Monitoring and Analytics
+    weight: 10
+
+source_of_truth_url: https://www.nutanix.com/support-services/training-certification
+last_verified: "2026-04-09"

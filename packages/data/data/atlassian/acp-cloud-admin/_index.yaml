@@ -1,0 +1,59 @@
+name: Atlassian Certified Professional – Cloud Administration
+short_name: ACP Cloud Admin
+slug: atlassian-acp-cloud-admin
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 70
+  approximate: true
+
+description: >-
+  Validates the ability to administer Atlassian Cloud organization
+  settings, user management, security policies, and product
+  configurations. Covers Atlassian Guard, identity providers,
+  compliance controls, billing management, and cross-product
+  administration for Jira, Confluence, and related cloud services.
+
+tags:
+  - cloud
+  - atlassian
+  - administration
+  - intermediate
+
+prerequisites:
+  - Experience administering Atlassian Cloud products recommended
+  - Familiarity with identity management and SSO concepts
+
+related_certs:
+  - atlassian-acp-jira-admin
+  - atlassian-acp-confluence-admin
+
+versions:
+  - version: ACP-640
+    notes: >-
+      Current version covering Atlassian Cloud organization management,
+      Atlassian Guard, and cross-product administration.
+
+prerequisite_certs: []
+
+links:
+  - label: Atlassian University
+    url: https://university.atlassian.com/
+    type: official
+
+domains:
+  - name: Organization and User Management
+    weight: 25
+  - name: Security Policies and Atlassian Guard
+    weight: 25
+  - name: Identity Providers and SSO
+    weight: 20
+  - name: Product Configuration and Access
+    weight: 20
+  - name: Billing and Subscription Management
+    weight: 10
+
+source_of_truth_url: https://university.atlassian.com/
+last_verified: "2026-04-09"

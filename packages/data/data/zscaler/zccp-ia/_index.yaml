@@ -1,0 +1,63 @@
+name: Zscaler Certified Cloud Professional – Internet Access
+short_name: ZCCP-IA
+slug: zscaler-zccp-ia
+status: active
+cost: "$300 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates advanced skills in designing, deploying, and optimizing Zscaler
+  Internet Access (ZIA) solutions at enterprise scale. Covers complex
+  policy architectures, advanced SSL inspection scenarios, integration
+  with identity providers, traffic forwarding optimization, and
+  troubleshooting escalated issues.
+
+tags:
+  - cybersecurity
+  - zero-trust
+  - zscaler
+  - cloud-security
+  - advanced
+
+prerequisites:
+  - ZCCA-IA certification or equivalent experience recommended
+  - Extensive hands-on experience with ZIA in enterprise environments
+
+related_certs:
+  - zscaler-zcca-ia
+  - zscaler-zcca-pa
+  - zscaler-zcca-dd
+  - ccnp-security
+  - azure-security-engineer
+
+versions:
+  - version: ZCCP-IA
+    notes: >-
+      Current version covering advanced ZIA deployment, complex policy
+      design, and enterprise-scale optimization.
+
+prerequisite_certs: []
+
+links:
+  - label: Zscaler Training and Certification
+    url: https://www.zscaler.com/resources/training-certification
+    type: official
+
+domains:
+  - name: Advanced ZIA Architecture and Design
+    weight: 20
+  - name: Complex Policy and Rule Management
+    weight: 25
+  - name: Advanced SSL Inspection and DLP
+    weight: 20
+  - name: Identity Integration and Authentication
+    weight: 15
+  - name: Advanced Troubleshooting and Optimization
+    weight: 20
+
+source_of_truth_url: https://www.zscaler.com/resources/training-certification
+last_verified: "2026-04-09"

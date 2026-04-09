@@ -1,0 +1,25 @@
+slug: apple-certification-path
+name: Apple Certification Path
+description: >-
+  A recommended learning path through Apple certifications, from macOS
+  support proficiency to hardware repair credentials for Mac and iOS
+  devices.
+website: https://support.apple.com/en-us/111901
+status: active
+required_certs: []
+phases:
+  - name: Support
+    order: 1
+    certificate_slugs:
+      - apple-acsp
+  - name: Technician
+    order: 2
+    certificate_slugs:
+      - apple-acmt
+      - apple-acit
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Apple recommends ACSP for IT support
+    professionals and ACMT/ACiT for those pursuing hardware repair
+    roles at Apple Authorized Service Providers.

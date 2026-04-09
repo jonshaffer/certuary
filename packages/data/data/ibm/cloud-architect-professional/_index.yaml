@@ -1,0 +1,61 @@
+name: IBM Certified Professional – Cloud Architect
+short_name: IBM Cloud Architect
+slug: ibm-cloud-architect-professional
+status: active
+cost: "$300 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates professional-level skills in designing and architecting solutions
+  on the IBM Cloud platform. Covers hybrid cloud architecture, microservices,
+  container orchestration with Kubernetes and Red Hat OpenShift, and
+  enterprise-grade cloud solution design.
+
+tags:
+  - cloud
+  - architecture
+  - professional
+  - ibm
+  - hybrid-cloud
+
+prerequisites:
+  - Experience designing cloud solutions on IBM Cloud
+  - Knowledge of containers, Kubernetes, and hybrid cloud patterns
+
+related_certs:
+  - ibm-cloud-advocate
+  - aws-solutions-architect-associate
+  - azure-solutions-architect
+  - gcp-cloud-architect
+
+versions:
+  - version: C1000-178
+    notes: >-
+      Current version covering IBM Cloud architecture, hybrid cloud
+      design, and containerized workload management.
+
+prerequisite_certs: []
+
+links:
+  - label: IBM Training and Credentials
+    url: https://www.ibm.com/training/credentials
+    type: official
+
+domains:
+  - name: Cloud Architecture Design
+    weight: 25
+  - name: Hybrid Cloud and Multicloud Strategy
+    weight: 20
+  - name: Containers and Orchestration
+    weight: 20
+  - name: Networking and Security Architecture
+    weight: 20
+  - name: Resilience and Performance Optimization
+    weight: 15
+
+source_of_truth_url: https://www.ibm.com/training/credentials
+last_verified: "2026-04-09"

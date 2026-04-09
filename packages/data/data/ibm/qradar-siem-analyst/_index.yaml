@@ -1,0 +1,61 @@
+name: IBM Certified Analyst – QRadar SIEM
+short_name: IBM QRadar Analyst
+slug: ibm-qradar-siem-analyst
+status: active
+cost: "$300 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates skills in using IBM QRadar SIEM for security monitoring,
+  threat detection, and incident investigation. Covers log source
+  management, offense analysis, rule configuration, network activity
+  monitoring, and building custom reports and dashboards.
+
+tags:
+  - cybersecurity
+  - siem
+  - ibm
+  - qradar
+  - intermediate
+
+prerequisites:
+  - Experience with IBM QRadar SIEM administration and analysis
+  - Understanding of network security and threat analysis concepts
+
+related_certs:
+  - ibm-cloud-advocate
+  - comptia-security-plus
+  - cissp
+  - gsec
+
+versions:
+  - version: C1000-156
+    notes: >-
+      Current version covering QRadar SIEM V7.5 features, offense
+      management, and security analytics.
+
+prerequisite_certs: []
+
+links:
+  - label: IBM Training and Credentials
+    url: https://www.ibm.com/training/credentials
+    type: official
+
+domains:
+  - name: QRadar Architecture and Administration
+    weight: 20
+  - name: Log Source Management and Data Collection
+    weight: 20
+  - name: Offense Management and Investigation
+    weight: 25
+  - name: Rules, Building Blocks, and Custom Properties
+    weight: 20
+  - name: Reporting and Dashboards
+    weight: 15
+
+source_of_truth_url: https://www.ibm.com/training/credentials
+last_verified: "2026-04-09"

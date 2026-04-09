@@ -1,0 +1,58 @@
+name: Nutanix Certified Professional – Database Automation
+short_name: NCP-DB
+slug: nutanix-ncp-db
+status: active
+cost: "$199 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 75
+  approximate: true
+
+description: >-
+  Validates skills in deploying and managing databases using Nutanix Database
+  Service (NDB). Covers database provisioning, cloning, patching, backup
+  and restore operations, and lifecycle management for PostgreSQL, MySQL,
+  SQL Server, Oracle, and MongoDB on the Nutanix platform.
+
+tags:
+  - database
+  - automation
+  - nutanix
+  - intermediate
+
+prerequisites:
+  - Experience with Nutanix Database Service (NDB) recommended
+  - Familiarity with database administration concepts
+
+related_certs:
+  - nutanix-ncp-mci
+  - nutanix-ncp-us
+
+versions:
+  - version: "2.5"
+    notes: >-
+      Current version covering NDB 2.5 features including enhanced
+      database provisioning and time machine capabilities.
+
+prerequisite_certs: []
+
+links:
+  - label: Nutanix Training and Certification
+    url: https://www.nutanix.com/support-services/training-certification
+    type: official
+
+domains:
+  - name: NDB Architecture and Configuration
+    weight: 20
+  - name: Database Provisioning and Cloning
+    weight: 25
+  - name: Patching and Lifecycle Management
+    weight: 20
+  - name: Backup, Restore, and Time Machine
+    weight: 20
+  - name: Monitoring and Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.nutanix.com/support-services/training-certification
+last_verified: "2026-04-09"

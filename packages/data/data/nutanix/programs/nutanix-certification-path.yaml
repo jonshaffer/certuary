@@ -1,0 +1,26 @@
+slug: nutanix-certification-path
+name: Nutanix Certification Path
+description: >-
+  A recommended learning path through Nutanix certifications, from
+  professional-level infrastructure and specialty certifications to
+  master-level advanced administration and architecture.
+website: https://www.nutanix.com/support-services/training-certification
+status: active
+required_certs: []
+phases:
+  - name: Professional
+    order: 1
+    certificate_slugs:
+      - nutanix-ncp-mci
+      - nutanix-ncp-db
+      - nutanix-ncp-us
+  - name: Master
+    order: 2
+    certificate_slugs:
+      - nutanix-ncm-mci
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Nutanix recommends starting with NCP-MCI
+    as the core infrastructure certification before pursuing specialty NCP
+    tracks or the advanced NCM-MCI credential.

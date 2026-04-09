@@ -1,0 +1,58 @@
+name: IBM Certified Associate – AI Foundations
+short_name: IBM AI Foundations
+slug: ibm-ai-foundations
+status: active
+cost: "$200 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates foundational understanding of artificial intelligence concepts,
+  IBM Watson services, and AI methodology. Covers machine learning basics,
+  natural language processing, computer vision, and the ethical use of AI
+  in enterprise applications.
+
+tags:
+  - ai
+  - entry-level
+  - ibm
+  - watson
+  - machine-learning
+
+prerequisites:
+  - Familiarity with AI concepts and IBM Watson services recommended
+
+related_certs:
+  - ibm-ai-engineer-professional
+  - aws-ai-practitioner
+  - azure-ai-fundamentals
+  - gcp-cloud-digital-leader
+
+versions:
+  - version: C1000-176
+    notes: >-
+      Current version covering Watson AI services, AI methodology, and
+      foundational machine learning concepts.
+
+prerequisite_certs: []
+
+links:
+  - label: IBM Training and Credentials
+    url: https://www.ibm.com/training/credentials
+    type: official
+
+domains:
+  - name: AI Fundamentals
+    weight: 25
+  - name: IBM Watson Services
+    weight: 30
+  - name: AI Methodology and Use Cases
+    weight: 25
+  - name: Ethics and Responsible AI
+    weight: 20
+
+source_of_truth_url: https://www.ibm.com/training/credentials
+last_verified: "2026-04-09"

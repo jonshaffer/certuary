@@ -1,0 +1,61 @@
+name: Apple Certified Mac Technician
+short_name: ACMT
+slug: apple-acmt
+status: active
+cost: "$149 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 70
+  approximate: true
+
+description: >-
+  Validates the ability to diagnose and repair Mac hardware, including
+  MacBook, iMac, Mac Pro, and Mac mini. Covers component identification,
+  diagnostic procedures, ESD safety, Apple service fundamentals, and
+  hardware troubleshooting for Apple Authorized Service Providers and
+  enterprise IT technicians.
+
+tags:
+  - apple
+  - hardware
+  - repair
+  - intermediate
+  - technician
+
+prerequisites:
+  - Apple Service Fundamentals exam required
+  - Access to Apple GSX and service documentation recommended
+
+related_certs:
+  - apple-acsp
+  - apple-acit
+  - comptia-a-plus
+
+versions:
+  - version: "2024"
+    notes: >-
+      Current version covering Apple Silicon Mac diagnostics, repair
+      procedures, and updated service guidelines.
+
+prerequisite_certs: []
+
+links:
+  - label: Apple Certification Programs
+    url: https://support.apple.com/en-us/111901
+    type: official
+
+domains:
+  - name: Apple Service Fundamentals
+    weight: 15
+  - name: Mac Hardware Identification and Diagnostics
+    weight: 25
+  - name: MacBook Repair Procedures
+    weight: 25
+  - name: Desktop Mac Repair Procedures
+    weight: 20
+  - name: ESD Safety and Service Best Practices
+    weight: 15
+
+source_of_truth_url: https://support.apple.com/en-us/111901
+last_verified: "2026-04-09"

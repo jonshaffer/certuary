@@ -1,0 +1,59 @@
+name: Apple Certified Support Professional
+short_name: ACSP
+slug: apple-acsp
+status: active
+cost: "$149 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 70
+  approximate: true
+
+description: >-
+  Validates the ability to support and troubleshoot macOS in enterprise
+  and education environments. Covers macOS installation, configuration,
+  user management, networking, security, and system troubleshooting for
+  IT professionals who support Mac users and manage Apple deployments.
+
+tags:
+  - apple
+  - macos
+  - support
+  - intermediate
+  - desktop
+
+prerequisites:
+  - Experience supporting macOS in a professional environment recommended
+
+related_certs:
+  - apple-acmt
+  - apple-acit
+  - comptia-a-plus
+
+versions:
+  - version: macOS 15
+    notes: >-
+      Current version aligned with macOS Sequoia, covering updated system
+      management and security features.
+
+prerequisite_certs: []
+
+links:
+  - label: Apple Certification Programs
+    url: https://support.apple.com/en-us/111901
+    type: official
+
+domains:
+  - name: Installation and Configuration
+    weight: 20
+  - name: User Accounts and Management
+    weight: 15
+  - name: Networking and Services
+    weight: 20
+  - name: Security and Privacy
+    weight: 20
+  - name: System Management and Troubleshooting
+    weight: 25
+
+source_of_truth_url: https://support.apple.com/en-us/111901
+last_verified: "2026-04-09"
