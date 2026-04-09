@@ -8,6 +8,8 @@ import {
   getDomainCategoriesByGroup,
 } from "@certuary/data";
 import { buildHeatmapData } from "../lib/domain-analysis";
+import { getProviderColor, providerHue } from "@/lib/provider-colors";
+import { getCertLabel } from "@/lib/cert-label";
 
 function useHeatmapParams() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -172,10 +174,20 @@ export function HeatmapPage() {
                   >
                     <Link
                       to={`/cert/${cert.slug}`}
-                      className="block text-[10px] leading-tight hover:text-primary transition-colors max-w-[60px] mx-auto"
+                      className="block text-[11px] leading-tight hover:text-primary transition-colors max-w-[80px] mx-auto"
                       title={cert.name}
                     >
-                      {cert.shortName || cert.slug.split("-").slice(-1)[0].toUpperCase()}
+                      <span
+                        className="inline-block w-2 h-2 rounded-full mr-0.5 align-middle"
+                        style={{ backgroundColor: getProviderColor(cert.providerSlug) }}
+                      />
+                      {getCertLabel(cert)}
+                      {cert.status === "retiring" && (
+                        <span className="text-amber-500" title="Retiring">*</span>
+                      )}
+                      {cert.status === "retired" && (
+                        <span className="text-destructive" title="Retired">**</span>
+                      )}
                     </Link>
                   </th>
                 ))}
@@ -215,7 +227,7 @@ export function HeatmapPage() {
                           style={{
                             backgroundColor:
                               weight > 0
-                                ? `oklch(0.55 0.15 265 / ${intensity})`
+                                ? `oklch(0.55 0.15 ${providerHue(cert.providerSlug)} / ${intensity})`
                                 : "transparent",
                           }}
                         />
@@ -230,21 +242,28 @@ export function HeatmapPage() {
       )}
 
       {/* Legend */}
-      <div className="flex items-center gap-2 text-xs text-muted-foreground">
-        <span>Low</span>
-        <div className="flex h-4">
-          {[0.15, 0.35, 0.55, 0.75, 1].map((intensity) => (
-            <div
-              key={intensity}
-              className="w-6 h-4"
-              style={{
-                backgroundColor: `oklch(0.55 0.15 265 / ${intensity})`,
-              }}
-            />
-          ))}
+      <div className="space-y-1">
+        <div className="flex items-center gap-2 text-xs text-muted-foreground">
+          <span>Low</span>
+          <div className="flex h-4">
+            {[0.15, 0.35, 0.55, 0.75, 1].map((intensity) => (
+              <div
+                key={intensity}
+                className="w-6 h-4"
+                style={{
+                  backgroundColor: `oklch(0.55 0 0 / ${intensity})`,
+                }}
+              />
+            ))}
+          </div>
+          <span>High</span>
+          <span className="ml-4">Domain weight coverage · Cell hue varies by provider</span>
         </div>
-        <span>High</span>
-        <span className="ml-4">Domain weight coverage</span>
+        <p className="text-[10px] text-muted-foreground">
+          <span className="text-amber-500">*</span> retiring
+          {" · "}
+          <span className="text-destructive">**</span> retired
+        </p>
       </div>
     </div>
   );

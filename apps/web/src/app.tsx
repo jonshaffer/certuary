@@ -9,6 +9,8 @@ import { DomainsPage } from "./pages/domains";
 import { GraphPage } from "./pages/graph";
 import { HeatmapPage } from "./pages/heatmap";
 import { NetworkPage } from "./pages/network";
+import { RoadmapPage } from "./pages/roadmap";
+import { ComparePage } from "./pages/compare";
 
 export function App() {
   return (
@@ -23,6 +25,8 @@ export function App() {
         <Route path="/graph" element={<GraphPage />} />
         <Route path="/heatmap" element={<HeatmapPage />} />
         <Route path="/network" element={<NetworkPage />} />
+        <Route path="/roadmap" element={<RoadmapPage />} />
+        <Route path="/compare" element={<ComparePage />} />
       </Route>
     </Routes>
   );

@@ -1,4 +1,4 @@
-import type { Certification, DomainCategory, ExamDomain } from "@certuary/data";
+import type { Certification, CertStatus, CategoryGroup, DomainCategory, ExamDomain } from "@certuary/data";
 import { getAllCerts } from "@certuary/data";
 
 export interface HeatmapCell {
@@ -42,7 +42,7 @@ function tokenize(text: string): Set<string> {
   );
 }
 
-function domainTokens(domains: ExamDomain[]): Set<string> {
+export function domainTokens(domains: ExamDomain[]): Set<string> {
   const tokens = new Set<string>();
   for (const name of flattenDomainNames(domains)) {
     for (const t of tokenize(name)) {
@@ -52,7 +52,7 @@ function domainTokens(domains: ExamDomain[]): Set<string> {
   return tokens;
 }
 
-function jaccard(a: Set<string>, b: Set<string>): number {
+export function jaccard(a: Set<string>, b: Set<string>): number {
   if (a.size === 0 && b.size === 0) return 0;
   let intersection = 0;
   for (const item of a) {
@@ -65,7 +65,7 @@ function jaccard(a: Set<string>, b: Set<string>): number {
 // Module-level token cache to avoid recomputation across calls
 const tokenCacheMap = new Map<string, Set<string>>();
 
-function getCachedTokens(cert: Certification): Set<string> {
+export function getCachedTokens(cert: Certification): Set<string> {
   let cached = tokenCacheMap.get(cert.slug);
   if (!cached) {
     cached = domainTokens(cert.domains);
@@ -119,27 +119,29 @@ export function findSimilarCerts(
 }
 
 /**
- * Flatten all domains (including subdomains) with their weights.
+ * Flatten all domains (including subdomains) with their weights and categories.
  */
 function flattenDomainsWithWeights(
   domains: ExamDomain[],
-  parentWeight?: number
-): { name: string; weight: number }[] {
-  const result: { name: string; weight: number }[] = [];
+  parentWeight?: number,
+  parentCategories?: string[]
+): { name: string; weight: number; categories?: string[] }[] {
+  const result: { name: string; weight: number; categories?: string[] }[] = [];
   for (const d of domains) {
     const weight = d.weight ?? parentWeight ?? 10;
-    result.push({ name: d.name, weight });
+    const categories = d.categories?.length ? d.categories : parentCategories;
+    result.push({ name: d.name, weight, categories });
     if (d.subdomains) {
-      result.push(...flattenDomainsWithWeights(d.subdomains, weight));
+      result.push(...flattenDomainsWithWeights(d.subdomains, weight, categories));
     }
   }
   return result;
 }
 
 /**
- * Build heatmap data: for each cert × category, compute a relevance score
- * by matching domain name keywords against category labels.
- * Includes subdomains in matching.
+ * Build heatmap data: for each cert × category, compute a relevance score.
+ * Uses explicit ExamDomain.categories when available, falling back to
+ * keyword matching against category labels. Includes subdomains.
  */
 export function buildHeatmapData(
   certs: Certification[],
@@ -147,6 +149,7 @@ export function buildHeatmapData(
 ): HeatmapCell[] {
   const cells: HeatmapCell[] = [];
 
+  const categorySlugs = new Set(categories.map((c) => c.slug));
   const categoryKeywords = new Map<string, Set<string>>();
   for (const cat of categories) {
     categoryKeywords.set(cat.slug, tokenize(cat.label));
@@ -161,33 +164,53 @@ export function buildHeatmapData(
       0
     );
 
-    for (const cat of categories) {
-      const catTokens = categoryKeywords.get(cat.slug)!;
-      let matchedWeight = 0;
+    // Accumulate matched weight per category
+    const catWeights = new Map<string, number>();
 
-      for (const domain of allDomains) {
-        const dTokens = tokenize(domain.name);
+    for (const domain of allDomains) {
+      // Prefer explicit category assignments when present
+      if (domain.categories?.length) {
+        for (const catSlug of domain.categories) {
+          if (categorySlugs.has(catSlug)) {
+            catWeights.set(
+              catSlug,
+              (catWeights.get(catSlug) ?? 0) + domain.weight
+            );
+          }
+        }
+        continue;
+      }
+
+      // Fall back to keyword matching
+      const dTokens = tokenize(domain.name);
+      for (const cat of categories) {
+        const catTokens = categoryKeywords.get(cat.slug)!;
         let matches = 0;
         for (const t of dTokens) {
           if (catTokens.has(t)) matches++;
         }
         if (matches >= Math.min(2, catTokens.size)) {
-          matchedWeight += domain.weight;
+          catWeights.set(
+            cat.slug,
+            (catWeights.get(cat.slug) ?? 0) + domain.weight
+          );
         }
       }
+    }
 
-      if (matchedWeight > 0) {
-        // Normalize to 0-100 as percentage of cert's total weight
-        const normalized = Math.min(
-          100,
-          Math.round((matchedWeight / totalCertWeight) * 100)
-        );
-        cells.push({
-          certSlug: cert.slug,
-          categorySlug: cat.slug,
-          weight: normalized,
-        });
-      }
+    if (totalCertWeight <= 0) continue;
+
+    for (const [catSlug, matchedWeight] of catWeights) {
+      if (matchedWeight <= 0) continue;
+      const normalized = Math.min(
+        100,
+        Math.round((matchedWeight / totalCertWeight) * 100)
+      );
+      cells.push({
+        certSlug: cert.slug,
+        categorySlug: catSlug,
+        weight: normalized,
+      });
     }
   }
 
@@ -203,12 +226,101 @@ export interface GraphNode {
   shortName?: string;
   providerSlug: string;
   domainCount: number;
+  status: CertStatus;
 }
 
 export interface GraphEdge {
   source: string;
   target: string;
   weight: number;
+}
+
+export interface ClusterLabel {
+  id: number;
+  label: string;
+  nodeIds: string[];
+}
+
+// Generic tokens that don't help identify a cluster topic
+const STOP_TOKENS = new Set([
+  "and", "the", "for", "with", "management", "fundamentals",
+  "concepts", "principles", "practices", "operations", "services",
+  "using", "based", "advanced", "introduction",
+]);
+
+/**
+ * Find connected components in the graph and label each cluster by its
+ * most frequent domain tokens (excluding very common stop-words).
+ */
+export function findClusters(
+  nodes: GraphNode[],
+  edges: GraphEdge[],
+  certs: Certification[]
+): ClusterLabel[] {
+  // Build adjacency list
+  const adj = new Map<string, Set<string>>();
+  for (const n of nodes) adj.set(n.id, new Set());
+  for (const e of edges) {
+    adj.get(e.source)?.add(e.target);
+    adj.get(e.target)?.add(e.source);
+  }
+
+  // BFS to find connected components
+  const visited = new Set<string>();
+  const components: string[][] = [];
+
+  for (const n of nodes) {
+    if (visited.has(n.id)) continue;
+    const queue = [n.id];
+    const component: string[] = [];
+    visited.add(n.id);
+    let head = 0;
+    while (head < queue.length) {
+      const current = queue[head++]!;
+      component.push(current);
+      for (const neighbor of adj.get(current) ?? []) {
+        if (!visited.has(neighbor)) {
+          visited.add(neighbor);
+          queue.push(neighbor);
+        }
+      }
+    }
+    components.push(component);
+  }
+
+  const certMap = new Map(certs.map((c) => [c.slug, c]));
+
+  return components
+    .filter((comp) => comp.length >= 2)
+    .map((comp, i) => {
+      // Count domain tokens across all certs in this cluster
+      const tokenCounts = new Map<string, number>();
+      for (const slug of comp) {
+        const cert = certMap.get(slug);
+        if (!cert) continue;
+        const tokens = getCachedTokens(cert);
+        for (const t of tokens) {
+          if (!STOP_TOKENS.has(t)) {
+            tokenCounts.set(t, (tokenCounts.get(t) ?? 0) + 1);
+          }
+        }
+      }
+
+      // Pick top tokens that appear in at least 40% of cluster members
+      const minCount = Math.max(2, Math.ceil(comp.length * 0.4));
+      const topTokens = [...tokenCounts.entries()]
+        .filter(([, count]) => count >= minCount)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 3)
+        .map(([token]) => token);
+
+      const label =
+        topTokens.length > 0
+          ? topTokens.map((t) => t.charAt(0).toUpperCase() + t.slice(1)).join(", ")
+          : `Cluster ${i + 1}`;
+
+      return { id: i, label, nodeIds: comp };
+    });
 }
 
 export function buildNetworkGraph(
@@ -228,6 +340,7 @@ export function buildNetworkGraph(
     shortName: c.shortName,
     providerSlug: c.providerSlug,
     domainCount: c.domains.length,
+    status: c.status,
   }));
 
   const edges: GraphEdge[] = [];
@@ -245,5 +358,53 @@ export function buildNetworkGraph(
   }
 
   return { nodes, edges };
+}
+
+/**
+ * Determine which category groups a set of certs map to.
+ * Returns a Map from certSlug to an array of group slugs (ordered by weight).
+ * Computes all mappings in one pass for efficiency.
+ */
+export function buildCertCategoryGroupMap(
+  certs: Certification[],
+  categories: DomainCategory[],
+  categoryGroups: CategoryGroup[]
+): Map<string, string[]> {
+  const cells = buildHeatmapData(certs, categories);
+
+  // Map category slug → group slug
+  const catToGroup = new Map<string, string>();
+  for (const cat of categories) {
+    catToGroup.set(cat.slug, cat.group);
+  }
+
+  // Accumulate weight per (certSlug, groupSlug)
+  const certGroupWeights = new Map<string, Map<string, number>>();
+  for (const cell of cells) {
+    const groupSlug = catToGroup.get(cell.categorySlug);
+    if (!groupSlug) continue;
+
+    let groupMap = certGroupWeights.get(cell.certSlug);
+    if (!groupMap) {
+      groupMap = new Map();
+      certGroupWeights.set(cell.certSlug, groupMap);
+    }
+    groupMap.set(groupSlug, (groupMap.get(groupSlug) ?? 0) + cell.weight);
+  }
+
+  // Convert to sorted arrays (highest weight first)
+  const validGroups = new Set(categoryGroups.map((g) => g.slug));
+  const result = new Map<string, string[]>();
+  for (const [certSlug, groupMap] of certGroupWeights) {
+    const sorted = [...groupMap.entries()]
+      .filter(([slug]) => validGroups.has(slug))
+      .sort((a, b) => b[1] - a[1])
+      .map(([slug]) => slug);
+    if (sorted.length > 0) {
+      result.set(certSlug, sorted);
+    }
+  }
+
+  return result;
 }
 

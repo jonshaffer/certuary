@@ -28,7 +28,13 @@ export function RootLayout() {
               Network
             </Link>
             <Link to="/graph" className="hover:text-foreground transition-colors">
-              Prereq Graph
+              Similarity Map
+            </Link>
+            <Link to="/roadmap" className="hover:text-foreground transition-colors">
+              Roadmap
+            </Link>
+            <Link to="/compare" className="hover:text-foreground transition-colors">
+              Compare
             </Link>
           </nav>
         </div>

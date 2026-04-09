@@ -251,22 +251,50 @@ export function CertDetailPage() {
               Based on domain topic overlap analysis.
             </p>
             <div className="space-y-3">
-              {similarCerts.map(({ cert: similar, score }) => (
+              {similarCerts.map(({ cert: similar, score, sharedDomainNames }) => (
                 <div
                   key={similar.slug}
                   className="flex items-center justify-between gap-4"
                 >
                   <div className="min-w-0">
-                    <Link
-                      to={`/cert/${similar.slug}`}
-                      className="text-sm font-medium text-primary hover:underline"
-                    >
-                      {similar.name}
-                    </Link>
+                    <div className="flex items-center gap-1.5">
+                      <Link
+                        to={`/cert/${similar.slug}`}
+                        className="text-sm font-medium text-primary hover:underline"
+                      >
+                        {similar.name}
+                      </Link>
+                      <Badge
+                        variant={
+                          similar.status === "active"
+                            ? "default"
+                            : similar.status === "retiring"
+                              ? "outline"
+                              : "destructive"
+                        }
+                        className="text-[10px]"
+                      >
+                        {similar.status}
+                      </Badge>
+                    </div>
                     <p className="text-xs text-muted-foreground truncate">
                       {getProviderBySlug(similar.providerSlug)?.name ??
                         similar.providerSlug}
                     </p>
+                    {sharedDomainNames.length > 0 && (
+                      <div className="mt-1 flex flex-wrap gap-1">
+                        {sharedDomainNames.slice(0, 3).map((name) => (
+                          <Badge key={name} variant="secondary" className="text-[10px] capitalize">
+                            {name}
+                          </Badge>
+                        ))}
+                        {sharedDomainNames.length > 3 && (
+                          <span className="text-[10px] text-muted-foreground">
+                            +{sharedDomainNames.length - 3} more
+                          </span>
+                        )}
+                      </div>
+                    )}
                   </div>
                   <div className="flex items-center gap-2 shrink-0">
                     <div className="w-24 h-2 rounded-full bg-muted overflow-hidden">
