@@ -1,0 +1,59 @@
+name: Databricks Certified Data Analyst Associate
+short_name: Data Analyst Associate
+slug: data-analyst-associate
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Databricks Certified Data Analyst Associate validates the ability
+  to use Databricks SQL to perform data analysis tasks including writing
+  analytical SQL queries, building dashboards and visualizations,
+  managing data assets with Unity Catalog, and applying basic statistical
+  methods on the Databricks Lakehouse Platform.
+
+tags:
+  - data-analytics
+  - cloud
+  - databricks
+  - sql
+  - intermediate
+
+prerequisites: []
+
+related_certs:
+  - data-engineer-associate
+  - snowpro-core
+  - snowpro-advanced-data-analyst
+
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 45
+  max: 45
+
+versions:
+  - version: v1
+    release_date: "2024-01-01"
+    notes: >-
+      Initial release covering Databricks SQL, dashboards, Unity Catalog,
+      and analytical methods.
+
+links:
+  - label: Official Certification Page
+    url: https://www.databricks.com/learn/certification/data-analyst-associate
+    type: official
+
+domains:
+  - name: Databricks SQL
+    weight: 28
+  - name: Data Management
+    weight: 22
+  - name: SQL in the Lakehouse
+    weight: 24
+  - name: Analytics Applications
+    weight: 14
+  - name: Data Visualization and Dashboarding
+    weight: 12
+
+source_of_truth_url: https://www.databricks.com/learn/certification/data-analyst-associate
+last_verified: "2026-04-09"

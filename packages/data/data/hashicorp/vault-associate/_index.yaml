@@ -1,0 +1,73 @@
+name: "HashiCorp Certified: Vault Associate"
+short_name: Vault Associate
+slug: vault-associate
+status: active
+cost: "$70.50 USD"
+
+description: >-
+  The Vault Associate certification validates foundational knowledge of
+  HashiCorp Vault including secrets management, authentication methods,
+  policies, tokens, Vault architecture, and encryption as a service.
+  It is designed for security engineers and operations professionals
+  managing secrets in cloud and on-premises environments.
+
+tags:
+  - security
+  - devops
+  - cloud
+  - hashicorp
+  - intermediate
+  - secrets-management
+
+prerequisites: []
+
+related_certs:
+  - terraform-associate
+  - vault-operations-professional
+  - consul-associate
+  - comptia-security-plus
+  - cissp
+
+exam_format: multiple-choice
+duration_minutes: 60
+question_count:
+  min: 57
+  max: 57
+
+versions:
+  - version: "003"
+    release_date: "2024-03-01"
+    notes: >-
+      Updated to cover Vault 1.x features including secrets engines,
+      namespaces, and integrated storage.
+
+links:
+  - label: Official Certification Page
+    url: https://www.hashicorp.com/certifications/vault-associate
+    type: official
+  - label: Exam Review Guide
+    url: https://developer.hashicorp.com/vault/tutorials/associate-cert/associate-review
+    type: source-of-truth
+
+domains:
+  - name: Compare Authentication Methods
+    weight: 15
+  - name: Create Vault Policies
+    weight: 15
+  - name: Assess Vault Tokens
+    weight: 15
+  - name: Manage Vault Leases
+    weight: 8
+  - name: Compare and Configure Vault Secrets Engines
+    weight: 17
+  - name: Utilize Vault CLI
+    weight: 13
+  - name: Utilize Vault UI
+    weight: 2
+  - name: Be Aware of the Vault API
+    weight: 5
+  - name: Explain Vault Architecture
+    weight: 10
+
+source_of_truth_url: https://www.hashicorp.com/certifications/vault-associate
+last_verified: "2026-04-09"

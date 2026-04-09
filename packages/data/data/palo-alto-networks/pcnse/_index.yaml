@@ -1,0 +1,67 @@
+name: Palo Alto Networks Certified Network Security Engineer
+short_name: PCNSE
+slug: pcnse
+status: active
+cost: "$175 USD"
+
+description: >-
+  The PCNSE certification validates advanced skills in designing,
+  deploying, configuring, maintaining, and troubleshooting Palo Alto
+  Networks next-generation firewall deployments. It covers advanced
+  networking, high availability, GlobalProtect VPN, Panorama
+  centralized management, and complex security policy design.
+
+tags:
+  - cybersecurity
+  - network-security
+  - firewall
+  - palo-alto-networks
+  - advanced
+
+prerequisites:
+  - PCNSA certification recommended
+  - Hands-on experience with Palo Alto Networks firewalls
+
+prerequisite_certs:
+  - pcnsa
+
+related_certs:
+  - pcnsa
+  - pcsae
+  - pccse
+  - nse-7-enterprise-firewall
+  - ccnp-security
+  - cissp
+
+exam_format: multiple-choice
+duration_minutes: 80
+question_count:
+  min: 60
+  max: 75
+
+versions:
+  - version: PCNSE PAN-OS 11
+    release_date: "2024-01-01"
+    notes: >-
+      Updated to cover PAN-OS 11.x advanced features, Panorama,
+      and complex deployment scenarios.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Plan
+    weight: 18
+  - name: Deploy and Configure
+    weight: 32
+  - name: Operate
+    weight: 18
+  - name: Configuration Troubleshooting
+    weight: 18
+  - name: Core Concepts
+    weight: 14
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

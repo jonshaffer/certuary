@@ -1,0 +1,57 @@
+name: Databricks Certified Associate Platform Administrator
+short_name: Platform Admin Associate
+slug: platform-administrator-associate
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Databricks Certified Associate Platform Administrator validates
+  skills in administering the Databricks Lakehouse Platform including
+  workspace management, cluster configuration, access control with
+  Unity Catalog, identity management, cost optimization, and platform
+  security configuration.
+
+tags:
+  - cloud
+  - databricks
+  - administration
+  - intermediate
+  - platform
+
+prerequisites: []
+
+related_certs:
+  - data-engineer-associate
+
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 45
+  max: 45
+
+versions:
+  - version: v1
+    release_date: "2024-06-01"
+    notes: >-
+      Initial release covering workspace administration, Unity Catalog,
+      cluster policies, and platform security.
+
+links:
+  - label: Official Certification Page
+    url: https://www.databricks.com/learn/certification/platform-administrator-associate
+    type: official
+
+domains:
+  - name: Workspace Administration
+    weight: 22
+  - name: Identity and Access Management
+    weight: 22
+  - name: Cluster Management
+    weight: 20
+  - name: Data Governance with Unity Catalog
+    weight: 18
+  - name: Security and Compliance
+    weight: 18
+
+source_of_truth_url: https://www.databricks.com/learn/certification/platform-administrator-associate
+last_verified: "2026-04-09"

@@ -1,0 +1,27 @@
+slug: hashicorp-certification-path
+name: HashiCorp Certification Path
+description: >-
+  HashiCorp's certification framework validates skills in infrastructure
+  automation across two tiers: Associate certifications covering
+  foundational tool knowledge, and Professional certifications validating
+  production operations expertise across Terraform, Vault, and Consul.
+website: https://www.hashicorp.com/certifications
+status: active
+required_certs: []
+phases:
+  - name: Associate
+    order: 1
+    certificate_slugs:
+      - terraform-associate
+      - vault-associate
+      - consul-associate
+  - name: Professional
+    order: 2
+    certificate_slugs:
+      - vault-operations-professional
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. HashiCorp recommends starting with the
+    Associate certification for each product before pursuing the
+    corresponding Professional certification.

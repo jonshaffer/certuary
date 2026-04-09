@@ -1,0 +1,65 @@
+name: "Fortinet NSE 4: FortiOS"
+short_name: NSE 4
+slug: nse-4
+status: active
+cost: "$400 USD"
+
+description: >-
+  The NSE 4 certification validates the ability to configure, manage,
+  and troubleshoot FortiGate firewall appliances running FortiOS. It
+  covers firewall policies, NAT, VPN, user authentication, web filtering,
+  application control, antivirus, IPS, SSL inspection, and logging and
+  monitoring on FortiGate next-generation firewalls.
+
+tags:
+  - cybersecurity
+  - network-security
+  - firewall
+  - fortinet
+  - intermediate
+
+prerequisites:
+  - NSE 1, NSE 2, and NSE 3 recommended
+
+related_certs:
+  - nse-3
+  - nse-5-fortimanager
+  - nse-5-fortianalyzer
+  - pcnsa
+  - ccna
+  - comptia-security-plus
+
+exam_format: multiple-choice
+duration_minutes: 105
+question_count:
+  min: 35
+  max: 35
+
+versions:
+  - version: FortiOS 7.4
+    release_date: "2024-01-01"
+    notes: >-
+      Updated to cover FortiOS 7.4 features including enhanced
+      SD-WAN, ZTNA, and security fabric automation.
+
+links:
+  - label: Official Certification Page
+    url: https://www.fortinet.com/training/certification
+    type: official
+
+domains:
+  - name: Firewall Policies and NAT
+    weight: 20
+  - name: Firewall Authentication
+    weight: 12
+  - name: SSL VPN and IPsec VPN
+    weight: 18
+  - name: Security Profiles
+    weight: 20
+  - name: Routing and SD-WAN
+    weight: 15
+  - name: Logging, Monitoring, and Diagnostics
+    weight: 15
+
+source_of_truth_url: https://www.fortinet.com/training/certification
+last_verified: "2026-04-09"

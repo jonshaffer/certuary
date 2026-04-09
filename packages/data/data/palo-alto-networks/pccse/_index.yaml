@@ -1,0 +1,61 @@
+name: Palo Alto Networks Certified Cloud Security Engineer
+short_name: PCCSE
+slug: pccse
+status: active
+cost: "$175 USD"
+
+description: >-
+  The PCCSE certification validates skills in deploying and managing
+  cloud security using Prisma Cloud. It covers cloud security posture
+  management, cloud workload protection, cloud network security, cloud
+  identity security, and securing multi-cloud environments across AWS,
+  Azure, and GCP.
+
+tags:
+  - cybersecurity
+  - cloud-security
+  - palo-alto-networks
+  - advanced
+  - cloud
+
+prerequisites:
+  - Experience with cloud platforms and cloud security concepts
+
+related_certs:
+  - pcnse
+  - pcdra
+  - aws-cloud-practitioner
+  - azure-administrator
+
+exam_format: multiple-choice
+duration_minutes: 80
+question_count:
+  min: 60
+  max: 75
+
+versions:
+  - version: PCCSE
+    release_date: "2023-06-01"
+    notes: >-
+      Covers Prisma Cloud for cloud security posture management,
+      workload protection, and multi-cloud security.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Cloud Security Posture Management
+    weight: 25
+  - name: Cloud Workload Protection
+    weight: 25
+  - name: Cloud Network Security
+    weight: 20
+  - name: Cloud Identity Security
+    weight: 15
+  - name: Cloud Code Security
+    weight: 15
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

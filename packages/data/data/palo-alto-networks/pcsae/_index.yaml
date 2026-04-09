@@ -1,0 +1,61 @@
+name: Palo Alto Networks Certified Security Automation Engineer
+short_name: PCSAE
+slug: pcsae
+status: active
+cost: "$175 USD"
+
+description: >-
+  The PCSAE certification validates skills in designing and implementing
+  security automation and orchestration solutions using Cortex XSOAR
+  (formerly Demisto). It covers playbook development, integration
+  configuration, incident management automation, and building custom
+  content packs for security operations center workflows.
+
+tags:
+  - cybersecurity
+  - automation
+  - palo-alto-networks
+  - advanced
+  - soar
+  - security-operations
+
+prerequisites:
+  - Experience with security operations and scripting
+
+related_certs:
+  - pcnse
+  - pcdra
+  - comptia-security-plus
+
+exam_format: multiple-choice
+duration_minutes: 80
+question_count:
+  min: 60
+  max: 75
+
+versions:
+  - version: PCSAE
+    release_date: "2023-01-01"
+    notes: >-
+      Covers Cortex XSOAR playbook development, integrations,
+      and automation engineering.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Automation Concepts
+    weight: 15
+  - name: Playbook Development
+    weight: 30
+  - name: Integrations and Content Packs
+    weight: 25
+  - name: Incident Lifecycle Automation
+    weight: 15
+  - name: Troubleshooting and Maintenance
+    weight: 15
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

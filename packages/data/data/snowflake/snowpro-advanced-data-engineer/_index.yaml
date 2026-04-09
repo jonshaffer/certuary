@@ -1,0 +1,64 @@
+name: "SnowPro Advanced: Data Engineer"
+short_name: SnowPro Adv. Data Engineer
+slug: snowpro-advanced-data-engineer
+status: active
+cost: "$375 USD"
+
+description: >-
+  The SnowPro Advanced Data Engineer certification validates advanced
+  skills in designing and building data pipelines on Snowflake including
+  data ingestion patterns, transformation with Snowpark, performance
+  tuning, data governance, and implementing production-grade data
+  engineering solutions.
+
+tags:
+  - data-engineering
+  - cloud
+  - snowflake
+  - sql
+  - advanced
+  - data-warehousing
+
+prerequisites:
+  - SnowPro Core Certification required
+
+prerequisite_certs:
+  - snowpro-core
+
+related_certs:
+  - snowpro-core
+  - snowpro-advanced-architect
+  - data-engineer-professional
+
+exam_format: multiple-choice
+duration_minutes: 115
+question_count:
+  min: 65
+  max: 65
+
+versions:
+  - version: DEA-C01
+    release_date: "2023-06-01"
+    notes: >-
+      Covers Snowpark, Streams, Tasks, Dynamic Tables, and advanced
+      data pipeline patterns.
+
+links:
+  - label: Official Certification Page
+    url: https://www.snowflake.com/certifications/snowpro-advanced-data-engineer/
+    type: official
+
+domains:
+  - name: Data Movement
+    weight: 25
+  - name: Performance Optimization
+    weight: 25
+  - name: Storage and Data Protection
+    weight: 15
+  - name: Snowflake Extensibility
+    weight: 20
+  - name: Account and Resource Management
+    weight: 15
+
+source_of_truth_url: https://www.snowflake.com/certifications/snowpro-advanced-data-engineer/
+last_verified: "2026-04-09"

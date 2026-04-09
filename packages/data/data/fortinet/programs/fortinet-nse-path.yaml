@@ -1,0 +1,44 @@
+slug: fortinet-nse-path
+name: Fortinet NSE Certification Path
+description: >-
+  Fortinet's Network Security Expert (NSE) program is an eight-level
+  certification framework progressing from cybersecurity awareness through
+  product-specific technical certifications to expert-level validation of
+  comprehensive Fortinet security architecture skills.
+website: https://www.fortinet.com/training/certification
+status: active
+required_certs: []
+phases:
+  - name: Awareness
+    order: 1
+    certificate_slugs:
+      - nse-1
+      - nse-2
+      - nse-3
+  - name: Associate
+    order: 2
+    certificate_slugs:
+      - nse-4
+  - name: Specialist
+    order: 3
+    certificate_slugs:
+      - nse-5-fortimanager
+      - nse-5-fortianalyzer
+      - nse-6-fortiweb
+  - name: Advanced
+    order: 4
+    certificate_slugs:
+      - nse-7-enterprise-firewall
+  - name: Expert
+    order: 5
+    certificate_slugs:
+      - nse-8
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Fortinet recommends progressing through
+    the NSE levels sequentially. NSE 1-3 are free awareness-level courses.
+    NSE 4 is the core technical certification. NSE 5-6 cover product
+    specializations. NSE 7 validates advanced skills. NSE 8 is the
+    pinnacle expert-level certification requiring both written and
+    practical lab exams.

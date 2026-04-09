@@ -1,0 +1,68 @@
+name: "HashiCorp Certified: Consul Associate"
+short_name: Consul Associate
+slug: consul-associate
+status: active
+cost: "$70.50 USD"
+
+description: >-
+  The Consul Associate certification validates foundational knowledge of
+  HashiCorp Consul including service discovery, service mesh, health
+  checking, key/value store, and network infrastructure automation.
+  It is designed for networking and DevOps professionals managing
+  service-oriented architectures.
+
+tags:
+  - devops
+  - networking
+  - cloud
+  - hashicorp
+  - intermediate
+  - service-mesh
+
+prerequisites: []
+
+related_certs:
+  - terraform-associate
+  - vault-associate
+  - cka
+  - ckad
+
+exam_format: multiple-choice
+duration_minutes: 60
+question_count:
+  min: 57
+  max: 57
+
+versions:
+  - version: "003"
+    release_date: "2024-01-01"
+    notes: >-
+      Updated to cover Consul 1.x features including service mesh,
+      intentions, and API gateway integration.
+
+links:
+  - label: Official Certification Page
+    url: https://www.hashicorp.com/certifications/consul-associate
+    type: official
+  - label: Exam Review Guide
+    url: https://developer.hashicorp.com/consul/tutorials/certification-003/associate-review
+    type: source-of-truth
+
+domains:
+  - name: Explain Consul Architecture
+    weight: 18
+  - name: Deploy a Single Datacenter
+    weight: 15
+  - name: Register Services and Use Service Discovery
+    weight: 17
+  - name: Access the Consul Key/Value Store
+    weight: 8
+  - name: Back Up and Restore Consul
+    weight: 7
+  - name: Use Consul Service Mesh
+    weight: 20
+  - name: Secure Agent Communication
+    weight: 15
+
+source_of_truth_url: https://www.hashicorp.com/certifications/consul-associate
+last_verified: "2026-04-09"

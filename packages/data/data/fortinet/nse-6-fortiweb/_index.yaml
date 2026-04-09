@@ -1,0 +1,65 @@
+name: "Fortinet NSE 6: FortiWeb"
+short_name: NSE 6 FortiWeb
+slug: nse-6-fortiweb
+status: active
+cost: "$400 USD"
+
+description: >-
+  The NSE 6 FortiWeb certification validates skills in deploying and
+  managing FortiWeb web application firewalls. It covers web application
+  security, HTTP protocol handling, bot mitigation, API protection,
+  DDoS protection, machine learning-based threat detection, and
+  SSL offloading for protecting web applications and APIs.
+
+tags:
+  - cybersecurity
+  - network-security
+  - fortinet
+  - intermediate
+  - web-application-security
+
+prerequisites:
+  - NSE 4 certification recommended
+
+prerequisite_certs:
+  - nse-4
+
+related_certs:
+  - nse-5-fortimanager
+  - nse-5-fortianalyzer
+  - nse-7-enterprise-firewall
+
+exam_format: multiple-choice
+duration_minutes: 60
+question_count:
+  min: 30
+  max: 30
+
+versions:
+  - version: FortiWeb 7.x
+    release_date: "2024-01-01"
+    notes: >-
+      Covers FortiWeb 7.x features including ML-based threat
+      detection and API protection.
+
+links:
+  - label: Official Certification Page
+    url: https://www.fortinet.com/training/certification
+    type: official
+
+domains:
+  - name: Introduction and Initial Configuration
+    weight: 15
+  - name: SSL/TLS Offloading and Inspection
+    weight: 15
+  - name: Web Protection
+    weight: 25
+  - name: Bot Mitigation and API Protection
+    weight: 20
+  - name: Authentication and Access Control
+    weight: 10
+  - name: High Availability and Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.fortinet.com/training/certification
+last_verified: "2026-04-09"

@@ -1,0 +1,65 @@
+name: Databricks Certified Data Engineer Professional
+short_name: Data Engineer Professional
+slug: data-engineer-professional
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Databricks Certified Data Engineer Professional validates advanced
+  data engineering skills including designing and implementing production
+  data pipelines, optimizing performance, implementing data governance
+  with Unity Catalog, and building reliable data architectures on the
+  Databricks Lakehouse Platform.
+
+tags:
+  - data-engineering
+  - cloud
+  - databricks
+  - spark
+  - advanced
+  - sql
+
+prerequisites:
+  - Databricks Certified Data Engineer Associate recommended
+  - Two or more years of hands-on experience with Databricks
+
+prerequisite_certs:
+  - data-engineer-associate
+
+related_certs:
+  - data-engineer-associate
+  - machine-learning-professional
+  - snowpro-advanced-data-engineer
+
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: v3
+    release_date: "2023-11-01"
+    notes: >-
+      Updated to cover Unity Catalog, Delta Live Tables, structured
+      streaming, and advanced pipeline optimization.
+
+links:
+  - label: Official Certification Page
+    url: https://www.databricks.com/learn/certification/data-engineer-professional
+    type: official
+
+domains:
+  - name: Design and Implement Data Pipelines
+    weight: 30
+  - name: Develop and Manage Data Models
+    weight: 20
+  - name: Optimize and Tune Performance
+    weight: 20
+  - name: Build Production Workloads
+    weight: 15
+  - name: Data Governance and Security
+    weight: 15
+
+source_of_truth_url: https://www.databricks.com/learn/certification/data-engineer-professional
+last_verified: "2026-04-09"

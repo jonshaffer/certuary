@@ -1,0 +1,63 @@
+name: "Fortinet NSE 5: FortiManager"
+short_name: NSE 5 FortiManager
+slug: nse-5-fortimanager
+status: active
+cost: "$400 USD"
+
+description: >-
+  The NSE 5 FortiManager certification validates skills in centrally
+  managing Fortinet devices using FortiManager. It covers device
+  registration, policy package management, FortiGuard distribution,
+  firmware management, configuration revision control, and
+  administrative domains (ADOMs) for multi-tenant management.
+
+tags:
+  - cybersecurity
+  - network-security
+  - fortinet
+  - intermediate
+  - management
+
+prerequisites:
+  - NSE 4 certification recommended
+
+prerequisite_certs:
+  - nse-4
+
+related_certs:
+  - nse-4
+  - nse-5-fortianalyzer
+  - nse-6-fortiweb
+
+exam_format: multiple-choice
+duration_minutes: 60
+question_count:
+  min: 30
+  max: 30
+
+versions:
+  - version: FortiManager 7.4
+    release_date: "2024-03-01"
+    notes: >-
+      Updated to cover FortiManager 7.4 features including
+      enhanced ADOM management and automation.
+
+links:
+  - label: Official Certification Page
+    url: https://www.fortinet.com/training/certification
+    type: official
+
+domains:
+  - name: Administration and System Settings
+    weight: 20
+  - name: Device Manager
+    weight: 25
+  - name: Policy and Objects
+    weight: 25
+  - name: FortiGuard and Firmware Management
+    weight: 15
+  - name: Diagnostics and Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.fortinet.com/training/certification
+last_verified: "2026-04-09"

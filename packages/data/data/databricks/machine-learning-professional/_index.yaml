@@ -1,0 +1,65 @@
+name: Databricks Certified Machine Learning Professional
+short_name: ML Professional
+slug: machine-learning-professional
+status: active
+cost: "$200 USD"
+
+description: >-
+  The Databricks Certified Machine Learning Professional validates
+  advanced skills in designing and implementing production ML solutions
+  on the Databricks Lakehouse Platform including advanced feature
+  engineering, model optimization, MLOps pipelines, model monitoring,
+  and distributed training at scale.
+
+tags:
+  - machine-learning
+  - data-engineering
+  - cloud
+  - databricks
+  - advanced
+  - mlops
+
+prerequisites:
+  - Databricks Certified Machine Learning Associate recommended
+  - Hands-on experience with ML on Databricks
+
+prerequisite_certs:
+  - machine-learning-associate
+
+related_certs:
+  - machine-learning-associate
+  - data-engineer-professional
+  - generative-ai-engineer-associate
+
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: v1
+    release_date: "2023-06-01"
+    notes: >-
+      Initial release covering advanced ML on Databricks including
+      MLflow pipelines, model serving, and distributed training.
+
+links:
+  - label: Official Certification Page
+    url: https://www.databricks.com/learn/certification/machine-learning-professional
+    type: official
+
+domains:
+  - name: Experiment Tracking and Reproducibility
+    weight: 18
+  - name: Model Lifecycle Management
+    weight: 22
+  - name: Model Deployment and Serving
+    weight: 20
+  - name: Solution and Data Monitoring
+    weight: 18
+  - name: Advanced Feature Engineering
+    weight: 22
+
+source_of_truth_url: https://www.databricks.com/learn/certification/machine-learning-professional
+last_verified: "2026-04-09"

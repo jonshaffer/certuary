@@ -1,0 +1,63 @@
+name: SnowPro Core Certification
+short_name: SnowPro Core
+slug: snowpro-core
+status: active
+cost: "$175 USD"
+
+description: >-
+  The SnowPro Core Certification validates foundational knowledge of
+  the Snowflake Data Cloud platform including account management,
+  data loading and transformation, virtual warehouse configuration,
+  performance optimization, and data sharing capabilities.
+
+tags:
+  - data-engineering
+  - cloud
+  - snowflake
+  - sql
+  - intermediate
+  - data-warehousing
+
+prerequisites: []
+
+related_certs:
+  - snowpro-advanced-data-engineer
+  - snowpro-advanced-architect
+  - snowpro-advanced-administrator
+  - snowpro-advanced-data-analyst
+  - data-engineer-associate
+
+exam_format: multiple-choice
+duration_minutes: 115
+question_count:
+  min: 100
+  max: 100
+
+versions:
+  - version: COF-C02
+    release_date: "2023-09-01"
+    notes: >-
+      Updated to cover Snowpark, Snowflake Marketplace, and modern
+      data sharing features.
+
+links:
+  - label: Official Certification Page
+    url: https://www.snowflake.com/certifications/snowpro-core/
+    type: official
+
+domains:
+  - name: Snowflake AI Data Cloud Features and Architecture
+    weight: 25
+  - name: Account Access and Security
+    weight: 20
+  - name: Performance Concepts
+    weight: 15
+  - name: Data Loading and Unloading
+    weight: 10
+  - name: Data Transformations
+    weight: 20
+  - name: Data Protection and Data Sharing
+    weight: 10
+
+source_of_truth_url: https://www.snowflake.com/certifications/snowpro-core/
+last_verified: "2026-04-09"

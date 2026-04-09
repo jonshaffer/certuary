@@ -1,0 +1,61 @@
+name: Palo Alto Networks Certified Detection and Remediation Analyst
+short_name: PCDRA
+slug: pcdra
+status: active
+cost: "$175 USD"
+
+description: >-
+  The PCDRA certification validates skills in using Cortex XDR for
+  threat detection, investigation, and response. It covers endpoint
+  protection, incident analysis, threat hunting, forensic investigation,
+  and remediation using the Cortex XDR platform for security operations
+  center workflows.
+
+tags:
+  - cybersecurity
+  - security-operations
+  - palo-alto-networks
+  - intermediate
+  - xdr
+  - incident-response
+
+prerequisites: []
+
+related_certs:
+  - pcnsa
+  - pcsae
+  - comptia-security-plus
+  - ecih
+
+exam_format: multiple-choice
+duration_minutes: 80
+question_count:
+  min: 60
+  max: 75
+
+versions:
+  - version: PCDRA
+    release_date: "2023-01-01"
+    notes: >-
+      Covers Cortex XDR for detection, investigation, and
+      remediation of security incidents.
+
+links:
+  - label: Official Certification Page
+    url: https://www.paloaltonetworks.com/services/education/certification
+    type: official
+
+domains:
+  - name: Deployment and Management
+    weight: 15
+  - name: Malware Analysis and Mitigation
+    weight: 20
+  - name: Alerts and Incidents
+    weight: 25
+  - name: Threat Hunting and Investigation
+    weight: 25
+  - name: Remediation
+    weight: 15
+
+source_of_truth_url: https://www.paloaltonetworks.com/services/education/certification
+last_verified: "2026-04-09"

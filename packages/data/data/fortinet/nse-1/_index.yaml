@@ -1,0 +1,51 @@
+name: "Fortinet NSE 1: Information Security Awareness"
+short_name: NSE 1
+slug: nse-1
+status: active
+cost: "Free"
+
+description: >-
+  The NSE 1 certification validates awareness of the cybersecurity
+  landscape including common threat types, threat actors, and basic
+  security concepts. It is a self-paced, entry-level certification
+  designed for anyone seeking foundational understanding of information
+  security threats and trends.
+
+tags:
+  - cybersecurity
+  - entry-level
+  - fortinet
+  - awareness
+
+prerequisites: []
+
+related_certs:
+  - nse-2
+  - comptia-security-plus
+
+exam_format: multiple-choice
+
+versions:
+  - version: NSE 1
+    release_date: "2020-01-01"
+    notes: >-
+      Covers the modern threat landscape, types of threat actors,
+      and information security fundamentals.
+
+links:
+  - label: Official Certification Page
+    url: https://www.fortinet.com/training/certification
+    type: official
+  - label: NSE Institute Training
+    url: https://training.fortinet.com/
+    type: course
+
+domains:
+  - name: The Threat Landscape
+  - name: Types of Threat Actors
+  - name: Social Engineering
+  - name: Malware Fundamentals
+  - name: Insider Threats
+
+source_of_truth_url: https://www.fortinet.com/training/certification
+last_verified: "2026-04-09"

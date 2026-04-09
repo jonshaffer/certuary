@@ -1,0 +1,30 @@
+slug: databricks-certification-path
+name: Databricks Certification Path
+description: >-
+  Databricks certification framework covering data engineering, data
+  analysis, machine learning, generative AI, and platform administration
+  across Associate and Professional tiers on the Databricks Lakehouse
+  Platform.
+website: https://www.databricks.com/learn/certification
+status: active
+required_certs: []
+phases:
+  - name: Associate
+    order: 1
+    certificate_slugs:
+      - data-engineer-associate
+      - data-analyst-associate
+      - machine-learning-associate
+      - generative-ai-engineer-associate
+      - platform-administrator-associate
+  - name: Professional
+    order: 2
+    certificate_slugs:
+      - data-engineer-professional
+      - machine-learning-professional
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Databricks recommends starting with
+    Associate certifications in your area of focus before pursuing the
+    corresponding Professional certification.

@@ -1,0 +1,68 @@
+name: "HashiCorp Certified: Vault Operations Professional"
+short_name: Vault Operations Professional
+slug: vault-operations-professional
+status: active
+cost: "$70.50 USD"
+
+description: >-
+  The Vault Operations Professional certification validates advanced
+  skills in deploying, configuring, managing, and monitoring HashiCorp
+  Vault in production. It covers topics such as Vault architecture,
+  storage backends, high availability, disaster recovery, performance
+  tuning, and enterprise features like namespaces and Sentinel policies.
+
+tags:
+  - security
+  - devops
+  - cloud
+  - hashicorp
+  - advanced
+  - secrets-management
+
+prerequisites:
+  - HashiCorp Certified Vault Associate recommended
+
+prerequisite_certs:
+  - vault-associate
+
+related_certs:
+  - terraform-associate
+  - vault-associate
+  - consul-associate
+
+exam_format: multiple-choice
+duration_minutes: 60
+question_count:
+  min: 57
+  max: 57
+
+versions:
+  - version: "002"
+    release_date: "2023-06-01"
+    notes: >-
+      Updated to cover Vault 1.x production deployment patterns including
+      integrated storage, performance replication, and disaster recovery.
+
+links:
+  - label: Official Certification Page
+    url: https://www.hashicorp.com/certifications/vault-operations-professional
+    type: official
+
+domains:
+  - name: Create a Working Vault Server Configuration
+    weight: 10
+  - name: Access Management and Security
+    weight: 20
+  - name: Operate a Vault Environment
+    weight: 25
+  - name: Monitor a Vault Environment
+    weight: 10
+  - name: Employ the Vault Enterprise Platform Features
+    weight: 15
+  - name: Vault Integration and Automation
+    weight: 10
+  - name: Vault Disaster Recovery and High Availability
+    weight: 10
+
+source_of_truth_url: https://www.hashicorp.com/certifications/vault-operations-professional
+last_verified: "2026-04-09"
