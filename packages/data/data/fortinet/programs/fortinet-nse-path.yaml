@@ -1,4 +1,5 @@
 slug: fortinet-nse-path
+type: provider
 name: Fortinet NSE Certification Path
 description: >-
   Fortinet's Network Security Expert (NSE) program is an eight-level

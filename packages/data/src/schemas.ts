@@ -142,13 +142,17 @@ const ProgramPhaseSchema = z
   })
   .strict();
 
+const ProgramTypeSchema = z.enum(["provider", "certuary", "community"]);
+
 export const RawProgramSchema = z
   .object({
     slug: z.string(),
+    type: ProgramTypeSchema,
     name: z.string(),
     description: z.string(),
     website: z.string().url(),
     status: z.enum(["active", "retired"]),
+    designation: z.string().optional(),
     required_certs: z.array(z.string()).optional(),
     phases: z.array(ProgramPhaseSchema).optional(),
     ordering_strategies: z

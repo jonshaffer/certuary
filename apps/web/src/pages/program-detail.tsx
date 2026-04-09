@@ -16,6 +16,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { parseCost } from "@/lib/costs";
+import { programTypeLabels } from "@/lib/program-labels";
 
 export function ProgramDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -53,13 +54,27 @@ export function ProgramDetailPage() {
         </span>
         <div className="mt-1 flex items-center gap-3">
           <h1 className="text-3xl font-bold">{program.name}</h1>
+          <Badge variant="outline">
+            {programTypeLabels[program.type]}
+          </Badge>
           <Badge
             variant={program.status === "active" ? "default" : "destructive"}
           >
             {program.status}
           </Badge>
         </div>
+        {program.designation && (
+          <div className="mt-2">
+            <Badge variant="default">{program.designation}</Badge>
+          </div>
+        )}
         <p className="mt-2 text-muted-foreground">{program.description}</p>
+        {program.type === "certuary" && (
+          <p className="mt-1 text-xs text-muted-foreground italic">
+            This certification path is curated by the Certuary community and is
+            not an official program from the provider.
+          </p>
+        )}
         <a
           href={program.website}
           target="_blank"

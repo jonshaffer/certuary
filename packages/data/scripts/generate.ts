@@ -127,11 +127,13 @@ function generate() {
         const raw = readYaml(path.join(programsDir, programFile), RawProgramSchema);
         programs.push({
           slug: raw.slug,
+          type: raw.type,
           name: raw.name,
           providerSlug: rawProvider.slug,
           description: raw.description,
           website: raw.website,
           status: raw.status,
+          ...(raw.designation ? { designation: raw.designation } : {}),
           requiredCerts: raw.required_certs ?? [],
           phases: (raw.phases ?? []).map((p) => ({
             name: p.name,
