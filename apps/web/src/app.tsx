@@ -11,6 +11,7 @@ import { HeatmapPage } from "./pages/heatmap";
 import { NetworkPage } from "./pages/network";
 import { RoadmapPage } from "./pages/roadmap";
 import { ComparePage } from "./pages/compare";
+import { NotFoundPage } from "./pages/not-found";
 
 export function App() {
   return (
@@ -27,6 +28,7 @@ export function App() {
         <Route path="/network" element={<NetworkPage />} />
         <Route path="/roadmap" element={<RoadmapPage />} />
         <Route path="/compare" element={<ComparePage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
   );
