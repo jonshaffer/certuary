@@ -40,7 +40,8 @@ versions:
       Current version covering advanced ZIA deployment, complex policy
       design, and enterprise-scale optimization.
 
-prerequisite_certs: []
+prerequisite_certs:
+  - zscaler-zcca-ia
 
 links:
   - label: Zscaler Training and Certification

@@ -38,7 +38,8 @@ versions:
       Current version covering advanced AOS 6.5 administration, Prism
       Central features, and multicloud management.
 
-prerequisite_certs: []
+prerequisite_certs:
+  - nutanix-ncp-mci
 
 links:
   - label: Nutanix Training and Certification
