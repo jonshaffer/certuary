@@ -1,0 +1,63 @@
+name: VMware Certified Design Expert - Data Center Virtualization (VCDX-DCV)
+short_name: VCDX-DCV
+slug: vmware-vcdx-dcv
+status: active
+cost: "$995 USD"
+
+description: >-
+  The VCDX-DCV is the highest level of VMware certification, validating
+  expert-level skills in designing and defending complex VMware vSphere
+  solutions. Candidates must submit a detailed design document and
+  successfully defend it before a panel of VCDX holders, as well as
+  complete a live design scenario. It is intended for elite solution
+  architects, design architects, and consultants.
+
+tags:
+  - virtualization
+  - data-center
+  - vmware
+  - vsphere
+  - design
+  - expert
+  - vcdx
+
+prerequisites:
+  - VCAP-DCV Design certification required
+  - Extensive real-world experience designing complex vSphere-based solutions
+  - Design document submission of 100-300 pages
+  - Successful panel defense of submitted design
+
+prerequisite_certs:
+  - vmware-vcap-dcv-design
+
+related_certs:
+  - vmware-vcap-dcv-design
+  - vmware-vcap-dcv-deploy
+
+versions:
+  - version: "2024"
+    release_date: "2024-01-01"
+    notes: >-
+      VCDX-DCV 2024 requiring panel defense of a vSphere-based design
+      and a live design scenario exercise.
+
+links:
+  - label: Official Certification Page
+    url: https://www.broadcom.com/support/education/vmware/certification/vcdx-dcv
+    type: official
+  - label: VCDX Preparation Guide
+    url: https://docs.broadcom.com/docs/vmw-VCDX-DCV-certification-preparation-guide
+    type: source-of-truth
+
+domains:
+  - name: Design Methodology and Frameworks
+    weight: 25
+  - name: Conceptual and Logical Design
+    weight: 25
+  - name: Physical Design and Implementation
+    weight: 25
+  - name: Design Defense and Communication
+    weight: 25
+
+source_of_truth_url: https://www.broadcom.com/support/education/vmware/certification/vcdx-dcv
+last_verified: "2026-04-09"

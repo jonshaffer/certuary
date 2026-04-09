@@ -1,0 +1,66 @@
+name: Offensive Security Defense Analyst
+short_name: OSDA
+slug: osda
+status: active
+cost: "$1,749 USD"
+
+description: >-
+  The OSDA (SOC-200) validates practical skills in security monitoring, threat
+  detection, and incident analysis within a Security Operations Center (SOC)
+  environment. Candidates must demonstrate the ability to analyze logs, network
+  traffic, and system events to detect and investigate security incidents.
+  The exam requires hands-on analysis of real attack scenarios using industry
+  tools and techniques to identify indicators of compromise and reconstruct
+  attack timelines.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - offsec
+  - defensive-security
+  - soc
+  - threat-detection
+  - incident-response
+
+prerequisites:
+  - Understanding of TCP/IP networking fundamentals
+  - Familiarity with Windows and Linux operating systems
+  - Basic knowledge of common attack techniques
+  - Completion of SOC-200 course materials recommended
+
+related_certs:
+  - comptia-cysa-plus
+  - gcih
+  - gcfa
+  - oscp
+
+exam_format: performance-based
+passing_score: 70
+duration_minutes: 1425
+
+versions:
+  - version: "SOC-200 v1"
+    release_date: "2022-05-01"
+    notes: Current version covering SOC analysis, threat detection, and incident investigation.
+
+links:
+  - label: Official Certification Page
+    url: https://www.offsec.com/courses/soc-200/
+    type: official
+
+domains:
+  - name: Security Monitoring and SIEM Analysis
+    weight: 20
+  - name: Log Analysis and Correlation
+    weight: 20
+  - name: Network Traffic Analysis
+    weight: 15
+  - name: Windows and Linux Event Analysis
+    weight: 15
+  - name: Attack Detection and Investigation
+    weight: 20
+  - name: Incident Reporting
+    weight: 10
+
+source_of_truth_url: https://www.offsec.com/courses/soc-200/
+last_verified: "2026-04-09"

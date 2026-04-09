@@ -1,0 +1,58 @@
+name: Salesforce Certified Marketing Cloud Engagement Developer
+short_name: SF MC Developer
+slug: salesforce-marketing-cloud-developer
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates the ability to develop and implement custom solutions within
+  Marketing Cloud Engagement using programmatic languages like AMPscript and
+  Server-Side JavaScript, APIs, data modeling, and data management. Covers
+  security best practices for the Marketing Cloud platform.
+
+tags:
+  - crm
+  - marketing
+  - salesforce
+  - intermediate
+  - development
+
+prerequisites:
+  - Experience developing in Marketing Cloud Engagement recommended
+
+related_certs:
+  - salesforce-marketing-cloud-administrator
+  - salesforce-platform-developer-i
+  - salesforce-data-cloud-consultant
+
+exam_format: multiple-choice
+passing_score: 63
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Marketing Cloud Engagement Developer (Current)"
+    release_date: "2023-01-01"
+    notes: Current version with Marketing Cloud Engagement branding.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/marketingclouddeveloper
+    type: official
+
+domains:
+  - name: Programmatic Languages
+    weight: 35
+  - name: API
+    weight: 22
+  - name: Data Management
+    weight: 22
+  - name: Data Modeling
+    weight: 14
+  - name: Security
+    weight: 7
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/marketingclouddeveloper
+last_verified: "2026-04-09"

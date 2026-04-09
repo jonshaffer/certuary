@@ -1,0 +1,63 @@
+name: VMware Certified Professional - Desktop and Mobility (VCP-DTM)
+short_name: VCP-DTM
+slug: vmware-vcp-dtm
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates skills in deploying and managing VMware Workspace ONE and Horizon
+  environments for virtual desktop infrastructure, application delivery,
+  and endpoint management across desktop and mobile platforms.
+
+tags:
+  - virtualization
+  - desktop
+  - mobility
+  - vmware
+  - professional
+  - vdi
+
+prerequisites:
+  - Recommended VMware training course
+  - Hands-on experience with VMware Horizon or Workspace ONE
+
+related_certs:
+  - vmware-vcp-dcv
+  - vmware-vcp-vcf-administrator
+
+exam_format: multiple-choice
+duration_minutes: 130
+question_count:
+  min: 70
+  max: 70
+
+versions:
+  - version: "2V0-51.23"
+    release_date: "2023-06-01"
+    notes: >-
+      VCP-DTM 2024 exam covering Workspace ONE and Horizon 8.x for
+      desktop and mobility management.
+
+links:
+  - label: Official Certification Page
+    url: https://www.broadcom.com/support/education/vmware/certification/vcp-dtm
+    type: official
+
+domains:
+  - name: Architecture and Technologies
+    weight: 15
+  - name: Products and Solutions
+    weight: 15
+  - name: Planning and Designing
+    weight: 15
+  - name: Installing, Configuring, and Setup
+    weight: 20
+  - name: Performance-tuning and Optimization
+    weight: 10
+  - name: Troubleshooting and Repairing
+    weight: 10
+  - name: Administrative and Operational Tasks
+    weight: 15
+
+source_of_truth_url: https://www.broadcom.com/support/education/vmware/certification/vcp-dtm
+last_verified: "2026-04-09"

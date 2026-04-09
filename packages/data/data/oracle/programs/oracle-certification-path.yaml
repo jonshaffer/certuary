@@ -1,0 +1,41 @@
+slug: oracle-certification-path
+name: Oracle Certification Path
+description: >-
+  A recommended learning path through Oracle certifications, from foundational
+  cloud and database knowledge through associate-level credentials to
+  professional and specialty expertise across Oracle Cloud Infrastructure,
+  Java, and database technologies.
+website: https://education.oracle.com/certification
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - oracle-cloud-infrastructure-foundations-associate
+      - oracle-database-sql-associate
+  - name: Associate
+    order: 2
+    certificate_slugs:
+      - oracle-cloud-infrastructure-architect-associate
+      - oracle-java-se-17-developer
+      - oracle-java-se-21-developer
+  - name: Professional - Cloud
+    order: 3
+    certificate_slugs:
+      - oracle-cloud-infrastructure-architect-professional
+      - oracle-cloud-infrastructure-security-professional
+      - oracle-cloud-infrastructure-data-science-professional
+      - oracle-cloud-infrastructure-devops-professional
+  - name: Professional - Database
+    order: 4
+    certificate_slugs:
+      - oracle-database-administration
+      - oracle-mysql-database-administrator
+      - oracle-autonomous-database-professional
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Oracle recommends progressing from Foundational
+    to Associate to Professional based on your role and experience. Cloud and
+    database paths can be pursued independently.

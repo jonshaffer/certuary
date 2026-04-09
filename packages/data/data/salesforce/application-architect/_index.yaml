@@ -1,0 +1,55 @@
+name: Salesforce Certified Application Architect
+short_name: SF App Architect
+slug: salesforce-application-architect
+status: active
+cost: "$400 USD"
+
+description: >-
+  Validates the ability to design scalable, maintainable applications on the
+  Salesforce platform. This is a composite credential earned by passing the
+  Data Architecture and Management Designer and Sharing and Visibility
+  Architect exams, demonstrating expertise in data modeling and security
+  architecture.
+
+tags:
+  - crm
+  - salesforce
+  - architecture
+  - advanced
+
+prerequisites:
+  - Salesforce Administrator certification recommended
+  - Multiple years of Salesforce architecture experience
+
+related_certs:
+  - salesforce-system-architect
+  - salesforce-administrator
+  - salesforce-platform-developer-ii
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Application Architect"
+    release_date: "2019-01-01"
+    notes: Composite credential covering data architecture and sharing/visibility.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/application-architect
+    type: official
+
+domains:
+  - name: Data Architecture and Management
+    weight: 35
+  - name: Sharing and Visibility
+    weight: 35
+  - name: Platform Architecture
+    weight: 30
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/application-architect
+last_verified: "2026-04-09"

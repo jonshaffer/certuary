@@ -1,0 +1,61 @@
+name: Oracle Cloud Infrastructure Foundations Associate
+short_name: OCI Foundations
+slug: oracle-cloud-infrastructure-foundations-associate
+status: active
+cost: "Free"
+
+description: >-
+  Validates foundational understanding of Oracle Cloud Infrastructure concepts,
+  core services, security, and governance. Designed for individuals in both
+  technical and non-technical roles who want to demonstrate knowledge of OCI
+  fundamentals and cloud computing principles.
+
+tags:
+  - cloud
+  - entry-level
+  - oracle
+  - foundational
+  - oci
+
+prerequisites: []
+
+related_certs:
+  - oracle-cloud-infrastructure-architect-associate
+  - aws-cloud-practitioner
+  - gcp-cloud-digital-leader
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 60
+question_count:
+  min: 40
+  max: 40
+
+versions:
+  - version: "1Z0-1085-25"
+    release_date: "2025-01-15"
+    notes: Updated for OCI 2025 services and features.
+  - version: "1Z0-1085-24"
+    release_date: "2024-01-15"
+    notes: Previous version covering OCI 2024 services.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-25
+    type: official
+  - label: Learning Path
+    url: https://mylearn.oracle.com/ou/exam-unproctored/oracle-cloud-infrastructure-2025-foundations-associate-1z0-1085-25/148056/241954
+    type: official
+
+domains:
+  - name: Getting Started with OCI
+    weight: 25
+  - name: Core OCI Services
+    weight: 30
+  - name: Security Services
+    weight: 25
+  - name: Governance and Administration
+    weight: 20
+
+source_of_truth_url: https://education.oracle.com/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-25
+last_verified: "2026-04-09"

@@ -1,0 +1,63 @@
+name: Oracle Certified Professional Java SE 17 Developer
+short_name: Java SE 17 Developer
+slug: oracle-java-se-17-developer
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates professional-level expertise in Java SE 17 programming including
+  object-oriented design, functional programming with lambda expressions and
+  streams, exception handling, concurrency, modules, I/O, and JDBC. Designed
+  for experienced Java developers seeking to demonstrate mastery of the
+  Java platform.
+
+tags:
+  - java
+  - programming
+  - professional
+  - oracle
+  - developer
+
+prerequisites:
+  - Significant hands-on Java programming experience recommended
+
+related_certs:
+  - oracle-java-se-21-developer
+
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 90
+question_count:
+  min: 50
+  max: 50
+
+versions:
+  - version: "1Z0-829"
+    release_date: "2022-10-01"
+    notes: Current version covering Java SE 17 features and APIs.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/java-se-17-developer/pexam_1Z0-829
+    type: official
+
+domains:
+  - name: Handling Data Types and Values
+    weight: 15
+  - name: Controlling Program Flow
+    weight: 10
+  - name: Object-Oriented Programming
+    weight: 15
+  - name: Exception Handling
+    weight: 10
+  - name: Arrays, Collections, Streams, and Lambdas
+    weight: 20
+  - name: Modules and Packaging
+    weight: 10
+  - name: Concurrency
+    weight: 10
+  - name: I/O and JDBC
+    weight: 10
+
+source_of_truth_url: https://education.oracle.com/java-se-17-developer/pexam_1Z0-829
+last_verified: "2026-04-09"

@@ -1,0 +1,38 @@
+slug: offsec-certification-path
+name: OffSec Certification Path
+description: >-
+  A recommended progression through Offensive Security certifications, starting
+  with foundational Kali Linux knowledge and advancing through core penetration
+  testing to advanced specializations in web security, exploit development, and
+  evasion techniques. Defensive security analysts can pursue the SOC track as
+  an alternative path.
+website: https://www.offsec.com/courses-and-certifications/
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - klcp
+  - name: Core Penetration Testing
+    order: 2
+    certificate_slugs:
+      - oscp
+      - oswp
+      - oswa
+      - osda
+  - name: Advanced Specialization
+    order: 3
+    certificate_slugs:
+      - osep
+      - oswe
+      - osed
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. KLCP is recommended as a starting point for
+    those new to Kali Linux. OSCP is the flagship certification and is
+    recommended before pursuing advanced specializations. OSWP, OSWA, and OSDA
+    can be pursued alongside or after OSCP depending on career focus. Advanced
+    certifications (OSEP, OSWE, OSED) are intended for experienced professionals
+    who hold the OSCP.

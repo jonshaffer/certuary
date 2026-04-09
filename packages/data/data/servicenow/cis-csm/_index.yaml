@@ -1,0 +1,65 @@
+name: ServiceNow Certified Implementation Specialist - Customer Service Management
+short_name: ServiceNow CIS-CSM
+slug: servicenow-cis-csm
+status: active
+cost: "$450 USD"
+
+description: >-
+  Validates expertise in implementing and configuring ServiceNow Customer
+  Service Management solutions. Covers case management, agent workspace,
+  customer and consumer portals, knowledge management, and service level
+  agreements for delivering customer service workflows on the Now Platform.
+
+tags:
+  - csm
+  - customer-service
+  - intermediate
+  - servicenow
+  - implementation
+
+prerequisites:
+  - ServiceNow Certified System Administrator (CSA) certification required
+  - Two or more years of ServiceNow experience recommended
+
+related_certs:
+  - servicenow-csa
+  - servicenow-cis-itsm
+  - servicenow-cis-hr
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Zurich"
+    release_date: "2026-03-01"
+    notes: Updated to align with the Zurich release of the Now Platform.
+  - version: "Xanadu"
+    release_date: "2024-09-01"
+    notes: Previous mainline version aligned with the Xanadu release.
+
+links:
+  - label: Official Certification Page
+    url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified
+    type: official
+  - label: CIS-CSM Mainline Exam Blueprint
+    url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-customer-service-management?id=kb_article_view&sysparm_article=KB0011529
+    type: source-of-truth
+
+domains:
+  - name: CSM Configuration and Setup
+    weight: 30
+  - name: Case Management and Agent Workspace
+    weight: 25
+  - name: Customer and Consumer Portals
+    weight: 20
+  - name: Knowledge Management and Service Catalog
+    weight: 15
+  - name: Engagement Methodology and Project Planning
+    weight: 10
+
+source_of_truth_url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-customer-service-management?id=kb_article_view&sysparm_article=KB0011529
+last_verified: "2026-04-09"

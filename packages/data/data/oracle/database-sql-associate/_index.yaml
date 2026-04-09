@@ -1,0 +1,59 @@
+name: Oracle Database SQL Certified Associate
+short_name: Oracle SQL Associate
+slug: oracle-database-sql-associate
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates fundamental SQL knowledge required for Oracle Database development
+  and administration. Covers SELECT statements, data manipulation, joins,
+  subqueries, schema objects, set operators, and user access control using
+  Oracle SQL.
+
+tags:
+  - database
+  - sql
+  - associate
+  - oracle
+  - entry-level
+
+prerequisites:
+  - Basic understanding of relational database concepts recommended
+
+related_certs:
+  - oracle-database-administration
+  - oracle-autonomous-database-professional
+
+exam_format: multiple-choice
+passing_score: 63
+duration_minutes: 120
+question_count:
+  min: 63
+  max: 78
+
+versions:
+  - version: "1Z0-071"
+    release_date: "2017-11-01"
+    notes: Current version validated against Oracle Database 11g Release 2 through 19c.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/oracle-database-sql/pexam_1Z0-071
+    type: official
+
+domains:
+  - name: SQL SELECT Statements and Data Retrieval
+    weight: 25
+  - name: Joins, Subqueries, and Set Operators
+    weight: 20
+  - name: Single-Row and Group Functions
+    weight: 20
+  - name: Data Manipulation and Transaction Control
+    weight: 15
+  - name: Schema Objects and Data Definition
+    weight: 10
+  - name: User Access Control
+    weight: 10
+
+source_of_truth_url: https://education.oracle.com/oracle-database-sql/pexam_1Z0-071
+last_verified: "2026-04-09"

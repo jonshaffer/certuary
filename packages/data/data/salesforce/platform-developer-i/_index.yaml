@@ -1,0 +1,56 @@
+name: Salesforce Certified Platform Developer I
+short_name: SF PD1
+slug: salesforce-platform-developer-i
+status: active
+cost: "$200 USD"
+
+description: >-
+  Validates foundational skills in building custom applications on the
+  Salesforce Lightning Platform using Apex, Visualforce, Lightning Web
+  Components, and SOQL. Covers data modeling, process automation, user
+  interface development, testing, and deployment.
+
+tags:
+  - crm
+  - development
+  - salesforce
+  - intermediate
+  - apex
+
+prerequisites:
+  - Experience developing on the Salesforce platform recommended
+
+related_certs:
+  - salesforce-platform-developer-ii
+  - salesforce-platform-app-builder
+  - salesforce-administrator
+
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Platform Developer I (Current)"
+    release_date: "2022-08-01"
+    notes: Current version with Lightning Web Components emphasis.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/platformdeveloperi
+    type: official
+
+domains:
+  - name: Process Automation and Logic
+    weight: 30
+  - name: User Interface
+    weight: 25
+  - name: Developer Fundamentals
+    weight: 23
+  - name: Testing, Debugging, and Deployment
+    weight: 22
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/platformdeveloperi
+last_verified: "2026-04-09"

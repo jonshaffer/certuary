@@ -1,0 +1,62 @@
+name: Oracle Certified Professional Java SE 21 Developer
+short_name: Java SE 21 Developer
+slug: oracle-java-se-21-developer
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates professional-level expertise in Java SE 21 programming including
+  new language features such as virtual threads, pattern matching, record
+  patterns, and sealed classes. Covers object-oriented and functional
+  programming, concurrency, modules, and modern Java APIs.
+
+tags:
+  - java
+  - programming
+  - professional
+  - oracle
+  - developer
+
+prerequisites:
+  - Significant hands-on Java programming experience recommended
+
+related_certs:
+  - oracle-java-se-17-developer
+
+exam_format: multiple-choice
+passing_score: 68
+duration_minutes: 120
+question_count:
+  min: 50
+  max: 50
+
+versions:
+  - version: "1Z0-830"
+    release_date: "2024-03-01"
+    notes: Current version covering Java SE 21 features and APIs.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/java-se-21-developer-professional/pexam_1Z0-830
+    type: official
+
+domains:
+  - name: Handling Data Types and Values
+    weight: 15
+  - name: Controlling Program Flow
+    weight: 10
+  - name: Object-Oriented Programming
+    weight: 15
+  - name: Exception Handling
+    weight: 10
+  - name: Arrays, Collections, Streams, and Lambdas
+    weight: 20
+  - name: Modules and Packaging
+    weight: 10
+  - name: Concurrency and Virtual Threads
+    weight: 10
+  - name: I/O and JDBC
+    weight: 10
+
+source_of_truth_url: https://education.oracle.com/java-se-21-developer-professional/pexam_1Z0-830
+last_verified: "2026-04-09"

@@ -1,0 +1,68 @@
+name: VMware Certified Professional - Data Center Virtualization (VCP-DCV)
+short_name: VCP-DCV
+slug: vmware-vcp-dcv
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 130
+question_count:
+  min: 70
+  max: 70
+
+description: >-
+  The VCP-DCV validates skills to implement, manage, and troubleshoot a
+  VMware vSphere 8.x infrastructure. It is the most popular VMware
+  certification and the primary entry point into the data center
+  virtualization track, covering compute, storage, networking, security,
+  and lifecycle management of vSphere environments.
+
+tags:
+  - virtualization
+  - data-center
+  - vmware
+  - vsphere
+  - professional
+
+prerequisites:
+  - Recommended training course such as VMware vSphere Install, Configure, Manage
+  - Hands-on experience with VMware vSphere environments
+
+related_certs:
+  - vmware-vcap-dcv-design
+  - vmware-vcap-dcv-deploy
+  - vmware-vcp-vcf-administrator
+  - vmware-vcp-nv
+
+versions:
+  - version: "2V0-21.23"
+    release_date: "2023-11-01"
+    notes: >-
+      VCP-DCV 2024 exam covering VMware vSphere 8.x features including
+      lifecycle management, vSAN basics, and distributed switches.
+
+links:
+  - label: Official Certification Page
+    url: https://www.broadcom.com/support/education/vmware/certification/vcp-dcv
+    type: official
+  - label: Exam Guide
+    url: https://docs.broadcom.com/docs/vmw-vcp-dcv-8-exam-guide
+    type: source-of-truth
+
+domains:
+  - name: Architecture and Technologies
+    weight: 15
+  - name: Products and Solutions
+    weight: 10
+  - name: Planning and Designing
+    weight: 10
+  - name: Installing, Configuring, and Setup
+    weight: 25
+  - name: Performance-tuning, Optimization, and Upgrades
+    weight: 15
+  - name: Troubleshooting and Repairing
+    weight: 10
+  - name: Administrative and Operational Tasks
+    weight: 15
+
+source_of_truth_url: https://www.broadcom.com/support/education/vmware/certification/vcp-dcv
+last_verified: "2026-04-09"

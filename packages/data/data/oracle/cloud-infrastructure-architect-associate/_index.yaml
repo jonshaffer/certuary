@@ -1,0 +1,62 @@
+name: Oracle Cloud Infrastructure Architect Associate
+short_name: OCI Architect Associate
+slug: oracle-cloud-infrastructure-architect-associate
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates the ability to design, deploy, and manage solutions on Oracle Cloud
+  Infrastructure. Covers compute, networking, storage, identity and access
+  management, database services, and architectural best practices for building
+  reliable cloud solutions.
+
+tags:
+  - cloud
+  - architecture
+  - intermediate
+  - oracle
+  - oci
+
+prerequisites:
+  - Familiarity with core OCI services such as IAM, Networking, Compute, and Storage recommended
+
+related_certs:
+  - oracle-cloud-infrastructure-foundations-associate
+  - oracle-cloud-infrastructure-architect-professional
+  - aws-solutions-architect-associate
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 120
+question_count:
+  min: 51
+  max: 51
+
+versions:
+  - version: "1Z0-1072-25"
+    release_date: "2025-01-15"
+    notes: Updated for OCI 2025 services. Retires May 29, 2026.
+  - version: "1Z0-1072-24"
+    release_date: "2024-01-15"
+    notes: Previous version covering OCI 2024 services.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/oracle-cloud-infrastructure-2025-architect-associate/pexam_1Z0-1072-25
+    type: official
+  - label: Learning Path
+    url: https://learn.oracle.com/ols/learning-path/become-an-oci-architect-associate-2025/118071/147631
+    type: official
+
+domains:
+  - name: Compute
+    weight: 25
+  - name: Networking
+    weight: 25
+  - name: Storage
+    weight: 25
+  - name: Identity and Access Management
+    weight: 25
+
+source_of_truth_url: https://education.oracle.com/oracle-cloud-infrastructure-2025-architect-associate/pexam_1Z0-1072-25
+last_verified: "2026-04-09"

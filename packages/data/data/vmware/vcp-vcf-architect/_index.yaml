@@ -1,0 +1,61 @@
+name: VMware Certified Professional - VCF Architect
+short_name: VCP-VCF Architect
+slug: vmware-vcp-vcf-architect
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates the ability to design VMware Cloud Foundation environments,
+  covering architecture, workload domains, lifecycle management, and
+  integration of compute, storage, networking, and security components in
+  a private cloud infrastructure.
+
+tags:
+  - virtualization
+  - cloud
+  - architecture
+  - vmware
+  - vcf
+  - professional
+
+prerequisites:
+  - VMware VCP-DCV or VCP-VCF Administrator recommended
+  - Experience designing VMware Cloud Foundation environments
+
+related_certs:
+  - vmware-vcp-vcf-administrator
+  - vmware-vcp-dcv
+  - vmware-vcap-dcv-design
+
+exam_format: multiple-choice
+duration_minutes: 130
+question_count:
+  min: 70
+  max: 70
+
+versions:
+  - version: "VCF Architect 2024"
+    release_date: "2024-06-01"
+    notes: >-
+      VCF Architect exam covering VMware Cloud Foundation design and
+      architecture principles.
+
+links:
+  - label: Official Certification Page
+    url: https://www.broadcom.com/support/education/vmware/certification/vcp-vcf-architect
+    type: official
+
+domains:
+  - name: VCF Architecture and Design
+    weight: 25
+  - name: Workload Domain Configuration
+    weight: 20
+  - name: Lifecycle Management
+    weight: 15
+  - name: Networking and Security
+    weight: 20
+  - name: Storage and Availability
+    weight: 20
+
+source_of_truth_url: https://www.broadcom.com/support/education/vmware/certification/vcp-vcf-architect
+last_verified: "2026-04-09"

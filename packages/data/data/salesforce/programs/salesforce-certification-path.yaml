@@ -1,0 +1,46 @@
+slug: salesforce-certification-path
+name: Salesforce Certification Path
+description: >-
+  A recommended learning path through Salesforce certifications, from
+  entry-level foundational credentials through role-based certifications in
+  administration, development, consulting, and AI to advanced architecture
+  credentials on the Salesforce platform.
+website: https://trailhead.salesforce.com/en/credentials
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - salesforce-associate
+      - salesforce-ai-associate
+  - name: Administration
+    order: 2
+    certificate_slugs:
+      - salesforce-administrator
+      - salesforce-platform-app-builder
+  - name: Development
+    order: 3
+    certificate_slugs:
+      - salesforce-platform-developer-i
+      - salesforce-platform-developer-ii
+  - name: Consulting and Specialist
+    order: 4
+    certificate_slugs:
+      - salesforce-sales-cloud-consultant
+      - salesforce-service-cloud-consultant
+      - salesforce-data-cloud-consultant
+      - salesforce-marketing-cloud-administrator
+      - salesforce-marketing-cloud-developer
+      - salesforce-ai-specialist
+  - name: Architecture
+    order: 5
+    certificate_slugs:
+      - salesforce-application-architect
+      - salesforce-system-architect
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Salesforce recommends progressing from
+    foundational to role-based certifications and then to architecture
+    credentials based on your career goals and experience level.

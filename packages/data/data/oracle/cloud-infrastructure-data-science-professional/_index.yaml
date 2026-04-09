@@ -1,0 +1,66 @@
+name: Oracle Cloud Infrastructure Data Science Professional
+short_name: OCI Data Science Professional
+slug: oracle-cloud-infrastructure-data-science-professional
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates the ability to develop end-to-end machine learning solutions and
+  manage the lifecycle of models on Oracle Cloud Infrastructure. Covers OCI
+  data science services, model development best practices, deployment
+  strategies, and advanced data processing capabilities.
+
+tags:
+  - cloud
+  - data-science
+  - machine-learning
+  - professional
+  - oracle
+  - oci
+
+prerequisites:
+  - Experience with machine learning model development and deployment recommended
+  - Familiarity with OCI data science services recommended
+
+related_certs:
+  - oracle-cloud-infrastructure-architect-associate
+  - oracle-cloud-infrastructure-architect-professional
+  - aws-machine-learning-engineer-associate
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "1Z0-1110-25"
+    release_date: "2025-01-15"
+    notes: Updated for OCI 2025 data science services and features.
+  - version: "1Z0-1110-24"
+    release_date: "2024-01-15"
+    notes: Previous version covering OCI 2024 data science services.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/oracle-cloud-infrastructure-2024-data-science-professional/pexam_1Z0-1110-25
+    type: official
+  - label: Certification Track
+    url: https://education.oracle.com/products/trackp_OCI25DSOCP
+    type: official
+
+domains:
+  - name: OCI Data Science Services
+    weight: 25
+  - name: Machine Learning Model Development
+    weight: 25
+  - name: Model Deployment and Management
+    weight: 20
+  - name: Data Processing and Feature Engineering
+    weight: 15
+  - name: AI Services and Integration
+    weight: 15
+
+source_of_truth_url: https://education.oracle.com/oracle-cloud-infrastructure-2024-data-science-professional/pexam_1Z0-1110-25
+last_verified: "2026-04-09"

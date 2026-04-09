@@ -1,0 +1,65 @@
+name: Offensive Security Web Assessor
+short_name: OSWA
+slug: oswa
+status: active
+cost: "$1,749 USD"
+
+description: >-
+  The OSWA (WEB-200) validates foundational web application security assessment
+  skills. Candidates must demonstrate the ability to identify and exploit common
+  web application vulnerabilities through black-box testing techniques. The exam
+  requires hands-on exploitation of vulnerable web applications including
+  injection attacks, authentication flaws, cross-site scripting, and other
+  OWASP Top 10 vulnerabilities. OSWA serves as a stepping stone toward the
+  more advanced OSWE certification.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - offsec
+  - web-security
+  - offensive-security
+  - owasp
+
+prerequisites:
+  - Basic understanding of web technologies (HTTP, HTML, JavaScript)
+  - Familiarity with common web application vulnerabilities
+  - Linux command-line proficiency
+  - Completion of WEB-200 course materials recommended
+
+related_certs:
+  - oswe
+  - oscp
+
+exam_format: performance-based
+passing_score: 70
+duration_minutes: 1425
+
+versions:
+  - version: "WEB-200 v1"
+    release_date: "2022-05-01"
+    notes: Current version covering foundational web application security assessment.
+
+links:
+  - label: Official Certification Page
+    url: https://www.offsec.com/courses/web-200/
+    type: official
+
+domains:
+  - name: Cross-Site Scripting (XSS)
+    weight: 15
+  - name: SQL Injection
+    weight: 20
+  - name: Authentication and Session Management Flaws
+    weight: 15
+  - name: Directory Traversal and File Inclusion
+    weight: 15
+  - name: Server-Side Request Forgery
+    weight: 10
+  - name: Cross-Site Request Forgery
+    weight: 10
+  - name: Insecure Direct Object References
+    weight: 15
+
+source_of_truth_url: https://www.offsec.com/courses/web-200/
+last_verified: "2026-04-09"

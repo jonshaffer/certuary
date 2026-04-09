@@ -1,0 +1,39 @@
+slug: servicenow-certification-path
+name: ServiceNow Certification Path
+description: >-
+  A recommended learning path through ServiceNow certifications, from
+  foundational system administration through implementation specialist
+  credentials to expert-level technical architecture on the Now Platform.
+website: https://nowlearning.servicenow.com/lxp
+status: active
+required_certs: []
+phases:
+  - name: Foundational
+    order: 1
+    certificate_slugs:
+      - servicenow-csa
+  - name: Developer
+    order: 2
+    certificate_slugs:
+      - servicenow-cad
+  - name: Implementation Specialist
+    order: 3
+    certificate_slugs:
+      - servicenow-cis-itsm
+      - servicenow-cis-itom
+      - servicenow-cis-sir
+      - servicenow-cis-hr
+      - servicenow-cis-csm
+      - servicenow-cis-rc
+  - name: Expert
+    order: 4
+    certificate_slugs:
+      - servicenow-cta
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. ServiceNow recommends starting with CSA,
+    then pursuing CAD or CIS certifications based on your role, followed by
+    CTA for those on an architecture track. Note: some CIS certifications
+    (ITAM, ITOM, ITSM, SecOps) require the CIS-Data Foundations prerequisite,
+    which is not tracked in this project.

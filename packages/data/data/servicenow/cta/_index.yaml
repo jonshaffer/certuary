@@ -1,0 +1,57 @@
+name: ServiceNow Certified Technical Architect
+short_name: ServiceNow CTA
+slug: servicenow-cta
+status: active
+cost: "$3,000 USD"
+
+description: >-
+  The highest-level ServiceNow certification, validating the ability to
+  design end-to-end platform solutions for complex enterprise environments.
+  The CTA exam is a live, scenario-based assessment where candidates present
+  a solution design to a review board of ServiceNow architects.
+
+tags:
+  - itsm
+  - architecture
+  - expert
+  - servicenow
+  - enterprise
+
+prerequisites:
+  - ServiceNow CSA certification required
+  - Multiple ServiceNow CIS certifications recommended
+  - Extensive experience designing enterprise ServiceNow solutions
+
+related_certs:
+  - servicenow-csa
+  - servicenow-cad
+  - servicenow-cis-itsm
+
+exam_format: performance-based
+duration_minutes: 300
+
+versions:
+  - version: "CTA"
+    release_date: "2020-01-01"
+    notes: >-
+      Live scenario-based exam with presentation to a review board.
+
+links:
+  - label: Official Certification Page
+    url: https://nowlearning.servicenow.com/lxp/en/credentials/certified-technical-architect
+    type: official
+
+domains:
+  - name: Solution Design and Architecture
+    weight: 30
+  - name: Technical Leadership
+    weight: 20
+  - name: Platform Best Practices
+    weight: 20
+  - name: Integration and Data Strategy
+    weight: 15
+  - name: Performance and Scalability
+    weight: 15
+
+source_of_truth_url: https://nowlearning.servicenow.com/lxp/en/credentials/certified-technical-architect
+last_verified: "2026-04-09"

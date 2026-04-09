@@ -1,0 +1,60 @@
+name: Spring Certified Professional
+short_name: Spring Pro
+slug: vmware-spring-certified-professional
+status: active
+cost: "$250 USD"
+
+description: >-
+  Validates expertise in the Spring Framework ecosystem, including Spring
+  Boot, dependency injection, AOP, data access, REST APIs, and Spring
+  Security. Designed for Java developers building enterprise applications
+  with the Spring Framework.
+
+tags:
+  - java
+  - spring
+  - development
+  - professional
+  - vmware
+
+prerequisites:
+  - Strong Java development experience
+  - Hands-on experience with Spring Framework and Spring Boot
+
+related_certs:
+  - oracle-java-se-17-developer
+  - oracle-java-se-21-developer
+
+exam_format: multiple-choice
+passing_score: 76
+duration_minutes: 90
+question_count:
+  min: 50
+  max: 50
+
+versions:
+  - version: "Spring Professional 2024"
+    release_date: "2024-01-01"
+    notes: Updated for Spring Framework 6 and Spring Boot 3.
+
+links:
+  - label: Official Certification Page
+    url: https://www.broadcom.com/support/education/vmware/certification/spring-certified-professional
+    type: official
+
+domains:
+  - name: Spring Core
+    weight: 20
+  - name: Data Management
+    weight: 15
+  - name: Spring MVC and REST
+    weight: 15
+  - name: Spring Security
+    weight: 15
+  - name: Spring Boot
+    weight: 20
+  - name: Spring AOP and Testing
+    weight: 15
+
+source_of_truth_url: https://www.broadcom.com/support/education/vmware/certification/spring-certified-professional
+last_verified: "2026-04-09"

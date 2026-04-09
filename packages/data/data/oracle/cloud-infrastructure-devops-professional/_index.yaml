@@ -1,0 +1,63 @@
+name: Oracle Cloud Infrastructure DevOps Professional
+short_name: OCI DevOps Professional
+slug: oracle-cloud-infrastructure-devops-professional
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates the ability to design, implement, and manage DevOps solutions on
+  Oracle Cloud Infrastructure. Covers containerization, CI/CD pipelines,
+  infrastructure as code, container orchestration, monitoring, observability,
+  and DevSecOps practices on OCI.
+
+tags:
+  - cloud
+  - devops
+  - professional
+  - oracle
+  - oci
+  - automation
+
+prerequisites:
+  - Experience with DevOps practices and containerization recommended
+  - Familiarity with OCI DevOps services recommended
+
+related_certs:
+  - oracle-cloud-infrastructure-architect-associate
+  - oracle-cloud-infrastructure-architect-professional
+  - aws-devops-engineer-professional
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 90
+question_count:
+  min: 55
+  max: 55
+
+versions:
+  - version: "1Z0-1109-25"
+    release_date: "2025-01-15"
+    notes: Updated for OCI 2025 DevOps services and features.
+  - version: "1Z0-1109-24"
+    release_date: "2024-01-15"
+    notes: Previous version covering OCI 2024 DevOps services.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/oracle-cloud-infrastructure-2025-devops-professional/pexam_1Z0-1109-25
+    type: official
+
+domains:
+  - name: DevOps Principles and Containerization
+    weight: 25
+  - name: Infrastructure as Code
+    weight: 20
+  - name: CI/CD Pipeline Management
+    weight: 25
+  - name: Container Orchestration
+    weight: 15
+  - name: Monitoring and Observability
+    weight: 15
+
+source_of_truth_url: https://education.oracle.com/oracle-cloud-infrastructure-2025-devops-professional/pexam_1Z0-1109-25
+last_verified: "2026-04-09"

@@ -1,0 +1,64 @@
+name: Offensive Security Exploit Developer
+short_name: OSED
+slug: osed
+status: active
+cost: "$1,749 USD"
+
+description: >-
+  The OSED (EXP-301) validates expertise in Windows user-mode exploit
+  development. Candidates must demonstrate the ability to develop custom
+  exploits for Windows applications by bypassing modern security mitigations
+  such as DEP, ASLR, and CFG. The exam requires hands-on development of
+  working exploits through reverse engineering, shellcode creation, and
+  advanced debugging techniques. OSED holders demonstrate deep understanding
+  of software vulnerabilities and low-level exploitation.
+
+tags:
+  - cybersecurity
+  - advanced
+  - offsec
+  - exploit-development
+  - offensive-security
+  - reverse-engineering
+
+prerequisites:
+  - OSCP certification or equivalent experience recommended
+  - Strong understanding of x86 assembly language
+  - Familiarity with Windows internals and debugging tools
+  - Programming experience in Python and C
+  - Completion of EXP-301 course materials recommended
+
+related_certs:
+  - oscp
+  - osep
+
+exam_format: performance-based
+passing_score: 70
+duration_minutes: 2880
+
+versions:
+  - version: "EXP-301 v1"
+    release_date: "2020-10-01"
+    notes: Current version covering Windows user-mode exploit development.
+
+links:
+  - label: Official Certification Page
+    url: https://www.offsec.com/courses/exp-301/
+    type: official
+
+domains:
+  - name: Reverse Engineering and Vulnerability Discovery
+    weight: 20
+  - name: Stack Buffer Overflow Exploitation
+    weight: 20
+  - name: SEH Overwrite Exploitation
+    weight: 15
+  - name: DEP and ASLR Bypass Techniques
+    weight: 20
+  - name: Format String Vulnerabilities
+    weight: 10
+  - name: Custom Shellcode Development
+    weight: 15
+
+source_of_truth_url: https://www.offsec.com/courses/exp-301/
+last_verified: "2026-04-09"

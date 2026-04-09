@@ -1,0 +1,65 @@
+name: VMware Certified Advanced Professional - Data Center Virtualization Deploy (VCAP-DCV Deploy)
+short_name: VCAP-DCV Deploy
+slug: vmware-vcap-dcv-deploy
+status: active
+cost: "$450 USD"
+exam_format: performance-based
+duration_minutes: 205
+question_count:
+  min: 17
+  max: 17
+
+description: >-
+  The VCAP-DCV Deploy validates advanced hands-on skills in implementing,
+  managing, and optimizing VMware vSphere infrastructure. It is a
+  performance-based lab exam requiring candidates to complete real-world
+  tasks in a live vSphere environment covering installation, configuration,
+  optimization, and troubleshooting.
+
+tags:
+  - virtualization
+  - data-center
+  - vmware
+  - vsphere
+  - deployment
+  - advanced
+  - hands-on
+
+prerequisites:
+  - VCP-DCV certification or equivalent
+  - Extensive hands-on experience deploying and managing vSphere environments
+
+prerequisite_certs:
+  - vmware-vcp-dcv
+
+related_certs:
+  - vmware-vcp-dcv
+  - vmware-vcap-dcv-design
+  - vmware-vcdx-dcv
+
+versions:
+  - version: "3V0-22.21N"
+    release_date: "2022-01-01"
+    notes: >-
+      VCAP-DCV Deploy 2022 lab exam covering advanced vSphere 7.x
+      deployment and operational tasks in a live environment.
+
+links:
+  - label: Official Certification Page
+    url: https://www.broadcom.com/support/education/vmware/certification/vcap-dcv-deploy
+    type: official
+
+domains:
+  - name: Deploy and Secure a vSphere Environment
+    weight: 25
+  - name: Configure and Manage Networking
+    weight: 20
+  - name: Configure and Manage Storage
+    weight: 20
+  - name: Optimize and Scale a vSphere Environment
+    weight: 15
+  - name: Troubleshoot a vSphere Environment
+    weight: 20
+
+source_of_truth_url: https://www.broadcom.com/support/education/vmware/certification/vcap-dcv-deploy
+last_verified: "2026-04-09"

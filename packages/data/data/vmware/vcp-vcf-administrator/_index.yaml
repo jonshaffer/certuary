@@ -1,0 +1,60 @@
+name: VMware Certified Professional - VCF Administrator (VCP-VCF Administrator)
+short_name: VCP-VCF Admin
+slug: vmware-vcp-vcf-administrator
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 135
+question_count:
+  min: 70
+  max: 70
+
+description: >-
+  The VCP-VCF Administrator validates skills required to deploy, manage,
+  and support private cloud environments built on VMware Cloud Foundation.
+  It covers VCF architecture, component management, Day 2 operations
+  including lifecycle management, backup and recovery, password management,
+  and troubleshooting across the integrated VCF stack.
+
+tags:
+  - virtualization
+  - cloud-foundation
+  - vmware
+  - vcf
+  - administration
+  - professional
+
+prerequisites:
+  - Recommended VCF training course
+  - Hands-on experience with VMware Cloud Foundation environments
+
+related_certs:
+  - vmware-vcp-dcv
+  - vmware-vcp-vcf-architect
+  - vmware-vcp-nv
+
+versions:
+  - version: "2V0-11.24"
+    release_date: "2024-01-01"
+    notes: >-
+      VCP-VCF Administrator exam covering VMware Cloud Foundation 5.2
+      deployment, administration, and troubleshooting.
+
+links:
+  - label: Official Certification Page
+    url: https://www.broadcom.com/support/education/vmware/certification/vcp-vcf-administrator
+    type: official
+  - label: Exam Preparation Guide
+    url: https://docs.broadcom.com/doc/vmware-vcf-specialist-2V0-1124-exam-preparation-guide
+    type: source-of-truth
+
+domains:
+  - name: VMware by Broadcom Solution
+    weight: 20
+  - name: Install, Configure, Administrate the VMware Solution
+    weight: 50
+  - name: Troubleshoot and Optimize the VMware Solution
+    weight: 30
+
+source_of_truth_url: https://www.broadcom.com/support/education/vmware/certification/vcp-vcf-administrator
+last_verified: "2026-04-09"

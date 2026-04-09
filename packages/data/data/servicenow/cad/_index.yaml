@@ -1,0 +1,67 @@
+name: ServiceNow Certified Application Developer
+short_name: ServiceNow CAD
+slug: servicenow-cad
+status: active
+cost: "$300 USD"
+
+description: >-
+  Validates the ability to design, develop, and deploy custom applications on
+  the ServiceNow platform. Covers application security, user experience
+  design, scripting, data management, workflow automation, and application
+  lifecycle management. Intended for developers building solutions on the
+  Now Platform.
+
+tags:
+  - development
+  - application
+  - intermediate
+  - servicenow
+  - scripting
+
+prerequisites:
+  - ServiceNow Certified System Administrator (CSA) certification required
+  - Application Developer on-demand course or equivalent experience recommended
+
+related_certs:
+  - servicenow-csa
+  - servicenow-cis-itsm
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Zurich"
+    release_date: "2026-03-01"
+    notes: Updated to align with the Zurich release of the Now Platform.
+  - version: "Xanadu"
+    release_date: "2024-09-01"
+    notes: Previous mainline version aligned with the Xanadu release.
+
+links:
+  - label: Official Certification Page
+    url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=148e1d77dbc27f40de3cdb85ca961923
+    type: official
+  - label: CAD Mainline Exam Blueprint
+    url: https://learning.servicenow.com/lxp/en/credentials/certified-application-developer-mainline-exam-blueprint?id=kb_article_view&sysparm_article=KB0011498
+    type: source-of-truth
+
+domains:
+  - name: Application Design and Development Concepts
+    weight: 5
+  - name: Security and Restricting Access
+    weight: 20
+  - name: Application User Experience
+    weight: 10
+  - name: Working with Data in ServiceNow
+    weight: 20
+  - name: Automating Applications for Collaboration and Productivity
+    weight: 20
+  - name: Managing Applications
+    weight: 25
+
+source_of_truth_url: https://learning.servicenow.com/lxp/en/credentials/certified-application-developer-mainline-exam-blueprint?id=kb_article_view&sysparm_article=KB0011498
+last_verified: "2026-04-09"

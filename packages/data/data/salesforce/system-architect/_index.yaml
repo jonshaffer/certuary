@@ -1,0 +1,55 @@
+name: Salesforce Certified System Architect
+short_name: SF Sys Architect
+slug: salesforce-system-architect
+status: active
+cost: "$400 USD"
+
+description: >-
+  Validates deep expertise in designing enterprise-grade Salesforce
+  integrations and identity management solutions. Earned by passing the
+  Integration Architecture Designer and Identity and Access Management
+  Architect exams.
+
+tags:
+  - crm
+  - salesforce
+  - architecture
+  - advanced
+  - integration
+
+prerequisites:
+  - Salesforce Administrator certification recommended
+  - Multiple years of Salesforce integration and architecture experience
+
+related_certs:
+  - salesforce-application-architect
+  - salesforce-administrator
+  - salesforce-platform-developer-ii
+
+exam_format: multiple-choice
+passing_score: 65
+duration_minutes: 105
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "System Architect"
+    release_date: "2019-01-01"
+    notes: Composite credential covering integration and identity architecture.
+
+links:
+  - label: Official Certification Page
+    url: https://trailhead.salesforce.com/credentials/system-architect
+    type: official
+
+domains:
+  - name: Integration Architecture
+    weight: 35
+  - name: Identity and Access Management
+    weight: 35
+  - name: Platform Security
+    weight: 30
+
+source_of_truth_url: https://trailhead.salesforce.com/credentials/system-architect
+last_verified: "2026-04-09"

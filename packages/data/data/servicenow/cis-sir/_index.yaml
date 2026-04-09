@@ -1,0 +1,65 @@
+name: ServiceNow Certified Implementation Specialist - Security Incident Response
+short_name: ServiceNow CIS-SIR
+slug: servicenow-cis-sir
+status: active
+cost: "$450 USD"
+
+description: >-
+  Validates expertise in implementing and configuring ServiceNow Security
+  Incident Response solutions. Covers security incident lifecycle management,
+  threat intelligence integration, vulnerability response workflows, and
+  automated remediation on the Now Platform. Formerly known as CIS-SecOps.
+
+tags:
+  - security
+  - secops
+  - intermediate
+  - servicenow
+  - implementation
+
+prerequisites:
+  - ServiceNow Certified System Administrator (CSA) certification required
+  - Security Operations Fundamentals course or equivalent experience recommended
+
+related_certs:
+  - servicenow-csa
+  - servicenow-cis-itsm
+  - servicenow-cis-rc
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 90
+question_count:
+  min: 60
+  max: 60
+
+versions:
+  - version: "Zurich"
+    release_date: "2026-03-01"
+    notes: Updated to align with the Zurich release of the Now Platform.
+  - version: "Xanadu"
+    release_date: "2024-09-01"
+    notes: Previous mainline version aligned with the Xanadu release.
+
+links:
+  - label: Official Certification Page
+    url: https://nowlearning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=908e1d77dbc27f40de3cdb85ca961929
+    type: official
+  - label: CIS-SIR Mainline Exam Blueprint
+    url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-security-incident-response?id=kb_article_view&sysparm_article=KB0011559
+    type: source-of-truth
+
+domains:
+  - name: Security Incident Response
+    weight: 30
+  - name: Threat Intelligence
+    weight: 20
+  - name: Vulnerability Response
+    weight: 20
+  - name: Security Integrations and Data Sources
+    weight: 15
+  - name: Reporting and Analytics
+    weight: 15
+
+source_of_truth_url: https://learning.servicenow.com/lxp/en/credentials/certified-implementation-specialist-security-incident-response?id=kb_article_view&sysparm_article=KB0011559
+last_verified: "2026-04-09"

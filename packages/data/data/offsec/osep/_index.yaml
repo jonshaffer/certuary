@@ -1,0 +1,65 @@
+name: Offensive Security Experienced Penetration Tester
+short_name: OSEP
+slug: osep
+status: active
+cost: "$1,749 USD"
+
+description: >-
+  The OSEP (PEN-300) is an advanced penetration testing certification that
+  validates expertise in evasion techniques and breaching hardened enterprise
+  environments. Candidates must demonstrate the ability to bypass security
+  defenses such as antivirus, application whitelisting, and network
+  segmentation. The exam involves a full-scope simulated enterprise penetration
+  test requiring advanced lateral movement, custom exploit modification, and
+  sophisticated attack chains across multiple network segments.
+
+tags:
+  - cybersecurity
+  - advanced
+  - offsec
+  - penetration-testing
+  - offensive-security
+  - evasion
+  - active-directory
+
+prerequisites:
+  - OSCP certification or equivalent experience
+  - Strong understanding of Windows and Active Directory environments
+  - Experience with scripting and programming (C#, PowerShell, Python)
+  - Completion of PEN-300 course materials recommended
+
+related_certs:
+  - oscp
+  - osed
+  - oswe
+
+exam_format: performance-based
+passing_score: 70
+duration_minutes: 2880
+
+versions:
+  - version: "PEN-300 v1"
+    release_date: "2020-10-01"
+    notes: Current version covering advanced evasion and Active Directory attacks.
+
+links:
+  - label: Official Certification Page
+    url: https://www.offsec.com/courses/pen-300/
+    type: official
+
+domains:
+  - name: Client-Side Attacks and Phishing
+    weight: 10
+  - name: Process Injection and Migration
+    weight: 15
+  - name: Antivirus and Application Whitelisting Evasion
+    weight: 20
+  - name: Advanced Active Directory Exploitation
+    weight: 25
+  - name: Lateral Movement and Pivoting
+    weight: 15
+  - name: Custom Exploit Modification
+    weight: 15
+
+source_of_truth_url: https://www.offsec.com/courses/pen-300/
+last_verified: "2026-04-09"

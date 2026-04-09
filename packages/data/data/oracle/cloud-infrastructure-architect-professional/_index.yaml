@@ -1,0 +1,64 @@
+name: Oracle Cloud Infrastructure Architect Professional
+short_name: OCI Architect Professional
+slug: oracle-cloud-infrastructure-architect-professional
+status: active
+cost: "$245 USD"
+
+description: >-
+  Validates advanced expertise in designing and implementing complex
+  architectures on Oracle Cloud Infrastructure. Covers multicloud and hybrid
+  designs, high availability, disaster recovery, security, observability,
+  automation, and workload migration techniques.
+
+tags:
+  - cloud
+  - architecture
+  - professional
+  - oracle
+  - oci
+
+prerequisites:
+  - 1-2 years of experience working with Oracle Cloud Infrastructure recommended
+
+related_certs:
+  - oracle-cloud-infrastructure-architect-associate
+  - oracle-cloud-infrastructure-security-professional
+  - aws-solutions-architect-professional
+
+exam_format: multiple-choice
+passing_score: 70
+duration_minutes: 105
+question_count:
+  min: 50
+  max: 50
+
+versions:
+  - version: "1Z0-997-25"
+    release_date: "2025-01-15"
+    notes: Updated for OCI 2025 advanced services and multicloud patterns.
+  - version: "1Z0-997-24"
+    release_date: "2024-01-15"
+    notes: Previous version covering OCI 2024 services.
+
+links:
+  - label: Official Certification Page
+    url: https://education.oracle.com/oracle-cloud-infrastructure-2025-architect-professional/pexam_1Z0-997-25
+    type: official
+  - label: Certification Track
+    url: https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-architect-professional/trackp_OCICAP2025OPN
+    type: official
+
+domains:
+  - name: Cloud-Native Architecture Design
+    weight: 25
+  - name: Security and Identity
+    weight: 20
+  - name: High Availability and Disaster Recovery
+    weight: 20
+  - name: Networking and Connectivity
+    weight: 20
+  - name: Governance and Automation
+    weight: 15
+
+source_of_truth_url: https://education.oracle.com/oracle-cloud-infrastructure-2025-architect-professional/pexam_1Z0-997-25
+last_verified: "2026-04-09"

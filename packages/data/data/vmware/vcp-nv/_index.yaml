@@ -1,0 +1,63 @@
+name: VMware Certified Professional - Network Virtualization (VCP-NV)
+short_name: VCP-NV
+slug: vmware-vcp-nv
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 135
+question_count:
+  min: 55
+  max: 55
+
+description: >-
+  The VCP-NV validates skills in deploying, managing, and troubleshooting
+  VMware NSX environments. It covers NSX architecture, logical switching
+  and routing, security services, VPN and NAT, load balancing, and
+  integration with VMware and third-party solutions for network
+  virtualization.
+
+tags:
+  - virtualization
+  - networking
+  - vmware
+  - nsx
+  - professional
+
+prerequisites:
+  - Recommended NSX training course
+  - Six months or more of experience with VMware NSX solutions
+  - Two years of experience in IT
+
+related_certs:
+  - vmware-vcp-dcv
+  - vmware-vcp-vcf-architect
+
+versions:
+  - version: "2V0-41.24"
+    release_date: "2024-01-01"
+    notes: >-
+      VCP-NV 2024 exam covering VMware NSX 4.x network virtualization
+      features and management.
+
+links:
+  - label: Official Certification Page
+    url: https://www.broadcom.com/support/education/vmware/certification/vcp-nv
+    type: official
+  - label: Exam Guide
+    url: https://docs.broadcom.com/doc/vmware-vcp-nv-exam-guide
+    type: source-of-truth
+
+domains:
+  - name: IT Architectures, Technologies, and Standards
+    weight: 10
+  - name: VMware Solutions
+    weight: 20
+  - name: Planning and Designing
+    weight: 15
+  - name: Installing, Configuring, and Administration
+    weight: 35
+  - name: Troubleshooting and Optimization
+    weight: 20
+
+source_of_truth_url: https://www.broadcom.com/support/education/vmware/certification/vcp-nv
+last_verified: "2026-04-09"

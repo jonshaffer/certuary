@@ -1,0 +1,63 @@
+name: Offensive Security Wireless Professional
+short_name: OSWP
+slug: oswp
+status: active
+cost: "$799 USD"
+
+description: >-
+  The OSWP (PEN-210) validates practical skills in wireless network auditing
+  and security assessment. Candidates must demonstrate the ability to identify
+  vulnerabilities in 802.11 wireless networks, perform packet capture and
+  analysis, and execute attacks against various wireless encryption standards
+  including WEP, WPA, and WPA2. The exam requires hands-on exploitation of
+  wireless networks in a controlled lab environment.
+
+tags:
+  - cybersecurity
+  - intermediate
+  - offsec
+  - wireless-security
+  - offensive-security
+  - network-security
+
+prerequisites:
+  - Basic understanding of TCP/IP networking
+  - Familiarity with Linux command line
+  - Understanding of wireless networking fundamentals
+  - Completion of PEN-210 course materials recommended
+
+related_certs:
+  - oscp
+
+exam_format: performance-based
+passing_score: 70
+duration_minutes: 225
+
+versions:
+  - version: "PEN-210 (2022)"
+    release_date: "2022-01-01"
+    notes: >-
+      Updated version covering modern wireless attack techniques including
+      WPA2 enterprise attacks.
+
+links:
+  - label: Official Certification Page
+    url: https://www.offsec.com/courses/pen-210/
+    type: official
+
+domains:
+  - name: IEEE 802.11 Standards and Protocols
+    weight: 15
+  - name: Wireless Network Reconnaissance
+    weight: 20
+  - name: WEP Cracking Attacks
+    weight: 15
+  - name: WPA and WPA2 Attacks
+    weight: 25
+  - name: Rogue Access Point Attacks
+    weight: 15
+  - name: Wireless Traffic Analysis
+    weight: 10
+
+source_of_truth_url: https://www.offsec.com/courses/pen-210/
+last_verified: "2026-04-09"
