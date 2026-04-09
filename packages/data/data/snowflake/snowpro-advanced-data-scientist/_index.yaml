@@ -45,7 +45,7 @@ versions:
 
 links:
   - label: Official Certification Page
-    url: https://learn.snowflake.com/en/certifications/
+    url: https://www.snowflake.com/certifications/snowpro-advanced-data-scientist/
     type: official
 
 domains:
@@ -60,5 +60,5 @@ domains:
   - name: Snowpark for Data Science
     weight: 15
 
-source_of_truth_url: https://learn.snowflake.com/en/certifications/
+source_of_truth_url: https://www.snowflake.com/certifications/snowpro-advanced-data-scientist/
 last_verified: "2026-04-09"

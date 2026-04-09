@@ -7,7 +7,7 @@ cost: "$200 USD"
 description: >-
   The Cloud Security Professional certification validates knowledge
   and skills for securing cloud environments using Palo Alto Networks
-  Cortex Cloud platform. It covers cloud security posture management,
+  Prisma Cloud platform. It covers cloud security posture management,
   cloud runtime security, application security, and SOC integration
   across multi-cloud environments.
 
