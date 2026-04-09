@@ -1,0 +1,61 @@
+name: Atlassian Certified Professional – Jira Project Manager
+short_name: ACP Jira PM
+slug: atlassian-acp-jira-pm
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 70
+  approximate: true
+
+description: >-
+  Validates the ability to effectively manage projects and teams using
+  Jira. Covers Scrum and Kanban board configuration, agile project
+  management, reporting and dashboards, roadmaps, release management,
+  and leveraging Jira features for team collaboration and delivery tracking.
+
+tags:
+  - project-management
+  - atlassian
+  - jira
+  - agile
+  - intermediate
+
+prerequisites:
+  - Experience managing projects in Jira recommended
+  - Familiarity with agile methodologies
+
+related_certs:
+  - atlassian-acp-jira-admin
+  - atlassian-acp-confluence-admin
+  - pmi-pmp
+  - scrum-org-psm-i
+
+versions:
+  - version: ACP-610
+    notes: >-
+      Current version covering Jira project management, agile boards,
+      reporting, and team collaboration features.
+
+prerequisite_certs: []
+
+links:
+  - label: Atlassian University
+    url: https://university.atlassian.com/
+    type: official
+
+domains:
+  - name: Agile Boards and Project Configuration
+    weight: 25
+  - name: Reporting, Dashboards, and Roadmaps
+    weight: 25
+  - name: Release and Version Management
+    weight: 20
+  - name: Team Collaboration and Communication
+    weight: 15
+  - name: Advanced Search and Automation
+    weight: 15
+
+source_of_truth_url: https://university.atlassian.com/
+last_verified: "2026-04-09"

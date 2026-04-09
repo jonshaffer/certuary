@@ -1,0 +1,62 @@
+name: Zscaler Certified Cloud Administrator – Private Access
+short_name: ZCCA-PA
+slug: zscaler-zcca-pa
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates the ability to configure and administer Zscaler Private Access
+  (ZPA), a zero trust network access solution for securing private
+  applications. Covers application segmentation, connector deployment,
+  access policies, posture profiles, and browser-based access configuration.
+
+tags:
+  - cybersecurity
+  - zero-trust
+  - zscaler
+  - cloud-security
+  - intermediate
+
+prerequisites:
+  - Familiarity with zero trust networking concepts
+  - Experience with Zscaler Private Access administration recommended
+
+related_certs:
+  - zscaler-zcca-ia
+  - zscaler-zcca-dd
+  - zscaler-zccp-ia
+  - ccna
+  - comptia-security-plus
+
+versions:
+  - version: ZCCA-PA
+    notes: >-
+      Current version covering ZPA configuration, connector management,
+      and zero trust access policies.
+
+prerequisite_certs: []
+
+links:
+  - label: Zscaler Training and Certification
+    url: https://www.zscaler.com/resources/training-certification
+    type: official
+
+domains:
+  - name: ZPA Architecture and Components
+    weight: 20
+  - name: Connector Deployment and Management
+    weight: 20
+  - name: Application Segmentation and Discovery
+    weight: 25
+  - name: Access Policies and Posture Control
+    weight: 20
+  - name: Troubleshooting and Monitoring
+    weight: 15
+
+source_of_truth_url: https://www.zscaler.com/resources/training-certification
+last_verified: "2026-04-09"

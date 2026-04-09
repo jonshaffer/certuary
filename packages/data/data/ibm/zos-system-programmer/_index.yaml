@@ -1,0 +1,61 @@
+name: IBM Certified System Programmer – z/OS
+short_name: IBM z/OS SysProg
+slug: ibm-zos-system-programmer
+status: active
+cost: "$300 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates expertise in IBM z/OS mainframe system programming, including
+  installation, configuration, and maintenance of z/OS environments. Covers
+  IPL procedures, SMP/E, RACF security, JES2/JES3, UNIX System Services,
+  and workload management on IBM Z mainframe systems.
+
+tags:
+  - mainframe
+  - ibm
+  - zos
+  - specialist
+  - systems
+
+prerequisites:
+  - Hands-on experience with z/OS system programming and administration
+  - Knowledge of mainframe hardware and z/OS subsystems
+
+related_certs:
+  - ibm-cloud-architect-professional
+  - ibm-qradar-siem-analyst
+
+versions:
+  - version: C1000-148
+    notes: >-
+      Current version covering z/OS V2.5 system programming, security
+      configuration, and mainframe operations.
+
+prerequisite_certs: []
+
+links:
+  - label: IBM Training and Credentials
+    url: https://www.ibm.com/training/credentials
+    type: official
+
+domains:
+  - name: z/OS Installation and Configuration
+    weight: 20
+  - name: System Initialization and IPL
+    weight: 15
+  - name: SMP/E and Software Management
+    weight: 20
+  - name: Security (RACF) and Compliance
+    weight: 20
+  - name: Workload Management and Performance
+    weight: 15
+  - name: UNIX System Services and Networking
+    weight: 10
+
+source_of_truth_url: https://www.ibm.com/training/credentials
+last_verified: "2026-04-09"

@@ -1,0 +1,26 @@
+slug: zscaler-certification-path
+name: Zscaler Certification Path
+description: >-
+  A recommended learning path through Zscaler certifications, from
+  administrator-level credentials across Zscaler products to advanced
+  professional-level expertise in zero trust security architecture.
+website: https://www.zscaler.com/resources/training-certification
+status: active
+required_certs: []
+phases:
+  - name: Administrator
+    order: 1
+    certificate_slugs:
+      - zscaler-zcca-ia
+      - zscaler-zcca-pa
+      - zscaler-zcca-dd
+  - name: Professional
+    order: 2
+    certificate_slugs:
+      - zscaler-zccp-ia
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Zscaler recommends starting with ZCCA-IA
+    as the core administrator certification, then expanding to ZPA and ZDX
+    tracks before pursuing the advanced ZCCP-IA professional credential.

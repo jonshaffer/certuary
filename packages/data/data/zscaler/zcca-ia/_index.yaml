@@ -1,0 +1,62 @@
+name: Zscaler Certified Cloud Administrator – Internet Access
+short_name: ZCCA-IA
+slug: zscaler-zcca-ia
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates the ability to configure and administer Zscaler Internet Access
+  (ZIA), a cloud-native proxy for securing internet and SaaS traffic. Covers
+  policy configuration, URL filtering, SSL inspection, firewall policies,
+  user authentication, and forwarding methods.
+
+tags:
+  - cybersecurity
+  - zero-trust
+  - zscaler
+  - cloud-security
+  - intermediate
+
+prerequisites:
+  - Familiarity with networking, proxy, and firewall concepts
+  - Experience with Zscaler Internet Access administration recommended
+
+related_certs:
+  - zscaler-zcca-pa
+  - zscaler-zcca-dd
+  - zscaler-zccp-ia
+  - ccna
+  - comptia-security-plus
+
+versions:
+  - version: ZCCA-IA
+    notes: >-
+      Current version covering ZIA administration, policy configuration,
+      and traffic forwarding methods.
+
+prerequisite_certs: []
+
+links:
+  - label: Zscaler Training and Certification
+    url: https://www.zscaler.com/resources/training-certification
+    type: official
+
+domains:
+  - name: ZIA Architecture and Traffic Forwarding
+    weight: 20
+  - name: User Authentication and Identity
+    weight: 15
+  - name: Web Security Policies and URL Filtering
+    weight: 25
+  - name: SSL Inspection and Firewall Policies
+    weight: 25
+  - name: Logging, Reporting, and Troubleshooting
+    weight: 15
+
+source_of_truth_url: https://www.zscaler.com/resources/training-certification
+last_verified: "2026-04-09"

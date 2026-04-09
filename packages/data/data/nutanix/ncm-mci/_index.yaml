@@ -1,0 +1,62 @@
+name: Nutanix Certified Master – Multicloud Infrastructure
+short_name: NCM-MCI
+slug: nutanix-ncm-mci
+status: active
+cost: "$199 USD"
+exam_format: multiple-choice
+duration_minutes: 120
+question_count:
+  min: 75
+  approximate: true
+
+description: >-
+  Validates advanced skills in designing, optimizing, and troubleshooting
+  Nutanix multicloud infrastructure at scale. Covers advanced cluster
+  administration, Prism Central management, capacity planning, performance
+  optimization, and complex networking and security configurations.
+
+tags:
+  - infrastructure
+  - hyperconverged
+  - nutanix
+  - advanced
+  - virtualization
+
+prerequisites:
+  - NCP-MCI certification or equivalent experience recommended
+  - Extensive hands-on experience with Nutanix environments
+
+related_certs:
+  - nutanix-ncp-mci
+  - nutanix-ncp-db
+  - nutanix-ncp-us
+  - vmware-vcp-dcv
+
+versions:
+  - version: "6.5"
+    notes: >-
+      Current version covering advanced AOS 6.5 administration, Prism
+      Central features, and multicloud management.
+
+prerequisite_certs:
+  - nutanix-ncp-mci
+
+links:
+  - label: Nutanix Training and Certification
+    url: https://www.nutanix.com/support-services/training-certification
+    type: official
+
+domains:
+  - name: Advanced Cluster Management
+    weight: 20
+  - name: Prism Central and Multicloud Operations
+    weight: 20
+  - name: Capacity Planning and Optimization
+    weight: 20
+  - name: Advanced Networking and Security
+    weight: 20
+  - name: Troubleshooting and Performance Tuning
+    weight: 20
+
+source_of_truth_url: https://www.nutanix.com/support-services/training-certification
+last_verified: "2026-04-09"

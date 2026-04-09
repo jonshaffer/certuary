@@ -1,0 +1,26 @@
+slug: atlassian-certification-path
+name: Atlassian Certification Path
+description: >-
+  A recommended learning path through Atlassian certifications, from
+  product-specific administration and project management credentials to
+  platform-level cloud administration.
+website: https://university.atlassian.com/
+status: active
+required_certs: []
+phases:
+  - name: Product
+    order: 1
+    certificate_slugs:
+      - atlassian-acp-jira-admin
+      - atlassian-acp-jira-pm
+      - atlassian-acp-confluence-admin
+  - name: Platform
+    order: 2
+    certificate_slugs:
+      - atlassian-acp-cloud-admin
+completion_criteria:
+  required: 0
+  notes: >-
+    No fixed completion criteria. Atlassian recommends starting with the
+    product certification most relevant to your role (Jira Admin, Jira PM,
+    or Confluence Admin) before pursuing the Cloud Administration credential.

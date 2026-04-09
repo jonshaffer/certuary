@@ -1,0 +1,59 @@
+name: Atlassian Certified Professional – Jira Administrator
+short_name: ACP Jira Admin
+slug: atlassian-acp-jira-admin
+status: active
+cost: "$250 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 70
+  approximate: true
+
+description: >-
+  Validates the ability to configure, manage, and optimize Jira for
+  enterprise teams. Covers project configuration, permission schemes,
+  workflow design, custom fields, notification schemes, and Jira
+  administration best practices for both Cloud and Data Center deployments.
+
+tags:
+  - project-management
+  - atlassian
+  - jira
+  - administration
+  - intermediate
+
+prerequisites:
+  - Experience administering Jira projects and schemes recommended
+
+related_certs:
+  - atlassian-acp-jira-pm
+  - atlassian-acp-confluence-admin
+  - atlassian-acp-cloud-admin
+
+versions:
+  - version: ACP-620
+    notes: >-
+      Current version covering Jira Cloud and Data Center administration,
+      workflow configuration, and scheme management.
+
+prerequisite_certs: []
+
+links:
+  - label: Atlassian University
+    url: https://university.atlassian.com/
+    type: official
+
+domains:
+  - name: Project Configuration and Management
+    weight: 25
+  - name: Workflows, Screens, and Fields
+    weight: 25
+  - name: Permission and Security Schemes
+    weight: 20
+  - name: Notification and Issue Management
+    weight: 15
+  - name: System Administration and Maintenance
+    weight: 15
+
+source_of_truth_url: https://university.atlassian.com/
+last_verified: "2026-04-09"

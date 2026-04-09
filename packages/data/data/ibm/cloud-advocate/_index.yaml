@@ -1,0 +1,56 @@
+name: IBM Certified Advocate – Cloud
+short_name: IBM Cloud Advocate
+slug: ibm-cloud-advocate
+status: active
+cost: "$200 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 60
+  approximate: true
+
+description: >-
+  Validates foundational knowledge of IBM Cloud platform services, cloud
+  computing concepts, and IBM Cloud infrastructure. Covers core services
+  including compute, storage, networking, containers, and the IBM Cloud
+  catalog.
+
+tags:
+  - cloud
+  - entry-level
+  - ibm
+  - foundational
+
+prerequisites: []
+
+related_certs:
+  - ibm-cloud-architect-professional
+  - aws-cloud-practitioner
+  - azure-fundamentals
+  - gcp-cloud-digital-leader
+
+versions:
+  - version: C1000-083
+    notes: >-
+      Current version covering IBM Cloud platform fundamentals, core
+      services, and cloud deployment models.
+
+prerequisite_certs: []
+
+links:
+  - label: IBM Training and Credentials
+    url: https://www.ibm.com/training/credentials
+    type: official
+
+domains:
+  - name: Cloud Computing Concepts
+    weight: 20
+  - name: IBM Cloud Platform and Services
+    weight: 30
+  - name: IBM Cloud Infrastructure
+    weight: 25
+  - name: Security, Identity, and Compliance
+    weight: 25
+
+source_of_truth_url: https://www.ibm.com/training/credentials
+last_verified: "2026-04-09"

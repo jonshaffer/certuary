@@ -1,0 +1,61 @@
+name: Apple Certified iOS Technician
+short_name: ACiT
+slug: apple-acit
+status: active
+cost: "$149 USD"
+exam_format: multiple-choice
+duration_minutes: 90
+question_count:
+  min: 70
+  approximate: true
+
+description: >-
+  Validates the ability to diagnose and repair iPhone and iPad hardware.
+  Covers iOS device component identification, diagnostic tools, display
+  and battery replacement procedures, and Apple service guidelines for
+  authorized service providers.
+
+tags:
+  - apple
+  - hardware
+  - repair
+  - intermediate
+  - ios
+  - technician
+
+prerequisites:
+  - Apple Service Fundamentals exam required
+  - Access to Apple GSX and service documentation recommended
+
+related_certs:
+  - apple-acmt
+  - apple-acsp
+  - comptia-a-plus
+
+versions:
+  - version: "2024"
+    notes: >-
+      Current version covering iPhone and iPad diagnostics, repair
+      procedures, and updated service guidelines.
+
+prerequisite_certs: []
+
+links:
+  - label: Apple Certification Programs
+    url: https://support.apple.com/en-us/111901
+    type: official
+
+domains:
+  - name: Apple Service Fundamentals
+    weight: 15
+  - name: iOS Device Diagnostics
+    weight: 25
+  - name: iPhone Repair Procedures
+    weight: 25
+  - name: iPad Repair Procedures
+    weight: 20
+  - name: ESD Safety and Service Best Practices
+    weight: 15
+
+source_of_truth_url: https://support.apple.com/en-us/111901
+last_verified: "2026-04-09"
