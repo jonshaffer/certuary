@@ -26,6 +26,17 @@ jobs:
           node-version: 22
           cache: pnpm
 
+      - name: Debug environment
+        run: |
+          echo "pnpm: $(pnpm --version)"
+          echo "node: $(node --version)"
+          echo "lockfile bytes: $(wc -c < pnpm-lock.yaml)"
+          echo "lockfile YAML doc separators: $(grep -c '^---$' pnpm-lock.yaml || echo 0)"
+          echo "lockfile head:"
+          head -5 pnpm-lock.yaml
+          echo "file type:"
+          file pnpm-lock.yaml
+
       - run: pnpm install --frozen-lockfile
 
       - name: Validate data
