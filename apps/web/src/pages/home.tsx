@@ -1,4 +1,4 @@
-import { useMemo, useCallback } from "react";
+import { useMemo, useCallback, useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router";
 import {
   getAllCerts,
@@ -16,6 +16,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { EXPERIENCE_LEVELS, getCertLevel } from "@/lib/experience-levels";
 import { Map, GitCompare, Layers, Search, X } from "lucide-react";
+
+const SEARCH_DEBOUNCE_MS = 250;
 
 const ENTRY_POINTS = [
   {
@@ -75,32 +77,60 @@ export function HomePage() {
   const { q, provider, level, status, tag, setParam, clearAll } =
     useHomeFilters();
 
+  // Local input mirrors the URL but updates instantly while the user types;
+  // URL syncs after a short debounce so router re-renders don't fire on
+  // every keystroke and history doesn't churn.
+  const [searchInput, setSearchInput] = useState(q);
+  useEffect(() => {
+    setSearchInput(q);
+  }, [q]);
+  useEffect(() => {
+    if (searchInput === q) return;
+    const timer = setTimeout(
+      () => setParam("q", searchInput),
+      SEARCH_DEBOUNCE_MS,
+    );
+    return () => clearTimeout(timer);
+  }, [searchInput, q, setParam]);
+
+  // Pre-compute provider name, level, and a lowercased search haystack once
+  // so the filter loop stays O(n) without per-cert lookups or string joins.
+  const enriched = useMemo(
+    () =>
+      allCerts.map((cert) => {
+        const providerName =
+          getProviderBySlug(cert.providerSlug)?.name ?? cert.providerSlug;
+        return {
+          cert,
+          providerName,
+          level: getCertLevel(cert),
+          searchHaystack: [
+            cert.name,
+            cert.shortName ?? "",
+            providerName,
+            ...cert.tags,
+          ]
+            .join(" ")
+            .toLowerCase(),
+        };
+      }),
+    [allCerts],
+  );
+
   const filtered = useMemo(() => {
-    const needle = q.trim().toLowerCase();
-    return allCerts.filter((cert) => {
+    const needle = searchInput.trim().toLowerCase();
+    return enriched.filter(({ cert, level: certLevel, searchHaystack }) => {
       if (status !== "all" && cert.status !== status) return false;
       if (provider && cert.providerSlug !== provider) return false;
-      if (level && getCertLevel(cert) !== level) return false;
+      if (level && certLevel !== level) return false;
       if (tag && !cert.tags.includes(tag)) return false;
-      if (needle) {
-        const providerName =
-          getProviderBySlug(cert.providerSlug)?.name ?? "";
-        const haystack = [
-          cert.name,
-          cert.shortName ?? "",
-          providerName,
-          ...cert.tags,
-        ]
-          .join(" ")
-          .toLowerCase();
-        if (!haystack.includes(needle)) return false;
-      }
+      if (needle && !searchHaystack.includes(needle)) return false;
       return true;
     });
-  }, [allCerts, q, provider, level, status, tag]);
+  }, [enriched, provider, level, status, tag, searchInput]);
 
   const hasFilters =
-    !!q || !!provider || !!level || status !== "active" || !!tag;
+    !!searchInput || !!provider || !!level || status !== "active" || !!tag;
 
   const toggleTag = useCallback(
     (next: string) => {
@@ -157,8 +187,8 @@ export function HomePage() {
             />
             <input
               type="search"
-              value={q}
-              onChange={(e) => setParam("q", e.target.value)}
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
               placeholder="Search by name, provider, or tag..."
               className="w-full rounded border border-border bg-background py-1.5 pl-8 pr-3 text-sm"
               aria-label="Search certifications"
@@ -268,71 +298,68 @@ export function HomePage() {
         </div>
       ) : (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((cert) => {
-            const cardProvider = getProviderBySlug(cert.providerSlug);
-            return (
-              <Card
-                key={cert.slug}
-                className="group relative h-full transition-shadow hover:shadow-md"
-              >
-                <Link
-                  to={`/cert/${cert.slug}`}
-                  className="absolute inset-0 z-0 rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-                  aria-label={cert.name}
-                />
-                <CardHeader>
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      {cardProvider?.name ?? cert.providerSlug}
-                    </span>
-                    <Badge
-                      variant={
-                        cert.status === "active"
-                          ? "default"
-                          : cert.status === "retiring"
-                            ? "outline"
-                            : "destructive"
-                      }
-                    >
-                      {cert.status}
-                    </Badge>
-                  </div>
-                  <CardTitle className="text-lg transition-colors group-hover:text-primary">
+          {filtered.map(({ cert, providerName }) => (
+            <Card
+              key={cert.slug}
+              className="group relative h-full transition-shadow hover:shadow-md"
+            >
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                    {providerName}
+                  </span>
+                  <Badge
+                    variant={
+                      cert.status === "active"
+                        ? "default"
+                        : cert.status === "retiring"
+                          ? "outline"
+                          : "destructive"
+                    }
+                  >
+                    {cert.status}
+                  </Badge>
+                </div>
+                <CardTitle className="text-lg">
+                  <Link
+                    to={`/cert/${cert.slug}`}
+                    className="transition-colors group-hover:text-primary after:absolute after:inset-0 after:rounded-lg focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:outline-offset-2 focus-visible:after:outline-primary"
+                  >
                     {cert.shortName ?? cert.name}
-                  </CardTitle>
-                  <CardDescription className="line-clamp-2">
-                    {cert.description}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="relative z-10 flex flex-wrap gap-1">
-                    {cert.tags.slice(0, 3).map((t) => (
-                      <button
-                        key={t}
-                        type="button"
-                        onClick={() => toggleTag(t)}
-                        aria-label={`Filter by tag ${t}`}
-                        aria-pressed={t === tag}
-                        className="rounded-full"
+                  </Link>
+                </CardTitle>
+                <CardDescription className="line-clamp-2">
+                  {cert.description}
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="relative z-10 flex flex-wrap gap-1">
+                  {cert.tags.slice(0, 3).map((t) => (
+                    <button
+                      key={t}
+                      type="button"
+                      onClick={() => toggleTag(t)}
+                      aria-label={`Filter by tag ${t}`}
+                      aria-pressed={t === tag}
+                      className="rounded-full"
+                    >
+                      <Badge
+                        variant={t === tag ? "default" : "secondary"}
+                        className="cursor-pointer transition-colors hover:bg-primary hover:text-primary-foreground"
                       >
-                        <Badge
-                          variant={t === tag ? "default" : "secondary"}
-                          className="cursor-pointer transition-colors hover:bg-primary hover:text-primary-foreground"
-                        >
-                          {t}
-                        </Badge>
-                      </button>
-                    ))}
-                  </div>
-                  {cert.cost && (
-                    <p className="relative z-10 mt-3 text-sm font-medium">
-                      {cert.cost}
-                    </p>
-                  )}
-                </CardContent>
-              </Card>
-            );
-          })}
+                        {t}
+                      </Badge>
+                    </button>
+                  ))}
+                </div>
+                {cert.cost && (
+                  <p className="relative z-10 mt-3 text-sm font-medium">
+                    {cert.cost}
+                  </p>
+                )}
+              </CardContent>
+            </Card>
+          ))}
         </div>
       )}
     </div>
