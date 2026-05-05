@@ -4,6 +4,7 @@ import {
   getAllCerts,
   getAllProviders,
   getProviderBySlug,
+  type Provider,
 } from "@certuary/data";
 import {
   Card,
@@ -18,6 +19,16 @@ import { EXPERIENCE_LEVELS, getCertLevel } from "@/lib/experience-levels";
 import { Map, GitCompare, Layers, Search, X } from "lucide-react";
 
 const SEARCH_DEBOUNCE_MS = 250;
+
+const STATUSES = ["active", "retiring", "retired", "all"] as const;
+type StatusFilter = (typeof STATUSES)[number];
+const DEFAULT_STATUS: StatusFilter = "active";
+const STATUS_LABELS: Record<StatusFilter, string> = {
+  active: "Active",
+  retiring: "Retiring",
+  retired: "Retired",
+  all: "All",
+};
 
 const ENTRY_POINTS = [
   {
@@ -40,14 +51,35 @@ const ENTRY_POINTS = [
   },
 ];
 
-function useHomeFilters() {
+function isStatus(value: string): value is StatusFilter {
+  return (STATUSES as readonly string[]).includes(value);
+}
+
+function useHomeFilters(providers: Provider[]) {
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const q = searchParams.get("q") ?? "";
-  const provider = searchParams.get("provider") ?? "";
-  const level = searchParams.get("level") ?? "";
-  const status = searchParams.get("status") ?? "active";
-  const tag = searchParams.get("tag") ?? "";
+  const validProviderSlugs = useMemo(
+    () => new Set(providers.map((p) => p.slug)),
+    [providers],
+  );
+  const validLevelKeys = useMemo(
+    () => new Set<string>(EXPERIENCE_LEVELS.map((l) => l.key)),
+    [],
+  );
+
+  // Normalize URL params against known option sets. Unknown values fall
+  // back to "no filter" so a stale or hand-edited URL doesn't filter out
+  // every card with no obvious recovery path.
+  const rawQ = searchParams.get("q") ?? "";
+  const providerParam = searchParams.get("provider") ?? "";
+  const provider = validProviderSlugs.has(providerParam) ? providerParam : "";
+  const levelParam = searchParams.get("level") ?? "";
+  const level = validLevelKeys.has(levelParam) ? levelParam : "";
+  const statusParam = searchParams.get("status") ?? "";
+  const status: StatusFilter = isStatus(statusParam)
+    ? statusParam
+    : DEFAULT_STATUS;
+  const tag = (searchParams.get("tag") ?? "").toLowerCase();
 
   const setParam = useCallback(
     (key: string, value: string) => {
@@ -64,34 +96,54 @@ function useHomeFilters() {
     [setSearchParams],
   );
 
-  const clearAll = useCallback(() => {
-    setSearchParams(new URLSearchParams(), { replace: true });
-  }, [setSearchParams]);
-
-  return { q, provider, level, status, tag, setParam, clearAll };
-}
-
-export function HomePage() {
-  const allCerts = useMemo(() => getAllCerts(), []);
-  const providers = useMemo(() => getAllProviders(), []);
-  const { q, provider, level, status, tag, setParam, clearAll } =
-    useHomeFilters();
-
-  // Local input mirrors the URL but updates instantly while the user types;
-  // URL syncs after a short debounce so router re-renders don't fire on
-  // every keystroke and history doesn't churn.
-  const [searchInput, setSearchInput] = useState(q);
+  // Local input mirrors the URL but updates instantly; URL syncs after a
+  // short debounce so router re-renders and history don't churn while typing.
+  const [searchInput, setSearchInput] = useState(rawQ);
   useEffect(() => {
-    setSearchInput(q);
-  }, [q]);
+    setSearchInput(rawQ);
+  }, [rawQ]);
   useEffect(() => {
-    if (searchInput === q) return;
+    if (searchInput === rawQ) return;
     const timer = setTimeout(
       () => setParam("q", searchInput),
       SEARCH_DEBOUNCE_MS,
     );
     return () => clearTimeout(timer);
-  }, [searchInput, q, setParam]);
+  }, [searchInput, rawQ, setParam]);
+
+  const clearAll = useCallback(() => {
+    // Reset local search before clearing URL so the next render's debounce
+    // effect sees searchInput === rawQ ("") and doesn't re-write the old
+    // query a moment after the user clicked clear.
+    setSearchInput("");
+    setSearchParams(new URLSearchParams(), { replace: true });
+  }, [setSearchParams]);
+
+  return {
+    searchInput,
+    setSearchInput,
+    provider,
+    level,
+    status,
+    tag,
+    setParam,
+    clearAll,
+  };
+}
+
+export function HomePage() {
+  const allCerts = useMemo(() => getAllCerts(), []);
+  const providers = useMemo(() => getAllProviders(), []);
+  const {
+    searchInput,
+    setSearchInput,
+    provider,
+    level,
+    status,
+    tag,
+    setParam,
+    clearAll,
+  } = useHomeFilters(providers);
 
   // Pre-compute provider name, level, and a lowercased search haystack once
   // so the filter loop stays O(n) without per-cert lookups or string joins.
@@ -130,11 +182,16 @@ export function HomePage() {
   }, [enriched, provider, level, status, tag, searchInput]);
 
   const hasFilters =
-    !!searchInput || !!provider || !!level || status !== "active" || !!tag;
+    !!searchInput ||
+    !!provider ||
+    !!level ||
+    status !== DEFAULT_STATUS ||
+    !!tag;
 
   const toggleTag = useCallback(
     (next: string) => {
-      setParam("tag", next === tag ? "" : next);
+      const normalized = next.toLowerCase();
+      setParam("tag", normalized === tag ? "" : normalized);
     },
     [tag, setParam],
   );
@@ -243,10 +300,11 @@ export function HomePage() {
               value={status}
               onChange={(e) => setParam("status", e.target.value)}
             >
-              <option value="active">Active</option>
-              <option value="retiring">Retiring</option>
-              <option value="retired">Retired</option>
-              <option value="all">All</option>
+              {STATUSES.map((s) => (
+                <option key={s} value={s}>
+                  {STATUS_LABELS[s]}
+                </option>
+              ))}
             </select>
           </div>
 
@@ -340,11 +398,11 @@ export function HomePage() {
                       type="button"
                       onClick={() => toggleTag(t)}
                       aria-label={`Filter by tag ${t}`}
-                      aria-pressed={t === tag}
+                      aria-pressed={t.toLowerCase() === tag}
                       className="rounded-full"
                     >
                       <Badge
-                        variant={t === tag ? "default" : "secondary"}
+                        variant={t.toLowerCase() === tag ? "default" : "secondary"}
                         className="cursor-pointer transition-colors hover:bg-primary hover:text-primary-foreground"
                       >
                         {t}
