@@ -11,8 +11,8 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "tsx": "^4.0.0",
-    "typescript": "^5.7.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
     "yaml": "^2.8.0",
     "zod": "^4.3.6"
   }
